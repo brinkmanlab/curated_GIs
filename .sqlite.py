@@ -651,12 +651,16 @@ def resume(ancestor, working, remote, dump_path, modified_tables=None, conn=None
 
 
 if __name__ == '__main__':
-    if sys.argv[1] == 'diff':
-        exit(diff(*(sys.argv[2:])))
-    elif sys.argv[1] == 'merge':
-        exit(merge(*(sys.argv[1:])))
-    elif sys.argv[1] == 'resume':
-        exit(resume(*(sys.argv[1:])))
+    if len(sys.argv) > 1:
+        if sys.argv[1] == 'diff':
+            exit(diff(*(sys.argv[2:])))
+        elif sys.argv[1] == 'merge':
+            exit(merge(*(sys.argv[1:])))
+        elif sys.argv[1] == 'resume':
+            exit(resume(*(sys.argv[1:])))
+        else:
+            print("Unknown command " + sys.argv[1])
+            print(__doc__)
     else:
         # Configure git
         subprocess.run(["git", "config", "diff.sqlite.binary", "true"])
