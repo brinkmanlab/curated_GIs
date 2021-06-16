@@ -1,0 +1,50 @@
+@startuml
+hide circle
+
+entity "Genomic Island" as gi {
+    id : int <<generated>>
+    --
+    name : text !null
+    type : text
+    role : text
+}
+
+entity "Sequence" as seq {
+    id : int <<generated>>
+    --
+    gi : int !null <<FK>>
+    gbuid : text
+    gc : float
+    path : text !null
+}
+
+entity "Source" as src {
+    id : int <<generated>>
+    --
+    gi : int !null <<FK>>
+    strain : int !null <<FK>>
+    start : int
+    end : int
+    size : int
+    seq : int <<FK>>
+    pmid : int
+    publication : text
+}
+
+entity "Strain" as strain {
+    id : int <<generated>>
+    --
+    gbuid : text
+    name : text !null
+}
+
+gi -[hidden]- seq
+gi -[hidden]- src
+strain -[hidden]- src
+seq -[hidden]- src
+
+seq::gi --> gi::id
+src::seq --> seq::id
+src::gi --> gi::id
+src::strain --> strain::id
+@enduml
