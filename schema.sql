@@ -1,4 +1,4 @@
-create table genomic_islands
+create table if not exists genomic_islands
 -- Genomic islands
 (
     id integer not null primary key autoincrement,
@@ -7,7 +7,7 @@ create table genomic_islands
     role text
 );
 
-create table strains
+create table if not exists strains
 -- Microbe strains
 (
     id integer not null primary key autoincrement,
@@ -15,26 +15,37 @@ create table strains
     name text not null
 );
 
-create table sequences
+create table if not exists sequences
 -- Genomic island DNA sequences. Multiple variant sequences can be attributed to a single island
 (
     id integer not null primary key autoincrement,
-    gi integer not null foreign key references genomic_islands (id),
+    gi integer not null,
     gbuid text,  -- Genbank unique id for GI sequence
     gc real,  -- % GC composition
-    path text not null  -- path to fasta relative to this db
+    path text not null,  -- path to fasta relative to this db
+    foreign key(gi) references genomic_islands(id)
 );
 
-create table sources
---
+create table if not exists sources
+-- Source genomic island was isolated from. A GI can have multiple sources.
 (
     id integer not null primary key autoincrement,
-    gi integer not null foreign key references genomic_islands (id),
-    strain integer foreign key references strains (id),
+    gi integer not null,
+    strain integer ,
     start integer,  -- GI start relative to strain reference genome
     end integer,  -- GI end relative to strain reference genome
     size integer,  -- GI size
-    seq integer foreign key references sequences (id),
-    pmid integer,  -- PubMed ID
-    publication text  -- Citation
+    seq integer,
+    publication text,  -- Citation
+    foreign key(gi) references genomic_islands(id),
+    foreign key(strain) references strains(id),
+    foreign key(seq) references sequences(id)
+);
+
+create table if not exists pmids
+-- PubMed IDs for sources
+(
+    source integer not null,
+    pmid text not null,  -- PubMed ID
+    foreign key(source) references sources(id)
 );

@@ -27,7 +27,6 @@ entity "Source" as src {
     end : int
     size : int
     seq : int <<FK>>
-    pmid : int
     publication : text
 }
 
@@ -38,13 +37,20 @@ entity "Strain" as strain {
     name : text !null
 }
 
+entity "PubMed IDs" as pmid {
+    source : int !null <<FK>>
+    pmid : text !null
+}
+
 gi -[hidden]- seq
 gi -[hidden]- src
 strain -[hidden]- src
 seq -[hidden]- src
+pmid -[hidden]- src
 
 seq::gi --> gi::id
 src::seq --> seq::id
 src::gi --> gi::id
 src::strain --> strain::id
+pmid::strain --> strain::id
 @enduml
