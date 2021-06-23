@@ -2,7 +2,7 @@ create table if not exists genomic_islands
 -- Genomic islands
 (
     id integer not null primary key autoincrement,
-    name text not null,
+    name text not null unique,
     type text,
     role text
 );
@@ -11,8 +11,8 @@ create table if not exists strains
 -- Microbe strains
 (
     id integer not null primary key autoincrement,
-    gbuid text,  -- Genbank unique id for strain
-    name text not null
+    gbuid text unique,  -- Genbank unique id for strain
+    name text not null unique
 );
 
 create table if not exists sequences
@@ -20,7 +20,7 @@ create table if not exists sequences
 (
     id integer not null primary key autoincrement,
     gi integer not null,
-    gbuid text,  -- Genbank unique id for GI sequence
+    gbuid text unique,  -- Genbank unique id for GI sequence
     gc real,  -- % GC composition
     path text not null,  -- path to fasta relative to this db
     foreign key(gi) references genomic_islands(id)
@@ -31,7 +31,7 @@ create table if not exists sources
 (
     id integer not null primary key autoincrement,
     gi integer not null,
-    strain integer ,
+    strain integer,
     start integer,  -- GI start relative to strain reference genome
     end integer,  -- GI end relative to strain reference genome
     size integer,  -- GI size
