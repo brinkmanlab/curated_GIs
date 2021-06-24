@@ -4,8 +4,8 @@ GC provided but no path, dropping GC data for NZ_CP029605 3
 GC provided but no path, dropping GC data for NZ_CP029605 4
 GC provided but no path, dropping GC data for NZ_CP029605 5
 GC provided but no path, dropping GC data for NZ_CP029605 6
-strains: duplicate  (1, 'Pseudomonas aeruginosa 24Pae112', 'NZ_CP029605')
-strains: discarding ('Pseudomonas aeruginosa 24Pae112', 'NC_018080')
+strains: duplicate  (1, 'Pseudomonas aeruginosa 24Pae112', 'NZ_CP029605') keep
+strains: discarding ('Pseudomonas aeruginosa 24Pae112', 'NC_018080')  discard - this entry in the spreadsheet should have been associated with accession NZ_CP029605
 GC provided but no path, dropping GC data for NC_011770.1 15
 GC provided but no path, dropping GC data for NC_011770.1 16
 GC provided but no path, dropping GC data for NC_011770.1 17
@@ -23,30 +23,30 @@ GC provided but no path, dropping GC data for NC_011770.1 28
 GC provided but no path, dropping GC data for NC_011770.1 29
 GC provided but no path, dropping GC data for NC_011770.1 30
 GC provided but no path, dropping GC data for NC_011770.1 31
-genomic_islands: duplicate  (2, 'Pseudomonas aeruginosa genomic island 2 (PAGI-2)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators. (Info taken from PMID: 12426355 which discusses PAGI-2 in relation to strain C, but shares the same accesion #)')
-genomic_islands: discarding ('Pseudomonas aeruginosa genomic island 2 (PAGI-2)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators.')
+genomic_islands: duplicate  (2, 'Pseudomonas aeruginosa genomic island 2 (PAGI-2)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators. (Info taken from PMID: 12426355 which discusses PAGI-2 in relation to strain C, but shares the same accesion #)') keep
+genomic_islands: discarding ('Pseudomonas aeruginosa genomic island 2 (PAGI-2)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators.')  keep - this a representative of the same GI as the entry above, but in a different strain
 GC provided but no path, dropping GC data for None 35
 GC provided but no path, dropping GC data for None 39
 GC provided but no path, dropping GC data for None 40
 GC provided but no path, dropping GC data for None 41
 GC provided but no path, dropping GC data for None 42
-strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')
-strains: discarding ('P. aeruginosa LESB58', 'FM209186')
-GC provided but no path, dropping GC data for FM209186 43
-strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')
-strains: discarding ('P. aeruginosa LESB58', 'FM209186')
+strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')  keep - all LESB58 entries should point to this accession and not the old one
+strains: discarding ('P. aeruginosa LESB58', 'FM209186')  discard
+GC provided but no path, dropping GC data for FM209186 43 
+strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')  keep
+strains: discarding ('P. aeruginosa LESB58', 'FM209186')  discard
 GC provided but no path, dropping GC data for FM209186 44
-strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')
-strains: discarding ('P. aeruginosa LESB58', 'FM209186')
+strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')  keep
+strains: discarding ('P. aeruginosa LESB58', 'FM209186')  discard
 GC provided but no path, dropping GC data for FM209186 45
-strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')
-strains: discarding ('P. aeruginosa LESB58', 'FM209186')
+strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')  keep
+strains: discarding ('P. aeruginosa LESB58', 'FM209186')  discard
 GC provided but no path, dropping GC data for FM209186 46
-strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')
-strains: discarding ('P. aeruginosa LESB58', 'FM209186')
+strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')  keep
+strains: discarding ('P. aeruginosa LESB58', 'FM209186')  discard
 GC provided but no path, dropping GC data for FM209186 47
-strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')
-strains: discarding ('P. aeruginosa LESB58', 'FM209186')
+strains: duplicate  (3, 'P. aeruginosa LESB58', 'NC_011770.1')  keep
+strains: discarding ('P. aeruginosa LESB58', 'FM209186')  discard
 GC provided but no path, dropping GC data for FM209186 48
 GC provided but no path, dropping GC data for CP046069 49
 GC provided but no path, dropping GC data for CP046069 50
