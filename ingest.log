@@ -24,7 +24,7 @@ GC provided but no path, dropping GC data for NC_011770.1 29
 GC provided but no path, dropping GC data for NC_011770.1 30
 GC provided but no path, dropping GC data for NC_011770.1 31
 genomic_islands: duplicate  (2, 'Pseudomonas aeruginosa genomic island 2 (PAGI-2)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators. (Info taken from PMID: 12426355 which discusses PAGI-2 in relation to strain C, but shares the same accesion #)') keep
-genomic_islands: discarding ('Pseudomonas aeruginosa genomic island 2 (PAGI-2)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators.')  keep - this a representative of the same GI as the entry above, but in a different strain
+genomic_islands: discarding ('Pseudomonas aeruginosa genomic island 2 (PAGI-2)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators.')  discard
 GC provided but no path, dropping GC data for None 35
 GC provided but no path, dropping GC data for None 39
 GC provided but no path, dropping GC data for None 40
@@ -70,11 +70,11 @@ GC provided but no path, dropping GC data for CP046069 67
 GC provided but no path, dropping GC data for CP046069 68
 GC provided but no path, dropping GC data for None 71
 genomic_islands: duplicate  (72, 'PAGI-16', None, 'carrying the blaIMP-10 gene') keep - two representative of this GI from different isolates
-genomic_islands: discarding ('PAGI-16', None, 'carrying the blaIMP-6 gene') keep - two representative of this GI from different isolates
+genomic_islands: discarding ('PAGI-16', None, 'carrying the blaIMP-6 gene') discard
 GC provided but no path, dropping GC data for AY322150 74
 GC provided but no path, dropping GC data for NC_018221-018223 75
-genomic_islands: duplicate  (76, 'esp pathogenicity island (PAI)', None, 'Contains the esp gene which codes for the Esp protein (200kDa), a putative multi-drug transporter, and a putative manganese uptake proteins. These genes supposedly increase virulence') keep - multiple representative of this GI from different isolates
-genomic_islands: discarding ('esp pathogenicity island (PAI)', None, 'Contains the esp gene which codes for the Esp protein (200kDa), a putative multi-drug transporter, and a putative manganese uptake proteins. These genes supposedly increase virulence This PAI also includes a 7-kb insertion which encodes a complete pathway for inositol metabolism.')  keep - multiple representative of this GI from different isolates
+genomic_islands: duplicate  (76, 'esp pathogenicity island (PAI)', None, 'Contains the esp gene which codes for the Esp protein (200kDa), a putative multi-drug transporter, and a putative manganese uptake proteins. These genes supposedly increase virulence') discard
+genomic_islands: discarding ('esp pathogenicity island (PAI)', None, 'Contains the esp gene which codes for the Esp protein (200kDa), a putative multi-drug transporter, and a putative manganese uptake proteins. These genes supposedly increase virulence This PAI also includes a 7-kb insertion which encodes a complete pathway for inositol metabolism.')  keep
 GC provided but no path, dropping GC data for CP003583 77
 GC provided but no path, dropping GC data for CP003583 78
 GC provided but no path, dropping GC data for CP003583 79
@@ -87,8 +87,8 @@ GC provided but no path, dropping GC data for CP003583 85
 GC provided but no path, dropping GC data for AAAK00000000 86
 GC provided but no path, dropping GC data for CP003351 to CP003354 87
 GC provided but no path, dropping GC data for CP003351 to CP003354 88
-No GI name, skipping inserting ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences.\xa0BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '']
-No GI name, skipping inserting ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with\xa0vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates.\xa0Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', '']
+No GI name, skipping inserting ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences.\xa0BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '']  discard - this entry wasn't complete at the time
+No GI name, skipping inserting ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with\xa0vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates.\xa0Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', ''] discard - this entry wasn't complete at the time
 GC provided but no path, dropping GC data for KU722393.1 107
 No strain name ['VPaI-1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '']
 GC provided but no path, dropping GC data for None 108
@@ -128,19 +128,19 @@ GC provided but no path, dropping GC data for CP001602.2 125
 GC provided but no path, dropping GC data for CM001159.1 126
 GC provided but no path, dropping GC data for HG421741.1 127
 GC provided but no path, dropping GC data for NC_002973.6 129
-strains: duplicate  (35, 'L. ivanovii ATCC 19119', 'N/A on NCBI')
-strains: discarding ('L. monocytogenes LM09-00558', 'N/A on NCBI')
+strains: duplicate  (35, 'L. ivanovii ATCC 19119', 'N/A on NCBI') ? - there are no duplicates of this in the spreadsheet
+strains: discarding ('L. monocytogenes LM09-00558', 'N/A on NCBI')  ? - there are no duplicates of this in the spreadsheet
 GC provided but no path, dropping GC data for N/A on NCBI 130
 GC provided but no path, dropping GC data for AL591824.1 131
 GC provided but no path, dropping GC data for CP001602.2 132
 GC provided but no path, dropping GC data for CP001602.2 133
 GC provided but no path, dropping GC data for CP001602.2 134
 GC provided but no path, dropping GC data for JX442241.1 135
-strains: duplicate  (38, 'L. ivanovii WSLC3009', 'JX442241.1')
-strains: discarding ('L. ivanovii WSLC3009', 'DQ003640.1')
-strains: duplicate  (38, 'L. ivanovii WSLC3009', 'JX442241.1')
-strains: discarding ('L. ivanovii WSLC3009', 'DQ003639.1')
-strains: duplicate  (39, 'L. monocytogenes WSLC1042', 'AJ312240.2')
+strains: duplicate  (38, 'L. ivanovii WSLC3009', 'JX442241.1')  ? - in this case the accession is for the phage itself and not the strain...
+strains: discarding ('L. ivanovii WSLC3009', 'DQ003640.1')  ? - in this case the accession is for the phage itself and not the strain...
+strains: duplicate  (38, 'L. ivanovii WSLC3009', 'JX442241.1')  ? - in this case the accession is for the phage itself and not the strain...
+strains: discarding ('L. ivanovii WSLC3009', 'DQ003639.1')  ? - in this case the accession is for the phage itself and not the strain...
+strains: duplicate  (39, 'L. monocytogenes WSLC1042', 'AJ312240.2') 
 strains: discarding ('L. monocytogenes WSLC1042', 'DQ003637.1')
 strains: duplicate  (40, 'L. monocytogenes WSLC1001', 'AJ242593.1')
 strains: discarding ('L. monocytogenes WSLC1001', 'DQ003642.1')
@@ -148,8 +148,8 @@ strains: duplicate  (40, 'L. monocytogenes WSLC1001', 'AJ242593.1')
 strains: discarding ('L. monocytogenes WSLC1001', 'DQ003641.1')
 strains: duplicate  (40, 'L. monocytogenes WSLC1001', 'AJ242593.1')
 strains: discarding ('L. monocytogenes WSLC1001', 'EU855793.1')
-strains: duplicate  (38, 'L. ivanovii WSLC3009', 'JX442241.1')
-strains: discarding ('L. ivanovii WSLC3009', 'DQ003638.2')
+strains: duplicate  (38, 'L. ivanovii WSLC3009', 'JX442241.1')  ? - in this case the accession is for the phage itself and not the strain...
+strains: discarding ('L. ivanovii WSLC3009', 'DQ003638.2')  ? - in this case the accession is for the phage itself and not the strain...
 strains: duplicate  (40, 'L. monocytogenes WSLC1001', 'AJ242593.1')
 strains: discarding ('L. monocytogenes WSLC1001', 'DQ004855.1')
 GC provided but no path, dropping GC data for DQ004855.1 145
