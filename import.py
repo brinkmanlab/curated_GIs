@@ -14,11 +14,12 @@ with open('schema.sql') as f:
 
 
 def dup(table, new, old):
-    if old is None or any(old[i] != new[i] for i in new.keys()):
-        print(f'{table}: duplicate  {tuple(old)}')
-        print(f'{table}: discarding {tuple(new.values())}')
     if old is None:
+        print(f'{table}: failed to meet constraint, discarding {tuple(new.values())}')
         return None
+    elif any(old[i] != new[i] for i in new.keys()):
+        print(f'{table}: duplicate  {tuple(old or (old,))}')
+        print(f'{table}: discarding {tuple(new.values())}')
     return old['id']
 
 
@@ -45,7 +46,7 @@ with open('GIs.csv') as f:
         gbuid = row[5].strip() or None
         vals = dict(name=name, gbuid=gbuid)
         if name:
-            if gbuid:
+            if gbuid and ("LESB58" in name and gbuid[:2] == "FM"): # all LESB58 entries should point to this accession and not the old one
                 # Only allow duplicate names if a gbuid is provided
                 try:
                     strain = conn.execute(f'''INSERT INTO strains (name, gbuid) VALUES (?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
