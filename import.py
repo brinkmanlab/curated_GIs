@@ -14,9 +14,11 @@ with open('schema.sql') as f:
 
 
 def dup(table, new, old):
-    if any(old[i] != new[i] for i in new.keys()):
+    if old is None or any(old[i] != new[i] for i in new.keys()):
         print(f'{table}: duplicate  {tuple(old)}')
         print(f'{table}: discarding {tuple(new.values())}')
+    if old is None:
+        return None
     return old['id']
 
 
@@ -38,14 +40,20 @@ with open('GIs.csv') as f:
             gi = dup('genomic_islands', vals, conn.execute(f'''SELECT * FROM genomic_islands WHERE name = ?;''', (name,)).fetchone())
 
         # strains
+        strain = None
         name = row[4].strip().replace(' ', ' ')
         gbuid = row[5].strip() or None
         vals = dict(name=name, gbuid=gbuid)
         if name:
-            try:
-                strain = conn.execute(f'''INSERT INTO strains (name, gbuid) VALUES (?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
-            except sqlite3.IntegrityError:
-                strain = dup('strains', vals, conn.execute(f'''SELECT id, name, gbuid FROM strains WHERE name = ? OR gbuid = ?;''', tuple(vals.values())).fetchone())
+            if gbuid:
+                # Only allow duplicate names if a gbuid is provided
+                try:
+                    strain = conn.execute(f'''INSERT INTO strains (name, gbuid) VALUES (?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
+                except sqlite3.IntegrityError:
+                    strain = dup('strains', vals, conn.execute(f'''SELECT id, name, gbuid FROM strains WHERE gbuid = ?;''', (gbuid,)).fetchone())
+            if strain is None:
+                # otherwise attempt to fetch an existing one with the same name
+                strain = dup('strains', vals, conn.execute(f'''SELECT id, name, gbuid FROM strains WHERE name = ?;''', (name,)).fetchone())
         else:
             print("No strain name", row)
 

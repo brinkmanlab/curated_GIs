@@ -12,7 +12,7 @@ create table if not exists strains
 (
     id integer not null primary key autoincrement,
     gbuid text unique,  -- Genbank unique id for strain
-    name text not null unique
+    name text not null
 );
 
 create table if not exists sequences
