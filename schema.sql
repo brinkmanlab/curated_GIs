@@ -22,7 +22,7 @@ create table if not exists sequences
     gi integer not null,
     gbuid text unique,  -- Genbank unique id for GI sequence
     gc real,  -- % GC composition
-    path text not null,  -- path to fasta relative to this db
+    path text not null unique,  -- path to fasta relative to this db
     foreign key(gi) references genomic_islands(id)
 );
 
@@ -36,7 +36,6 @@ create table if not exists sources
     end integer,  -- GI end relative to strain reference genome
     size integer,  -- GI size
     seq integer,
-    publication text,  -- Citation
     foreign key(gi) references genomic_islands(id),
     foreign key(strain) references strains(id),
     foreign key(seq) references sequences(id)
@@ -47,5 +46,13 @@ create table if not exists pmids
 (
     source integer not null,
     pmid text not null,  -- PubMed ID
+    foreign key(source) references sources(id)
+);
+
+create table if not exists publications
+-- Publications for sources
+(
+    source integer not null,
+    publication text not null,
     foreign key(source) references sources(id)
 );

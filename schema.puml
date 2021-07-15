@@ -4,7 +4,7 @@ hide circle
 entity "Genomic Island" as gi {
     id : int <<generated>>
     --
-    name : text !null
+    name : text !null unique
     type : text
     role : text
 }
@@ -13,9 +13,9 @@ entity "Sequence" as seq {
     id : int <<generated>>
     --
     gi : int !null <<FK>>
-    gbuid : text
+    gbuid : text unique
     gc : float
-    path : text !null
+    path : text !null unique
 }
 
 entity "Source" as src {
@@ -27,30 +27,31 @@ entity "Source" as src {
     end : int
     size : int
     seq : int <<FK>>
-    publication : text
 }
 
 entity "Strain" as strain {
     id : int <<generated>>
     --
-    gbuid : text
+    gbuid : text unique
     name : text !null
 }
 
 entity "PubMed IDs" as pmid {
+    --
     source : int !null <<FK>>
-    pmid : text !null
+    pmid : text !null unique
 }
 
-gi -[hidden]- seq
-gi -[hidden]- src
-strain -[hidden]- src
-seq -[hidden]- src
-pmid -[hidden]- src
+entity "Publications" as pub {
+		--
+		source : int !null <<FK>>
+		publication : text unique
+}
 
 seq::gi --> gi::id
 src::seq --> seq::id
 src::gi --> gi::id
 src::strain --> strain::id
 pmid::source --> src::id
+pub::source --> src::id
 @enduml
