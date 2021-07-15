@@ -177,11 +177,12 @@ with open('GIs.csv') as f:
 
 conn.commit()
 
+print("Validating database...")
 for id, gc, path in conn.execute(f'''SELECT id, gc, path from sequences;'''):
     if not os.path.isfile(path):
-        print(f"sequence {id} {path} does not exist")
+        print(f"sequence {id}: {path} does not exist")
         continue
     for record in SeqIO.parse(path, 'fasta'):
         seq_gc = round(GC(record.seq), 1)
         if gc != seq_gc:
-            print(f"Calculated gc {seq_gc} doesn't match stored gc {gc}")
+            print(f"sequence {id}: Calculated gc {seq_gc} doesn't match stored gc {gc}")
