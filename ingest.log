@@ -27,6 +27,7 @@
 75 genomic_islands: duplicate  (73, 'PAGI-16', None, 'carrying the blaIMP-10 gene')
 75 genomic_islands: discarding ('PAGI-16', None, 'carrying the blaIMP-6 gene')
 76 Calculated gc 32.6 doesn't match stored gc 32.2
+78 No GI name, substituting 'cGI' ['', '', 'Putatively codes for capsule-like genes and putative exopolysaccharide synthesis. Contains a bile acid hydrolase  (cbh) and lactose metabolic pathway genes (lacABCDEFG)', '', 'Enterococcus faecalis D32', 'NC_018221 to NC_018223', '', '138', '1901082', '2032259', 'Zischka M, Künne CT, Blom J, et al. Comprehensive molecular, genomic and phenotypic analysis of a major clone of Enterococcus faecalis MLST ST40. BMC Genomics. 2015;16(1):175. Published 2015 Mar 12. doi:10.1186/s12864-015-1367-x', '25887115', '', '', '', '', '']
 78 NC_018221 to NC_018223 More than one sequence returned by NCBI ('NC_018221.1', 'NC_018223.1')
 78 Unable to fetch strain for source NC_018221 to NC_018223
 79 GC provided but no path, dropping GC data
@@ -38,65 +39,68 @@
 81 GC provided but no path, dropping GC data
 81 ABSW00000000 No sequence returned by NCBI
 81 Unable to fetch strain for source ABSW00000000
+91 No GI name, substituting 'cGI' ['', '', 'Tentatively encodes a metabolic pathway involved in carbohydrate transport and metabolism', '', 'Enterococcus faecium CC17', ' AAAK00000000', '', '8.5', '7621', '16116', 'Heikens E, van Schaik W, Leavis HL, Bonten MJ, Willems RJ. Identification of a novel genomic island specific to hospital-acquired clonal complex 17 Enterococcus faecium isolates. Appl Environ Microbiol. 2008;74(22):7094-7097. doi:10.1128/AEM.01378-08', '18836023', '', '', '', '', '']
 91 AAAK00000000 No sequence returned by NCBI
 91 Unable to fetch strain for source AAAK00000000
 92 CP003351 to CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003354.1')
 92 Unable to fetch strain for source CP003351 to CP003354
-93 Calculated gc 47.9 doesn't match stored gc 48.6
-94 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
-94 No strain name, skipping strain ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
-95 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates. Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', '', '', '', '']
-95 No strain name, skipping strain ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates. Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', '', '', '', '']
-96 Calculated gc 38.5 doesn't match stored gc 39.0
-97 Calculated gc 46.8 doesn't match stored gc 47.0
-98 Calculated gc 39.5 doesn't match stored gc 40.0
-99 Calculated gc 43.1 doesn't match stored gc 43.0
-100 Calculated gc 40.6 doesn't match stored gc 41.0
-101 Calculated gc 47.5 doesn't match stored gc 47.0
-103 Calculated gc 46.4 doesn't match stored gc 46.0
-104 Calculated gc 43.4 doesn't match stored gc 48.0
-105 Calculated gc 37.7 doesn't match stored gc 38.0
-106 Calculated gc 41.2 doesn't match stored gc 41.0
-107 Calculated gc 44.8 doesn't match stored gc 46.0
-108 GC provided but no path, dropping GC data
-109 Calculated gc 44.3 doesn't match stored gc 44.0
-110 Calculated gc 49.9 doesn't match stored gc 48.0
-111 GC provided but no path, dropping GC data
-112 Calculated gc 48.4 doesn't match stored gc 43.0
-114 No strain name, skipping strain ['VPaI-1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
-115 No strain name, skipping strain ['VPaI-2', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
-116 No strain name, skipping strain ['VPaI-3', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
-117 No strain name, skipping strain ['VPaI-4', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
-118 No strain name, skipping strain ['VPaI-5', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
-119 No strain name, skipping strain ['VPaI-6', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
-120 No strain name, skipping strain ['VPaI-7', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
-121 No strain name, skipping strain ['MGIVchUSA1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/j.1365-2958.2010.07364.x', '20807202', '', '', '', '', '']
-122 No strain name, skipping strain ['MGIVvuTai1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/j.1365-2958.2010.07364.x', '20807202', '', '', '', '', '']
-123 No strain name, skipping strain ['IDH-01215', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
-124 No strain name, skipping strain ['IDH-02822', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
-125 No strain name, skipping strain ['IDH-03944', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
-126 No strain name, skipping strain ['IDH-06641', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
-127 No strain name, skipping strain ['VVGI-1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1093/bioinformatics/btg453', '15033867', '', '', '', '', '']
-128 No strain name, skipping strain ['VVGI-2', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1093/bioinformatics/btg453', '15033867', '', '', '', '', '']
-129 No strain name, skipping strain ['VVGI-3', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1093/bioinformatics/btg453', '15033867', '', '', '', '', '']
-130 No strain name, skipping strain ['CTX phage', 'bacteriophage', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
-134 GC provided but no path, dropping GC data
-144 Calculated gc 34.7 doesn't match stored gc 34.8
-150 Calculated gc 35.9 doesn't match stored gc 36.1
-152 GC provided but no path, dropping GC data
-154 Calculated gc 44.9 doesn't match stored gc 45.0
-155 Calculated gc 62.9 doesn't match stored gc 62.8
-162 Calculated gc 65.6 doesn't match stored gc 65.4
-167 GC provided but no path, dropping GC data
+93 No GI name, substituting 'cGI' ['', '', 'Encodes hypothetical proteins, putative transcriptional regulators. And various phage-related genes.', '', 'E. faecium Aus0004', ' CP003351 to CP003354', '', '60', '1607500', '1667500', 'Lam MM, Seemann T, Bulach DM, et al. Comparative analysis of the first complete Enterococcus faecium genome. J Bacteriol. 2012;194(9):2334-2341. doi:10.1128/JB.00259-12', '22366422', '', '', '', '', '']
+93 CP003351 to CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003354.1')
+93 Unable to fetch strain for source CP003351 to CP003354
+94 Calculated gc 47.9 doesn't match stored gc 48.6
+95 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
+95 No strain name, skipping strain ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
+96 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates. Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', '', '', '', '']
+96 No strain name, skipping strain ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates. Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', '', '', '', '']
+97 Calculated gc 38.5 doesn't match stored gc 39.0
+98 Calculated gc 46.8 doesn't match stored gc 47.0
+99 Calculated gc 39.5 doesn't match stored gc 40.0
+100 Calculated gc 43.1 doesn't match stored gc 43.0
+101 Calculated gc 40.6 doesn't match stored gc 41.0
+102 Calculated gc 47.5 doesn't match stored gc 47.0
+104 Calculated gc 46.4 doesn't match stored gc 46.0
+105 Calculated gc 43.4 doesn't match stored gc 48.0
+106 Calculated gc 37.7 doesn't match stored gc 38.0
+107 Calculated gc 41.2 doesn't match stored gc 41.0
+108 Calculated gc 44.8 doesn't match stored gc 46.0
+109 GC provided but no path, dropping GC data
+110 Calculated gc 44.3 doesn't match stored gc 44.0
+111 Calculated gc 49.9 doesn't match stored gc 48.0
+112 GC provided but no path, dropping GC data
+113 Calculated gc 48.4 doesn't match stored gc 43.0
+115 No strain name, skipping strain ['VPaI-1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
+116 No strain name, skipping strain ['VPaI-2', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
+117 No strain name, skipping strain ['VPaI-3', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
+118 No strain name, skipping strain ['VPaI-4', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
+119 No strain name, skipping strain ['VPaI-5', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
+120 No strain name, skipping strain ['VPaI-6', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
+121 No strain name, skipping strain ['VPaI-7', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1186/1471-2164-7-104', '16672049', '', '', '', '', '']
+122 No strain name, skipping strain ['MGIVchUSA1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/j.1365-2958.2010.07364.x', '20807202', '', '', '', '', '']
+123 No strain name, skipping strain ['MGIVvuTai1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/j.1365-2958.2010.07364.x', '20807202', '', '', '', '', '']
+124 No strain name, skipping strain ['IDH-01215', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
+125 No strain name, skipping strain ['IDH-02822', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
+126 No strain name, skipping strain ['IDH-03944', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
+127 No strain name, skipping strain ['IDH-06641', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1111/1348-0421.12790', '32222116', '', '', '', '', '']
+128 No strain name, skipping strain ['VVGI-1', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1093/bioinformatics/btg453', '15033867', '', '', '', '', '']
+129 No strain name, skipping strain ['VVGI-2', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1093/bioinformatics/btg453', '15033867', '', '', '', '', '']
+130 No strain name, skipping strain ['VVGI-3', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1093/bioinformatics/btg453', '15033867', '', '', '', '', '']
+131 No strain name, skipping strain ['CTX phage', 'bacteriophage', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+135 GC provided but no path, dropping GC data
+145 Calculated gc 34.7 doesn't match stored gc 34.8
+151 Calculated gc 35.9 doesn't match stored gc 36.1
+153 GC provided but no path, dropping GC data
+155 Calculated gc 44.9 doesn't match stored gc 45.0
+156 Calculated gc 62.9 doesn't match stored gc 62.8
+163 Calculated gc 65.6 doesn't match stored gc 65.4
 168 GC provided but no path, dropping GC data
-169 Calculated gc 60.9 doesn't match stored gc 60.8
-170 No strain name, skipping strain ['phiE125', 'bacteriophage', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
-171 Calculated gc 61.6 doesn't match stored gc 61.5
-174 Calculated gc 59.1 doesn't match stored gc 58.7
-175 Calculated gc 58.9 doesn't match stored gc 58.8
-177 Calculated gc 64.5 doesn't match stored gc 64.0
-178 Calculated gc 55.8 doesn't match stored gc 55.9
-184 GC provided but no path, dropping GC data
+169 GC provided but no path, dropping GC data
+170 Calculated gc 60.9 doesn't match stored gc 60.8
+171 No strain name, skipping strain ['phiE125', 'bacteriophage', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+172 Calculated gc 61.6 doesn't match stored gc 61.5
+175 Calculated gc 59.1 doesn't match stored gc 58.7
+176 Calculated gc 58.9 doesn't match stored gc 58.8
+178 Calculated gc 64.5 doesn't match stored gc 64.0
+179 Calculated gc 55.8 doesn't match stored gc 55.9
 185 GC provided but no path, dropping GC data
 186 GC provided but no path, dropping GC data
 187 GC provided but no path, dropping GC data
@@ -110,122 +114,122 @@
 195 GC provided but no path, dropping GC data
 196 GC provided but no path, dropping GC data
 197 GC provided but no path, dropping GC data
-198 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
-198 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
 198 GC provided but no path, dropping GC data
+199 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
+199 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
 199 GC provided but no path, dropping GC data
-200 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
-200 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
 200 GC provided but no path, dropping GC data
+201 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
+201 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
 201 GC provided but no path, dropping GC data
 202 GC provided but no path, dropping GC data
 203 GC provided but no path, dropping GC data
 204 GC provided but no path, dropping GC data
-205 No strain name, skipping strain ['Salmonella Pathogenicity Island 8 (SPI-8)\n', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
 205 GC provided but no path, dropping GC data
 206 No strain name, skipping strain ['Salmonella Pathogenicity Island 8 (SPI-8)\n', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
 206 GC provided but no path, dropping GC data
 207 No strain name, skipping strain ['Salmonella Pathogenicity Island 8 (SPI-8)\n', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
 207 GC provided but no path, dropping GC data
-208 No strain name, skipping strain ['Salmonella Pathogenicity Island 9 (SPI-9)\n', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
+208 No strain name, skipping strain ['Salmonella Pathogenicity Island 8 (SPI-8)\n', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
 208 GC provided but no path, dropping GC data
 209 No strain name, skipping strain ['Salmonella Pathogenicity Island 9 (SPI-9)\n', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
 209 GC provided but no path, dropping GC data
 210 No strain name, skipping strain ['Salmonella Pathogenicity Island 9 (SPI-9)\n', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
 210 GC provided but no path, dropping GC data
-211 No strain name, skipping strain ['Salmonella Pathogenicity Island 10 (SPI-10)\n', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
+211 No strain name, skipping strain ['Salmonella Pathogenicity Island 9 (SPI-9)\n', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
 211 GC provided but no path, dropping GC data
 212 No strain name, skipping strain ['Salmonella Pathogenicity Island 10 (SPI-10)\n', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
 212 GC provided but no path, dropping GC data
 213 No strain name, skipping strain ['Salmonella Pathogenicity Island 10 (SPI-10)\n', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
 213 GC provided but no path, dropping GC data
-214 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
-214 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
+214 No strain name, skipping strain ['Salmonella Pathogenicity Island 10 (SPI-10)\n', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819,18349359', '', '', '', '', '']
 214 GC provided but no path, dropping GC data
-215 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
-215 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
+215 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
+215 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
 215 GC provided but no path, dropping GC data
+216 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
+216 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
 216 GC provided but no path, dropping GC data
-221 No strain name, skipping strain ['Salmonella Genomic Island 1-E (SGI1-E)\n', '', 'Little is know regarding the particular role of SGI1-E. Variant SGI1-like elements were found with MDR regions consisting of an integron related to that in SGI1 but which contains a 10-kb inversion between two copies of IS6100, one which is inserted in floR', '', '', '', '', '', '', '', 'Boyd, D., et al. “Characterization of Variant Salmonella Genomic Island 1 Multidrug Resistance Regions from Serovars Typhimurium DT104 and Agona.” Antimicrobial Agents and Chemotherapy, vol. 46, no. 6, 2002, pp. 1714–1722., doi:10.1128/aac.46.6.1714-1722.2002.', '12019080', '', '', '', '', '']
-223 No strain name, skipping strain ['Salmonella Genomic Island 1-G (SGI1-G)\n', '', 'Contains the pse-1 casette array with the additional insertion of the orf513/dfrA10 region, confers resistance to streptomycin–spectinomycin', '', '', '', '', '', '', '', 'Doublet, B., et al. “Salmonella Genomic Island 1 Multidrug Resistance Gene Clusters in Salmonella Enterica Serovar Agona Isolated in Belgium in 1992 to 2002.” Antimicrobial Agents and Chemotherapy, vol. 48, no. 7, 2004, pp. 2510–2517., doi:10.1128/aac.48.7.2510-2517.2004.', '15215102', '', '', '', '', '']
-225 No strain name, skipping strain ['Salmonella Genomic Island 1-I (SGI1-I)\n', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Boyd, D. A., et al. “Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340–344., doi:10.1128/aac.00902-07. ; Levings, R. S., et al. “The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars.” Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401–4409., doi:10.1128/jb.187.13.4401-4409.2005.', '18025121,15968049', '', '', '', '', '']
-226 No strain name, skipping strain ['Salmonella Genomic Island 1-J (SGI1-J)\n', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Levings, R. S., et al. “The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars.” Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401–4409., doi:10.1128/jb.187.13.4401-4409.2005.', '15968049', '', '', '', '', '']
-227 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
-227 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
-227 GC provided but no path, dropping GC data
+217 GC provided but no path, dropping GC data
+222 No strain name, skipping strain ['Salmonella Genomic Island 1-E (SGI1-E)\n', '', 'Little is know regarding the particular role of SGI1-E. Variant SGI1-like elements were found with MDR regions consisting of an integron related to that in SGI1 but which contains a 10-kb inversion between two copies of IS6100, one which is inserted in floR', '', '', '', '', '', '', '', 'Boyd, D., et al. “Characterization of Variant Salmonella Genomic Island 1 Multidrug Resistance Regions from Serovars Typhimurium DT104 and Agona.” Antimicrobial Agents and Chemotherapy, vol. 46, no. 6, 2002, pp. 1714–1722., doi:10.1128/aac.46.6.1714-1722.2002.', '12019080', '', '', '', '', '']
+224 No strain name, skipping strain ['Salmonella Genomic Island 1-G (SGI1-G)\n', '', 'Contains the pse-1 casette array with the additional insertion of the orf513/dfrA10 region, confers resistance to streptomycin–spectinomycin', '', '', '', '', '', '', '', 'Doublet, B., et al. “Salmonella Genomic Island 1 Multidrug Resistance Gene Clusters in Salmonella Enterica Serovar Agona Isolated in Belgium in 1992 to 2002.” Antimicrobial Agents and Chemotherapy, vol. 48, no. 7, 2004, pp. 2510–2517., doi:10.1128/aac.48.7.2510-2517.2004.', '15215102', '', '', '', '', '']
+226 No strain name, skipping strain ['Salmonella Genomic Island 1-I (SGI1-I)\n', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Boyd, D. A., et al. “Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340–344., doi:10.1128/aac.00902-07. ; Levings, R. S., et al. “The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars.” Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401–4409., doi:10.1128/jb.187.13.4401-4409.2005.', '18025121,15968049', '', '', '', '', '']
+227 No strain name, skipping strain ['Salmonella Genomic Island 1-J (SGI1-J)\n', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Levings, R. S., et al. “The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars.” Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401–4409., doi:10.1128/jb.187.13.4401-4409.2005.', '15968049', '', '', '', '', '']
+228 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
+228 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
 228 GC provided but no path, dropping GC data
 229 GC provided but no path, dropping GC data
-232 No strain name, skipping strain ['Salmonella Genomic Island 1-N (SGI1-N)\n', '', 'Unspecified ', '', '', '', '', '', '', '', 'Levings, R. S., et al. “SGI1-K, a Variant of the SGI1 Genomic Island Carrying a Mercury Resistance Region, in Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 51, no. 1, 2006, pp. 317–323., doi:10.1128/aac.01229-06.', '17088481', '', '', '', '', '']
-233 No strain name, skipping strain ['Salmonella Genomic Island 1-O (SGI1-O)\n', '', 'Contains the dfrA1 and sul1 genes, conferring resistance to trimethoprim and sulphonamides', '', '', '', '', '', '', '', 'Boyd, D. A., et al. “Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340–344., doi:10.1128/aac.00902-07.', '18025121', '', '', '', '', '']
-234 No strain name, skipping strain ['Salmonella Genomic Island 1-P (SGI1-P)\n', '', 'Contains the IS1359 insertion sequence element (also called ISVch4), suspected of conferring multidrug resistance', '', '', '', '', '', '', '', 'Doublet, B., et al. “Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745–3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
-235 No strain name, skipping strain ['Salmonella Genomic Island 1-Q (SGI1-Q) [SGI1-Q1, SGI1-Q2, and SGI1-Q3]\n', '', 'An IS26 element is inserted in place of the MDR region of SGI1, leads to a higher diversity of multi-drug resistant phenotypes.', '', '', '', '', '', '', '', 'Doublet, B., et al. “Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745–3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
-236 No strain name, skipping strain ['Salmonella Genomic Island 1-R (SGI1-R)\n', '', 'Unspecified ', '', '', '', '', '', '', '', 'Djordjevic, S. P., et al. “Emergence and Evolution of Multiply Antibiotic-Resistant Salmonella Enterica Serovar Paratyphi B D-Tartrate-Utilizing Strains Containing SGI1.” Antimicrobial Agents and Chemotherapy, vol. 53, no. 6, 2009, pp. 2319–2326., doi:10.1128/aac.01532-08.', '19332668', '', '', '', '', '']
-239 No strain name, skipping strain ['Salmonella Genomic Island 1-U (SGI1-U)\n', '', 'Unspecified ', '', '', '', '', '', '', '', 'Bi, Shuilian, et al. “New Variant Salmonella Genomic Island 1-U in Proteus Mirabilis Clinical and Food Isolates from South China.” Journal of Antimicrobial Chemotherapy, vol. 66, no. 5, 2011, pp. 1178–1179., doi:10.1093/jac/dkr030.', '21393148', '', '', '', '', '']
-240 No strain name, skipping strain ['Salmonella Genomic Island 1-V (SGI1-V)\n', '', 'Encodes for resistance to quinolones', '', '', '', '', '42.9', '', '', 'Siebor, Eliane, and Catherine Neuwirth. “The New Variant of Salmonella Genomic Island 1 (SGI1-V) from a Proteus Mirabilis French Clinical Isolate Harbours BlaVEB-6 and qnrA1 in the Multiple Antibiotic Resistance Region.” Journal of Antimicrobial Chemotherapy, vol. 66, no. 11, 2011, pp. 2513–2520., doi:10.1093/jac/dkr335.', '21846670', '', '', '', '', '']
-241 No strain name, skipping strain ['Salmonella Genomic Island 1-W (SGI1-W)\n', '', 'Confers resistance to spectinomycin, streptomycin, and lincosamides', '', '', '', '', '43', '', '', 'Soliman, Ahmed M., et al. “First Report in Africa of Two Clinical Isolates of Proteus Mirabilis Carrying Salmonella Genomic Island (SGI1) Variants, SGI1- Pm ABB and SGI1-W.” Infection, Genetics and Evolution, vol. 51, 2017, pp. 132–137., doi:10.1016/j.meegid.2017.03.029.', '28359833', '', '', '', '', '']
-242 No strain name, skipping strain ['Salmonella Genomic Island 1-X (SGI1-X)\n', '', 'Contains the dfrA25 gene cassette, common region 1 (CR1), and fluoroquinolone resistance gene qnrB2', '', '', '', '', '11', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
-243 No strain name, skipping strain ['Salmonella Genomic Island 1-Y (SGI1-Y)\n', '', 'Contains the aacCA5-aadA7 gene cassette, hypothesized to play a similar role to SGI1-B', '', '', '', '', '', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
-244 No strain name, skipping strain ['Salmonella Genomic Island 1-Z (SGI1-Z)\n', '', 'Contains a dfrA12-orfF-aadA2 cassette array conferring resistance to trimethoprim, spectinomycin, and streptomycin', '', '', '', '', '34.1', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14. ; Qin, Shangshang, et al. “Emergence of Extensively Drug-Resistant Proteus Mirabilis Harboring a Conjugative NDM-1 Plasmid and a Novel Salmonella Genomic Island 1 Variant, SGI1-Z.” Antimicrobial Agents and Chemotherapy, vol. 59, no. 10, 2015, pp. 6601–6604., doi:10.1128/aac.00292-15.', '25267683,26195511', '', '', '', '', '']
-245 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
-245 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
-245 GC provided but no path, dropping GC data
+230 GC provided but no path, dropping GC data
+233 No strain name, skipping strain ['Salmonella Genomic Island 1-N (SGI1-N)\n', '', 'Unspecified ', '', '', '', '', '', '', '', 'Levings, R. S., et al. “SGI1-K, a Variant of the SGI1 Genomic Island Carrying a Mercury Resistance Region, in Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 51, no. 1, 2006, pp. 317–323., doi:10.1128/aac.01229-06.', '17088481', '', '', '', '', '']
+234 No strain name, skipping strain ['Salmonella Genomic Island 1-O (SGI1-O)\n', '', 'Contains the dfrA1 and sul1 genes, conferring resistance to trimethoprim and sulphonamides', '', '', '', '', '', '', '', 'Boyd, D. A., et al. “Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340–344., doi:10.1128/aac.00902-07.', '18025121', '', '', '', '', '']
+235 No strain name, skipping strain ['Salmonella Genomic Island 1-P (SGI1-P)\n', '', 'Contains the IS1359 insertion sequence element (also called ISVch4), suspected of conferring multidrug resistance', '', '', '', '', '', '', '', 'Doublet, B., et al. “Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745–3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
+236 No strain name, skipping strain ['Salmonella Genomic Island 1-Q (SGI1-Q) [SGI1-Q1, SGI1-Q2, and SGI1-Q3]\n', '', 'An IS26 element is inserted in place of the MDR region of SGI1, leads to a higher diversity of multi-drug resistant phenotypes.', '', '', '', '', '', '', '', 'Doublet, B., et al. “Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745–3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
+237 No strain name, skipping strain ['Salmonella Genomic Island 1-R (SGI1-R)\n', '', 'Unspecified ', '', '', '', '', '', '', '', 'Djordjevic, S. P., et al. “Emergence and Evolution of Multiply Antibiotic-Resistant Salmonella Enterica Serovar Paratyphi B D-Tartrate-Utilizing Strains Containing SGI1.” Antimicrobial Agents and Chemotherapy, vol. 53, no. 6, 2009, pp. 2319–2326., doi:10.1128/aac.01532-08.', '19332668', '', '', '', '', '']
+240 No strain name, skipping strain ['Salmonella Genomic Island 1-U (SGI1-U)\n', '', 'Unspecified ', '', '', '', '', '', '', '', 'Bi, Shuilian, et al. “New Variant Salmonella Genomic Island 1-U in Proteus Mirabilis Clinical and Food Isolates from South China.” Journal of Antimicrobial Chemotherapy, vol. 66, no. 5, 2011, pp. 1178–1179., doi:10.1093/jac/dkr030.', '21393148', '', '', '', '', '']
+241 No strain name, skipping strain ['Salmonella Genomic Island 1-V (SGI1-V)\n', '', 'Encodes for resistance to quinolones', '', '', '', '', '42.9', '', '', 'Siebor, Eliane, and Catherine Neuwirth. “The New Variant of Salmonella Genomic Island 1 (SGI1-V) from a Proteus Mirabilis French Clinical Isolate Harbours BlaVEB-6 and qnrA1 in the Multiple Antibiotic Resistance Region.” Journal of Antimicrobial Chemotherapy, vol. 66, no. 11, 2011, pp. 2513–2520., doi:10.1093/jac/dkr335.', '21846670', '', '', '', '', '']
+242 No strain name, skipping strain ['Salmonella Genomic Island 1-W (SGI1-W)\n', '', 'Confers resistance to spectinomycin, streptomycin, and lincosamides', '', '', '', '', '43', '', '', 'Soliman, Ahmed M., et al. “First Report in Africa of Two Clinical Isolates of Proteus Mirabilis Carrying Salmonella Genomic Island (SGI1) Variants, SGI1- Pm ABB and SGI1-W.” Infection, Genetics and Evolution, vol. 51, 2017, pp. 132–137., doi:10.1016/j.meegid.2017.03.029.', '28359833', '', '', '', '', '']
+243 No strain name, skipping strain ['Salmonella Genomic Island 1-X (SGI1-X)\n', '', 'Contains the dfrA25 gene cassette, common region 1 (CR1), and fluoroquinolone resistance gene qnrB2', '', '', '', '', '11', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
+244 No strain name, skipping strain ['Salmonella Genomic Island 1-Y (SGI1-Y)\n', '', 'Contains the aacCA5-aadA7 gene cassette, hypothesized to play a similar role to SGI1-B', '', '', '', '', '', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
+245 No strain name, skipping strain ['Salmonella Genomic Island 1-Z (SGI1-Z)\n', '', 'Contains a dfrA12-orfF-aadA2 cassette array conferring resistance to trimethoprim, spectinomycin, and streptomycin', '', '', '', '', '34.1', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14. ; Qin, Shangshang, et al. “Emergence of Extensively Drug-Resistant Proteus Mirabilis Harboring a Conjugative NDM-1 Plasmid and a Novel Salmonella Genomic Island 1 Variant, SGI1-Z.” Antimicrobial Agents and Chemotherapy, vol. 59, no. 10, 2015, pp. 6601–6604., doi:10.1128/aac.00292-15.', '25267683,26195511', '', '', '', '', '']
+246 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
+246 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
 246 GC provided but no path, dropping GC data
-247 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
-247 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
 247 GC provided but no path, dropping GC data
-248 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
-248 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
+248 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
+248 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
 248 GC provided but no path, dropping GC data
+249 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
+249 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
 249 GC provided but no path, dropping GC data
-250 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
-250 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
 250 GC provided but no path, dropping GC data
-251 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
-251 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
+251 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
+251 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
 251 GC provided but no path, dropping GC data
+252 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
+252 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
 252 GC provided but no path, dropping GC data
-271 No strain name, skipping strain ['Salmonella Pathogenicity Island 1 (SPI-1)', '', 'Offensive type III secretion which mediates invasion of the host cell', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
-273 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subs. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2', '', '', '4155671', '4197760', '', '', '', '', '', '', '']
-273 strains: duplicate  (72, 'Salmonella enterica subsp. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2')
-273 strains: discarding ('Salmonella enterica subs. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2')
-273 source sequence: duplicate  (144, 186, 'sequences/CP014051.2_4155671_4197760.fna')
-273 source sequence: discarding (271, None, 'sequences/CP014051.2_4155671_4197760.fna')
-274 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP022070.2', '', '', '3889996', '3932085', '', '', '', '', '', '', '']
-274 source sequence: duplicate  (145, 187, 'sequences/CP022070.2_3889996_3932085.fna')
-274 source sequence: discarding (272, None, 'sequences/CP022070.2_3889996_3932085.fna')
-275 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
-275 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
-275 source sequence: duplicate  (158, 212, 'sequences/CP014979.2_29462_77183.fna')
-275 source sequence: discarding (273, None, 'sequences/CP014979.2_29462_77183.fna')
-276 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1', '', '', '4499049', '4540593', '', '', '', '', '', '', '']
-276 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
-276 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
-276 source sequence: duplicate  (159, 213, 'sequences/CP027410.1_4499049_4540593.fna')
-276 source sequence: discarding (274, None, 'sequences/CP027410.1_4499049_4540593.fna')
-277 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain LT2 chromosome', 'AE006468.2', '', '', '4049573', '4054717', '', '', '', '', '', '', '']
-277 source sequence: duplicate  (160, 214, 'sequences/AE006468.2_4049573_4054717.fna')
-277 source sequence: discarding (275, None, 'sequences/AE006468.2_4049573_4054717.fna')
-278 source sequence: duplicate  (167, 246, 'sequences/CP027410.1_4499104_4527040.fna')
-278 source sequence: discarding (276, None, 'sequences/CP027410.1_4499104_4527040.fna')
-279 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2', '', '', '49192', '77125', '', '', '', '', '', '', '']
-279 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
-279 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
-279 source sequence: duplicate  (164, 243, 'sequences/CP014979.2_49192_77125.fna')
-279 source sequence: discarding (277, None, 'sequences/CP014979.2_49192_77125.fna')
-280 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Enteritidis strain 92-0392 chromosome', 'CP018657.1', '', '', '2327929', '2355865', '', '', '', '', '', '', '']
-280 source sequence: duplicate  (165, 244, 'sequences/CP018657.1_2327929_2355865.fna')
-280 source sequence: discarding (278, None, 'sequences/CP018657.1_2327929_2355865.fna')
-281 No strain name, skipping strain ['SGI1-K7', '', 'Confers sesistance to amoxicillin, amoxicillin/clavulanic acid, ticarcillin, piperacillin, cefotaxime and cefepime. Suspected of confering additional resistances.', '', '', '', '', '', '', '', 'https://academic.oup.com/jac/advance-article/doi/10.1093/jac/dky108/4967686', '', '', '', '', '', '']
-282 GC provided but no path, dropping GC data
+253 GC provided but no path, dropping GC data
+272 No strain name, skipping strain ['Salmonella Pathogenicity Island 1 (SPI-1)', '', 'Offensive type III secretion which mediates invasion of the host cell', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+274 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subs. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2', '', '', '4155671', '4197760', '', '', '', '', '', '', '']
+274 strains: duplicate  (72, 'Salmonella enterica subsp. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2')
+274 strains: discarding ('Salmonella enterica subs. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2')
+274 source sequence: duplicate  (144, 187, 'sequences/CP014051.2_4155671_4197760.fna')
+274 source sequence: discarding (272, None, 'sequences/CP014051.2_4155671_4197760.fna')
+275 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP022070.2', '', '', '3889996', '3932085', '', '', '', '', '', '', '']
+275 source sequence: duplicate  (145, 188, 'sequences/CP022070.2_3889996_3932085.fna')
+275 source sequence: discarding (273, None, 'sequences/CP022070.2_3889996_3932085.fna')
+276 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
+276 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
+276 source sequence: duplicate  (158, 213, 'sequences/CP014979.2_29462_77183.fna')
+276 source sequence: discarding (274, None, 'sequences/CP014979.2_29462_77183.fna')
+277 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1', '', '', '4499049', '4540593', '', '', '', '', '', '', '']
+277 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
+277 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
+277 source sequence: duplicate  (159, 214, 'sequences/CP027410.1_4499049_4540593.fna')
+277 source sequence: discarding (275, None, 'sequences/CP027410.1_4499049_4540593.fna')
+278 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain LT2 chromosome', 'AE006468.2', '', '', '4049573', '4054717', '', '', '', '', '', '', '']
+278 source sequence: duplicate  (160, 215, 'sequences/AE006468.2_4049573_4054717.fna')
+278 source sequence: discarding (276, None, 'sequences/AE006468.2_4049573_4054717.fna')
+279 source sequence: duplicate  (167, 247, 'sequences/CP027410.1_4499104_4527040.fna')
+279 source sequence: discarding (277, None, 'sequences/CP027410.1_4499104_4527040.fna')
+280 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2', '', '', '49192', '77125', '', '', '', '', '', '', '']
+280 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
+280 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
+280 source sequence: duplicate  (164, 244, 'sequences/CP014979.2_49192_77125.fna')
+280 source sequence: discarding (278, None, 'sequences/CP014979.2_49192_77125.fna')
+281 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Enteritidis strain 92-0392 chromosome', 'CP018657.1', '', '', '2327929', '2355865', '', '', '', '', '', '', '']
+281 source sequence: duplicate  (165, 245, 'sequences/CP018657.1_2327929_2355865.fna')
+281 source sequence: discarding (279, None, 'sequences/CP018657.1_2327929_2355865.fna')
+282 No strain name, skipping strain ['SGI1-K7', '', 'Confers sesistance to amoxicillin, amoxicillin/clavulanic acid, ticarcillin, piperacillin, cefotaxime and cefepime. Suspected of confering additional resistances.', '', '', '', '', '', '', '', 'https://academic.oup.com/jac/advance-article/doi/10.1093/jac/dky108/4967686', '', '', '', '', '', '']
 283 GC provided but no path, dropping GC data
 284 GC provided but no path, dropping GC data
 285 GC provided but no path, dropping GC data
-293 GC provided but no path, dropping GC data
+286 GC provided but no path, dropping GC data
 294 GC provided but no path, dropping GC data
-296 GC provided but no path, dropping GC data
+295 GC provided but no path, dropping GC data
 297 GC provided but no path, dropping GC data
 298 GC provided but no path, dropping GC data
-300 GC provided but no path, dropping GC data
+299 GC provided but no path, dropping GC data
 301 GC provided but no path, dropping GC data
 302 GC provided but no path, dropping GC data
 303 GC provided but no path, dropping GC data
@@ -253,8 +257,8 @@
 325 GC provided but no path, dropping GC data
 326 GC provided but no path, dropping GC data
 327 GC provided but no path, dropping GC data
-328 No strain name, skipping strain ['Shigella pathogenicity island 0 (SHI-0)', '', '', '', '', '', '', '', '', '', 'Nie, Huan, et al. “Complete Genome Sequence of Shigella Flexneri 5b and Comparison with Shigella Flexneri 2a.” BMC Genomics, vol. 7, no. 1, 6 July 2006, p. 173., doi:10.1186/1471-2164-7-173.', '16822325', '', '', '', '', '']
-329 GC provided but no path, dropping GC data
+328 GC provided but no path, dropping GC data
+329 No strain name, skipping strain ['Shigella pathogenicity island 0 (SHI-0)', '', '', '', '', '', '', '', '', '', 'Nie, Huan, et al. “Complete Genome Sequence of Shigella Flexneri 5b and Comparison with Shigella Flexneri 2a.” BMC Genomics, vol. 7, no. 1, 6 July 2006, p. 173., doi:10.1186/1471-2164-7-173.', '16822325', '', '', '', '', '']
 330 GC provided but no path, dropping GC data
 331 GC provided but no path, dropping GC data
 332 GC provided but no path, dropping GC data
@@ -267,20 +271,21 @@
 339 GC provided but no path, dropping GC data
 340 GC provided but no path, dropping GC data
 341 GC provided but no path, dropping GC data
-357 GC provided but no path, dropping GC data
+342 GC provided but no path, dropping GC data
 358 GC provided but no path, dropping GC data
-373 No strain name, skipping strain ['SaRIfusB (S. saprophyticus pathogenicity island fusB)', '', '', '29.9', '', '', '', '16.7', '', '', "O'neill, A. J., et al. “Characterization of the Epidemic European Fusidic Acid-Resistant Impetigo Clone of Staphylococcus Aureus.” Journal of Clinical Microbiology, vol. 45, no. 5, 2007, pp. 1505–1510., doi:10.1128/jcm.01984-06. ; Subedi, A., et al. “Sequence Analysis Reveals Genetic Exchanges and Intraspecific Spread of SaPI2, a Pathogenicity Island Involved in Menstrual Toxic Shock.” Microbiology, vol. 153, no. 10, 2007, pp. 3235–3245., doi:10.1099/mic.0.2007/006932-0.", '17344365,17906123', '', '', '', '', '']
-373 GC provided but no path, dropping GC data
-420 genomic_islands: duplicate  (144, 'A118', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
-420 genomic_islands: discarding ('A118', 'phage', None)
-435 strains: duplicate  (178, 'staaur_n314', 'NC_002745.1')
-435 strains: discarding ('staaur_n315', 'NC_002745.1')
+359 GC provided but no path, dropping GC data
+374 No strain name, skipping strain ['SaRIfusB (S. saprophyticus pathogenicity island fusB)', '', '', '29.9', '', '', '', '16.7', '', '', "O'neill, A. J., et al. “Characterization of the Epidemic European Fusidic Acid-Resistant Impetigo Clone of Staphylococcus Aureus.” Journal of Clinical Microbiology, vol. 45, no. 5, 2007, pp. 1505–1510., doi:10.1128/jcm.01984-06. ; Subedi, A., et al. “Sequence Analysis Reveals Genetic Exchanges and Intraspecific Spread of SaPI2, a Pathogenicity Island Involved in Menstrual Toxic Shock.” Microbiology, vol. 153, no. 10, 2007, pp. 3235–3245., doi:10.1099/mic.0.2007/006932-0.", '17344365,17906123', '', '', '', '', '']
+374 GC provided but no path, dropping GC data
+421 genomic_islands: duplicate  (145, 'A118', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
+421 genomic_islands: discarding ('A118', 'phage', None)
 436 strains: duplicate  (178, 'staaur_n314', 'NC_002745.1')
 436 strains: discarding ('staaur_n315', 'NC_002745.1')
 437 strains: duplicate  (178, 'staaur_n314', 'NC_002745.1')
 437 strains: discarding ('staaur_n315', 'NC_002745.1')
 438 strains: duplicate  (178, 'staaur_n314', 'NC_002745.1')
 438 strains: discarding ('staaur_n315', 'NC_002745.1')
+439 strains: duplicate  (178, 'staaur_n314', 'NC_002745.1')
+439 strains: discarding ('staaur_n315', 'NC_002745.1')
 Validating database...
 sequence 1: Calculated gc 61.5 doesn't match stored gc None
 sequence 2: Calculated gc 65.3 doesn't match stored gc None
