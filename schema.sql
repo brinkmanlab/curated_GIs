@@ -2,9 +2,9 @@ create table if not exists genomic_islands
 -- Genomic islands
 (
     id integer not null primary key autoincrement,
-    name text not null unique,
-    type text,
-    role text
+    name text not null unique, -- GI name, suffixed with (cGI#) in the event that two different GIs are given the same name in their publications
+    type text, -- TODO CHECK(type IN ("","")  Need to standardise types
+    role text -- Description of the GI and its function
 );
 
 create table if not exists strains
