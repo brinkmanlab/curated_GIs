@@ -63,15 +63,18 @@ with open('GIs.csv') as f:
         line += 1
         # genomic_islands
         name = row[0].strip().replace(' ', ' ')
+        if not name:
+            print(line, "No GI name, substituting 'cGI'", row)
+            name = "cGI"
         type = row[1].strip().replace(' ', ' ') or None
         role = row[2].strip().replace(' ', ' ') or None
         gbuid = row[6].strip() or None
         gis[(name, gbuid)] += 1
         if gis[(name, gbuid)] > 1:  # Disambiguate duplicate GI names
-            name += f" (cGI{gis[(name, gbuid)]})"
-        if not name:
-            print(line, "No GI name, skipping inserting", row)
-            continue
+            if name != "cGI":
+                name += f" (cGI{gis[(name, gbuid)]})"
+            else:
+                name = f"cGI{gis[(name, gbuid)]}"
         vals = dict(name=name, type=type, role=role)
         try:
             gi = conn.execute(f'''INSERT INTO genomic_islands (name, type, role) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']

@@ -43,7 +43,9 @@
 92 CP003351 to CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003354.1')
 92 Unable to fetch strain for source CP003351 to CP003354
 93 Calculated gc 47.9 doesn't match stored gc 48.6
-94 No GI name, skipping inserting ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
+94 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
+94 No strain name, skipping strain ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
+95 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates. Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', '', '', '', '']
 95 No strain name, skipping strain ['', '', '', '', '', '', '', '', '', '', 'Top J, Sinnige JC, Brouwer EC, et al. Identification of a Novel Genomic Island Associated with vanD-Type Vancomycin Resistance in Six Dutch Vancomycin-Resistant Enterococcus faecium Isolates. Antimicrob Agents Chemother. 2018;62(3):e01793-17. Published 2018 Feb 23. doi:10.1128/AAC.01793-17', '29311068', 'Not sure if there are well-established. Check if the genomic islands mentionned here are classified better in more recent papers', '', '', '', '']
 96 Calculated gc 38.5 doesn't match stored gc 39.0
 97 Calculated gc 46.8 doesn't match stored gc 47.0
@@ -183,30 +185,36 @@
 251 GC provided but no path, dropping GC data
 252 GC provided but no path, dropping GC data
 271 No strain name, skipping strain ['Salmonella Pathogenicity Island 1 (SPI-1)', '', 'Offensive type III secretion which mediates invasion of the host cell', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+273 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subs. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2', '', '', '4155671', '4197760', '', '', '', '', '', '', '']
 273 strains: duplicate  (72, 'Salmonella enterica subsp. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2')
 273 strains: discarding ('Salmonella enterica subs. enterica serovar Typhimurium strain LT2 chromosome', 'CP014051.2')
-273 source sequence: duplicate  (144, 185, 'sequences/CP014051.2_4155671_4197760.fna')
-273 source sequence: discarding (270, None, 'sequences/CP014051.2_4155671_4197760.fna')
-274 source sequence: duplicate  (145, 186, 'sequences/CP022070.2_3889996_3932085.fna')
-274 source sequence: discarding (271, None, 'sequences/CP022070.2_3889996_3932085.fna')
+273 source sequence: duplicate  (144, 186, 'sequences/CP014051.2_4155671_4197760.fna')
+273 source sequence: discarding (271, None, 'sequences/CP014051.2_4155671_4197760.fna')
+274 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP022070.2', '', '', '3889996', '3932085', '', '', '', '', '', '', '']
+274 source sequence: duplicate  (145, 187, 'sequences/CP022070.2_3889996_3932085.fna')
+274 source sequence: discarding (272, None, 'sequences/CP022070.2_3889996_3932085.fna')
 275 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
 275 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
-275 source sequence: duplicate  (158, 211, 'sequences/CP014979.2_29462_77183.fna')
-275 source sequence: discarding (272, None, 'sequences/CP014979.2_29462_77183.fna')
+275 source sequence: duplicate  (158, 212, 'sequences/CP014979.2_29462_77183.fna')
+275 source sequence: discarding (273, None, 'sequences/CP014979.2_29462_77183.fna')
+276 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1', '', '', '4499049', '4540593', '', '', '', '', '', '', '']
 276 strains: duplicate  (77, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
 276 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
-276 source sequence: duplicate  (159, 212, 'sequences/CP027410.1_4499049_4540593.fna')
-276 source sequence: discarding (273, None, 'sequences/CP027410.1_4499049_4540593.fna')
-277 source sequence: duplicate  (160, 213, 'sequences/AE006468.2_4049573_4054717.fna')
-277 source sequence: discarding (274, None, 'sequences/AE006468.2_4049573_4054717.fna')
-278 source sequence: duplicate  (167, 245, 'sequences/CP027410.1_4499104_4527040.fna')
-278 source sequence: discarding (275, None, 'sequences/CP027410.1_4499104_4527040.fna')
+276 source sequence: duplicate  (159, 213, 'sequences/CP027410.1_4499049_4540593.fna')
+276 source sequence: discarding (274, None, 'sequences/CP027410.1_4499049_4540593.fna')
+277 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain LT2 chromosome', 'AE006468.2', '', '', '4049573', '4054717', '', '', '', '', '', '', '']
+277 source sequence: duplicate  (160, 214, 'sequences/AE006468.2_4049573_4054717.fna')
+277 source sequence: discarding (275, None, 'sequences/AE006468.2_4049573_4054717.fna')
+278 source sequence: duplicate  (167, 246, 'sequences/CP027410.1_4499104_4527040.fna')
+278 source sequence: discarding (276, None, 'sequences/CP027410.1_4499104_4527040.fna')
+279 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2', '', '', '49192', '77125', '', '', '', '', '', '', '']
 279 strains: duplicate  (76, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
 279 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain CDC H2662 chromosome', 'CP014979.2')
-279 source sequence: duplicate  (164, 242, 'sequences/CP014979.2_49192_77125.fna')
-279 source sequence: discarding (276, None, 'sequences/CP014979.2_49192_77125.fna')
-280 source sequence: duplicate  (165, 243, 'sequences/CP018657.1_2327929_2355865.fna')
-280 source sequence: discarding (277, None, 'sequences/CP018657.1_2327929_2355865.fna')
+279 source sequence: duplicate  (164, 243, 'sequences/CP014979.2_49192_77125.fna')
+279 source sequence: discarding (277, None, 'sequences/CP014979.2_49192_77125.fna')
+280 No GI name, substituting 'cGI' ['', '', '', '', 'Salmonella enterica subsp. enterica serovar Enteritidis strain 92-0392 chromosome', 'CP018657.1', '', '', '2327929', '2355865', '', '', '', '', '', '', '']
+280 source sequence: duplicate  (165, 244, 'sequences/CP018657.1_2327929_2355865.fna')
+280 source sequence: discarding (278, None, 'sequences/CP018657.1_2327929_2355865.fna')
 281 No strain name, skipping strain ['SGI1-K7', '', 'Confers sesistance to amoxicillin, amoxicillin/clavulanic acid, ticarcillin, piperacillin, cefotaxime and cefepime. Suspected of confering additional resistances.', '', '', '', '', '', '', '', 'https://academic.oup.com/jac/advance-article/doi/10.1093/jac/dky108/4967686', '', '', '', '', '', '']
 282 GC provided but no path, dropping GC data
 283 GC provided but no path, dropping GC data
@@ -263,7 +271,7 @@
 358 GC provided but no path, dropping GC data
 373 No strain name, skipping strain ['SaRIfusB (S. saprophyticus pathogenicity island fusB)', '', '', '29.9', '', '', '', '16.7', '', '', "O'neill, A. J., et al. “Characterization of the Epidemic European Fusidic Acid-Resistant Impetigo Clone of Staphylococcus Aureus.” Journal of Clinical Microbiology, vol. 45, no. 5, 2007, pp. 1505–1510., doi:10.1128/jcm.01984-06. ; Subedi, A., et al. “Sequence Analysis Reveals Genetic Exchanges and Intraspecific Spread of SaPI2, a Pathogenicity Island Involved in Menstrual Toxic Shock.” Microbiology, vol. 153, no. 10, 2007, pp. 3235–3245., doi:10.1099/mic.0.2007/006932-0.", '17344365,17906123', '', '', '', '', '']
 373 GC provided but no path, dropping GC data
-420 genomic_islands: duplicate  (143, 'A118', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
+420 genomic_islands: duplicate  (144, 'A118', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
 420 genomic_islands: discarding ('A118', 'phage', None)
 435 strains: duplicate  (178, 'staaur_n314', 'NC_002745.1')
 435 strains: discarding ('staaur_n315', 'NC_002745.1')
