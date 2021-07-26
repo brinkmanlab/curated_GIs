@@ -34,7 +34,11 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
             print(line, gbuid, "Sequence returned by NCBI is empty", records[0])
             return None
         if slice is not None:
-            records[0] = records[0][slice]
+            if slice.start >= slice.stop:
+                # TODO compliment sequence?
+                records[0] = records[0][slice.stop:slice.start]
+            else:
+                records[0] = records[0][slice]
         if id is not None:
             records[0].id = id
         if description is not None:
@@ -74,7 +78,7 @@ with open('GIs.csv') as f:
         type = row[1].strip().replace(' ', ' ') or None
         role = row[2].strip().replace(' ', ' ') or None
         # TODO deduplicate these variables from below
-        strain_gbuid = row[5].strip() or None
+        strain_gbuid = row[5].strip() or None #TODO handle multiple accessions
         gi_gbuid = row[6].strip() or None
         try: start = int(row[8]) if row[8] else None
         except: start = None

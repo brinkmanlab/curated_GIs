@@ -65,9 +65,9 @@
 75 genomic_islands: discarding ('PAGI-16', None, 'carrying the blaIMP-6 gene')
 76 genomic_islands: failed to meet constraint, discarding ('esp PAI', None, 'Code for virulence traits Esp and cytolysin, and also an aggregation substance which contributes to bacterial clumping. Appears to code for a DNA-damage-inducible protein, an AraC-like transcriptional regulator, a conguated bile acid hydrolase, compoenents of the phosphotransferase system, and a Gls24-like starvation-inducible protein.')
 76 Calculated gc 32.6 doesn't match stored gc 32.2
-78 No GI name, substituting 'cGI' ['', '', 'Putatively codes for capsule-like genes and putative exopolysaccharide synthesis. Contains a bile acid hydrolase  (cbh) and lactose metabolic pathway genes (lacABCDEFG)', '', 'Enterococcus faecalis D32', 'NC_018221 to NC_018223', '', '138', '1901082', '2032259', 'Zischka M, Künne CT, Blom J, et al. Comprehensive molecular, genomic and phenotypic analysis of a major clone of Enterococcus faecalis MLST ST40. BMC Genomics. 2015;16(1):175. Published 2015 Mar 12. doi:10.1186/s12864-015-1367-x', '25887115', '', '', '', '', '']
-78 NC_018221 to NC_018223 More than one sequence returned by NCBI ('NC_018221.1', 'NC_018223.1')
-78 Unable to fetch strain for source NC_018221 to NC_018223
+78 No GI name, substituting 'cGI' ['', '', 'Putatively codes for capsule-like genes and putative exopolysaccharide synthesis. Contains a bile acid hydrolase  (cbh) and lactose metabolic pathway genes (lacABCDEFG)', '', 'Enterococcus faecalis D32', 'NC_018221;NC_018222;NC_018223', '', '138', '1901082', '2032259', 'Zischka M, Künne CT, Blom J, et al. Comprehensive molecular, genomic and phenotypic analysis of a major clone of Enterococcus faecalis MLST ST40. BMC Genomics. 2015;16(1):175. Published 2015 Mar 12. doi:10.1186/s12864-015-1367-x', '25887115', '', '', '', '', '']
+78 NC_018221;NC_018222;NC_018223 More than one sequence returned by NCBI ('NC_018221.1', 'NC_018222.1', 'NC_018223.1')
+78 Unable to fetch strain for source NC_018221;NC_018222;NC_018223
 79 GC provided but no path, dropping GC data
 79 ABQJ00000000 No sequence returned by NCBI
 79 Unable to fetch strain for source ABQJ00000000
@@ -80,11 +80,11 @@
 91 No GI name, substituting 'cGI' ['', '', 'Tentatively encodes a metabolic pathway involved in carbohydrate transport and metabolism', '', 'Enterococcus faecium CC17', ' AAAK00000000', '', '8.5', '7621', '16116', 'Heikens E, van Schaik W, Leavis HL, Bonten MJ, Willems RJ. Identification of a novel genomic island specific to hospital-acquired clonal complex 17 Enterococcus faecium isolates. Appl Environ Microbiol. 2008;74(22):7094-7097. doi:10.1128/AEM.01378-08', '18836023', '', '', '', '', '']
 91 AAAK00000000 No sequence returned by NCBI
 91 Unable to fetch strain for source AAAK00000000
-92 CP003351 to CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003354.1')
-92 Unable to fetch strain for source CP003351 to CP003354
-93 No GI name, substituting 'cGI' ['', '', 'Encodes hypothetical proteins, putative transcriptional regulators. And various phage-related genes.', '', 'E. faecium Aus0004', ' CP003351 to CP003354', '', '60', '1607500', '1667500', 'Lam MM, Seemann T, Bulach DM, et al. Comparative analysis of the first complete Enterococcus faecium genome. J Bacteriol. 2012;194(9):2334-2341. doi:10.1128/JB.00259-12', '22366422', '', '', '', '', '']
-93 CP003351 to CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003354.1')
-93 Unable to fetch strain for source CP003351 to CP003354
+92 CP003351;CP003352;CP003353;CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003352.1', 'CP003353.1', 'CP003354.1')
+92 Unable to fetch strain for source CP003351;CP003352;CP003353;CP003354
+93 No GI name, substituting 'cGI' ['', '', 'Encodes hypothetical proteins, putative transcriptional regulators. And various phage-related genes.', '', 'E. faecium Aus0004', ' CP003351;CP003352;CP003353;CP003354', '', '60', '1607500', '1667500', 'Lam MM, Seemann T, Bulach DM, et al. Comparative analysis of the first complete Enterococcus faecium genome. J Bacteriol. 2012;194(9):2334-2341. doi:10.1128/JB.00259-12', '22366422', '', '', '', '', '']
+93 CP003351;CP003352;CP003353;CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003352.1', 'CP003353.1', 'CP003354.1')
+93 Unable to fetch strain for source CP003351;CP003352;CP003353;CP003354
 94 genomic_islands: failed to meet constraint, discarding ('IMEEfm15508', None, 'Contains the vanD operon, a putative bacitracin resistance operon, and ABC transporter systems, and antirestriction and Rel-type toxin proteins.')
 94 Calculated gc 47.9 doesn't match stored gc 48.6
 95 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
@@ -469,7 +469,6 @@ sequence 168: Calculated gc 44.3 doesn't match stored gc 50.7
 sequence 169: Calculated gc 45.6 doesn't match stored gc 50.4
 sequence 170: Calculated gc 45.6 doesn't match stored gc 50.4
 sequence 171: Calculated gc 45.6 doesn't match stored gc 50.4
-sequence 172: Calculated gc 0.0 doesn't match stored gc None
 sequence 173: Calculated gc 34.5 doesn't match stored gc 32.8
 sequence 174: Calculated gc 34.5 doesn't match stored gc 32.8
 sequence 175: Calculated gc 34.5 doesn't match stored gc 32.8
