@@ -1,0 +1,11 @@
+docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 makeblastdb -in /mnt/sequences.fna -input_type fasta -dbtype nucl -title GIs -hash_index -out /mnt/blast/GIs
+
+
+Building a new DB, current time: 07/26/2021 19:23:11
+New DB name:   /mnt/blast/GIs
+New DB title:  GIs
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /mnt/blast/GIs
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 361 sequences in 0.371654 seconds.
