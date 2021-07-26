@@ -1,69 +1,37 @@
-2 genomic_islands: failed to meet constraint, discarding ('PAGI-1', None, 'Contains genes for insertion sequences, determinants of regulatory proteins, a number of dehydrogenase gene homologs, and two for proteins of implicated in detoxification of reactive oxygen species')
-2 genomic_islands: failed to meet constraint, discarding ('PAGI-1', None, 'Contains genes for insertion sequences, determinants of regulatory proteins, a number of dehydrogenase gene homologs, and two for proteins of implicated in detoxification of reactive oxygen species')
-3 genomic_islands: failed to meet constraint, discarding ('PAGI-2', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators. (Info taken from PMID: 12426355 which discusses PAGI-2 in relation to strain C, but shares the same accesion #)')
-3 genomic_islands: failed to meet constraint, discarding ('PAGI-2', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators. (Info taken from PMID: 12426355 which discusses PAGI-2 in relation to strain C, but shares the same accesion #)')
-4 genomic_islands: failed to meet constraint, discarding ('PAGI-4', None, None)
-4 genomic_islands: failed to meet constraint, discarding ('PAGI-4', None, None)
-5 genomic_islands: failed to meet constraint, discarding ('PAGI-5', None, 'Contains the Tn402-like transposon')
-5 genomic_islands: failed to meet constraint, discarding ('PAGI-5', None, 'Contains the Tn402-like transposon')
-6 genomic_islands: failed to meet constraint, discarding ('PAGI-6', None, None)
-6 genomic_islands: failed to meet constraint, discarding ('PAGI-6', None, None)
-7 genomic_islands: failed to meet constraint, discarding ('GI-1', None, 'Contains the Tn6162-like transposon which harbours the gene cassette array aadB-gcuD')
-7 genomic_islands: failed to meet constraint, discarding ('GI-1', None, 'Contains the Tn6162-like transposon which harbours the gene cassette array aadB-gcuD')
 8 GC provided but no path, dropping GC data
 9 genomic_islands: duplicate  (4, 'PAGI-5', None, 'Contains the Tn402-like transposon')
-9 genomic_islands: discarding ('PAGI-5 (cGI0)', None, 'Related to a large family of pKLC102-related genomic islands prevalent in beta- and gammaproteobacteria, and contains a core set of genes involved in propagation, replication, and partitioning, and variable “cargo” gene cassettes')
+9 genomic_islands: discarding ('PAGI-5', None, 'Related to a large family of pKLC102-related genomic islands prevalent in beta- and gammaproteobacteria, and contains a core set of genes involved in propagation, replication, and partitioning, and variable “cargo” gene cassettes')
 9 sequences: duplicate  (4, 4, 'EF611301', None, 'sequences/EF611301.fna')
 9 sequences: discarding (4, 'EF611301', 59.6, 'sequences/EF611301.fna')
 10 genomic_islands: duplicate  (5, 'PAGI-6', None, None)
-10 genomic_islands: discarding ('PAGI-6 (cGI0)', None, 'Contains many large regions highly similar to a cytotoxin-converting phage (ϕCTX)')
+10 genomic_islands: discarding ('PAGI-6', None, 'Contains many large regions highly similar to a cytotoxin-converting phage (ϕCTX)')
 10 Calculated gc 60.6 doesn't match stored gc 60.8
 10 sequences: duplicate  (5, 5, 'EF611302', None, 'sequences/EF611302.fna')
 10 sequences: discarding (5, 'EF611302', 60.8, 'sequences/EF611302.fna')
-11 genomic_islands: failed to meet constraint, discarding ('PAGI-7', None, 'Contains multiple mobility associated ORFs, predicted transcriptional regulators, and a predicted ptxABCDE operon')
 11 Calculated gc 55.2 doesn't match stored gc 55.8
-12 genomic_islands: failed to meet constraint, discarding ('PAGI-8', None, 'Contains 12 ORFs, including one predicted to encode a protein with 69% identity and 78% similarity to the TraY/DotA-like type IV secretion system protein of Cupriavidus metallidurans strain CH34. Other ORFs are similar to an ATPase, and a zinc-binding transcriptional regulator.')
 12 Calculated gc 53.1 doesn't match stored gc 54.1
-13 genomic_islands: failed to meet constraint, discarding ('PAGI-9', None, 'Consists of a single very large ORF of 6,672 bp that is similar to the rearrangement hot spot (Rhs) family of genetic elements')
 13 Calculated gc 62.0 doesn't match stored gc 61.6
-14 genomic_islands: failed to meet constraint, discarding ('PAGI-10', None, 'Contains a single 2,457 bp ORF with similarity to an Rhs core ORF')
 14 Calculated gc 61.2 doesn't match stored gc 52.7
-15 genomic_islands: failed to meet constraint, discarding ('PAGI-11', None, 'Does not contain any ORFs or repeated sequences')
 15 Calculated gc 43.2 doesn't match stored gc 50.5
 33 GC provided but no path, dropping GC data
-34 genomic_islands: failed to meet constraint, discarding ('PAPI-1', None, 'Carries a complete gene cluster predicted to encode a type IV group B pilus. Contains 115 ORFs, 7 mobility factors that code for integrases and transposases, and at least 19 virulence factors')
 34 Calculated gc 59.9 doesn't match stored gc 59.7
-35 genomic_islands: failed to meet constraint, discarding ('PAPI-2', None, 'Contains 15 ORFs, one integrase gene, four transposase genes, one pseudogene,  and a putative transposase gene')
 35 Calculated gc 57.5 doesn't match stored gc 56.4
 36 genomic_islands: duplicate  (2, 'PAGI-2', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators. (Info taken from PMID: 12426355 which discusses PAGI-2 in relation to strain C, but shares the same accesion #)')
-36 genomic_islands: discarding ('PAGI-2 (cGI0)', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators.')
+36 genomic_islands: discarding ('PAGI-2', None, 'Contains 111 ORFs coding for integrases, proteins for cytochrome c biogenesis system I, thiol-disulfide exchange proteins, and transporters for heavy metal ions. Additionally, it codes for proteins for cation transport and several transcription regulators.')
 36 Calculated gc 65.3 doesn't match stored gc 64.7
 36 sequences: duplicate  (2, 2, 'AF440523', None, 'sequences/AF440523.fna')
 36 sequences: discarding (2, 'AF440523', 64.7, 'sequences/AF440523.fna')
-38 genomic_islands: failed to meet constraint, discarding ('flagellin glycosylation island', None, 'The proteins encoded within this island are capable of glycosylating exclusively a-type flagellins')
 38 Calculated gc 63.2 doesn't match stored gc 63.3
-39 genomic_islands: failed to meet constraint, discarding ('ExoU-A', None, 'Codes for an integrase, transposase, and helicase. Contains a tRNA-associated genomic island repeat which may be an accessory element needed for integration. Lacks a portion of a tRNA gene and soj, which suggest it may be permanently fixed into the chromosome.')
-40 genomic_islands: failed to meet constraint, discarding ('ExoU-B', None, 'Codes for putative transposases, hypothetical proteins, GNAT family acetyltrasnferase, a chpaerone, and other proteins.')
-41 genomic_islands: failed to meet constraint, discarding ('ExoU-C (islet)', None, 'Contains a tRNA-associated genomic island repeat. Some regions have high % identitity to ExoU-A.')
 42 genomic_islands: duplicate  (1, 'PAGI-1', None, 'Contains genes for insertion sequences, determinants of regulatory proteins, a number of dehydrogenase gene homologs, and two for proteins of implicated in detoxification of reactive oxygen species')
-42 genomic_islands: discarding ('PAGI-1 (cGI0)', None, 'Approximately one-half of the genes are either hypothetical unknown or conserved hypothetical unknown genes. Two genes, delineated by orf32-orf33 and orf37-orf38, share high levels of similarity with elements encoding transposases A and B, respectively.')
+42 genomic_islands: discarding ('PAGI-1', None, 'Approximately one-half of the genes are either hypothetical unknown or conserved hypothetical unknown genes. Two genes, delineated by orf32-orf33 and orf37-orf38, share high levels of similarity with elements encoding transposases A and B, respectively.')
 43 genomic_islands: duplicate  (3, 'PAGI-4', None, None)
-43 genomic_islands: discarding ('PAGI-4 (cGI0)', None, 'Hypotherical proteins, inegrase, transposase, acetyltransferase. ABC transporter unit, etc.')
-44 genomic_islands: failed to meet constraint, discarding ('pKLC102', None, 'Plasmid pKLC102 coexists as a plasmid and a genome island in clone C strains. Codes for oriV and genes for replication, partitioning, and conjugation, including a pil cluster encoding type IV thin sex pili, integrase, etc. spontaneous excision rate from the host chromosome is at least 10^-1 (highly mobile)')
-48 genomic_islands: failed to meet constraint, discarding ('LES prophage 4', None, 'Contains transposase A, putative cI genes, putative c repressor, virion morphogenesis protein, protease (I) and scaffold (Z) proteins, etc.')
-48 genomic_islands: failed to meet constraint, discarding ('LES prophage 4', None, 'Contains transposase A, putative cI genes, putative c repressor, virion morphogenesis protein, protease (I) and scaffold (Z) proteins, etc.')
-49 genomic_islands: failed to meet constraint, discarding ('LES prophage 5', None, 'Contains an site-specific recombinase (phage integrase family), putative cI genes, DNA methylase N-4/N-6, portal protein, lytic enzyme, etc.')
-49 genomic_islands: failed to meet constraint, discarding ('LES prophage 5', None, 'Contains an site-specific recombinase (phage integrase family), putative cI genes, DNA methylase N-4/N-6, portal protein, lytic enzyme, etc.')
+43 genomic_islands: discarding ('PAGI-4', None, 'Hypotherical proteins, inegrase, transposase, acetyltransferase. ABC transporter unit, etc.')
 49 49900 No sequence returned by NCBI or bad request
 49 sequences: failed to meet constraint, discarding (20, '49900', None, None)
 71 GC provided but no path, dropping GC data
 72 GC provided but no path, dropping GC data
-73 genomic_islands: failed to meet constraint, discarding ('PAGI-15', None, 'carrying the blaGES-24 gene')
-74 genomic_islands: failed to meet constraint, discarding ('PAGI-16', None, 'carrying the blaIMP-10 gene')
-75 genomic_islands: failed to meet constraint, discarding ('PAGI-16', None, 'carrying the blaIMP-6 gene')
 75 genomic_islands: duplicate  (22, 'PAGI-16', None, 'carrying the blaIMP-10 gene')
 75 genomic_islands: discarding ('PAGI-16', None, 'carrying the blaIMP-6 gene')
-76 genomic_islands: failed to meet constraint, discarding ('esp PAI', None, 'Code for virulence traits Esp and cytolysin, and also an aggregation substance which contributes to bacterial clumping. Appears to code for a DNA-damage-inducible protein, an AraC-like transcriptional regulator, a conguated bile acid hydrolase, compoenents of the phosphotransferase system, and a Gls24-like starvation-inducible protein.')
 76 Calculated gc 32.6 doesn't match stored gc 32.2
 78 No GI name, substituting 'cGI' ['', '', 'Putatively codes for capsule-like genes and putative exopolysaccharide synthesis. Contains a bile acid hydrolase  (cbh) and lactose metabolic pathway genes (lacABCDEFG)', '', 'Enterococcus faecalis D32', 'NC_018221;NC_018222;NC_018223', '', '138', '1901082', '2032259', 'Zischka M, Künne CT, Blom J, et al. Comprehensive molecular, genomic and phenotypic analysis of a major clone of Enterococcus faecalis MLST ST40. BMC Genomics. 2015;16(1):175. Published 2015 Mar 12. doi:10.1186/s12864-015-1367-x', '25887115', '', '', '', '', '']
 78 NC_018221;NC_018222;NC_018223 More than one sequence returned by NCBI ('NC_018221.1', 'NC_018222.1', 'NC_018223.1')
@@ -85,7 +53,6 @@
 93 No GI name, substituting 'cGI' ['', '', 'Encodes hypothetical proteins, putative transcriptional regulators. And various phage-related genes.', '', 'E. faecium Aus0004', ' CP003351;CP003352;CP003353;CP003354', '', '60', '1607500', '1667500', 'Lam MM, Seemann T, Bulach DM, et al. Comparative analysis of the first complete Enterococcus faecium genome. J Bacteriol. 2012;194(9):2334-2341. doi:10.1128/JB.00259-12', '22366422', '', '', '', '', '']
 93 CP003351;CP003352;CP003353;CP003354 More than one sequence returned by NCBI ('CP003351.1', 'CP003352.1', 'CP003353.1', 'CP003354.1')
 93 Unable to fetch strain for source CP003351;CP003352;CP003353;CP003354
-94 genomic_islands: failed to meet constraint, discarding ('IMEEfm15508', None, 'Contains the vanD operon, a putative bacitracin resistance operon, and ABC transporter systems, and antirestriction and Rel-type toxin proteins.')
 94 Calculated gc 47.9 doesn't match stored gc 48.6
 95 No GI name, substituting 'cGI' ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
 95 No strain name, skipping strain ['', '', '', '', '', '', '', '', '', '', 'Li W, Wang A. Genomic islands mediate environmental adaptation and the spread of antibiotic resistance in multiresistant Enterococci - evidence from genomic sequences. BMC Microbiol. 2021;21(1):55. Published 2021 Feb 19. doi:10.1186/s12866-021-02114-4', '33602143', 'pulls from SRA database!!! Not well-established Gis (but maybe good for future reference)', '', '', '', '']
@@ -125,16 +92,7 @@
 130 No strain name, skipping strain ['VVGI-3', '', '', '', '', '', '', '', '', '', 'https://doi.org/10.1093/bioinformatics/btg453', '15033867', '', '', '', '', '']
 131 No strain name, skipping strain ['CTX phage', 'bacteriophage', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 135 GC provided but no path, dropping GC data
-143 genomic_islands: failed to meet constraint, discarding ('B054', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
-144 genomic_islands: failed to meet constraint, discarding ('B025', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
-145 genomic_islands: failed to meet constraint, discarding ('PSA', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
 145 Calculated gc 34.7 doesn't match stored gc 34.8
-146 genomic_islands: failed to meet constraint, discarding ('A500', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
-147 genomic_islands: failed to meet constraint, discarding ('A118', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
-148 genomic_islands: failed to meet constraint, discarding ('A006', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, lysogeny control, DNA replication/recombination/modification')
-149 genomic_islands: failed to meet constraint, discarding ('P35', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, DNA replication/recombination/modification')
-150 genomic_islands: failed to meet constraint, discarding ('P40', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, DNA replication/recombination/modification')
-151 genomic_islands: failed to meet constraint, discarding ('A511', 'bacteriophage', 'DNA packaging, structural proteins, cell lysis, DNA replication/transcription')
 151 Calculated gc 35.9 doesn't match stored gc 36.1
 153 GC provided but no path, dropping GC data
 155 Calculated gc 44.9 doesn't match stored gc 45.0
@@ -469,6 +427,7 @@ sequence 168: Calculated gc 44.3 doesn't match stored gc 50.7
 sequence 169: Calculated gc 45.6 doesn't match stored gc 50.4
 sequence 170: Calculated gc 45.6 doesn't match stored gc 50.4
 sequence 171: Calculated gc 45.6 doesn't match stored gc 50.4
+sequence 172: Calculated gc 47.8 doesn't match stored gc None
 sequence 173: Calculated gc 34.5 doesn't match stored gc 32.8
 sequence 174: Calculated gc 34.5 doesn't match stored gc 32.8
 sequence 175: Calculated gc 34.5 doesn't match stored gc 32.8

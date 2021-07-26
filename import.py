@@ -53,9 +53,10 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
         return None
 
 
-def dup(line, table, new, old):
+def dup(line, table, new, old, quiet=False):
     if old is None:
-        print(f'{line} {table}: failed to meet constraint, discarding {tuple(new.values())}')
+        if not quiet:
+            print(f'{line} {table}: failed to meet constraint, discarding {tuple(new.values())}')
         return None
     elif any(old[i] != new[i] for i in new.keys()):
         print(f'{line} {table}: duplicate  {tuple(old or (old,))}')
@@ -84,23 +85,23 @@ with open('GIs.csv') as f:
         except: start = None
         try: end = int(row[9]) if row[9] else None
         except: end = None
-        gis[(name, gi_gbuid)] += 1
-        if gis[(name, gi_gbuid)] > 1:  # Disambiguate duplicate GI names
-            if name != "cGI":
-                name += f" (cGI{gis[(name, gbuid)]})"
-            else:
-                name = f"cGI{gis[(name, gbuid)]}"
         vals = dict(name=name, type=type, role=role)
         # deduplicate gi on source accession and start-end or gi accession
         if gi_gbuid:
-            gi = dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT genomic_islands.* FROM genomic_islands, sequences WHERE gbuid = ? AND genomic_islands.id = sequences.gi''', (gi_gbuid,)).fetchone())
+            gi = dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT genomic_islands.* FROM genomic_islands, sequences WHERE gbuid = ? AND genomic_islands.id = sequences.gi''', (gi_gbuid,)).fetchone(), True)
         if not gi and strain_gbuid and start is not None and end is not None:
             gi = dup(line, 'genomic_islands', vals, conn.execute(f'''
                 SELECT g.* FROM genomic_islands as g, sources as src, sequences as seq, strains as str 
                 WHERE src.gi = g.id AND src.strain = str.id AND str.gbuid = ? AND src.start = ? AND src.end = ?;
-                ''', (strain_gbuid, start, end)).fetchone())
+                ''', (strain_gbuid, start, end)).fetchone(), True)
 
         if not gi:
+            gis[(name, gi_gbuid)] += 1
+            if gis[(name, gi_gbuid)] > 1:  # Disambiguate duplicate GI names
+                if name != "cGI":
+                    name += f" (cGI{gis[(name, gbuid)]})"
+                else:
+                    name = f"cGI{gis[(name, gbuid)]}"
             try:
                 gi = conn.execute(f'''INSERT INTO genomic_islands (name, type, role) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
