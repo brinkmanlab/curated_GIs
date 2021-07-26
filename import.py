@@ -30,12 +30,17 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
         if len(records) > 1:
             print(line, gbuid, "More than one sequence returned by NCBI", tuple(r.id for r in records))
             return None
+        if len(records[0].seq) == 0:
+            print(line, gbuid, "Sequence returned by NCBI is empty", records[0])
+            return None
         if slice is not None:
             records[0] = records[0][slice]
         if id is not None:
             records[0].id = id
         if description is not None:
             records[0].description = description
+        # scrub bad chars from description
+        records[0].description = records[0].description.replace('ﬄ', 'ffl').replace('\u2010', '-')
         with open(path, 'w') as file:
             SeqIO.write(records, file, 'fasta')
         return round(GC(records[0].seq), 1)
@@ -68,18 +73,34 @@ with open('GIs.csv') as f:
             name = "cGI"
         type = row[1].strip().replace(' ', ' ') or None
         role = row[2].strip().replace(' ', ' ') or None
-        gbuid = row[6].strip() or None
-        gis[(name, gbuid)] += 1
-        if gis[(name, gbuid)] > 1:  # Disambiguate duplicate GI names
+        # TODO deduplicate these variables from below
+        strain_gbuid = row[5].strip() or None
+        gi_gbuid = row[6].strip() or None
+        try: start = int(row[8]) if row[8] else None
+        except: start = None
+        try: end = int(row[9]) if row[9] else None
+        except: end = None
+        gis[(name, gi_gbuid)] += 1
+        if gis[(name, gi_gbuid)] > 1:  # Disambiguate duplicate GI names
             if name != "cGI":
                 name += f" (cGI{gis[(name, gbuid)]})"
             else:
                 name = f"cGI{gis[(name, gbuid)]}"
         vals = dict(name=name, type=type, role=role)
-        try:
-            gi = conn.execute(f'''INSERT INTO genomic_islands (name, type, role) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
-        except sqlite3.IntegrityError:
-            gi = dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT * FROM genomic_islands WHERE name = ?;''', (name,)).fetchone())
+        # deduplicate gi on source accession and start-end or gi accession
+        if gi_gbuid:
+            gi = dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT genomic_islands.* FROM genomic_islands, sequences WHERE gbuid = ? AND genomic_islands.id = sequences.gi''', (gi_gbuid,)).fetchone())
+        if not gi and strain_gbuid and start is not None and end is not None:
+            gi = dup(line, 'genomic_islands', vals, conn.execute(f'''
+                SELECT g.* FROM genomic_islands as g, sources as src, sequences as seq, strains as str 
+                WHERE src.gi = g.id AND src.strain = str.id AND str.gbuid = ? AND src.start = ? AND src.end = ?;
+                ''', (strain_gbuid, start, end)).fetchone())
+
+        if not gi:
+            try:
+                gi = conn.execute(f'''INSERT INTO genomic_islands (name, type, role) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
+            except sqlite3.IntegrityError:
+                gi = dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT * FROM genomic_islands WHERE name = ?;''', (name,)).fetchone())
 
         if gi is None:
             print(line, 'No GI, skipping', row)
@@ -151,7 +172,7 @@ with open('GIs.csv') as f:
                 try:
                     seq = conn.execute(f'''INSERT INTO sequences (gi, gc, path) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
                 except sqlite3.IntegrityError:
-                    seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
+                    seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, gc, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
         source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', (gi, strain, size, start, end, seq)).fetchone()['id']
 
         # publications
@@ -181,11 +202,17 @@ with open('GIs.csv') as f:
 conn.commit()
 
 print("Validating database...")
+seqs = dict()
 for id, gc, path in conn.execute(f'''SELECT id, gc, path from sequences;'''):
     if not os.path.isfile(path):
         print(f"sequence {id}: {path} does not exist")
         continue
     for record in SeqIO.parse(path, 'fasta'):
+        # verify seq.id uniqueness and accuracy
+        if record.id in seqs:
+            print(f"sequence {id}: duplicate sequence accession ({record.id}) found in {path} and {seqs[record.id]}")
+        else:
+            seqs[record.id] = path
         seq_gc = round(GC(record.seq), 1)
         if gc != seq_gc:
             print(f"sequence {id}: Calculated gc {seq_gc} doesn't match stored gc {gc}")
