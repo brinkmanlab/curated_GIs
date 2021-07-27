@@ -105,6 +105,7 @@ with open('GIs.csv') as f:
             try:
                 gi = conn.execute(f'''INSERT INTO genomic_islands (name, type, role) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
+                # This is completely useless given the appended (cGI#) to the name
                 gi = dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT * FROM genomic_islands WHERE name = ?;''', (name,)).fetchone())
 
         if gi is None:
@@ -209,6 +210,7 @@ conn.commit()
 print("Validating database...")
 seqs = dict()
 for id, gc, path in conn.execute(f'''SELECT id, gc, path from sequences;'''):
+    # TODO attempt to recover gbuid by searching sequence on NCBI
     if not os.path.isfile(path):
         print(f"sequence {id}: {path} does not exist")
         continue
