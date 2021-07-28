@@ -1,3 +1,11 @@
+# Files 
+- blast/GIs : `docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 makeblastdb -in /mnt/sequences.fna -input_type fasta -dbtype nucl -title GIs -hash_index -out /mnt/blast/GIs > makeblastdb.stdout`
+- sequences.fna : `awk 1 sequences/* > sequences.fna`
+- blastn_coverage.tabular : `docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 blastn -num_threads 10 -out /mnt/blastn_coverage.tabular -outfmt '6 qseqid sseqid qcovs qcovus' -db /mnt/blast/GIs -query /mnt/sequences.fna`
+- blastn_coverage_filtered.tabular : `awk 'BEGIN {FS=OFS="\t"} $4>=30 && $1!=$2 { print }' blastn_coverage.tabular > blastn_coverage_filtered.tabular`
+
+
+
 # GI Curation Troubleshooting
 
 ## Alternate Accessions for a Strain
