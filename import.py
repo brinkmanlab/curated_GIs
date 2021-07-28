@@ -72,6 +72,7 @@ with open('GIs.csv') as f:
     for row in reader:
         line += 1
         # genomic_islands
+        gi = None
         name = row[0].strip().replace(' ', ' ')
         if not name:
             print(line, "No GI name, substituting 'cGI'", row)
@@ -159,6 +160,7 @@ with open('GIs.csv') as f:
                 seq = dup(line, 'sequences', vals, conn.execute(f'''SELECT id, gi, gbuid, gc, path FROM sequences WHERE gbuid = ?;''', (gbuid,)).fetchone())
 
         # source
+        source = None
         try: size = int(float(row[7]) * 1000) if row[7] else None
         except: size = None
         try: start = int(row[8]) if row[8] else None
@@ -187,7 +189,7 @@ with open('GIs.csv') as f:
             try:
                 conn.execute(f'''INSERT INTO publications (source, publication) VALUES (?, ?);''', (source, publication.replace(' ', ' ').strip()))
             except sqlite3.IntegrityError:
-                pass # not much to do in this case
+                pass  # not much to do in this case
 
         # pmids
         pmids = row[11].replace(',', ';').replace('and', ';').split(';')
@@ -200,6 +202,8 @@ with open('GIs.csv') as f:
                     conn.execute(f'''INSERT INTO pmids (source, pmid) VALUES (?,?);''', (source, pmid))
                 except sqlite3.IntegrityError:
                     pass  # not much to do in this case
+
+        print(f'{line} gi:{gi} strain:{strain} seq:{seq} source:{source} associated')
 
     for (name, gbuid), count in gis.items():
         if count > 1:
