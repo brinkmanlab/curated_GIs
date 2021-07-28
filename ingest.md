@@ -3,6 +3,7 @@
 - sequences.fna : `awk 1 sequences/* > sequences.fna`
 - blastn_coverage.tabular : `docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 blastn -num_threads 10 -out /mnt/blastn_coverage.tabular -outfmt '6 qseqid sseqid qcovs qcovus' -db /mnt/blast/GIs -query /mnt/sequences.fna`
 - blastn_coverage_filtered.tabular : `awk 'BEGIN {FS=OFS="\t"} $4>=30 && $1!=$2 { print }' blastn_coverage.tabular > blastn_coverage_filtered.tabular`
+- blastn_coverage_filtered_paths.tabular : Import blastn_coverage_filtered.tabular into temp table and execute `SELECT f.*, seq1.path, seq2.path from blastn_coverage_filtered as f, sequences as seq1, sequences as seq2 where seq1.path like '%' || f.C1 || '%' and seq2.path like '%' || f.C2 || '%' and seq1.gi != seq2.gi;`
 
 
 
