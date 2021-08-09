@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+cat <(ls *.xfma) <(find . -maxdepth 1 -name '*.png' -exec basename {} .png \;) | sort | uniq -u

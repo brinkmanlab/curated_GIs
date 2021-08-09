@@ -5,8 +5,9 @@
 - blastn_coverage_filtered.tabular : `awk 'BEGIN {FS=OFS="\t"} $4>=30 && $1!=$2 { print }' blastn_coverage.tabular > blastn_coverage_filtered.tabular`
 - blastn_coverage_filtered_paths.tabular : Import blastn_coverage_filtered.tabular into temp table and execute `SELECT f.*, seq1.path, seq2.path from blastn_coverage_filtered as f, sequences as seq1, sequences as seq2 where seq1.path like '%' || f.C1 || '%' and seq2.path like '%' || f.C2 || '%' and seq1.gi != seq2.gi;`
 - blastn_coverage_filtered_paths_dedup.tabular : `awk '{if ($1 > $2) {key = $1$2;} else {key = $2$1;}; if (dup[key] != 1) {print;}; dup[key] = 1;}' blastn_coverage_filtered_paths.tabular > blastn_coverage_filtered_paths_dedup.tabular`
-
-
+- blastn_coverage_filtered_paths_dedup_pic.tabular : `SELECT f.*, str1.id, str1.name, str2.id, str2.name, 'alignments/' || f.C1 || '-' || f.C2 || '.xfma.png' as pic from blastn_coverage_filtered as f, sources as src1, sources as src2, strains as str1, strains as str2, sequences as seq1, sequences as seq2 where seq1.path = f.path1 and seq2.path = f.path2 and str1.id = src1.strain and seq1.id = src1.seq and str2.id = src2.strain and seq2.id = src2.seq;`
+- alignments/*.png : created with Actiona and ./gen_images.ascr, and ./to_export macro driving mauve
+- blastn_alignments.html : `awk 'BEGIN {FS="\t"; print "<style>td { border-bottom: 1px solid black;} img { height: 397px; }</style><table>\n";}{ print "<tr><td>"$1"<br/>"$8"</td><td>"$2"<br/>"$10"</td><td>"$3"</td><td>"$4"</td><td><img src=\""$11"\" /></td></tr>\n"}END{ print "</table>\n"}' blastn_coverage_filtered_paths_dedup_pic.tabular > blastn_aligments.html`
 
 # GI Curation Troubleshooting
 

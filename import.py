@@ -211,6 +211,8 @@ with open('GIs.csv') as f:
 
 conn.commit()
 
+# TODO change accessions in fastas to sequence ids to backlink to database from blast output
+
 print("Validating database...")
 seqs = dict()
 for id, gc, path in conn.execute(f'''SELECT id, gc, path from sequences;'''):
