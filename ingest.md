@@ -63,3 +63,18 @@ Solution: The GI accession or strain accession is searched and downloaded from t
 Problem: Some records refer to the same GI
 
 Solution: If records have the same GI accession, or strain accession with same start/end coordinates, then the GI will be deduplicated.
+
+Problem: Some records have 100% sequence identity
+
+Solution: Use name of first published after verifying gene content. Unless the later name is significantly more popular.
+
+
+
+----
+# TODO 
+
+GIs with added tails are different GIs but should be clustered. Prefer longer alignments when searching database.
+
+Colera toxin phage might be a good reference for examples for divergent naming and sequences and criteria for divergence.
+
+add Alt_name table that stores alternate names for  
