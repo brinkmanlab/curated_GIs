@@ -3,6 +3,7 @@ import sqlite3
 import re
 import os
 import sys
+import pickle
 from collections import defaultdict
 from urllib.error import HTTPError
 
@@ -18,6 +19,11 @@ conn = sqlite3.connect('GIs.sqlite')
 conn.row_factory = sqlite3.Row
 with open('schema.sql') as f:
     conn.executescript(f.read())
+
+strain_names = {}
+if os.path.isfile('strain_names.dump'):
+    with open('strain_names.dump') as f:
+        strain_names = pickle.load(f)
 
 
 def fetch(line, gbuid, path, slice=None, id=None, description=None):
@@ -53,6 +59,43 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
         return None
 
 
+def strain_name(line, gbuid, name):
+    if not gbuid:
+        return name
+    new_name = ''
+    if name in strain_names:
+        new_name = strain_names[gbuid]
+    else:
+        try:
+            handle = Entrez.esummary(db="nucleotide", id=gbuid)
+            records = Entrez.read(handle)
+            handle.close()
+            if len(records) < 1:
+                print(line, gbuid, "Strain gbuid returned no results by NCBI")
+                return name
+            if len(records) > 1:
+                print(line, gbuid, "More than one record returned by NCBI", tuple(r.id for r in records))
+                return name
+            taxid = records[0]['TaxId']
+            handle = Entrez.efetch(db="taxonomy", id=taxid)
+            records = Entrez.read(handle)
+            handle.close()
+            if len(records) < 1:
+                print(line, gbuid, "Strain taxid returned no results by NCBI", taxid)
+                return name
+            if len(records) > 1:
+                print(line, gbuid, "More than one record returned by NCBI for taxid", taxid, tuple(r.id for r in records))
+                return name
+            new_name = records[0]['ScientificName']
+            strain_names[gbuid] = new_name
+        except HTTPError:
+            print(line, gbuid, "No records returned by NCBI or bad request")
+            return name
+    if name != new_name:
+        print(line, gbuid, f"Provided strain name ({name}) replaced with NCBI strain name ({records[0]['ScientificName']})")
+    return new_name
+
+
 def dup(line, table, new, old, quiet=False):
     if old is None:
         if not quiet:
@@ -80,7 +123,7 @@ with open('GIs.csv') as f:
         type = row[1].strip().replace(' ', ' ') or None
         role = row[2].strip().replace(' ', ' ') or None
         # TODO deduplicate these variables from below
-        strain_gbuid = row[5].strip() or None #TODO handle multiple accessions
+        strain_gbuid = row[5].strip() or None # TODO handle multiple accessions
         gi_gbuid = row[6].strip() or None
         try: start = int(row[8]) if row[8] else None
         except: start = None
@@ -115,7 +158,7 @@ with open('GIs.csv') as f:
 
         # strains
         strain = None
-        name = row[4].strip().replace(' ', ' ')
+        name = row[4].strip().replace(' ', ' ')  # TODO grab strain name from ncbi based on accession
         strain_gbuid = row[5].strip() or None
         vals = dict(name=name, gbuid=strain_gbuid)
         if name:
@@ -210,6 +253,8 @@ with open('GIs.csv') as f:
             conn.execute(f'''UPDATE genomic_islands SET name = ? WHERE name = ?;''', (name + " (cGI1)", name))
 
 conn.commit()
+with open('strain_names.dump', mode='w') as f:
+    pickle.dump(strain_names, f)
 
 # TODO change accessions in fastas to sequence ids to backlink to database from blast output
 
