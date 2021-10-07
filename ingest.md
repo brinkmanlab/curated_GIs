@@ -77,4 +77,4 @@ GIs with added tails are different GIs but should be clustered. Prefer longer al
 
 Colera toxin phage might be a good reference for examples for divergent naming and sequences and criteria for divergence.
 
-add Alt_name table that stores alternate names for  
+add Alt_name table that stores alternate names for
