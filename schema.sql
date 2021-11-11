@@ -7,6 +7,15 @@ create table if not exists genomic_islands
     role text -- Description of the GI and its function
 );
 
+create table if not exists alternate_names
+-- Alternate island names
+(
+    gi integer not null,
+    name text not null,
+    foreign key(gi) references genomic_islands(id),
+    unique(gi, name)
+);
+
 create table if not exists strains
 -- Microbe strains
 (

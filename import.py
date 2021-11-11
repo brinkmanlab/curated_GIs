@@ -22,7 +22,7 @@ with open('schema.sql') as f:
 
 strain_names = {}
 if os.path.isfile('strain_names.dump'):
-    with open('strain_names.dump') as f:
+    with open('strain_names.dump', 'rb') as f:
         strain_names = pickle.load(f)
 
 
@@ -141,11 +141,13 @@ with open('GIs.csv') as f:
 
         if not gi:
             gis[(name, gi_gbuid)] += 1
+            n = name
             if gis[(name, gi_gbuid)] > 1:  # Disambiguate duplicate GI names
                 if name != "cGI":
-                    name += f" (cGI{gis[(name, gbuid)]})"
+                    n = name + f" (cGI{gis[(name, gbuid)]})"
                 else:
-                    name = f"cGI{gis[(name, gbuid)]}"
+                    n = name = f"cGI{gis[(name, gbuid)]}"
+            vals = dict(name=n, type=type, role=role)
             try:
                 gi = conn.execute(f'''INSERT INTO genomic_islands (name, type, role) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
@@ -155,6 +157,8 @@ with open('GIs.csv') as f:
         if gi is None:
             print(line, 'No GI, skipping', row)
             continue
+
+        conn.execute(f'''INSERT OR IGNORE INTO alternate_names (gi, name) VALUES (?,?);''', (gi, name))
 
         # strains
         strain = None
@@ -253,24 +257,32 @@ with open('GIs.csv') as f:
             conn.execute(f'''UPDATE genomic_islands SET name = ? WHERE name = ?;''', (name + " (cGI1)", name))
 
 conn.commit()
-with open('strain_names.dump', mode='w') as f:
+with open('strain_names.dump', mode='wb') as f:
     pickle.dump(strain_names, f)
-
-# TODO change accessions in fastas to sequence ids to backlink to database from blast output
 
 print("Validating database...")
 seqs = dict()
-for id, gc, path in conn.execute(f'''SELECT id, gc, path from sequences;'''):
+for id, gc, path, name, gi in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi from sequences s LEFT JOIN genomic_islands g on s.gi = g.id;'''):
     # TODO attempt to recover gbuid by searching sequence on NCBI
     if not os.path.isfile(path):
         print(f"sequence {id}: {path} does not exist")
         continue
-    for record in SeqIO.parse(path, 'fasta'):
+    records = list(SeqIO.parse(path, 'fasta'))
+    if len(records) != 1:
+        print(f'')
+    for record in records:
         # verify seq.id uniqueness and accuracy
         if record.id in seqs:
             print(f"sequence {id}: duplicate sequence accession ({record.id}) found in {path} and {seqs[record.id]}")
         else:
             seqs[record.id] = path
+            # change accessions in fastas to sequence ids to backlink to database from blast output
+            record.id = f'{name}|{gi}|{id}'
+
         seq_gc = round(GC(record.seq), 1)
         if gc != seq_gc:
             print(f"sequence {id}: Calculated gc {seq_gc} doesn't match stored gc {gc}")
+
+    with open(path, 'w') as f:
+        SeqIO.write(records, f, 'fasta')
+
