@@ -262,8 +262,10 @@ with open('strain_names.dump', mode='wb') as f:
 
 print("Validating database...")
 seqs = dict()
+paths = []
 for id, gc, path, name, gi in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi from sequences s LEFT JOIN genomic_islands g on s.gi = g.id;'''):
     # TODO attempt to recover gbuid by searching sequence on NCBI
+    paths.append(path)
     if not os.path.isfile(path):
         print(f"sequence {id}: {path} does not exist")
         continue
@@ -286,3 +288,7 @@ for id, gc, path, name, gi in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name
     with open(path, 'w') as f:
         SeqIO.write(records, f, 'fasta')
 
+extra = set(f'sequences/{f}' for f in os.listdir('sequences/')) - set(paths)
+if len(extra) > 0:
+    extra = '\n'.join(extra)
+    print(f"files detected in sequences/ that are not present in the database:\n{extra}")
