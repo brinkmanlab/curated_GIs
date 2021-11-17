@@ -7,10 +7,10 @@
 8 GC provided but no path, dropping GC data
 8 gi:7 strain:2 seq:7 source:7 associated
 9 genomic_islands: duplicate  (4, 'PAGI-5', None, 'Contains the Tn402-like transposon')
-9 genomic_islands: discarding ('PAGI-5', None, "Related to a large family of pKLC102-related genomic islands prevalent in beta- and gammaproteobacteria, and contains a core set of genes involved in propagation, replication, and partitioning, and variable ‚'cargo‚' gene cassettes")
+9 genomic_islands: discarding ('PAGI-5', None, "Related to a large family of pKLC102-related genomic islands prevalent in beta- and gammaproteobacteria, and contains a core set of genes involved in propagation, replication, and partitioning, and variable ,'cargo,' gene cassettes")
 9 gi:4 strain:3 seq:8 source:8 associated
 10 genomic_islands: duplicate  (5, 'PAGI-6', None, None)
-10 genomic_islands: discarding ('PAGI-6', None, 'Contains many large regions highly similar to a cytotoxin-converting phage (œïCTX)')
+10 genomic_islands: discarding ('PAGI-6', None, 'Contains many large regions highly similar to a cytotoxin-converting phage (ϕCTX)')
 10 Calculated gc 60.6 doesn't match stored gc 60.8
 10 gi:5 strain:4 seq:9 source:9 associated
 11 Calculated gc 55.2 doesn't match stored gc 55.8
@@ -95,29 +95,23 @@
 72 gi:66 strain:25 seq:69 source:71 associated
 73 gi:67 strain:26 seq:70 source:72 associated
 74 gi:68 strain:27 seq:71 source:73 associated
-75 genomic_islands: duplicate  (68, 'PAGI-16', None, 'carrying the¬†blaIMP-10¬†gene')
-75 genomic_islands: discarding ('PAGI-16', None, 'carrying the¬†blaIMP-6¬†gene')
+75 genomic_islands: duplicate  (68, 'PAGI-16', None, 'carrying the blaIMP-10 gene')
+75 genomic_islands: discarding ('PAGI-16', None, 'carrying the blaIMP-6 gene')
 75 gi:68 strain:28 seq:72 source:74 associated
 76 Calculated gc 32.6 doesn't match stored gc 32.2
 76 gi:69 strain:29 seq:73 source:75 associated
 77 genomic_islands: duplicate  (69, 'esp PAI', None, 'Code for virulence traits Esp and cytolysin, and also an aggregation substance which contributes to bacterial clumping. Appears to code for a DNA-damage-inducible protein, an AraC-like transcriptional regulator, a conguated bile acid hydrolase, compoenents of the phosphotransferase system, and a Gls24-like starvation-inducible protein.')
 77 genomic_islands: discarding ('esp PAI', None, 'Encodes the Esp protein')
 77 gi:69 strain:30 seq:74 source:76 associated
-78 No GI name, substituting 'cGI' ['', '', 'Putatively codes for capsule-like genes and putative exopolysaccharide synthesis. Contains a bile acid hydrolase  (cbh) and lactose metabolic pathway genes (lacABCDEFG)', '', 'Enterococcus faecalis D32', 'NC_018221', '', '138', '1901082', '2032259', 'Zischka M, Künne CT, Blom J, et al. Comprehensive molecular, genomic and phenotypic analysis of a major clone of Enterococcus faecalis MLST ST40. BMC Genomics. 2015;16(1):175. Published 2015 Mar 12. doi:10.1186/s12864-015-1367-x', ' 25887115', '', '', '', '', '']
+78 No GI name, substituting 'cGI' ['', '', 'Putatively codes for capsule-like genes and putative exopolysaccharide synthesis. Contains a bile acid hydrolase; (cbh) and lactose metabolic pathway genes (lacABCDEFG)', '', 'Enterococcus faecalis D32', 'NC_018221', '', '138', '1901082', '2032259', 'Zischka M, Künne CT, Blom J, et al. Comprehensive molecular, genomic and phenotypic analysis of a major clone of Enterococcus faecalis MLST ST40. BMC Genomics. 2015;16(1):175. Published 2015 Mar 12. doi:10.1186/s12864-015-1367-x', ' 25887115', '', '', '', '', '']
 78 gi:70 strain:31 seq:75 source:77 associated
 79 genomic_islands: duplicate  (69, 'esp PAI', None, 'Code for virulence traits Esp and cytolysin, and also an aggregation substance which contributes to bacterial clumping. Appears to code for a DNA-damage-inducible protein, an AraC-like transcriptional regulator, a conguated bile acid hydrolase, compoenents of the phosphotransferase system, and a Gls24-like starvation-inducible protein.')
 79 genomic_islands: discarding ('esp PAI', None, 'Contains the esp gene which codes for the Esp protein (200kDa), a putative multi-drug transporter, and a putative manganese uptake proteins. These genes supposedly increase virulence')
 79 GC provided but no path, dropping GC data
-79 ABQJ00000000 No sequence returned by NCBI
-79 Unable to fetch strain for source ABQJ00000000
 79 gi:69 strain:32 seq:None source:78 associated
 80 GC provided but no path, dropping GC data
-80 ABSC00000000 No sequence returned by NCBI
-80 Unable to fetch strain for source ABSC00000000
 80 gi:71 strain:33 seq:None source:79 associated
 81 GC provided but no path, dropping GC data
-81 ABSW00000000 No sequence returned by NCBI
-81 Unable to fetch strain for source ABSW00000000
 81 gi:72 strain:34 seq:None source:80 associated
 82 No GI name, substituting 'cGI' ['', '', 'Tentatively encodes a metabolic pathway involved in carbohydrate transport and metabolism', '', 'Enterococcus faecium CC17', '', '', '8.5', '7621', '16116', 'Heikens E, van Schaik W, Leavis HL, Bonten MJ, Willems RJ. Identification of a novel genomic island specific to hospital-acquired clonal complex 17 Enterococcus faecium isolates. Appl Environ Microbiol. 2008;74(22):7094-7097. doi:10.1128/AEM.01378-08', '18836023', '', '', '', '', '']
 82 gi:73 strain:35 seq:None source:81 associated
@@ -297,31 +291,31 @@
 191 gi:182 strain:90 seq:None source:190 associated
 192 GC provided but no path, dropping GC data
 192 gi:183 strain:91 seq:None source:191 associated
-193 No strain name, skipping strain ['SPI-8', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359', '', '', '', '', '']
+193 No strain name, skipping strain ['SPI-8', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. "Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella." Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424-427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359', '', '', '', '', '']
 193 GC provided but no path, dropping GC data
 193 gi:184 strain:None seq:None source:192 associated
-194 No strain name, skipping strain ['SPI-8', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359', '', '', '', '', '']
+194 No strain name, skipping strain ['SPI-8', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. "Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella." Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424-427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359', '', '', '', '', '']
 194 GC provided but no path, dropping GC data
 194 gi:185 strain:None seq:None source:193 associated
-195 No strain name, skipping strain ['SPI-8', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359', '', '', '', '', '']
+195 No strain name, skipping strain ['SPI-8', '', 'SPI-8 encodes two bacteriocin pseudogenes and a degenerate integrase. Genes conferring immunity to the baceteriocins remain intact.', '38.1', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. "Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella." Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424-427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359', '', '', '', '', '']
 195 GC provided but no path, dropping GC data
 195 gi:186 strain:None seq:None source:194 associated
-196 No strain name, skipping strain ['SPI-9', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
+196 No strain name, skipping strain ['SPI-9', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
 196 GC provided but no path, dropping GC data
 196 gi:187 strain:None seq:None source:195 associated
-197 No strain name, skipping strain ['SPI-9', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
+197 No strain name, skipping strain ['SPI-9', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
 197 GC provided but no path, dropping GC data
 197 gi:188 strain:None seq:None source:196 associated
-198 No strain name, skipping strain ['SPI-9', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
+198 No strain name, skipping strain ['SPI-9', '', 'SPI-9 carries genes that encode for a type I secretory apparatus and single, large repeats in a (RTX)-like toxin protein', '56.7', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025.', '15493819', '', '', '', '', '']
 198 GC provided but no path, dropping GC data
 198 gi:189 strain:None seq:None source:197 associated
-199 No strain name, skipping strain ['SPI-10', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359 ', '', '', '', '', '']
+199 No strain name, skipping strain ['SPI-10', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. "Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella." Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424-427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359 ', '', '', '', '', '']
 199 GC provided but no path, dropping GC data
 199 gi:190 strain:None seq:None source:198 associated
-200 No strain name, skipping strain ['SPI-10', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359 ', '', '', '', '', '']
+200 No strain name, skipping strain ['SPI-10', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. "Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella." Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424-427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359 ', '', '', '', '', '']
 200 GC provided but no path, dropping GC data
 200 gi:191 strain:None seq:None source:199 associated
-201 No strain name, skipping strain ['SPI-10', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. “Evolution of Pathogenicity Islands of Salmonella Enterica.” International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95–102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. “Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella.” Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424–427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359 ', '', '', '', '', '']
+201 No strain name, skipping strain ['SPI-10', '', 'Has been found to promote survival in macrophages. Encodes for the known virulence factor Sef fimbrae', '46.6', '', '', '', '', '', '', 'Hensel, Michael. "Evolution of Pathogenicity Islands of Salmonella Enterica." International Journal of Medical Microbiology, vol. 294, no. 2-3, 2004, pp. 95-102., doi:10.1016/j.ijmm.2004.06.025. ; Saroj, S. D., et al. "Distribution of Salmonella Pathogenicity Island (SPI)-8 and SPI-10 among Different Serotypes of Salmonella." Journal of Medical Microbiology, vol. 57, no. 4, 2008, pp. 424-427., doi:10.1099/jmm.0.47630-0.', '15493819 ; 18349359 ', '', '', '', '', '']
 201 GC provided but no path, dropping GC data
 201 gi:192 strain:None seq:None source:200 associated
 202 strains: duplicate  (85, 'Salmonella enterica subsp. enterica serovar Typhimurium strain CDC_H2662 chromosome', 'CP014979.2')
@@ -338,15 +332,15 @@
 206 gi:197 strain:93 seq:None source:205 associated
 207 gi:198 strain:94 seq:None source:206 associated
 208 gi:199 strain:95 seq:None source:207 associated
-209 No strain name, skipping strain ['SGI1-E', '', 'Little is know regarding the particular role of SGI1-E. Variant SGI1-like elements were found with MDR regions consisting of an integron related to that in SGI1 but which contains a 10-kb inversion between two copies of IS6100, one which is inserted in floR', '', '', '', '', '', '', '', 'Boyd, D., et al. “Characterization of Variant Salmonella Genomic Island 1 Multidrug Resistance Regions from Serovars Typhimurium DT104 and Agona.” Antimicrobial Agents and Chemotherapy, vol. 46, no. 6, 2002, pp. 1714–1722., doi:10.1128/aac.46.6.1714-1722.2002.', '12019080', '', '', '', '', '']
+209 No strain name, skipping strain ['SGI1-E', '', 'Little is know regarding the particular role of SGI1-E. Variant SGI1-like elements were found with MDR regions consisting of an integron related to that in SGI1 but which contains a 10-kb inversion between two copies of IS6100, one which is inserted in floR', '', '', '', '', '', '', '', 'Boyd, D., et al. "Characterization of Variant Salmonella Genomic Island 1 Multidrug Resistance Regions from Serovars Typhimurium DT104 and Agona." Antimicrobial Agents and Chemotherapy, vol. 46, no. 6, 2002, pp. 1714-1722., doi:10.1128/aac.46.6.1714-1722.2002.', '12019080', '', '', '', '', '']
 209 gi:200 strain:None seq:None source:208 associated
 210 gi:201 strain:96 seq:None source:209 associated
-211 No strain name, skipping strain ['SGI1-G', '', 'Contains the pse-1 casette array with the additional insertion of the orf513/dfrA10 region, confers resistance to streptomycin‚Äìspectinomycin', '', '', '', '', '', '', '', 'Doublet, B., et al. “Salmonella Genomic Island 1 Multidrug Resistance Gene Clusters in Salmonella Enterica Serovar Agona Isolated in Belgium in 1992 to 2002.” Antimicrobial Agents and Chemotherapy, vol. 48, no. 7, 2004, pp. 2510–2517., doi:10.1128/aac.48.7.2510-2517.2004.', '15215102', '', '', '', '', '']
+211 No strain name, skipping strain ['SGI1-G', '', 'Contains the pse-1 casette array with the additional insertion of the orf513/dfrA10 region, confers resistance to streptomycin-spectinomycin', '', '', '', '', '', '', '', 'Doublet, B., et al. "Salmonella Genomic Island 1 Multidrug Resistance Gene Clusters in Salmonella Enterica Serovar Agona Isolated in Belgium in 1992 to 2002." Antimicrobial Agents and Chemotherapy, vol. 48, no. 7, 2004, pp. 2510-2517., doi:10.1128/aac.48.7.2510-2517.2004.', '15215102', '', '', '', '', '']
 211 gi:202 strain:None seq:None source:210 associated
 212 gi:203 strain:97 seq:None source:211 associated
-213 No strain name, skipping strain ['SGI1-I', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Boyd, D. A., et al. “Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340–344., doi:10.1128/aac.00902-07. ; Levings, R. S., et al. “The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars.” Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401–4409., doi:10.1128/jb.187.13.4401-4409.2005.', '18025121 ; 15968049', '', '', '', '', '']
+213 No strain name, skipping strain ['SGI1-I', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Boyd, D. A., et al. "Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China." Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340-344., doi:10.1128/aac.00902-07. ; Levings, R. S., et al. "The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars." Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401-4409., doi:10.1128/jb.187.13.4401-4409.2005.', '18025121 ; 15968049', '', '', '', '', '']
 213 gi:204 strain:None seq:None source:212 associated
-214 No strain name, skipping strain ['SGI1-J', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Levings, R. S., et al. “The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars.” Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401–4409., doi:10.1128/jb.187.13.4401-4409.2005.', '15968049', '', '', '', '', '']
+214 No strain name, skipping strain ['SGI1-J', '', 'Contains the dfrA1-orfC cassette array, which confers for the a resistance to trimethoprim', '', '', '', '', '', '', '', 'Levings, R. S., et al. "The Genomic Island SGI1, Containing the Multiple Antibiotic Resistance Region of Salmonella Enterica Serovar Typhimurium DT104 or Variants of It, Is Widely Distributed in Other S. Enterica Serovars." Journal of Bacteriology, vol. 187, no. 13, 2005, pp. 4401-4409., doi:10.1128/jb.187.13.4401-4409.2005.', '15968049', '', '', '', '', '']
 214 gi:205 strain:None seq:None source:213 associated
 215 strains: duplicate  (86, 'Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_321 chromosome', 'CP027410.1')
 215 strains: discarding ('Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome', 'CP027410.1')
@@ -358,29 +352,29 @@
 217 gi:208 strain:99 seq:175 source:216 associated
 218 gi:209 strain:100 seq:None source:217 associated
 219 gi:210 strain:101 seq:None source:218 associated
-220 No strain name, skipping strain ['SGI1-N', '', 'Unspecified ', '', '', '', '', '', '', '', 'Levings, R. S., et al. “SGI1-K, a Variant of the SGI1 Genomic Island Carrying a Mercury Resistance Region, in Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 51, no. 1, 2006, pp. 317–323., doi:10.1128/aac.01229-06.', '17088481', '', '', '', '', '']
+220 No strain name, skipping strain ['SGI1-N', '', 'Unspecified ', '', '', '', '', '', '', '', 'Levings, R. S., et al. "SGI1-K, a Variant of the SGI1 Genomic Island Carrying a Mercury Resistance Region, in Salmonella Enterica Serovar Kentucky." Antimicrobial Agents and Chemotherapy, vol. 51, no. 1, 2006, pp. 317-323., doi:10.1128/aac.01229-06.', '17088481', '', '', '', '', '']
 220 gi:211 strain:None seq:None source:219 associated
-221 No strain name, skipping strain ['SGI1-O', '', 'Contains the dfrA1 and sul1 genes, conferring resistance to trimethoprim and sulphonamides', '', '', '', '', '', '', '', 'Boyd, D. A., et al. “Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340–344., doi:10.1128/aac.00902-07.', '18025121', '', '', '', '', '']
+221 No strain name, skipping strain ['SGI1-O', '', 'Contains the dfrA1 and sul1 genes, conferring resistance to trimethoprim and sulphonamides', '', '', '', '', '', '', '', 'Boyd, D. A., et al. "Salmonella Genomic Island 1 (SGI1), Variant SGI1-I, and New Variant SGI1-O in Proteus Mirabilis Clinical and Food Isolates from China." Antimicrobial Agents and Chemotherapy, vol. 52, no. 1, 2007, pp. 340-344., doi:10.1128/aac.00902-07.', '18025121', '', '', '', '', '']
 221 gi:212 strain:None seq:None source:220 associated
-222 No strain name, skipping strain ['SGI1-P', '', 'Contains the IS1359 insertion sequence element (also called ISVch4), suspected of conferring multidrug resistance', '', '', '', '', '', '', '', 'Doublet, B., et al. “Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745–3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
+222 No strain name, skipping strain ['SGI1-P', '', 'Contains the IS1359 insertion sequence element (also called ISVch4), suspected of conferring multidrug resistance', '', '', '', '', '', '', '', 'Doublet, B., et al. "Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky." Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745-3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
 222 gi:213 strain:None seq:None source:221 associated
-223 No strain name, skipping strain ['Salmonella Genomic Island 1-Q (SGI1-Q) [SGI1-Q1, SGI1-Q2, and SGI1-Q3]', '', 'An IS26¬†element is inserted in place of the MDR region of SGI1, leads to a higher diversity of multi-drug resistant phenotypes.', '', '', '', '', '', '', '', 'Doublet, B., et al. “Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky.” Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745–3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
+223 No strain name, skipping strain ['Salmonella Genomic Island 1-Q (SGI1-Q) [SGI1-Q1, SGI1-Q2, and SGI1-Q3]', '', 'An IS26 element is inserted in place of the MDR region of SGI1, leads to a higher diversity of multi-drug resistant phenotypes.', '', '', '', '', '', '', '', 'Doublet, B., et al. "Novel Insertion Sequence- and Transposon-Mediated Genetic Rearrangements in Genomic Island SGI1 of Salmonella Enterica Serovar Kentucky." Antimicrobial Agents and Chemotherapy, vol. 52, no. 10, 2008, pp. 3745-3754., doi:10.1128/aac.00525-08.', '18676889', '', '', '', '', '']
 223 gi:214 strain:None seq:None source:222 associated
-224 No strain name, skipping strain ['SGI1-R', '', 'Unspecified ', '', '', '', '', '', '', '', 'Djordjevic, S. P., et al. “Emergence and Evolution of Multiply Antibiotic-Resistant Salmonella Enterica Serovar Paratyphi B D-Tartrate-Utilizing Strains Containing SGI1.” Antimicrobial Agents and Chemotherapy, vol. 53, no. 6, 2009, pp. 2319–2326., doi:10.1128/aac.01532-08.', '19332668', '', '', '', '', '']
+224 No strain name, skipping strain ['SGI1-R', '', 'Unspecified ', '', '', '', '', '', '', '', 'Djordjevic, S. P., et al. "Emergence and Evolution of Multiply Antibiotic-Resistant Salmonella Enterica Serovar Paratyphi B D-Tartrate-Utilizing Strains Containing SGI1." Antimicrobial Agents and Chemotherapy, vol. 53, no. 6, 2009, pp. 2319-2326., doi:10.1128/aac.01532-08.', '19332668', '', '', '', '', '']
 224 gi:215 strain:None seq:None source:223 associated
 225 gi:216 strain:102 seq:None source:224 associated
 226 gi:217 strain:103 seq:None source:225 associated
-227 No strain name, skipping strain ['SGI1-U', '', 'Unspecified ', '', '', '', '', '', '', '', 'Bi, Shuilian, et al. “New Variant Salmonella Genomic Island 1-U in Proteus Mirabilis Clinical and Food Isolates from South China.” Journal of Antimicrobial Chemotherapy, vol. 66, no. 5, 2011, pp. 1178–1179., doi:10.1093/jac/dkr030.', '21393148', '', '', '', '', '']
+227 No strain name, skipping strain ['SGI1-U', '', 'Unspecified ', '', '', '', '', '', '', '', 'Bi, Shuilian, et al. "New Variant Salmonella Genomic Island 1-U in Proteus Mirabilis Clinical and Food Isolates from South China." Journal of Antimicrobial Chemotherapy, vol. 66, no. 5, 2011, pp. 1178-1179., doi:10.1093/jac/dkr030.', '21393148', '', '', '', '', '']
 227 gi:218 strain:None seq:None source:226 associated
-228 No strain name, skipping strain ['SGI1-V', '', 'Encodes for resistance to quinolones', '', '', '', '', '42.9', '', '', 'Siebor, Eliane, and Catherine Neuwirth. “The New Variant of Salmonella Genomic Island 1 (SGI1-V) from a Proteus Mirabilis French Clinical Isolate Harbours BlaVEB-6 and qnrA1 in the Multiple Antibiotic Resistance Region.” Journal of Antimicrobial Chemotherapy, vol. 66, no. 11, 2011, pp. 2513–2520., doi:10.1093/jac/dkr335.', '21846670', '', '', '', '', '']
+228 No strain name, skipping strain ['SGI1-V', '', 'Encodes for resistance to quinolones', '', '', '', '', '42.9', '', '', 'Siebor, Eliane, and Catherine Neuwirth. "The New Variant of Salmonella Genomic Island 1 (SGI1-V) from a Proteus Mirabilis French Clinical Isolate Harbours BlaVEB-6 and qnrA1 in the Multiple Antibiotic Resistance Region." Journal of Antimicrobial Chemotherapy, vol. 66, no. 11, 2011, pp. 2513-2520., doi:10.1093/jac/dkr335.', '21846670', '', '', '', '', '']
 228 gi:219 strain:None seq:None source:227 associated
-229 No strain name, skipping strain ['SGI1-W', '', 'Confers resistance to spectinomycin, streptomycin, and lincosamides', '', '', '', '', '43', '', '', 'Soliman, Ahmed M., et al. “First Report in Africa of Two Clinical Isolates of Proteus Mirabilis Carrying Salmonella Genomic Island (SGI1) Variants, SGI1- Pm ABB and SGI1-W.” Infection, Genetics and Evolution, vol. 51, 2017, pp. 132–137., doi:10.1016/j.meegid.2017.03.029.', '28359833', '', '', '', '', '']
+229 No strain name, skipping strain ['SGI1-W', '', 'Confers resistance to spectinomycin, streptomycin, and lincosamides', '', '', '', '', '43', '', '', 'Soliman, Ahmed M., et al. "First Report in Africa of Two Clinical Isolates of Proteus Mirabilis Carrying Salmonella Genomic Island (SGI1) Variants, SGI1- Pm ABB and SGI1-W." Infection, Genetics and Evolution, vol. 51, 2017, pp. 132-137., doi:10.1016/j.meegid.2017.03.029.', '28359833', '', '', '', '', '']
 229 gi:220 strain:None seq:None source:228 associated
-230 No strain name, skipping strain ['SGI1-X', '', 'Contains the¬†dfrA25¬†gene cassette, common region 1 (CR1), and fluoroquinolone resistance gene¬†qnrB2', '', '', '', '', '11', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
+230 No strain name, skipping strain ['SGI1-X', '', 'Contains the dfrA25 gene cassette, common region 1 (CR1), and fluoroquinolone resistance gene qnrB2', '', '', '', '', '11', '', '', 'Lei, Chang-Wei, et al. "Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China." Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570-7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
 230 gi:221 strain:None seq:None source:229 associated
-231 No strain name, skipping strain ['SGI1-Y', '', 'Contains the aacCA5-aadA7 gene cassette, hypothesized to play a similar role to SGI1-B', '', '', '', '', '', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
+231 No strain name, skipping strain ['SGI1-Y', '', 'Contains the aacCA5-aadA7 gene cassette, hypothesized to play a similar role to SGI1-B', '', '', '', '', '', '', '', 'Lei, Chang-Wei, et al. "Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China." Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570-7572., doi:10.1128/aac.03992-14.', '25267683', '', '', '', '', '']
 231 gi:222 strain:None seq:None source:230 associated
-232 No strain name, skipping strain ['SGI1-Z', '', 'Contains a dfrA12-orfF-aadA2 cassette array conferring resistance to trimethoprim, spectinomycin, and streptomycin', '', '', '', '', '34.1', '', '', 'Lei, Chang-Wei, et al. “Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China.” Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570–7572., doi:10.1128/aac.03992-14. ; Qin, Shangshang, et al. “Emergence of Extensively Drug-Resistant Proteus Mirabilis Harboring a Conjugative NDM-1 Plasmid and a Novel Salmonella Genomic Island 1 Variant, SGI1-Z.” Antimicrobial Agents and Chemotherapy, vol. 59, no. 10, 2015, pp. 6601–6604., doi:10.1128/aac.00292-15.', '25267683 ; 26195511', '', '', '', '', '']
+232 No strain name, skipping strain ['SGI1-Z', '', 'Contains a dfrA12-orfF-aadA2 cassette array conferring resistance to trimethoprim, spectinomycin, and streptomycin', '', '', '', '', '34.1', '', '', 'Lei, Chang-Wei, et al. "Molecular Characteristics of Salmonella Genomic Island 1 in Proteus Mirabilis Isolates from Poultry Farms in China." Antimicrobial Agents and Chemotherapy, vol. 58, no. 12, 2014, pp. 7570-7572., doi:10.1128/aac.03992-14. ; Qin, Shangshang, et al. "Emergence of Extensively Drug-Resistant Proteus Mirabilis Harboring a Conjugative NDM-1 Plasmid and a Novel Salmonella Genomic Island 1 Variant, SGI1-Z." Antimicrobial Agents and Chemotherapy, vol. 59, no. 10, 2015, pp. 6601-6604., doi:10.1128/aac.00292-15.', '25267683 ; 26195511', '', '', '', '', '']
 232 gi:223 strain:None seq:None source:231 associated
 233 GC provided but no path, dropping GC data
 233 gi:224 strain:86 seq:176 source:232 associated
@@ -516,7 +510,7 @@
 305 gi:295 strain:139 seq:212 source:303 associated
 306 GC provided but no path, dropping GC data
 306 gi:296 strain:142 seq:213 source:304 associated
-307 No strain name, skipping strain ['Shigella pathogenicity island 0 (SHI-0)', '', '', '', '', '', '', '', '', '', 'Nie, Huan, et al. “Complete Genome Sequence of Shigella Flexneri 5b and Comparison with Shigella Flexneri 2a.” BMC Genomics, vol. 7, no. 1, 6 July 2006, p. 173., doi:10.1186/1471-2164-7-173.', '16822325', '', '', '', '', '']
+307 No strain name, skipping strain ['Shigella pathogenicity island 0 (SHI-0)', '', '', '', '', '', '', '', '', '', 'Nie, Huan, et al. "Complete Genome Sequence of Shigella Flexneri 5b and Comparison with Shigella Flexneri 2a." BMC Genomics, vol. 7, no. 1, 6 July 2006, p. 173., doi:10.1186/1471-2164-7-173.', '16822325', '', '', '', '', '']
 307 gi:297 strain:None seq:None source:305 associated
 308 GC provided but no path, dropping GC data
 308 gi:298 strain:150 seq:214 source:306 associated
@@ -577,7 +571,7 @@
 349 gi:339 strain:176 seq:None source:347 associated
 350 gi:340 strain:177 seq:None source:348 associated
 351 gi:341 strain:178 seq:None source:349 associated
-352 No strain name, skipping strain ['SaRIfusB (S. saprophyticus pathogenicity island fusB)', '', '', '29.9', '', '', '', '16.7', '', '', "O'neill, A. J., et al. “Characterization of the Epidemic European Fusidic Acid-Resistant Impetigo Clone of Staphylococcus Aureus.” Journal of Clinical Microbiology, vol. 45, no. 5, 2007, pp. 1505–1510., doi:10.1128/jcm.01984-06. ; Subedi, A., et al. “Sequence Analysis Reveals Genetic Exchanges and Intraspecific Spread of SaPI2, a Pathogenicity Island Involved in Menstrual Toxic Shock.” Microbiology, vol. 153, no. 10, 2007, pp. 3235–3245., doi:10.1099/mic.0.2007/006932-0.", '17344365 ; 17906123', '', '', '', '', '']
+352 No strain name, skipping strain ['SaRIfusB (S. saprophyticus pathogenicity island fusB)', '', '', '29.9', '', '', '', '16.7', '', '', 'O\'neill, A. J., et al. "Characterization of the Epidemic European Fusidic Acid-Resistant Impetigo Clone of Staphylococcus Aureus." Journal of Clinical Microbiology, vol. 45, no. 5, 2007, pp. 1505-1510., doi:10.1128/jcm.01984-06. ; Subedi, A., et al. "Sequence Analysis Reveals Genetic Exchanges and Intraspecific Spread of SaPI2, a Pathogenicity Island Involved in Menstrual Toxic Shock." Microbiology, vol. 153, no. 10, 2007, pp. 3235-3245., doi:10.1099/mic.0.2007/006932-0.', '17344365 ; 17906123', '', '', '', '', '']
 352 GC provided but no path, dropping GC data
 352 gi:342 strain:None seq:None source:350 associated
 353 gi:343 strain:179 seq:227 source:351 associated
@@ -805,6 +799,7 @@ sequence 69: Calculated gc 54.2 doesn't match stored gc 55.0
 sequence 70: Calculated gc 61.3 doesn't match stored gc None
 sequence 73: Calculated gc 32.6 doesn't match stored gc 32.2
 sequence 74: Calculated gc 34.4 doesn't match stored gc None
+sequence 75: Calculated gc 32.9 doesn't match stored gc None
 sequence 76: Calculated gc 34.1 doesn't match stored gc None
 sequence 77: Calculated gc 47.9 doesn't match stored gc 48.6
 sequence 78: Calculated gc 38.5 doesn't match stored gc 39.0
@@ -1028,45 +1023,45 @@ sequence 361: Calculated gc 42.6 doesn't match stored gc 42.5
 sequence 362: Calculated gc 41.3 doesn't match stored gc None
 sequence 363: Calculated gc 51.3 doesn't match stored gc None
 files detected in sequences/ that are not present in the database:
-sequences/aadE-sat4-aphA-3.fasta
-sequences/SPI1.fasta
-sequences/BA000033.2_839705_853484.fasta
-sequences/VSP-II_2535467_2562331.fasta
-sequences/BA000033.2_1893263_1922552.fasta
-sequences/SHI-3.fasta
-sequences/CP007275.1_1210087_1241381.fasta
-sequences/PAI-CFT073-asnt_(HPI).fasta
-sequences/SGI-K.fasta
-sequences/SRL.fasta
-sequences/PAI-II(APECO1).fasta
-sequences/S._Typh GI-1.fasta
-sequences/SaPI1-RN4282.fasta
-sequences/PAI_III(536) PAI-CFT073-serX PAI I(Nissle1917).fasta
-sequences/SPI2.fasta
-sequences/SL1334.fasta
 sequences/phi-CFT073-potB.fasta
-sequences/SaPI1.fasta
-sequences/SaRIfusB.fasta
-sequences/SPI3.fasta
-sequences/SGI2.fasta
-sequences/SGI1-Pm2CHAMA.fasta
-sequences/EcoliIHE3034.fasta
-sequences/VSP-I_1915730_2025761.fasta
-sequences/BA000033.2_1529381_1574930.fasta
 sequences/phi-CFT073-smptB.fasta
-sequences/PAI-CFT073-icdA.fasta
-sequences/BA000033.2_2098129_2100838.fasta
-sequences/LT2.fasta
-sequences/ATCC_19438 Island.fasta
-sequences/BA000033.2_2046605_2088749.fasta
-sequences/PAI-CFT073-metV.fasta
-sequences/SPI5.fasta
-sequences/GimA.fasta
-sequences/BA000033.2_416307_450787.fasta
+sequences/BA000033.2_1893263_1922552.fasta
 sequences/SHI-1.fasta
+sequences/VSP-I_1915730_2025761.fasta
 sequences/SPI6.fasta
+sequences/SPI3.fasta
+sequences/VSP-II_2535467_2562331.fasta
+sequences/GimA.fasta
+sequences/SGI-K.fasta
+sequences/EcoliIHE3034.fasta
+sequences/PAI-II(APECO1).fasta
+sequences/PAI-CFT073-asnt_(HPI).fasta
+sequences/ATCC_19438 Island.fasta
+sequences/SRL.fasta
+sequences/PAI-CFT073-icdA.fasta
+sequences/BA000033.2_416307_450787.fasta
 sequences/SPI4.fasta
-sequences/SHI-2.fasta
-sequences/SGI1-K7.fasta
-sequences/PAI_V(536) PAI I(APECO1).fasta
+sequences/SaPI1-RN4282.fasta
+sequences/SL1334.fasta
+sequences/SGI1-Pm2CHAMA.fasta
+sequences/BA000033.2_2098129_2100838.fasta
+sequences/CP007275.1_1210087_1241381.fasta
+sequences/BA000033.2_1529381_1574930.fasta
+sequences/SGI2.fasta
+sequences/SPI5.fasta
+sequences/PAI-CFT073-metV.fasta
+sequences/SPI1.fasta
+sequences/SPI2.fasta
+sequences/BA000033.2_2046605_2088749.fasta
+sequences/S._Typh GI-1.fasta
+sequences/LT2.fasta
+sequences/SaRIfusB.fasta
+sequences/BA000033.2_839705_853484.fasta
 sequences/SaPI2.fasta
+sequences/aadE-sat4-aphA-3.fasta
+sequences/SHI-3.fasta
+sequences/PAI_V(536) PAI I(APECO1).fasta
+sequences/PAI_III(536) PAI-CFT073-serX PAI I(Nissle1917).fasta
+sequences/SGI1-K7.fasta
+sequences/SaPI1.fasta
+sequences/SHI-2.fasta
