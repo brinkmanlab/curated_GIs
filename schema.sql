@@ -44,7 +44,7 @@ create table if not exists sources
     start integer,  -- GI start relative to strain reference genome
     end integer,  -- GI end relative to strain reference genome
     size integer,  -- GI size
-    seq integer,
+    seq integer unique,
     foreign key(gi) references genomic_islands(id),
     foreign key(strain) references strains(id),
     foreign key(seq) references sequences(id)

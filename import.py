@@ -228,7 +228,10 @@ with open('GIs.csv') as f:
                     seq = conn.execute(f'''INSERT INTO sequences (gi, gc, path) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
                 except sqlite3.IntegrityError:
                     seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, gc, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
-        source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', (gi, strain, size, start, end, seq)).fetchone()['id']
+        try:
+            source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', (gi, strain, size, start, end, seq)).fetchone()['id']
+        except sqlite3.IntegrityError:
+            source = dup(line, 'sources', dict(gi=gi, strain=strain, size=size, start=start, end=end, seq=seq), conn.execute(f'''SELECT id, gi, size, strain, start, end, seq FROM sources WHERE strain = ? and start = ? and end = ?;''', (strain, start, end)).fetchone())
 
         # publications
         publications = row[10].replace(',', ';').replace('and', ';').split(';')
@@ -263,7 +266,7 @@ with open('strain_names.dump', mode='wb') as f:
 print("Validating database...")
 seqs = dict()
 paths = []
-for id, gc, path, name, gi in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi from sequences s LEFT JOIN genomic_islands g on s.gi = g.id;'''):
+for id, gc, path, name, gi, strain in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
     # TODO attempt to recover gbuid by searching sequence on NCBI
     paths.append(path)
     if not os.path.isfile(path):
@@ -271,15 +274,15 @@ for id, gc, path, name, gi in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name
         continue
     records = list(SeqIO.parse(path, 'fasta'))
     if len(records) != 1:
-        print(f'')
+        print(f'multiple records found in {path}')
     for record in records:
-        # verify seq.id uniqueness and accuracy
-        if record.id in seqs:
-            print(f"sequence {id}: duplicate sequence accession ({record.id}) found in {path} and {seqs[record.id]}")
-        else:
-            seqs[record.id] = path
-            # change accessions in fastas to sequence ids to backlink to database from blast output
-            record.id = f'{name}|{gi}|{id}'
+        # change accessions in fastas to sequence ids to backlink to database from blast output
+        record.name = f'{name}|{gi}|{id}'
+        record.description = strain
+        # verify seq.name uniqueness and accuracy
+        if record.name in seqs:
+            print(f"sequence {id}: duplicate sequence accession ({record.name}) found in {path} and ({seqs[record.name][0]}) {seqs[record.name][1]}")
+        seqs[record.name] = [id, path]
 
         seq_gc = round(GC(record.seq), 1)
         if gc != seq_gc:

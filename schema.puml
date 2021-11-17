@@ -32,7 +32,7 @@ entity "Source" as src {
     start : int
     end : int
     size : int
-    seq : int <<FK>>
+    seq : int unique <<FK>>
 }
 
 entity "Strain" as strain {
