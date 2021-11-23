@@ -228,10 +228,11 @@ with open('GIs.csv') as f:
                     seq = conn.execute(f'''INSERT INTO sequences (gi, gc, path) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
                 except sqlite3.IntegrityError:
                     seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, gc, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
+        vals = dict(gi=gi, strain=strain, size=size, start=start, end=end, seq=seq)
         try:
-            source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', (gi, strain, size, start, end, seq)).fetchone()['id']
+            source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
         except sqlite3.IntegrityError:
-            source = dup(line, 'sources', dict(gi=gi, strain=strain, size=size, start=start, end=end, seq=seq), conn.execute(f'''SELECT id, gi, size, strain, start, end, seq FROM sources WHERE strain = ? and start = ? and end = ?;''', (strain, start, end)).fetchone())
+            source = dup(line, 'sources', vals, conn.execute(f'''SELECT id, gi, size, strain, start, end, seq FROM sources WHERE strain = ? and start = ? and end = ?;''', (strain, start, end)).fetchone())
 
         # publications
         publications = row[10].replace(',', ';').replace('and', ';').split(';')
@@ -266,8 +267,7 @@ with open('strain_names.dump', mode='wb') as f:
 print("Validating database...")
 seqs = dict()
 paths = []
-for id, gc, path, name, gi, strain in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
-    # TODO attempt to recover gbuid by searching sequence on NCBI
+for id, gc, path, name, gi, strain, gbuid in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name, s.gbuid from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
     paths.append(path)
     if not os.path.isfile(path):
         print(f"sequence {id}: {path} does not exist")
@@ -277,7 +277,7 @@ for id, gc, path, name, gi, strain in conn.execute(f'''SELECT s.id, s.gc, s.path
         print(f'multiple records found in {path}')
     for record in records:
         # change accessions in fastas to sequence ids to backlink to database from blast output
-        record.name = f'{name}|{gi}|{id}'
+        record.id = record.name = f'{name.replace(" ", "_")}|{gi}|{id}'
         record.description = strain
         # verify seq.name uniqueness and accuracy
         if record.name in seqs:
@@ -287,6 +287,10 @@ for id, gc, path, name, gi, strain in conn.execute(f'''SELECT s.id, s.gc, s.path
         seq_gc = round(GC(record.seq), 1)
         if gc != seq_gc:
             print(f"sequence {id}: Calculated gc {seq_gc} doesn't match stored gc {gc}")
+
+        if not gbuid:
+            # TODO attempt to recover gbuid by searching sequence on NCBI
+            pass
 
     with open(path, 'w') as f:
         SeqIO.write(records, f, 'fasta')
