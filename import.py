@@ -288,6 +288,9 @@ for id, gc, path, name, gi, strain, gbuid in conn.execute(f'''SELECT s.id, s.gc,
         if gc != seq_gc:
             print(f"sequence {id}: Calculated gc {seq_gc} doesn't match stored gc {gc}")
 
+        if len(record.seq) > 1000000:
+            print(f"Warning: {path} contains a sequence greater than 1Mb in length")
+
         if not gbuid:
             # TODO attempt to recover gbuid by searching sequence on NCBI
             pass
@@ -295,7 +298,7 @@ for id, gc, path, name, gi, strain, gbuid in conn.execute(f'''SELECT s.id, s.gc,
     with open(path, 'w') as f:
         SeqIO.write(records, f, 'fasta')
 
-extra = set(f'sequences/{f}' for f in os.listdir('sequences/')) - set(paths)
+extra = set(f'sequences/{f}' for f in os.listdir('sequences/') if f.endswith('.fasta') or f.endswith('.fna')) - set(paths)
 if len(extra) > 0:
     extra = '\n'.join(extra)
     print(f"files detected in sequences/ that are not present in the database:\n{extra}")
