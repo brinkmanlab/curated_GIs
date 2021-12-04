@@ -116,10 +116,12 @@ with open('GIs.csv') as f:
         line += 1
         # genomic_islands
         gi = None
-        name = row[0].strip().replace(' ', ' ')
+        names = row[0].strip().replace(' ', ' ').split('/')
+        name = names[0]
         if not name:
             print(line, "No GI name, substituting 'cGI'", row)
             name = "cGI"
+            names = [name]
         type = row[1].strip().replace(' ', ' ') or None
         role = row[2].strip().replace(' ', ' ') or None
         # TODO deduplicate these variables from below
@@ -158,7 +160,8 @@ with open('GIs.csv') as f:
             print(line, 'No GI, skipping', row)
             continue
 
-        conn.execute(f'''INSERT OR IGNORE INTO alternate_names (gi, name) VALUES (?,?);''', (gi, name))
+        for n in names:
+            conn.execute(f'''INSERT OR IGNORE INTO alternate_names (gi, name) VALUES (?,?);''', (gi, n))
 
         # strains
         strain = None
