@@ -31,6 +31,7 @@ create table if not exists sequences
     gi    integer not null,
     gbuid text unique,             -- Genbank unique id for GI sequence
     gc    real,                    -- % GC composition
+    length integer,                -- Sequence length
     path  text    not null unique, -- path to fasta relative to this db
     foreign key (gi) references genomic_islands (id)
 );

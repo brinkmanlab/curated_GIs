@@ -53,7 +53,7 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
         records[0].description = records[0].description.replace('ﬄ', 'ffl').replace('\u2010', '-')
         with open(path, 'w') as file:
             SeqIO.write(records, file, 'fasta')
-        return round(GC(records[0].seq), 1)
+        return round(GC(records[0].seq), 1), len(records[0].seq)
     except HTTPError:
         print(line, gbuid, "No sequence returned by NCBI or bad request")
         return None
@@ -193,7 +193,7 @@ with open('GIs.csv') as f:
             if path:
                 path = 'sequences/' + path
                 if not os.path.isfile(path) and gbuid:
-                    seq_gc = fetch(line, gbuid, path)
+                    seq_gc, seq_len = fetch(line, gbuid, path)
                     if seq_gc is None:
                         path = None
                     elif gc is None:
@@ -201,13 +201,14 @@ with open('GIs.csv') as f:
                 elif os.path.isfile(path):
                     for record in SeqIO.parse(path, 'fasta'):
                         seq_gc = round(GC(record.seq), 1)  # should only be one record
+                        seq_len = len(record.seq)
             if gc is not None and gc != seq_gc:
                 print(f"{line} Calculated gc {seq_gc} doesn't match stored gc {gc}")
-            vals = dict(gi=gi, gbuid=gbuid, gc=gc, path=path)
+            vals = dict(gi=gi, gbuid=gbuid, gc=gc, length=seq_len, path=path)
             try:
-                seq = conn.execute(f'''INSERT INTO sequences (gi, gbuid, gc, path) VALUES (?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
+                seq = conn.execute(f'''INSERT INTO sequences (gi, gbuid, gc, length, path) VALUES (?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
-                seq = dup(line, 'sequences', vals, conn.execute(f'''SELECT id, gi, gbuid, gc, path FROM sequences WHERE gbuid = ?;''', (gbuid,)).fetchone())
+                seq = dup(line, 'sequences', vals, conn.execute(f'''SELECT id, gi, gbuid, gc, length, path FROM sequences WHERE gbuid = ?;''', (gbuid,)).fetchone())
 
         # source
         source = None
@@ -221,16 +222,16 @@ with open('GIs.csv') as f:
             id = '_'.join((strain_gbuid, str(start), str(end)))
             path = 'sequences/' + id + '.fna'
             if not os.path.isfile(path):
-                gc = fetch(line, strain_gbuid, path, slice(start, end + 1), id=id, description=role)
+                gc, seq_len = fetch(line, strain_gbuid, path, slice(start, end + 1), id=id, description=role)
                 if gc is None:
                     print(line, 'Unable to fetch strain for source', strain_gbuid)
                     path = None
             if path:
-                vals = dict(gi=gi, gc=gc, path=path)
+                vals = dict(gi=gi, gc=gc, length=seq_len, path=path)
                 try:
-                    seq = conn.execute(f'''INSERT INTO sequences (gi, gc, path) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
+                    seq = conn.execute(f'''INSERT INTO sequences (gi, gc, length, path) VALUES (?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
                 except sqlite3.IntegrityError:
-                    seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, gc, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
+                    seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, gc, length, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
         vals = dict(gi=gi, strain=strain, size=size, start=start, end=end, seq=seq)
         try:
             source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
