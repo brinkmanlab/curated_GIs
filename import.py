@@ -179,9 +179,10 @@ with open('GIs.csv') as f:
         # sequence
         seq = None
         seq_gc = None
+        seq_len = None
         try: gc = float(row[3].strip()) or None
         except: gc = None
-        paths = row[13].replace(',', ';').replace('and', ';').split(';') or None
+        paths = row[13].replace(',', ';').replace(' and ', ';').split(';') or None
         paths = list(p for p in paths if p.strip())
         gbuid = row[6].strip() or None
         if gc and not paths and not gbuid:
@@ -239,15 +240,20 @@ with open('GIs.csv') as f:
             source = dup(line, 'sources', vals, conn.execute(f'''SELECT id, gi, size, strain, start, end, seq FROM sources WHERE strain = ? and start = ? and end = ?;''', (strain, start, end)).fetchone())
 
         # publications
-        publications = row[10].replace(',', ';').replace('and', ';').split(';')
+        publications = row[10].split(';')  # .replace(',', ';')
         for publication in publications:
+            publication = publication.replace(' ', ' ').strip()
+            if not publication:
+                continue
+            doi = (re.search('(?<=doi\.org\/)\S+|(?<=doi:)\S+|(?<=doi: )\S+', publication) or [''])[0].rstrip('.')
             try:
-                conn.execute(f'''INSERT INTO publications (source, publication) VALUES (?, ?);''', (source, publication.replace(' ', ' ').strip()))
+                publication_id = conn.execute(f'''INSERT INTO publications (publication, doi) VALUES (?,?) RETURNING id;''', (publication, doi)).fetchone()['id']
             except sqlite3.IntegrityError:
-                pass  # not much to do in this case
+                publication_id = conn.execute(f'''SELECT id FROM publications WHERE publication = ?;''', (publication,)).fetchone()['id']
+            conn.execute(f'''INSERT INTO source_pub_assoc (source, publication) VALUES (?, ?);''', (source, publication_id))
 
         # pmids
-        pmids = row[11].replace(',', ';').replace('and', ';').split(';')
+        pmids = row[11].replace(',', ';').replace(' and ', ';').split(';')
         if re.search('^\d+$', row[12]):
             pmids.append(row[12])
         for pmid in pmids:

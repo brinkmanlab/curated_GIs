@@ -63,7 +63,16 @@ create table if not exists pmids
 create table if not exists publications
 -- Publications for sources
 (
+    id          integer not null primary key autoincrement,
+    publication text    not null unique,
+    doi         text
+);
+
+create table if not exists source_pub_assoc
+-- Source - Publication associations
+(
     source      integer not null,
-    publication text    not null,
-    foreign key (source) references sources (id)
+    publication integer not null,
+    foreign key (source) references sources (id),
+    foreign key (publication) references publications (id)
 );
