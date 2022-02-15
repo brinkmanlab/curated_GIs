@@ -246,10 +246,11 @@ with open('GIs.csv') as f:
             if not publication:
                 continue
             doi = (re.search('(?<=doi\.org\/)\S+|(?<=doi:)\S+|(?<=doi: )\S+', publication) or [''])[0].rstrip('.')
+            vals = dict(publication=publication, doi=doi)
             try:
-                publication_id = conn.execute(f'''INSERT INTO publications (publication, doi) VALUES (?,?) RETURNING id;''', (publication, doi)).fetchone()['id']
+                publication_id = conn.execute(f'''INSERT INTO publications (publication, doi) VALUES (?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
-                publication_id = conn.execute(f'''SELECT id FROM publications WHERE publication = ?;''', (publication,)).fetchone()['id']
+                publication_id = dup(line, 'publications', vals, conn.execute(f'''SELECT id, publication, doi FROM publications WHERE publication = ? OR doi = ?;''', tuple(vals.values())).fetchone())
             conn.execute(f'''INSERT INTO source_pub_assoc (source, publication) VALUES (?, ?);''', (source, publication_id))
 
         # pmids

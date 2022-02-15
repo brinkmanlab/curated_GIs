@@ -65,7 +65,7 @@ create table if not exists publications
 (
     id          integer not null primary key autoincrement,
     publication text    not null unique,
-    doi         text
+    doi         text    unique
 );
 
 create table if not exists source_pub_assoc
