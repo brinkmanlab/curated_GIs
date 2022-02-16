@@ -11,6 +11,7 @@ from Bio import Entrez, SeqIO
 from Bio.SeqUtils import GC
 
 Entrez.email = 'nolan_w@sfu.ca'
+Entrez.api_key = '3aa8b3eeefd28c87a8894c592cf54f305f09'
 
 stdout = sys.stdout
 sys.stdout = open('ingest.log', 'w')
@@ -165,8 +166,9 @@ with open('GIs.csv') as f:
 
         # strains
         strain = None
-        name = row[4].strip().replace(' ', ' ')  # TODO grab strain name from ncbi based on accession
+        name = row[4].strip().replace(' ', ' ')
         strain_gbuid = row[5].strip() or None
+        name = strain_name(line, strain_gbuid, name)
         vals = dict(name=name, gbuid=strain_gbuid)
         if name:
             try:
@@ -245,7 +247,7 @@ with open('GIs.csv') as f:
             publication = publication.replace(' ', ' ').strip()
             if not publication:
                 continue
-            doi = (re.search('(?<=doi\.org\/)\S+|(?<=doi:)\S+|(?<=doi: )\S+', publication) or [''])[0].rstrip('.')
+            doi = (re.search('(?<=doi\.org\/)\S+|(?<=doi:)\S+|(?<=doi: )\S+', publication) or [''])[0].rstrip('.') or None
             vals = dict(publication=publication, doi=doi)
             try:
                 publication_id = conn.execute(f'''INSERT INTO publications (publication, doi) VALUES (?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
