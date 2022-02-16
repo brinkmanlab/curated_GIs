@@ -52,14 +52,6 @@ create table if not exists sources
 );
 create index if not exists sources_seq on sources (seq);
 
-create table if not exists pmids
--- PubMed IDs for sources
-(
-    source integer not null,
-    pmid   text    not null, -- PubMed ID
-    foreign key (source) references sources (id)
-);
-
 create table if not exists publications
 -- Publications for sources
 (

@@ -42,16 +42,16 @@ entity "Strain" as strain {
     name : text !null
 }
 
-entity "PubMed IDs" as pmid {
+entity "Publications" as pub {
+    id : int <<generated>>
     --
-    source : int !null <<FK>>
-    pmid : text !null unique
+		publication : text !null unique
+		doi : text unique
 }
 
-entity "Publications" as pub {
-		--
+entity "Source-Publication Assoc" as srcpub {
 		source : int !null <<FK>>
-		publication : text unique
+		publication : int !null <<FK>>
 }
 
 seq::gi --> gi::id
@@ -59,6 +59,6 @@ an::gi --> gi::id
 src::seq --> seq::id
 src::gi --> gi::id
 src::strain --> strain::id
-pmid::source --> src::id
-pub::source --> src::id
+srcpub::source --> src::id
+srcpub::publication --> pub::id
 @enduml

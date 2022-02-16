@@ -253,18 +253,6 @@ with open('GIs.csv') as f:
                 publication_id = dup(line, 'publications', vals, conn.execute(f'''SELECT id, publication, doi FROM publications WHERE publication = ? OR doi = ?;''', tuple(vals.values())).fetchone())
             conn.execute(f'''INSERT INTO source_pub_assoc (source, publication) VALUES (?, ?);''', (source, publication_id))
 
-        # pmids
-        pmids = row[11].replace(',', ';').replace(' and ', ';').split(';')
-        if re.search('^\d+$', row[12]):
-            pmids.append(row[12])
-        for pmid in pmids:
-            pmid = pmid.strip()
-            if pmid:
-                try:
-                    conn.execute(f'''INSERT INTO pmids (source, pmid) VALUES (?,?);''', (source, pmid))
-                except sqlite3.IntegrityError:
-                    pass  # not much to do in this case
-
         print(f'{line} gi:{gi} strain:{strain} seq:{seq} source:{source} associated')
 
     for (name, gbuid), count in gis.items():
