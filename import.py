@@ -171,8 +171,8 @@ with open('GIs.csv') as f:
         if name:
             try:
                 strain = conn.execute(f'''INSERT INTO strains (name, gbuid) VALUES (?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
-            except sqlite3.IntegrityError:
-                strain = dup(line, 'strains', vals, conn.execute(f'''SELECT id, name, gbuid FROM strains WHERE name = ? AND gbuid = ? UNION SELECT id, name, gbuid FROM strains WHERE gbuid = ? LIMIT 1;''', (name, strain_gbuid, strain_gbuid)).fetchone())
+            except sqlite3.IntegrityError as e:
+                strain = dup(line, 'strains', vals, conn.execute(f'''SELECT id, name, gbuid FROM strains WHERE name = ? AND gbuid = ? UNION SELECT id, name, gbuid FROM strains WHERE gbuid = ? UNION SELECT id, name, gbuid FROM strains WHERE name = ? AND gbuid IS NULL LIMIT 1;''', (name, strain_gbuid, strain_gbuid, name)).fetchone())
         else:
             print(line, "No strain name, skipping strain", row)
 
@@ -277,7 +277,7 @@ for id, gc, path, name, gi, strain, gbuid in conn.execute(f'''SELECT s.id, s.gc,
     for record in records:
         # change accessions in fastas to sequence ids to backlink to database from blast output
         record.id = record.name = f'{name.replace(" ", "_")}|{gi}|{id}'
-        record.description = strain
+        record.description = strain or 'No associated strain'
         # verify seq.name uniqueness and accuracy
         if record.name in seqs:
             print(f"sequence {id}: duplicate sequence accession ({record.name}) found in {path} and ({seqs[record.name][0]}) {seqs[record.name][1]}")

@@ -20,19 +20,24 @@ create table if not exists strains
 -- Microbe strains
 (
     id    integer not null primary key autoincrement,
-    gbuid text unique, -- Genbank unique id for strain
+    gbuid text    unique, -- Genbank unique id for strain
     name  text    not null
+);
+-- https://stackoverflow.com/a/49846452/15446750
+create unique index if not exists `strain_name` on `strains` (
+    coalesce(gbuid, name),
+    name
 );
 
 create table if not exists sequences
 -- Genomic island DNA sequences. Multiple variant sequences can be attributed to a single island
 (
-    id    integer not null primary key autoincrement,
-    gi    integer not null,
-    gbuid text unique,             -- Genbank unique id for GI sequence
-    gc    real,                    -- % GC composition
-    length integer,                -- Sequence length
-    path  text    not null unique, -- path to fasta relative to this db
+    id     integer not null primary key autoincrement,
+    gi     integer not null,
+    gbuid  text unique,             -- Genbank unique id for GI sequence
+    gc     real,                    -- % GC composition
+    length integer,                 -- Sequence length
+    path   text    not null unique, -- path to fasta relative to this db
     foreign key (gi) references genomic_islands (id)
 );
 
@@ -57,7 +62,7 @@ create table if not exists publications
 (
     id          integer not null primary key autoincrement,
     publication text    not null unique,
-    doi         text    unique
+    doi         text unique
 );
 
 create table if not exists source_pub_assoc

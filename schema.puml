@@ -39,7 +39,7 @@ entity "Strain" as strain {
     id : int <<generated>>
     --
     gbuid : text unique
-    name : text !null
+    name : text !null unique
 }
 
 entity "Publications" as pub {
