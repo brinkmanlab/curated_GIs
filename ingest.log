@@ -18,11 +18,11 @@
 9 gi:4 strain:3 seq:8 source:8 associated
 10 genomic_islands: duplicate  (5, 'PAGI-6', None, None)
 10 genomic_islands: discarding ('PAGI-6', None, 'Contains many large regions highly similar to a cytotoxin-converting phage (ϕCTX)')
-10 Calculated gc None doesn't match stored gc 60.8
+10 Calculated gc 60.6 doesn't match stored gc 60.8
 10 publications: duplicate  (4, 'Battle SE, Rello J, Hauser AR. Genomic islands of Pseudomonas aeruginosa. FEMS Microbiol Lett. 2009 Jan 290(1):70-8. doi: 10.1111/j.1574-6968.2008.01406.x. Epub 2008 Nov 18. PMID: 19025565 PMCID: PMC2648531', '10.1111/j.1574-6968.2008.01406.x')
 10 publications: discarding ('Battle SE, Rello J, Hauser AR. Genomic islands of Pseudomonas aeruginosa. FEMS Microbiol Lett. 2009 Jan 290(1):70-8. doi: 10.1111/j.1574-6968.2008.01406.x. Epub 2008 Nov 18. PMID: 19025565 PMCID: PMC2648531.', '10.1111/j.1574-6968.2008.01406.x')
 10 gi:5 strain:3 seq:9 source:9 associated
-11 Calculated gc None doesn't match stored gc 55.8
+11 Calculated gc 55.2 doesn't match stored gc 55.8
 11 publications: duplicate  (4, 'Battle SE, Rello J, Hauser AR. Genomic islands of Pseudomonas aeruginosa. FEMS Microbiol Lett. 2009 Jan 290(1):70-8. doi: 10.1111/j.1574-6968.2008.01406.x. Epub 2008 Nov 18. PMID: 19025565 PMCID: PMC2648531', '10.1111/j.1574-6968.2008.01406.x')
 11 publications: discarding ('Battle SE, Rello J, Hauser AR. Genomic islands of Pseudomonas aeruginosa. FEMS Microbiol Lett. 2009 Jan 290(1):70-8. doi: 10.1111/j.1574-6968.2008.01406.x. Epub 2008 Nov 18. PMID: 19025565 PMCID: PMC2648531.', '10.1111/j.1574-6968.2008.01406.x')
 11 gi:8 strain:3 seq:10 source:10 associated
@@ -522,7 +522,7 @@
 236 genomic_islands: discarding ('SGI1-K7', None, 'Confers resistance to amoxicillin, amoxicillin/clavulanic acid, ticarcillin, piperacillin, cefotaxime and cefepime. Suspected of confering additional resistances.')
 236 CP027410.1 Provided strain name (Salmonella enterica subsp. enterica serovar Typhimurium strain FDAARGOS_317 chromosome) replaced with NCBI strain name (Salmonella enterica subsp. enterica serovar Typhimurium)
 236 GC provided but no path, dropping GC data
-236 source sequence: duplicate  (176, 224, 48.3, None, 'sequences/CP027410.1_4499104_4527040.fna')
+236 source sequence: duplicate  (176, 224, 44.9, 27937, 'sequences/CP027410.1_4499104_4527040.fna')
 236 source sequence: discarding (224, 50.7, None, 'sequences/CP027410.1_4499104_4527040.fna')
 236 gi:224 strain:75 seq:176 source:232 associated
 237 CP026327.1 Provided strain name (Salmonella enterica subsp. enterica serovar Kentucky strain PU131 chromosome) replaced with NCBI strain name (Salmonella enterica subsp. enterica serovar Kentucky)
@@ -1083,76 +1083,18 @@
 491 No GI name, substituting 'cGI' ['', '', 'Encodes hypothetical proteins, putative transcriptional regulators. And various phage-related genes.', '', 'Enterococcus faecium Aus0004', ' CP003351', '', '60', '1607500', '1667500', 'Lam MM, Seemann T, Bulach DM, et al. Comparative analysis of the first complete Enterococcus faecium genome. J Bacteriol. 2012 194(9):2334-2341. doi:10.1128/JB.00259-12', ' 22366422', '', '', '', '', '']
 491 gi:481 strain:25 seq:363 source:489 associated
 Validating database...
-sequence 1: Calculated gc 63.5 doesn't match stored gc None
-sequence 2: Calculated gc 66.4 doesn't match stored gc None
-sequence 3: Calculated gc 58.0 doesn't match stored gc None
-sequence 4: Calculated gc 60.6 doesn't match stored gc None
-sequence 5: Calculated gc 62.2 doesn't match stored gc None
-sequence 6: Calculated gc 55.5 doesn't match stored gc None
-multiple records found in sequences/NC_018080_2724254_2841225.fna
-multiple records found in sequences/EF611302.fna
-multiple records found in sequences/EF611303.fna
+sequence 9: Calculated gc 60.6 doesn't match stored gc 60.8
+sequence 10: Calculated gc 55.2 doesn't match stored gc 55.8
 sequence 11: Calculated gc 53.1 doesn't match stored gc 54.1
 sequence 12: Calculated gc 62.0 doesn't match stored gc 61.6
 sequence 13: Calculated gc 61.2 doesn't match stored gc 52.7
 sequence 14: Calculated gc 43.2 doesn't match stored gc 50.5
-sequence 15: Calculated gc 62.2 doesn't match stored gc None
-sequence 16: Calculated gc 54.0 doesn't match stored gc None
-sequence 17: Calculated gc 63.4 doesn't match stored gc None
-sequence 18: Calculated gc 66.0 doesn't match stored gc None
-sequence 19: Calculated gc 62.5 doesn't match stored gc None
-sequence 20: Calculated gc 65.4 doesn't match stored gc None
-sequence 21: Calculated gc 63.1 doesn't match stored gc None
-sequence 22: Calculated gc 60.6 doesn't match stored gc None
-sequence 23: Calculated gc 58.2 doesn't match stored gc None
-sequence 24: Calculated gc 63.5 doesn't match stored gc None
-sequence 25: Calculated gc 63.6 doesn't match stored gc None
-sequence 26: Calculated gc 65.5 doesn't match stored gc None
-sequence 27: Calculated gc 57.5 doesn't match stored gc None
-sequence 28: Calculated gc 64.9 doesn't match stored gc None
-sequence 29: Calculated gc 64.2 doesn't match stored gc None
-sequence 30: Calculated gc 61.4 doesn't match stored gc None
-sequence 31: Calculated gc 52.7 doesn't match stored gc None
 sequence 32: Calculated gc 59.9 doesn't match stored gc 59.7
 sequence 33: Calculated gc 57.5 doesn't match stored gc 56.4
 sequence 34: Calculated gc 65.3 doesn't match stored gc 64.7
 sequence 35: Calculated gc 63.2 doesn't match stored gc 63.3
-sequence 38: Calculated gc 57.8 doesn't match stored gc None
-sequence 39: Calculated gc 61.5 doesn't match stored gc None
-sequence 40: Calculated gc 58.8 doesn't match stored gc None
-sequence 41: Calculated gc 60.9 doesn't match stored gc None
-sequence 42: Calculated gc 65.3 doesn't match stored gc None
-sequence 43: Calculated gc 61.3 doesn't match stored gc None
-sequence 44: Calculated gc 61.7 doesn't match stored gc None
-sequence 45: Calculated gc 64.4 doesn't match stored gc None
-sequence 46: Calculated gc 59.2 doesn't match stored gc None
-sequence 47: Calculated gc 60.5 doesn't match stored gc None
-sequence 48: Calculated gc 60.2 doesn't match stored gc None
-sequence 49: Calculated gc 61.5 doesn't match stored gc None
-sequence 50: Calculated gc 55.3 doesn't match stored gc None
-sequence 51: Calculated gc 53.1 doesn't match stored gc None
-sequence 52: Calculated gc 62.0 doesn't match stored gc None
-sequence 53: Calculated gc 62.6 doesn't match stored gc None
-sequence 54: Calculated gc 43.2 doesn't match stored gc None
-sequence 55: Calculated gc 57.4 doesn't match stored gc None
-sequence 56: Calculated gc 64.5 doesn't match stored gc None
-sequence 57: Calculated gc 57.3 doesn't match stored gc None
-sequence 58: Calculated gc 63.5 doesn't match stored gc None
-sequence 59: Calculated gc 62.1 doesn't match stored gc None
-sequence 60: Calculated gc 64.3 doesn't match stored gc None
-sequence 61: Calculated gc 65.9 doesn't match stored gc None
-sequence 62: Calculated gc 63.1 doesn't match stored gc None
-sequence 63: Calculated gc 61.0 doesn't match stored gc None
-sequence 64: Calculated gc 56.8 doesn't match stored gc None
-sequence 65: Calculated gc 63.5 doesn't match stored gc None
-sequence 66: Calculated gc 63.5 doesn't match stored gc None
-sequence 67: Calculated gc 64.6 doesn't match stored gc None
 sequence 69: Calculated gc 54.2 doesn't match stored gc 55.0
-sequence 70: Calculated gc 61.3 doesn't match stored gc None
 sequence 73: Calculated gc 32.6 doesn't match stored gc 32.2
-sequence 74: Calculated gc 34.4 doesn't match stored gc None
-sequence 75: Calculated gc 32.9 doesn't match stored gc None
-sequence 76: Calculated gc 34.1 doesn't match stored gc None
 sequence 77: Calculated gc 47.9 doesn't match stored gc 48.6
 sequence 78: Calculated gc 38.5 doesn't match stored gc 39.0
 sequence 79: Calculated gc 46.8 doesn't match stored gc 47.0
@@ -1201,55 +1143,7 @@ sequence 142: Calculated gc 59.1 doesn't match stored gc 58.7
 sequence 143: Calculated gc 58.9 doesn't match stored gc 58.8
 sequence 145: Calculated gc 64.5 doesn't match stored gc 64.0
 sequence 146: Calculated gc 55.8 doesn't match stored gc 55.9
-sequence 152: Calculated gc 54.6 doesn't match stored gc 47.0
-sequence 153: Calculated gc 54.6 doesn't match stored gc 47.0
-sequence 154: Calculated gc 54.6 doesn't match stored gc 47.0
-sequence 155: Calculated gc 47.8 doesn't match stored gc 44.6
-sequence 156: Calculated gc 47.4 doesn't match stored gc 44.6
-sequence 157: Calculated gc 47.4 doesn't match stored gc 44.6
-sequence 158: Calculated gc 51.4 doesn't match stored gc 47.3
-sequence 161: Calculated gc 50.1 doesn't match stored gc 44.8
-sequence 162: Calculated gc 44.7 doesn't match stored gc 44.8
-sequence 163: Calculated gc 53.9 doesn't match stored gc 44.8
-sequence 164: Calculated gc 44.1 doesn't match stored gc 43.6
-sequence 165: Calculated gc 44.1 doesn't match stored gc 43.6
-sequence 166: Calculated gc 44.1 doesn't match stored gc 43.6
-sequence 167: Calculated gc 52.3 doesn't match stored gc 51.5
-sequence 168: Calculated gc 51.3 doesn't match stored gc 51.5
-sequence 169: Calculated gc 53.3 doesn't match stored gc 51.5
-sequence 171: Calculated gc 49.4 doesn't match stored gc 48.4
-sequence 172: Calculated gc 42.1 doesn't match stored gc 48.4
-sequence 173: Calculated gc 45.4 doesn't match stored gc 51.1
-sequence 174: Calculated gc 44.9 doesn't match stored gc 51.1
-sequence 175: Calculated gc 45.4 doesn't match stored gc 51.1
-sequence 176: Calculated gc 44.9 doesn't match stored gc 48.3
-sequence 177: Calculated gc 44.9 doesn't match stored gc 48.3
-sequence 178: Calculated gc 44.3 doesn't match stored gc 50.7
-sequence 179: Calculated gc 44.3 doesn't match stored gc 50.7
-sequence 180: Calculated gc 45.6 doesn't match stored gc 50.4
-sequence 181: Calculated gc 45.6 doesn't match stored gc 50.4
-sequence 182: Calculated gc 45.6 doesn't match stored gc 50.4
 sequence 183: Calculated gc 51.9 doesn't match stored gc None
-sequence 184: Calculated gc 44.9 doesn't match stored gc 48.3
-sequence 185: Calculated gc 34.5 doesn't match stored gc 32.8
-sequence 186: Calculated gc 34.5 doesn't match stored gc 32.8
-sequence 187: Calculated gc 34.5 doesn't match stored gc 32.8
-sequence 197: Calculated gc 46.8 doesn't match stored gc 50.5
-sequence 198: Calculated gc 46.8 doesn't match stored gc 50.5
-sequence 199: Calculated gc 46.8 doesn't match stored gc 50.5
-sequence 202: Calculated gc 53.2 doesn't match stored gc 52.9
-sequence 205: Calculated gc 48.3 doesn't match stored gc 50.0
-sequence 208: Calculated gc 50.4 doesn't match stored gc 50.5
-sequence 212: Calculated gc 50.4 doesn't match stored gc 49.5
-sequence 213: Calculated gc 50.7 doesn't match stored gc 49.5
-sequence 214: Calculated gc 48.8 doesn't match stored gc 49.1
-sequence 215: Calculated gc 48.5 doesn't match stored gc 48.1
-sequence 216: Calculated gc 50.4 doesn't match stored gc 48.1
-sequence 217: Calculated gc 50.6 doesn't match stored gc 48.1
-sequence 218: Calculated gc 48.7 doesn't match stored gc 48.6
-sequence 219: Calculated gc 50.1 doesn't match stored gc 48.6
-sequence 220: Calculated gc 50.1 doesn't match stored gc 48.6
-sequence 226: Calculated gc 31.1 doesn't match stored gc 31.2
 sequence 227: Calculated gc 44.7 doesn't match stored gc None
 sequence 228: Calculated gc 34.6 doesn't match stored gc None
 sequence 229: Calculated gc 38.9 doesn't match stored gc None
@@ -1373,4 +1267,3 @@ sequence 353: Calculated gc 43.4 doesn't match stored gc 43.5
 sequence 358: Calculated gc 43.2 doesn't match stored gc 43.1
 sequence 361: Calculated gc 42.6 doesn't match stored gc 42.5
 sequence 362: Calculated gc 41.3 doesn't match stored gc None
-sequence 363: Calculated gc 51.3 doesn't match stored gc None

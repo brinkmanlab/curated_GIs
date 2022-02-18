@@ -87,7 +87,7 @@ def strain_name(line, gbuid, name):
             if len(records) > 1:
                 print(line, gbuid, "More than one record returned by NCBI for taxid", taxid, tuple(r.id for r in records))
                 return name
-            new_name = records[0]['ScientificName']
+            new_name = str(records[0]['ScientificName'])
             strain_names[gbuid] = new_name
         except HTTPError:
             print(line, gbuid, "No records returned by NCBI or bad request")
