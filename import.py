@@ -196,6 +196,7 @@ with open('GIs.csv') as f:
             if path:
                 path = 'sequences/' + path
                 if not os.path.isfile(path) and gbuid:
+                    print(f"{line} Missing {path}, attempting to download..")
                     seq_gc, seq_len = fetch(line, gbuid, path)
                     if seq_gc is None:
                         path = None
@@ -203,10 +204,11 @@ with open('GIs.csv') as f:
                         gc = seq_gc
                 elif os.path.isfile(path):
                     for record in SeqIO.parse(path, 'fasta'):
-                        seq_gc = round(GC(record.seq), 1)  # should only be one record
+                        if not gc:
+                            gc = round(GC(record.seq), 1)  # should only be one record
                         seq_len = len(record.seq)
-            if gc is not None and gc != seq_gc:
-                print(f"{line} Calculated gc {seq_gc} doesn't match stored gc {gc}")
+                else:
+                    print(f"{line} Missing {path}, unable to download.")
             vals = dict(gi=gi, gbuid=gbuid, gc=gc, length=seq_len, path=path)
             try:
                 seq = conn.execute(f'''INSERT INTO sequences (gi, gbuid, gc, length, path) VALUES (?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
@@ -229,6 +231,10 @@ with open('GIs.csv') as f:
                 if gc is None:
                     print(line, 'Unable to fetch strain for source', strain_gbuid)
                     path = None
+            else:
+                for record in SeqIO.parse(path, 'fasta'):
+                    gc = round(GC(record.seq), 1)  # should only be one record
+                    seq_len = len(record.seq)
             if path:
                 vals = dict(gi=gi, gc=gc, length=seq_len, path=path)
                 try:
@@ -268,7 +274,7 @@ with open('strain_names.dump', mode='wb') as f:
 print("Validating database...")
 seqs = dict()
 paths = []
-for id, gc, path, name, gi, strain, gbuid in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name, s.gbuid from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
+for id, gc, path, name, gi, strain, gbuid, strain_gbuid, start, end in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name, s.gbuid, s3.gbuid, s2.start, s2.end from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
     paths.append(path)
     if not os.path.isfile(path):
         print(f"sequence {id}: {path} does not exist")
@@ -291,6 +297,19 @@ for id, gc, path, name, gi, strain, gbuid in conn.execute(f'''SELECT s.id, s.gc,
 
         if len(record.seq) > 1000000:
             print(f"Warning: {path} contains a sequence greater than 1Mb in length")
+
+        # check provided file if they match a downloaded copy
+        if path.endswith('fasta') and (gbuid or (strain_gbuid and start is not None and end is not None)):
+            if not os.path.isfile(path+'.tmp'):
+                if gbuid:
+                    fetch(id, gbuid, path + '.tmp')
+                else:
+                    fetch(id, strain_gbuid, path + '.tmp', slice(start-1, end))
+            tmp_record = next(SeqIO.parse(path+'.tmp', 'fasta'))
+            if tmp_record.seq != record.seq:
+                print(f"Warning: Sequence mismatch between NCBI and {path} ({len(tmp_record.seq)}bp vs {len(record.seq)}bp)")
+        elif not (gbuid or (strain_gbuid and start is not None and end is not None)):
+            print(f"Unable to download comparison for {path}")
 
         if not gbuid:
             # TODO attempt to recover gbuid by searching sequence on NCBI

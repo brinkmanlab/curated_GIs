@@ -1,14 +1,5 @@
 # Files 
-- blast/GIs : `docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 makeblastdb -in /mnt/sequences.fna -input_type fasta -dbtype nucl -title GIs -hash_index -out /mnt/blast/GIs > makeblastdb.stdout`
-- sequences.fna : `awk 1 sequences/* > sequences.fna`
-- blastn_coverage.tabular : `docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 blastn -num_threads 10 -out /mnt/blastn_coverage.tabular -outfmt '6 qseqid sseqid qcovs qcovus' -db /mnt/blast/GIs -query /mnt/sequences.fna`
-- blastn_coverage_filtered.tabular : `awk 'BEGIN {FS=OFS="\t"} $4>=30 && $1!=$2 { print }' blastn_coverage.tabular > blastn_coverage_filtered.tabular`
-- blastn_coverage_filtered_paths.tabular : Import blastn_coverage_filtered.tabular into temp table and execute `SELECT f.*, seq1.path, seq2.path from blastn_coverage_filtered as f, sequences as seq1, sequences as seq2 where seq1.path like '%' || f.C1 || '%' and seq2.path like '%' || f.C2 || '%' and seq1.gi != seq2.gi;`
-- blastn_coverage_filtered_paths_dedup.tabular : `awk '{if ($1 > $2) {key = $1$2;} else {key = $2$1;}; if (dup[key] != 1) {print;}; dup[key] = 1;}' blastn_coverage_filtered_paths.tabular > blastn_coverage_filtered_paths_dedup.tabular`
-- alignments/*.xmfa : `cut -f 1,2,5,6 blastn_coverage_filtered_paths_dedup.tabular | tail +2 | while IFS=$'\t' read l r lp rp; do docker run --rm --user $(id -u):$(id -g) -v "$PWD:/mnt" quay.io/biocontainers/mauve:2.4.0.snapshot_2015_02_13--hdfd78af_4 progressiveMauve --output=/mnt/alignments/$l-$r.xfma /mnt/$lp /mnt/$rp; done`
-- alignments/*.png : `docker run --rm --user $(id -u):$(id -g) -v "$HOME/.Xauthority:$HOME/.Xauthority:rw" --env="XAUTHORITY=$HOME/.Xauthority" --env="DISPLAY" -v "$PWD:/mnt" --net=host quay.io/biocontainers/mauve:2.4.0.snapshot_2015_02_13--hdfd78af_4 Mauve; actiona -stex ./gen_images.ascr`
-- blastn_coverage_filtered_paths_dedup_pic.tabular : `SELECT f.*, str1.id, str1.name, str2.id, str2.name, 'alignments/' || f.C1 || '-' || f.C2 || '.xfma.png' as pic from blastn_coverage_filtered as f, sources as src1, sources as src2, strains as str1, strains as str2, sequences as seq1, sequences as seq2 where seq1.path = f.path1 and seq2.path = f.path2 and str1.id = src1.strain and seq1.id = src1.seq and str2.id = src2.strain and seq2.id = src2.seq;`
-- blastn_alignments.html : `awk 'BEGIN {FS="\t"; print "<style>td { border-bottom: 1px solid black;} img { height: 397px; }</style><table>\n";}{ print "<tr><td>"$1"<br/>"$8"</td><td>"$2"<br/>"$10"</td><td>"$3"</td><td>"$4"</td><td><img src=\""$11"\" /></td></tr>\n"}END{ print "</table>\n"}' blastn_coverage_filtered_paths_dedup_pic.tabular > blastn_aligments.html`
+- prokka/* - docker run --rm --user $(id -u):$(id -g) -v$PWD:/mnt staphb/prokka:latest prokka --outdir /mnt/prokka /mnt/sequences.fna
 
 # GI Curation Troubleshooting
 
@@ -77,4 +68,4 @@ GIs with added tails are different GIs but should be clustered. Prefer longer al
 
 Colera toxin phage might be a good reference for examples for divergent naming and sequences and criteria for divergence.
 
-add Alt_name table that stores alternate names for
+GI names should be <28 characters to allow compatibility with various file formats
