@@ -3,8 +3,9 @@ create table if not exists genomic_islands
 (
     id   integer not null primary key autoincrement,
     name text    not null unique, -- GI name, suffixed with (cGI#) in the event that two different GIs are given the same name in their publications
-    type text,                    -- TODO CHECK(type IN ("","")  Need to standardise types
-    role text                     -- Description of the GI and its function
+    type text,                    -- GI type. One of "prophage","ICE","conjugative_transposon","putative_phage","phage_like","integron","integrated_plasmid"
+    role text,                    -- Description of the GI and its function
+    CHECK ( type IN ("prophage","ICE","conjugative_transposon","putative_phage","phage_like","integron","integrated_plasmid") )
 );
 
 create table if not exists alternate_names
