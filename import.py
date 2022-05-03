@@ -89,8 +89,8 @@ def strain_name(line, gbuid, name):
                 return name
             new_name = str(records[0]['ScientificName'])
             strain_names[gbuid] = new_name
-        except HTTPError:
-            print(line, gbuid, "No records returned by NCBI or bad request")
+        except (HTTPError, RuntimeError) as e:
+            print(line, gbuid, "No records returned by NCBI or bad request:", e)
             return name
     if name != new_name:
         print(line, gbuid, f"Provided strain name ({name}) replaced with NCBI strain name ({records[0]['ScientificName']})")
@@ -98,6 +98,14 @@ def strain_name(line, gbuid, name):
 
 
 def dup(line, table, new, old, quiet=False):
+    """Handle duplicate unique columns and other table contraints
+    :param line: CSV Line #
+    :param table: Table name
+    :param new: Row values being inserted
+    :param old: Row values already in table
+    :param quiet: Do not output non-duplcate errors
+    :return: id generated from insertion
+    """
     if old is None:
         if not quiet:
             print(f'{line} {table}: failed to meet constraint, discarding {tuple(new.values())}')
@@ -123,7 +131,11 @@ with open('GIs.csv') as f:
             print(line, "No GI name, substituting 'cGI'", row)
             name = "cGI"
             names = [name]
-        type = row[1].strip().replace(' ', ' ') or None
+        type = row[1].strip().replace(' ', ' ').lower().replace('-','_').replace(' ', '_') or None
+        if type in ('bacteriophage', 'phage'): type = 'prophage'
+        if type not in ("prophage","ICE","transposon","putative_prophage","prophage_like","integron","integrated_plasmid",None):
+            print(f"{line} discarding gi type {type}")
+            type = None
         role = row[2].strip().replace(' ', ' ') or None
         # TODO deduplicate these variables from below
         strain_gbuid = row[5].strip() or None # TODO handle multiple accessions
@@ -305,9 +317,10 @@ for id, gc, path, name, gi, strain, gbuid, strain_gbuid, start, end in conn.exec
                     fetch(id, gbuid, path + '.tmp')
                 else:
                     fetch(id, strain_gbuid, path + '.tmp', slice(start-1, end))
-            tmp_record = next(SeqIO.parse(path+'.tmp', 'fasta'))
-            if tmp_record.seq != record.seq:
-                print(f"Warning: Sequence mismatch between NCBI and {path} ({len(tmp_record.seq)}bp vs {len(record.seq)}bp)")
+            if os.path.isfile(path + '.tmp'):
+                tmp_record = next(SeqIO.parse(path+'.tmp', 'fasta'))
+                if tmp_record.seq != record.seq:
+                    print(f"Warning: Sequence mismatch between NCBI and {path} ({len(tmp_record.seq)}bp vs {len(record.seq)}bp)")
         elif not (gbuid or (strain_gbuid and start is not None and end is not None)):
             print(f"Unable to download comparison for {path}")
 
