@@ -5,8 +5,13 @@ entity "Genomic Island" as gi {
     id : int <<generated>>
     --
     name : text !null unique
-    type : text
     role : text
+}
+
+entity "Genomic Island Type" as gi_type {
+		--
+		gi : int !null <<FK>>
+		type : text
 }
 
 entity "Alternate Names"  as an {
@@ -56,6 +61,7 @@ entity "Source-Publication Assoc" as srcpub {
 
 seq::gi --> gi::id
 an::gi --> gi::id
+gi_type::gi --> gi::id
 src::seq --> seq::id
 src::gi --> gi::id
 src::strain --> strain::id

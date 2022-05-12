@@ -132,7 +132,7 @@ with open('GIs.csv') as f:
             name = "cGI"
             names = [name]
         type = row[1].strip().replace(' ', ' ').lower().replace('-','_').replace(' ', '_') or None
-        if type in ('bacteriophage', 'phage'): type = 'prophage'
+        if type in ('bacteriophage', 'phage', 'prophage_like', 'putative_prophage'): type = 'prophage'
         if type not in ("prophage","ICE","transposon","putative_prophage","prophage_like","integron","integrated_plasmid",None):
             print(f"{line} discarding gi type {type}")
             type = None
@@ -175,6 +175,9 @@ with open('GIs.csv') as f:
 
         for n in names:
             conn.execute(f'''INSERT OR IGNORE INTO alternate_names (gi, name) VALUES (?,?);''', (gi, n))
+
+        if type:
+            conn.execute(f'''INSERT OR IGNORE INTO gi_type (gi, type) VALUES (?,?);''', (gi, type))
 
         # strains
         strain = None

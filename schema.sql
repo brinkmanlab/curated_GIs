@@ -3,9 +3,7 @@ create table if not exists genomic_islands
 (
     id   integer not null primary key autoincrement,
     name text    not null unique, -- GI name, suffixed with (cGI#) in the event that two different GIs are given the same name in their publications
-    type text,                    -- GI type. One of "prophage","ICE","transposon","putative_prophage","prophage_like","integron","integrated_plasmid"
-    role text,                    -- Description of the GI and its function
-    CHECK ( type IN ("prophage","ICE","transposon","putative_prophage","prophage_like","integron","integrated_plasmid") )
+    role text                     -- Description of the GI and its function
 );
 
 create table if not exists alternate_names
@@ -15,6 +13,16 @@ create table if not exists alternate_names
     name text    not null,
     foreign key (gi) references genomic_islands (id),
     unique (gi, name)
+);
+
+create table if not exists gi_type
+-- Genomic Island Types
+(
+    gi integer not null,
+    type text  not null, -- GI type. One of "prophage","ICE","transposon","integron","integrated_plasmid"
+    foreign key (gi) references genomic_islands (id),
+    unique (gi, type),
+    check ( type IN ("prophage","ICE","transposon","integron","integrated_plasmid") )
 );
 
 create table if not exists strains
