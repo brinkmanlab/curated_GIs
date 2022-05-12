@@ -79,6 +79,7 @@ def strain_name(line, gbuid, name):
                 return name
             taxid = records[0]['TaxId']
             handle = Entrez.efetch(db="taxonomy", id=taxid)
+            taxid = int(taxid)
             records = Entrez.read(handle)
             handle.close()
             if len(records) < 1:
@@ -86,6 +87,9 @@ def strain_name(line, gbuid, name):
                 return name
             if len(records) > 1:
                 print(line, gbuid, "More than one record returned by NCBI for taxid", taxid, tuple(r.id for r in records))
+                return name
+            if records[0]['Rank'] != 'strain':
+                print(line, gbuid, "Accession associated with non-strain taxa", taxid, f"'{records[0]['Rank']}', keeping", name)
                 return name
             new_name = str(records[0]['ScientificName'])
             strain_names[gbuid] = new_name
@@ -155,19 +159,19 @@ with open('GIs.csv') as f:
                 ''', (strain_gbuid, start, end)).fetchone(), True)
 
         if not gi:
-            gis[(name, gi_gbuid)] += 1
+            gis[name] += 1
             n = name
-            if gis[(name, gi_gbuid)] > 1:  # Disambiguate duplicate GI names
+            if gis[name] > 1:  # Disambiguate duplicate GI names
                 if name != "cGI":
-                    n = name + f" (cGI{gis[(name, gbuid)]})"
+                    n = name + f" (cGI{gis[name]})"
                 else:
-                    n = name = f"cGI{gis[(name, gbuid)]}"
-            vals = dict(name=n, type=type, role=role)
+                    n = name = f"cGI{gis[name]}"
+            vals = dict(name=n, role=role)
             try:
-                gi = conn.execute(f'''INSERT INTO genomic_islands (name, type, role) VALUES (?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
+                gi = conn.execute(f'''INSERT INTO genomic_islands (name, role) VALUES (?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
-                # This is completely useless given the appended (cGI#) to the name
-                gi = dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT * FROM genomic_islands WHERE name = ?;''', (name,)).fetchone())
+                gi = None #dup(line, 'genomic_islands', vals, conn.execute(f'''SELECT * FROM genomic_islands WHERE name = ?;''', (name,)).fetchone())
+                print(line, 'GI name already exists, failed to increment cGI suffix')
 
         if gi is None:
             print(line, 'No GI, skipping', row)
@@ -278,7 +282,7 @@ with open('GIs.csv') as f:
 
         print(f'{line} gi:{gi} strain:{strain} seq:{seq} source:{source} associated')
 
-    for (name, gbuid), count in gis.items():
+    for name, count in gis.items():
         if count > 1:
             conn.execute(f'''UPDATE genomic_islands SET name = ? WHERE name = ?;''', (name + " (cGI1)", name))
 
