@@ -44,6 +44,8 @@ create table if not exists sequences
     id     integer not null primary key autoincrement,
     gi     integer not null,
     gbuid  text unique,             -- Genbank unique id for GI sequence
+    start  integer,                 -- File sequence start relative to Genbank hosted sequence
+    end    integer,                 -- File sequence end relative to Genbank hosted sequence
     gc     real,                    -- % GC composition
     length integer,                 -- Sequence length
     path   text    not null unique, -- path to fasta relative to this db

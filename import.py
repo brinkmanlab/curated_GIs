@@ -15,16 +15,13 @@ Entrez.api_key = '3aa8b3eeefd28c87a8894c592cf54f305f09'
 
 stdout = sys.stdout
 sys.stdout = open('ingest.log', 'w')
-os.remove('GIs.sqlite')
-conn = sqlite3.connect('GIs.sqlite')
-conn.row_factory = sqlite3.Row
-with open('schema.sql') as f:
-    conn.executescript(f.read())
 
 strain_names = {}
 if os.path.isfile('strain_names.dump'):
     with open('strain_names.dump', 'rb') as f:
         strain_names = pickle.load(f)
+
+clean = True
 
 
 def fetch(line, gbuid, path, slice=None, id=None, description=None):
@@ -41,6 +38,9 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
             print(line, gbuid, "Sequence returned by NCBI is empty", records[0])
             return None
         if slice is not None:
+            length = len(records[0])
+            if slice.start >= length or slice.stop >= length or slice.stop - slice.start >= length:
+                print(line, gbuid, "Warning: Sequence returned by NCBI is smaller than provided coordinates")
             if slice.start >= slice.stop:
                 # TODO compliment sequence?
                 records[0] = records[0][slice.stop:slice.start]
@@ -120,8 +120,7 @@ def dup(line, table, new, old, quiet=False):
     return old['id']
 
 
-with open('GIs.csv') as f:
-    reader = csv.reader(f)
+def loadcsv(reader, conn):
     next(reader)  # skip header
     line = 1
     gis = defaultdict(int)
@@ -201,8 +200,15 @@ with open('GIs.csv') as f:
         seq = None
         seq_gc = None
         seq_len = None
+        seq_slice = None
+        try: start = int(row[8]) if row[8] else None
+        except: start = None
+        try: end = int(row[9]) if row[9] else None
+        except: end = None
         try: gc = float(row[3].strip()) or None
         except: gc = None
+        if start is not None and end is not None:
+            seq_slice = slice(start, end + 1)
         paths = row[13].replace(',', ';').replace(' and ', ';').split(';') or None
         paths = list(p for p in paths if p.strip())
         gbuid = row[6].strip() or None
@@ -216,7 +222,7 @@ with open('GIs.csv') as f:
                 path = 'sequences/' + path
                 if not os.path.isfile(path) and gbuid:
                     print(f"{line} Missing {path}, attempting to download..")
-                    seq_gc, seq_len = fetch(line, gbuid, path)
+                    seq_gc, seq_len = fetch(line, gbuid, path, seq_slice)
                     if seq_gc is None:
                         path = None
                     elif gc is None:
@@ -228,25 +234,23 @@ with open('GIs.csv') as f:
                         seq_len = len(record.seq)
                 else:
                     print(f"{line} Missing {path}, unable to download.")
-            vals = dict(gi=gi, gbuid=gbuid, gc=gc, length=seq_len, path=path)
+            vals = dict(gi=gi, gbuid=gbuid, start=start, end=end, gc=gc, length=seq_len, path=path)
             try:
-                seq = conn.execute(f'''INSERT INTO sequences (gi, gbuid, gc, length, path) VALUES (?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
+                seq = conn.execute(f'''INSERT INTO sequences (gi, gbuid, start, end, gc, length, path) VALUES (?,?,?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
-                seq = dup(line, 'sequences', vals, conn.execute(f'''SELECT id, gi, gbuid, gc, length, path FROM sequences WHERE gbuid = ?;''', (gbuid,)).fetchone())
+                seq = dup(line, 'sequences', vals, conn.execute(f'''SELECT id, gi, gbuid, start, end, gc, length, path FROM sequences WHERE gbuid = ?;''', (gbuid,)).fetchone())
 
         # source
         source = None
         try: size = int(float(row[7]) * 1000) if row[7] else None
         except: size = None
-        try: start = int(row[8]) if row[8] else None
-        except: start = None
-        try: end = int(row[9]) if row[9] else None
-        except: end = None
         if not seq and strain_gbuid and start is not None and end is not None:
             id = '_'.join((strain_gbuid, str(start), str(end)))
             path = 'sequences/' + id + '.fna'
             if not os.path.isfile(path):
-                gc, seq_len = fetch(line, strain_gbuid, path, slice(start, end + 1), id=id, description=role)
+                if gbuid and seq_slice:
+                    print(line, "Warning: GI and strain gbuid provided with coordinates. It is unclear which the coordinates are relative to.")
+                gc, seq_len = fetch(line, strain_gbuid, path, seq_slice, id=id, description=role)
                 if gc is None:
                     print(line, 'Unable to fetch strain for source', strain_gbuid)
                     path = None
@@ -260,7 +264,12 @@ with open('GIs.csv') as f:
                     seq = conn.execute(f'''INSERT INTO sequences (gi, gc, length, path) VALUES (?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
                 except sqlite3.IntegrityError:
                     seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, gc, length, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
-        vals = dict(gi=gi, strain=strain, size=size, start=start, end=end, seq=seq)
+        if gbuid and strain_gbuid and seq_slice:
+            print(line, "Warning: GI and strain gbuid provided with coordinates. It is unclear which the coordinates are relative to.")
+        if gbuid:
+            vals = dict(gi=gi, strain=strain, size=size, start=None, end=None, seq=seq)
+        else:
+            vals = dict(gi=gi, strain=strain, size=size, start=start, end=end, seq=seq)
         try:
             source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
         except sqlite3.IntegrityError:
@@ -286,59 +295,75 @@ with open('GIs.csv') as f:
         if count > 1:
             conn.execute(f'''UPDATE genomic_islands SET name = ? WHERE name = ?;''', (name + " (cGI1)", name))
 
-conn.commit()
-with open('strain_names.dump', mode='wb') as f:
-    pickle.dump(strain_names, f)
+    conn.commit()
+    with open('strain_names.dump', mode='wb') as f:
+        pickle.dump(strain_names, f)
 
-print("Validating database...")
-seqs = dict()
-paths = []
-for id, gc, path, name, gi, strain, gbuid, strain_gbuid, start, end in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name, s.gbuid, s3.gbuid, s2.start, s2.end from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
-    paths.append(path)
-    if not os.path.isfile(path):
-        print(f"sequence {id}: {path} does not exist")
-        continue
-    records = list(SeqIO.parse(path, 'fasta'))
-    if len(records) != 1:
-        print(f'multiple records found in {path}')
-    for record in records:
-        # change accessions in fastas to sequence ids to backlink to database from blast output
-        record.id = record.name = f'{name.replace(" ", "_")}|{gi}|{id}'
-        record.description = strain or 'No associated strain'
-        # verify seq.name uniqueness and accuracy
-        if record.name in seqs:
-            print(f"sequence {id}: duplicate sequence accession ({record.name}) found in {path} and ({seqs[record.name][0]}) {seqs[record.name][1]}")
-        seqs[record.name] = [id, path]
 
-        seq_gc = round(GC(record.seq), 1)
-        if gc != seq_gc:
-            print(f"sequence {id}: Calculated gc {seq_gc} doesn't match stored gc {gc}")
+def validate(conn):
+    print("Validating database...")
+    seqs = dict()
+    paths = []
+    for id, gc, path, name, gi, strain, gbuid, strain_gbuid, start, end, seq_start, seq_end in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name, s.gbuid, s3.gbuid, s2.start, s2.end, s.start, s.end from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
+        paths.append(path)
+        if not os.path.isfile(path):
+            print(f"sequence {id}: {path} does not exist")
+            continue
+        records = list(SeqIO.parse(path, 'fasta'))
+        if len(records) != 1:
+            print(f'multiple records found in {path}')
+        for record in records:
+            # change accessions in fastas to sequence ids to backlink to database from blast output
+            record.id = record.name = f'{name.replace(" ", "_")}|{gi}|{id}'
+            record.description = strain or 'No associated strain'
+            # verify seq.name uniqueness and accuracy
+            if record.name in seqs:
+                print(f"sequence {id}: duplicate sequence accession ({record.name}) found in {path} and ({seqs[record.name][0]}) {seqs[record.name][1]}")
+            seqs[record.name] = [id, path]
 
-        if len(record.seq) > 1000000:
-            print(f"Warning: {path} contains a sequence greater than 1Mb in length")
+            seq_gc = round(GC(record.seq), 1)
+            if gc != seq_gc:
+                print(f"sequence {id}: Calculated gc {seq_gc} doesn't match stored gc {gc}")
 
-        # check provided file if they match a downloaded copy
-        if path.endswith('fasta') and (gbuid or (strain_gbuid and start is not None and end is not None)):
-            if not os.path.isfile(path+'.tmp'):
-                if gbuid:
-                    fetch(id, gbuid, path + '.tmp')
-                else:
-                    fetch(id, strain_gbuid, path + '.tmp', slice(start-1, end))
-            if os.path.isfile(path + '.tmp'):
-                tmp_record = next(SeqIO.parse(path+'.tmp', 'fasta'))
-                if tmp_record.seq != record.seq:
-                    print(f"Warning: Sequence mismatch between NCBI and {path} ({len(tmp_record.seq)}bp vs {len(record.seq)}bp)")
-        elif not (gbuid or (strain_gbuid and start is not None and end is not None)):
-            print(f"Unable to download comparison for {path}")
+            if len(record.seq) > 1000000:
+                print(f"Warning: {path} contains a sequence greater than 1Mb in length")
 
-        if not gbuid:
-            # TODO attempt to recover gbuid by searching sequence on NCBI
-            pass
+            # check provided file if they match a downloaded copy
+            if path.endswith('fasta') and (gbuid or (strain_gbuid and start is not None and end is not None)):
+                if not os.path.isfile(path+'.tmp'):
+                    if gbuid:
+                        fetch(id, gbuid, path + '.tmp', slice(seq_start-1, seq_end) if seq_start is not None and seq_end is not None else None)
+                    else:
+                        fetch(id, strain_gbuid, path + '.tmp', slice(start-1, end))
+                if os.path.isfile(path + '.tmp'):
+                    tmp_record = next(SeqIO.parse(path+'.tmp', 'fasta'))
+                    if tmp_record.seq != record.seq:
+                        print(f"Warning: Sequence mismatch between NCBI and {path} ({len(tmp_record.seq)}bp vs {len(record.seq)}bp)")
+            elif not (gbuid or (strain_gbuid and start is not None and end is not None)):
+                print(f"Unable to download comparison for {path}")
 
-    with open(path, 'w') as f:
-        SeqIO.write(records, f, 'fasta')
+            if not gbuid:
+                # TODO attempt to recover gbuid by searching sequence on NCBI
+                pass
 
-extra = set(f'sequences/{f}' for f in os.listdir('sequences/') if f.endswith('.fasta') or f.endswith('.fna')) - set(paths)
-if len(extra) > 0:
-    extra = '\n'.join(extra)
-    print(f"files detected in sequences/ that are not present in the database:\n{extra}")
+        with open(path, 'w') as f:
+            SeqIO.write(records, f, 'fasta')
+
+    extra = set(f'sequences/{f}' for f in os.listdir('sequences/') if f.endswith('.fasta') or f.endswith('.fna')) - set(paths)
+    if len(extra) > 0:
+        extra = '\n'.join(extra)
+        print(f"files detected in sequences/ that are not present in the database:\n{extra}")
+
+
+if __name__ == "__main__":
+    if clean:
+        os.remove('GIs.sqlite')
+    conn = sqlite3.connect('GIs.sqlite')
+    conn.row_factory = sqlite3.Row
+    if clean:
+        with open('schema.sql') as f:
+            conn.executescript(f.read())
+        with open('GIs.csv') as f:
+            reader = csv.reader(f)
+            loadcsv(reader, conn)
+    validate(conn)
