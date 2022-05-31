@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Align all vs all sequences generating blastn_alignments.html
 set -ev
 
 # sequences.fna :
@@ -7,21 +8,21 @@ awk 1 sequences/*.fasta sequences/*.fna > sequences.fna
 sed -i 's/φ/phi/' sequences.fna
 
 # blast/GIs :
-rm -rf blast/*
+rm -rf blast/GIs.*
 docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 makeblastdb -in /mnt/sequences.fna -input_type fasta -dbtype nucl -title GIs -hash_index -out /mnt/blast/GIs > makeblastdb.stdout
 
 # blastn_coverage.tabular : 
-docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 blastn -num_threads 10 -out /mnt/blastn_coverage.tabular -outfmt '6 qseqid sseqid qcovs qcovus' -db /mnt/blast/GIs -query /mnt/sequences.fna
+docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/blast:2.12.0--pl5262h3289130_0 blastn -num_threads 10 -out /mnt/blastn_coverage.tabular -outfmt '6 qseqid sseqid qcovs qcovus qcovhsp length evalue bitscore' -db /mnt/blast/GIs -query /mnt/sequences.fna
 
 # blastn_coverage_filtered.tabular : 
 awk 'BEGIN {FS=OFS="\t"} $4>=30 && $1!=$2 { print }' blastn_coverage.tabular > blastn_coverage_filtered.tabular
 
 # blastn_coverage_filtered_paths.tabular : Import blastn_coverage_filtered.tabular into temp table and execute 
 sqlite3 GIs.sqlite <<EOF > blastn_coverage_filtered_paths.tabular
-CREATE TEMP TABLE blastn_coverage_filtered ( C1 text, C2 text, C3 text, C4 text );
+CREATE TEMP TABLE blastn_coverage_filtered ( C1 text, C2 text, C3 text, C4 text, qcovhsp integer, length integer, evalue text, bitscore integer );
 .mode tabs
 .import blastn_coverage_filtered.tabular blastn_coverage_filtered
-SELECT seq1.id, seq2.id, f.C3, f.C4, seq1.path, seq2.path from blastn_coverage_filtered as f, sequences as seq1, sequences as seq2 where f.C1 like '%|' || seq1.id and f.C2 like '%|' || seq2.id and seq1.gi != seq2.gi;
+SELECT seq1.id, seq2.id, f.C3, f.C4, seq1.path, seq2.path, f.qcovhsp, f.length, f.evalue, f.bitscore from blastn_coverage_filtered as f, sequences as seq1, sequences as seq2 where f.C1 like '%|' || seq1.id and f.C2 like '%|' || seq2.id and seq1.gi != seq2.gi;
 EOF
 
 # blastn_coverage_filtered_paths_dedup.tabular :
