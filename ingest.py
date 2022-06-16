@@ -21,7 +21,7 @@ if os.path.isfile('strain_names.dump'):
     with open('strain_names.dump', 'rb') as f:
         strain_names = pickle.load(f)
 
-clean = True  # Delete database and start clean during import
+clean = False  # Delete database and start clean during import
 fileext = 'gb'  # or 'fasta'
 
 
@@ -368,7 +368,7 @@ def validate(conn):
         with open(path, 'w') as f:
             SeqIO.write(records, f, fileext)
 
-    extra = set(f'sequences/{f}' for f in os.listdir('sequences/') if f.endswith('.fasta') or f.endswith('.fna')) - set(paths)
+    extra = set(f'sequences/{f}' for f in os.listdir('sequences/') if f.endswith(fileext)) - set(paths)
     if len(extra) > 0:
         extra = '\n'.join(extra)
         print(f"files detected in sequences/ that are not present in the database:\n{extra}")
