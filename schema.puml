@@ -11,7 +11,7 @@ entity "Genomic Island" as gi {
 entity "Genomic Island Type" as gi_type {
 		--
 		gi : int !null <<FK>>
-		type : text
+		type : text !null
 }
 
 entity "Alternate Names"  as an {
@@ -29,7 +29,7 @@ entity "Sequence" as seq {
     end : int
     gc : float
 		length : int
-    path : text !null unique
+    path : text unique
 }
 
 entity "Source" as src {
