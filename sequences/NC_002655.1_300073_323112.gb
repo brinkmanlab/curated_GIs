@@ -1,0 +1,974 @@
+LOCUS       CP-933H&I|298|253      23040 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Escherichia coli O157:H7 str. EDL933.
+ACCESSION   CP-933H&I|298|253
+VERSION     CP-933H&I|298|253
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            complement(1..975)
+                     /gene="intH"
+                     /gene_synonym="Z0307"
+     CDS             complement(1..975)
+                     /gene="intH"
+                     /gene_synonym="Z0307"
+                     /function="putative enzyme; Integration, recombination
+                     (Phage or Prophage Related)"
+                     /note="Residues 19 to 324 of 324 are 97.71 pct identical to
+                     residues 82 to 387 of 387 from GenPept 118 :
+                     gi|2465477|gb|AAB72135.1| (U82619) integrase [Shigella
+                     flexneri bacteriophage V]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative integrase for prophage CP-933H"
+                     /protein_id="NP_285961.1"
+                     /translation="MHKHAAANVAQRNRLNGKQIGFWLQHFAGMQLRDITESKIYSAMQ
+                     KMTNRRHEENWKLRAEACRKKGKPVPEYTPKPASVATKATHLSFIKALLRAAEREWKML
+                     DKAPIIKVPQPKNKRLRWLEPHEAQRLIDECPEPLKSVVEFALATGLRRSNIINLEWQQ
+                     IDMQRRVAWINPEESKSNRAIGVALNDTACRVLKKQIGNHHRWVFVYKESCTKPDGTKA
+                     PTVRKMRYDANTAWKAALRRAGIDDFRFHDLRHTWASWLVQAGVPLSVLQEMGGWESIE
+                     MVRRYAHLAPNHLTEHARQIDSILNPSVPNLSQSKNKEGTNDV"
+     gene            complement(1351..1740)
+                     /gene="Z0308"
+     CDS             complement(1351..1740)
+                     /gene="Z0308"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 2 to 110 of 129 are 36.93 pct identical to
+                     residues 3 to 96 of 224 from GenPept 118 :
+                     gi|2314514|gb|AAD08389.1| (AE000635) H. pylori predicted
+                     coding region HP1334 [Helicobacter pylori 26695]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein from prophage CP-933H"
+                     /protein_id="NP_285962.1"
+                     /translation="MKKAAILIDAGFFMQRVHATHRKHFAEHELTAQCIMKVIWSMVLS
+                     HLNGKRQSQERREPLELYRIYFYDCPPLDIQTRLPLPEPGNKTPGRKNFKLEKSYILRT
+                     ELHEELRKTRKTPIVFILKLIGATH"
+     gene            complement(1868..2581)
+                     /gene="Z0309"
+     CDS             complement(1868..2581)
+                     /gene="Z0309"
+                     /function="putative regulator; Regulation (Phage or
+                     Prophage Related)"
+                     /note="Residues 1 to 237 of 237 are 99.15 pct identical to
+                     residues 1 to 237 of 237 from GenPept 118 :
+                     gi|6901592|gb|AAF31095.1|AF069529_8 (AF069529) prophage
+                     repressor CI [Bacteriophage HK97]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative cI repressor protein for prophage
+                     CP-933H"
+                     /protein_id="NP_285963.1"
+                     /translation="MSAKKKPLTQEQLEDARRLKAIYEKKKNELGLSQESVADKMGMGQ
+                     SGVGALFNGINALNAYNAALLAKILNVSVEEFSPSIAREIYEMYEAVSMQPSLRSEYEY
+                     PVFSHVQAGMFSPELRTFTKGDAEKWVSTTKKASGSAFWLEVEGNSMTAPTGSKPSFPD
+                     GMLILVDPEQAVEPGDFCIARLGGDEFTFKKLIRDSGQVFLQPLNPQYPMIPCNESCSV
+                     VGKVIASQWPEETFG"
+     misc_feature    <2821..>15430
+                     /note="O-island #8; Region of the EDL933 chromosome not
+                     homologous to E. coli K-12 MG1655"
+     misc_feature    <2821..10573
+                     /note="Cryptic prophage CP-933H; includes one copy of the
+                     47bp direct repeat that flanks the prophage"
+     gene            3001..3294
+                     /gene="Z0310"
+     CDS             3001..3294
+                     /gene="Z0310"
+                     /function="putative regulator; Regulation (Phage or
+                     Prophage Related)"
+                     /note="Residues 1 to 97 of 97 are 100.00 pct identical to
+                     residues 1 to 97 of 97 from GenPept 118 :
+                     gi|215149|gb|AAA96583.1| (J02459) cII (antitermination;119)
+                     [bacteriophage lambda]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative cII antiterminator protein for prophage
+                     CP-933H"
+                     /protein_id="NP_285964.1"
+                     /translation="MVRANKRNEALRIESALLNKIAMLGTEKTAEAVGVDKSQISRWKR
+                     DWIPKFSMLLAVLEWGVVDDDMARLARQVAAILTNKKRPAATERSEQIQMEF"
+     gene            3327..3935
+                     /gene="Z0311"
+     CDS             3327..3935
+                     /gene="Z0311"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 1 to 163 of 202 are 88.95 pct identical to
+                     residues 1 to 156 of 299 from GenPept 118 :
+                     gi|4539475|emb|CAB39984.1| (AJ237660) O protein
+                     [Bacteriophage 21]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="partial O replication protein for prophage
+                     CP-933H"
+                     /protein_id="NP_285965.1"
+                     /translation="MTNTAKILNFGRGNFAGQERNVADLDDGYARLSNMLLEAYSGADL
+                     TKRQFKVLLAILRKTYGWNKPMDRITDSQLSEITKLPVKRCNEAKLELVRMNIIKQQGG
+                     MFGPNKNISEWCIPQNEGKSPKTRDKTSLKLGDCYPSNWGIAIPQNRGTQKTLLQKKKE
+                     KIIRPRILANPLTSQKTIFLWLNRMLQFRAAASGEQQKT"
+     gene            3875..4249
+                     /gene="Z0312"
+     CDS             3875..4249
+                     /gene="Z0312"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 1 to 124 of 124 are 99.19 pct identical to
+                     residues 176 to 299 of 299 from GenPept 118 :
+                     gi|4539475|emb|CAB39984.1| (AJ237660) O protein
+                     [Bacteriophage 21]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="partial O replication protein for prophage
+                     CP-933H"
+                     /protein_id="NP_285966.1"
+                     /translation="MVKPDAAIQSGSKWGTAEDLTAAEWMFDMVKTIAPSARKPNFAGW
+                     ANDIRLMRERDGRNHRDMCVLFRWACQDNFWSGNVLSPAKLRDKWTQLEINRNKQQAGV
+                     TASKPKLDLTNTDWIYGVDL"
+     gene            4246..4557
+                     /gene="Z0313"
+     CDS             4246..4557
+                     /gene="Z0313"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="partial replication protein P for prophage
+                     CP-933H"
+                     /protein_id="NP_285967.1"
+                     /translation="MKNIAAQMVNFDREQMRRIANIDNQDMTISVWVFPDTDISDVSRE
+                     LIAAIKQGYLTVKAAGVWAGGIETPSVETPSEGSKFFGFDMDNEFISGFDVGAWGVLL"
+     gene            4557..5267
+                     /gene="Z0314"
+     CDS             4557..5267
+                     /gene="Z0314"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 91 to 178 of 236 are 60.43 pct identical to
+                     residues 34 to 122 of 172 from GenPept 118 :
+                     gi|1788697|gb|AAC75414.1| (AE000324) putative RNA
+                     polymerase beta [Escherichia coli]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein from prophage CP-933H"
+                     /protein_id="NP_285968.1"
+                     /translation="MAKNDFKAFATDRNANVMSQEEWEALPALISGFTAGKASSAQVNK
+                     VIRQASFIAAALAQFVSDKTQRDVLDNGDLPGFVELLGSGFAVEYLSRKNPFGDIKSDG
+                     TVKTALQNLGLGEAAKRDVGTGENQIPDMASFASGNGWMKLPNGKILQYGRGAVTPTLS
+                     TQTMRITFSIPFPKKADCAMLTHSGDGGAPLGAGRGFVMTAEGPTLTGFNSAYRTSSTS
+                     DTVSMNYSWWAVGE"
+     gene            5279..5731
+                     /gene="Z0315"
+     CDS             5279..5731
+                     /gene="Z0315"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 7 to 150 of 150 are 68.05 pct identical to
+                     residues 3 to 146 of 146 from GenPept 118 :
+                     gi|1788696|gb|AAC75413.1| (AE000324) orf, hypothetical
+                     protein [Escherichia coli]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein from prophage CP-933H"
+                     /protein_id="NP_285969.1"
+                     /translation="MIYMDEYVYSARHNAFFPVDMIDKYKSEGWDLSDAKEVNQNIISE
+                     FMAEPPQGKIRIAGDDGLPAWADIPPPTHEELIEITESERQLLINQANEYMNSKQWPGK
+                     AAIGRLKGDELTQYNLWLDYLDALELVDTSGAPDIEWPTPPAVQAR"
+     gene            complement(5703..6296)
+                     /gene="Z0316"
+     CDS             complement(5703..6296)
+                     /gene="Z0316"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 2 to 197 of 197 are 65.49 pct identical to
+                     residues 3 to 200 of 200 from GenPept 118 :
+                     gi|1787402|gb|AAC74240.1| (AE000214) orf, hypothetical
+                     protein [Escherichia coli]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein from prophage CP-933H"
+                     /protein_id="NP_285970.1"
+                     /translation="MKPVFDENGLATVPGDMRCFYYDAETSEYTGWSDEYINTGVSMPA
+                     CSTGIDPGENIPGRVAVFTGKGWSHEEDHRNETVYSIENGAAVTVDYIGAIKDGYVTIS
+                     PLTPYDKWDGEKWVTDTEAQHSAAVDAAEAQRQSLIDAAMASISLIQLKLQAGRKLTQA
+                     ETTRLNAVLDYIDAVTATDTSTAPDVIWPELPEA"
+     gene            complement(6296..6793)
+                     /gene="Z0317"
+     CDS             complement(6296..6793)
+                     /gene="Z0317"
+                     /function="putative structure; Structural component (Phage
+                     or Prophage Related)"
+                     /note="Residues 1 to 164 of 165 are 45.21 pct identical to
+                     residues 1 to 178 of 179 from GenPept 118 :
+                     gi|1787403|gb|AAC74241.1| (AE000214) putative tail fiber
+                     protein [Escherichia coli]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative tail fiber protein from prophage
+                     CP-933H"
+                     /protein_id="NP_285971.1"
+                     /translation="MMPFARYFCIFINVGLGEGAPAIGVPFFWPSAAMPNTVIDSWSCM
+                     VFLKFNGAKFSATDYPVLAKVFPSLVLPEARGDFIRIWDDGRGADGGRELLSWQAATNF
+                     SQFAGNIGEGAGHAINFHDGIAGNQPGFSRFNFTSNSVGDGVNFVAVRPRNIAFNFLVR
+                     AK"
+     gene            6784..7374
+                     /gene="pinH"
+                     /gene_synonym="Z0318"
+     CDS             6784..7374
+                     /gene="pinH"
+                     /gene_synonym="Z0318"
+                     /function="putative enzyme; Other or unknown (Phage or
+                     Prophage Related)"
+                     /note="Residues 13 to 196 of 196 are 96.73 pct identical to
+                     residues 1 to 184 of 184 from GenPept 118 :
+                     gi|1787404|gb|AAC74242.1| (AE000214) inversion of adjacent
+                     DNA; at locus of e14 element [Escherichia coli]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA invertase from prophage CP-933H"
+                     /protein_id="NP_285972.1"
+                     /translation="MASFLLLSGRSTMLIGYVRVSTNDQNTDLQRNALNCAGCELIFED
+                     KISGTKSERPGLKKLLRTLSAGDTLVVWKLDRLGRSMRHLVILVEELRERGVNFRSLTD
+                     AIDTSTPMGRFFFHVMGALAEMERELIVERTKAGLEAARAQGRIGGRRPKLTPEQWAQA
+                     GRLIAAGIPRQKVAIIYDVGVSTLYKKFPAGDK"
+     gene            complement(7432..8205)
+                     /gene="Z0319"
+     CDS             complement(7432..8205)
+                     /gene="Z0319"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 7 to 255 of 257 are 32.03 pct identical to
+                     residues 6 to 245 of 247 from GenPept 118 :
+                     gi|6458891|gb|AAF10726.1|AE001964_10 (AE001964)
+                     hypothetical protein [Deinococcus radiodurans]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein from prophage CP-933H"
+                     /protein_id="NP_285973.1"
+                     /translation="MDITEFPSGVIEHLGWYVYRLIDPRDGSTFYVGKGKGNRVFAHMR
+                     GEVAAADDDDLLSNKLKQIREIRLAGLEVIHVIHRHGMTDEKTAYEVEAALIDAYPGLT
+                     NIMNGAGSNEFGAAHVKELIATYQPETITFHHKALMISVNRSAKDSELYDAVRFSWRIN
+                     VSRASKAEVILATVRGIVRGVFIADKWLKSTREHFPTMKYWDEDPDFEATQSSRYGFEG
+                     REAPPEIANLYLGKKIPDELRKKGAMSPVRYSPNF"
+     gene            9029..9772
+                     /gene="Z0321"
+     CDS             9029..9772
+                     /gene="Z0321"
+                     /function="putative regulator; Other or unknown (Phage or
+                     Prophage Related)"
+                     /note="Residues 1 to 247 of 247 are 34.41 pct identical to
+                     residues 1 to 242 of 253 from GenPept 118 :
+                     gi|1787776|gb|AAC74572.1| (AE000247) putative ARAC-type
+                     regulatory protein [Escherichia coli]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative AraC-type regulatory protein encoded in
+                     prophage CP-933H"
+                     /protein_id="NP_285974.1"
+                     /translation="MATTCSVILILESFDVYFGKESVFLERGSSVLVDSSSRDFFLTYP
+                     ERVIVADFGAEFISRYLKANNLRDISDCREYPSYLKINFADFSLIKGLISWANHCAEYI
+                     EIFDESIAFTCLSAFSSEKQFGVFLFGCLKSTGAKVKTIIHTDLSAPWRLKDISSRLYL
+                     SESLLKRKLKEEGVSFSKIILDERMQMAEYLLSTRCYPISKVAKVCGYASVSYFTYVFR
+                     RYFGVSPSQYSQRSSESKILTHQGI"
+     gene            complement(9814..10179)
+                     /gene="Z0322"
+     CDS             complement(9814..10179)
+                     /gene="Z0322"
+                     /function="orf; Unknown function (Insertion Sequence
+                     Associated)"
+                     /note="Residues 1 to 117 of 121 are 70.94 pct identical to
+                     residues 134 to 250 of 263 from GenPept 118 :
+                     gi|6358776|gb|AAF07358.1|AC011665_17 (AC011665)
+                     transposase-like protein (TnpF) [Arabidopsis thaliana]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded by IS2"
+                     /protein_id="NP_285975.1"
+                     /translation="MQDVMLGAIEKRFGDKVPEQSIQWLTDNGSAYRAHETRQFARELN
+                     LEPCTTAISSPQSNGIAERFVKTMKEDYIAFMPKPNVRTALHNLAVAIEHYNENHPHSA
+                     LGYRSPREYRRQRVTLT"
+     misc_feature    10574..>15430
+                     /note="Cryptic prophage CP-933I; includes one copy of the
+                     16bp direct repeat that flanks the CP-933H/CP-933I complex"
+     gene            10684..11916
+                     /gene="Z0324"
+     CDS             10684..11916
+                     /gene="Z0324"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 20 to 403 of 410 are 60.93 pct identical to
+                     residues 12 to 395 of 403 from GenPept 118 :
+                     gi|5880470|gb|AAD54663.1|AF097520_1 (AF097520) Sai
+                     integrase [Shigella flexneri]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="integrase protein for prophage CP-933I"
+                     /protein_id="NP_285976.1"
+                     /translation="MCIGLCICSCSVWIPIHMPLNDMQIRRAKPEAKAYTFGDGLGLSL
+                     LIEPNGSKSWRFRYRYAGKPKMISLGVYPTITLADARSRRDEARKLVAEGKNPSEVRKE
+                     QKLAMQTESENAFEKIAREWHQLKSAKWSAGYASDIMEAFKNDIFPYVGTRPVGEIKPL
+                     ELLNVLRKIEKRGALEKMRKVRQRCSEVFRYAIATGRAEYNPAADLSSALEVHQSNHFP
+                     FLKADEIPDFLRALEGYSGSKLVQIATKLLMITGVRTIELRAALWQEFDLDNAIWEIPA
+                     ERMKMRRPHLVPLSSQAVDLLNELKIMTGNYRYVFPGRNDPNRPMSEASINQAIKRIGY
+                     GGKVTGHGFRHTLSTILHEQGFESAWIEIQLAHVDKNSIRGTYNHAQYFSGRKSMMDWY
+                     SNLIFERLKRS"
+     gene            11920..12336
+                     /gene="Z0325"
+     CDS             11920..12336
+                     /gene="Z0325"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285977.1"
+                     /translation="MSQPLSEILTWDDEQWEVFVHDWLIVCKSDDYPWSERLGGAGDKG
+                     RDVVGYKSDPNVEGYSWDNYQCKLYKKSLGFSDVVVEFGKLIYFTLNGDYPIPQKYFFV
+                     APYDLSTTFSNLLKNKNELKKAVLDSWDSAISKK"
+     gene            12309..12926
+                     /gene="Z0326"
+     CDS             12309..12926
+                     /gene="Z0326"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285978.1"
+                     /translation="MGFSNFKKITKKIDIPLDDEIKKYIEDFDFSIFYSLPLSLILNDI
+                     ANTHLYFKYFNELYVVRIPPNEIPTYNSKKESVYVNALLQAYSEHGNKTYSSFLELDDP
+                     YRRHFNNSRNDFYFASSLEVFVREVFKDDVFKALKCYISSSIEPVFYEDHNYAFIRCNA
+                     VLKQAVLTPIAHSVLSKICEANDKKGICHHLVNDGEVIWTVR"
+     gene            12926..13384
+                     /gene="Z0327"
+     CDS             12926..13384
+                     /gene="Z0327"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285979.1"
+                     /translation="MVRIYNSSLEVACRMAKVLVAIYPSSLSLERLICFDFILVNLKDF
+                     LPEEISLHPPIPRRDAQLALKREIVLESLALLQGYELASKIYTHRGFVYKASEKTYAFT
+                     NSLHNEYVAQMEHNINLVVKLYSDIPDEQLQSIIKNKIGKYDMEFNYE"
+     gene            13377..14009
+                     /gene="Z0328"
+     CDS             13377..14009
+                     /gene="Z0328"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285980.1"
+                     /translation="MNDNFFTFRKIKVTGFNKLDAIIEFGSKLTILYGGSDSGKTYIYY
+                     LIRYLLGSEKLKNKDIDHAQGYDLAYLEFNFQGRVMTIERSLQDSAHYRLYDSSIENVS
+                     EANLLMVFSKSASSKKSFSSYFYGRLNFKEAKVRTNLSNTLHKFNLNNVFEFFCIDELR
+                     VLTEKSLILSDIPSEETKRKSEFKFLLTQRDDTNSLAEKPNKKARYF"
+     gene            14040..14630
+                     /gene="Z0330"
+     CDS             14040..14630
+                     /gene="Z0330"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285981.1"
+                     /translation="MKAQLIYPEYDQVIVSRELEKVEQDIESSKDILKGIVDALDDKKQ
+                     LLKELSDELYSISDREKYLSLLIERFSLLKDQYFIDLQRIDVVSQANFYLNNFADIYCE
+                     FCNTPQKKENEISYDDCFLSCNAEKLKIKSQLKGLIESIGSNVREHELIMLRKNDVNEI
+                     YQSEKSDFKTLEDKNIKQYIHLLNHFMNIKTIF"
+     gene            14630..15196
+                     /gene="Z0331"
+     CDS             14630..15196
+                     /gene="Z0331"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285982.1"
+                     /translation="MDHTKHSILSSLQDKEDDVDELKYSAEDFDSLTVADLYDIEIAMQ
+                     DFLNDINFENSKDNKVRFDEDTYDFNINGKRRGMFGKGTRAVMHAIFTICFAEFLSRKG
+                     NPFIGFVVLDSPLVTHFDKDRGGSLSDVNSVSLSDSFYHALIKRDYNFQIVILENKGPT
+                     FQIKINDANKIHNLNKNGSSGFYPV"
+     gene            complement(15606..15878)
+                     /gene="Z0332"
+     CDS             complement(15606..15878)
+                     /gene="Z0332"
+                     /function="putative regulator; Regulation (Phage or
+                     Prophage Related)"
+                     /note="Residues 3 to 67 of 90 are 41.53 pct identical to
+                     residues 2 to 66 of 70 from GenPept 118 :
+                     gi|3641396|gb|AAC36459.1| (U91484) positive levansucrase
+                     regulator LsrS [Rahnella aquatilis]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative activator encoded in prophage CP-933I"
+                     /protein_id="NP_285983.1"
+                     /translation="MALKCPECGTTAHARTSAYEAPSVKRSWYQCQNLECSYTFTALES
+                     VDTIIMKPRRNEQESEKAQMPEKQQQTLNRYGSASKLSSRQQIPV"
+     gene            complement(15884..16435)
+                     /gene="psuI"
+                     /gene_synonym="Z0333"
+     CDS             complement(15884..16435)
+                     /gene="psuI"
+                     /gene_synonym="Z0333"
+                     /function="putative regulator; Regulation (Phage or
+                     Prophage Related)"
+                     /note="Residues 9 to 174 of 183 are 30.11 pct identical to
+                     residues 8 to 180 of 190 from GenPept 118 :
+                     gi|6318609|gb|AAF06966.1|AF157599_5 (AF157599) P4 psu-like
+                     protein [Escherichia coli]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative polarity suppression protein encoded in
+                     CP-933I"
+                     /protein_id="NP_285984.1"
+                     /translation="MMARVTPDQALISFRNARILWAGHSESRKAVEQQIESLLTAMEKP
+                     ADYARQLELQREHLDVLKWQINCAARECIYSQHQLMEACTEDALSNFMQANGAALTSAL
+                     APFLKGRGGVDVASRILRNALVRQLAITPPEIAGDYRMILDESGVMPDPMMVRDCQSSY
+                     TPAQQLRFQQRLDYINGMQE"
+     gene            complement(16432..17184)
+                     /gene="sidI"
+                     /gene_synonym="Z0334"
+     CDS             complement(16432..17184)
+                     /gene="sidI"
+                     /gene_synonym="Z0334"
+                     /function="putative factor; DNA packaging, phage assembly
+                     (Phage or Prophage Related)"
+                     /note="Residues 15 to 249 of 250 are 22.12 pct identical to
+                     residues 5 to 235 of 244 from GenPept 118 :
+                     gi|15164|emb|CAA35904.1| (X51522) sid gene product (AA
+                     1-244) [Bacteriophage P4]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative capsid morphogenesis protein encoded in
+                     CP-933I"
+                     /protein_id="NP_285985.1"
+                     /translation="MTIPEQNNNPIVEISIPVSTQQALEKVNATKSAWLEARRQQKAAA
+                     DNIATIRQRRAEMEATTNALNEEWRTLFRESQGVVSKEMKKLRTEIALGRETLEDFDEL
+                     LAAQESENALLPQEAAELAGKYIHAHDTLVGIRAKQIWEDFMQSHGKALIQTLSLLKST
+                     MGREASAVVGVVHSVNDPDTLLKDFIHKHITRPALTNDAMPEQDPVFKLAGVAPDYAAR
+                     LDFSNKLSPAAMHKMKVRQERAEKEKAV"
+     gene            17587..17757
+                     /gene="Z0335"
+     CDS             17587..17757
+                     /gene="Z0335"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285986.1"
+                     /translation="MFLPGNNIFASGHGVAFHTDFYKTRSVRFFMDSFGYILRFKVMLF
+                     NIKVFMQAQCL"
+     gene            18118..18378
+                     /gene="Z0336"
+     CDS             18118..18378
+                     /gene="Z0336"
+                     /function="putative regulator; Regulation (Phage or
+                     Prophage Related)"
+                     /note="Residues 5 to 86 of 86 are 63.85 pct identical to
+                     residues 6 to 88 of 88 from GenPept 118 :
+                     gi|15163|emb|CAA35903.1| (X51522) ORF88 product (AA 1-88)
+                     (put. DNA-binding protein) [Bacteriophage P4]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative regulatory protein encoded in prophage
+                     CP-933I"
+                     /protein_id="NP_285987.1"
+                     /translation="MRNISVSAPAPAAPLFPVSNHHERFLRLPEVMHLCGLSRSTVYDL
+                     ISRDAFPKQIPLGGKNVAWAQSEVSAWMADRISARGRGCDA"
+     gene            18375..18932
+                     /gene="Z0337"
+     CDS             18375..18932
+                     /gene="Z0337"
+                     /function="putative regulator; Other or unknown (Phage or
+                     Prophage Related)"
+                     /note="Residues 70 to 184 of 185 are 67.82 pct identical to
+                     residues 21 to 135 of 137 from GenPept 118 :
+                     gi|215688|gb|AAA92519.1| (M11913) ash gene product
+                     [Bacteriophage P4]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative regulator encoded in prophage CP-933I"
+                     /protein_id="NP_285988.1"
+                     /translation="MMIPAYIKYLYSGLLTVVISRYSFSAVAKSAAGIGVPYNLLATID
+                     APCVFFYVVAQAQPFSGLWCLCLHHGSIEIMVVRAGQPSGWPVSNKAGYANPVRAATSE
+                     IGVSGGSNNRYLLEAAIMATILTPSHPQYVFVFAAIRRADTHPRICMLRTVSCDERSAR
+                     RLLVRDYVLSLSARLPAGEVTL"
+     gene            19150..19473
+                     /gene="Z0338"
+     CDS             19150..19473
+                     /gene="Z0338"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 10 to 107 of 107 are 71.42 pct identical to
+                     residues 9 to 106 of 106 from GenPept 118 :
+                     gi|15159|emb|CAA35899.1| (X51522) ORF106 (AA 1-106)
+                     [Bacteriophage P4]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285989.1"
+                     /translation="MICCESLLALRAALYRRAVACAWLALSNHQERYSGLTLAELEDAI
+                     ARELEGFYLRQHGQQRGLEIACALLSDLMESGPLKACPVLSLLGMTVMDELCSRHLNKP
+                     ALH"
+     gene            19430..21820
+                     /gene="Z0339"
+     CDS             19430..21820
+                     /gene="Z0339"
+                     /function="putative enzyme; Replication (Phage or Prophage
+                     Related)"
+                     /note="Residues 23 to 792 of 796 are 72.63 pct identical to
+                     residues 3 to 773 of 777 from GenPept 118 :
+                     gi|15158|emb|CAA35898.1| (X51522) alpha gene product (AA
+                     1-777) [Bacteriophage P4]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="alpha replication protein of prophage CP-933I"
+                     /protein_id="NP_285990.1"
+                     /translation="MNFVPVTSTNQRCTKEGRTMSGMKVSQAEKAARGHWSRILPALGV
+                     NVLKNRHQPCPVCAGKDRFRFDDQEGRGTWFCNQCGAGDGLALVSKVLDVGISEAADRI
+                     NGIIGNLLPVSQGMLESGSPEKEDGRKAAAVLAARLFDKSRQTTGNAYLTSKGFPALPC
+                     RELTAMHKVGGVAFRAGDLVVPLYADGELVNLQLINANGGKCFLKGGQVKNAFYLVEGT
+                     AKAAKRLWIAEGYATALTINYLTGDAVMVAFSSVNFLSLASIACSEYPTHQIIIAADRD
+                     LNGAGQTRGAAVTGACNCTMALPPVFGDWNDAFTQNGEEATRHAIHEVIKPAVASPFDT
+                     MSEAEFTALSVSEKAQRVVDHYKNSLAVDPNGQLLSRYEAGAWKVIYYADFARDVAALF
+                     QRLDAPFSSAKIASLVETLKLIVPQQQNPARQLIGFRNGVLDTRTGLFSPHDKKHWLRT
+                     LCEVDYTQPVDGESLETHAPAFWRWLDRAAGFNPEKRDIILAALFMVLANRYDWQLFLE
+                     VTGPGGSGKSILAEIATMLAGEDNATSATIEMLESPRERAALIGFSLIRLPDQEKWSGD
+                     GAGLKAITGGDAVSVDPKYQNAYSTHIPAVILAVNNNPMRFTDRSGGVSRRRVILHFPD
+                     QIAPEERDTQLKEKIASELAVIVRQLMQRFSDPMSARTLLQSQQNSDEALTIKRDADSA
+                     FDFCGYLEVLPDTTGMFMGNANIVPRQPRTYLYHAYLVYMEANGYKNTLSLTMFGKGLP
+                     LMLKEYGLQYEKRRTNQGMQTNLALREESNADWLPKCDEFAAK"
+     gene            complement(21953..22909)
+                     /gene="Z0340"
+     CDS             complement(21953..22909)
+                     /gene="Z0340"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="Residues 45 to 250 of 318 are 21.58 pct identical to
+                     residues 67 to 290 of 336 from GenPept 118 :
+                     gi|1651686|dbj|BAA16614.1| (D90899) hypothetical protein
+                     [Synechocystis sp.]"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285991.1"
+                     /translation="MTSYSNFSNQIKETINNKFDHEIHDWDIIKNSITTLINKNIHGAG
+                     RNIVDFIDLGNWDFISNFSFDDSTRRLELEWHPNDKFHIYIESVVFVEFNDTIYAFLKG
+                     YYHNQLSLNRIYNTKCSSCSFENSGSYMVDVYRTVKRVNETIQTPNINCYTTCILTRPA
+                     NGHVTSTGFSRNLMDAINISLAEHKIASLHNEVMSIEEYDRDSLQEKGNTARRYLEYIL
+                     MLVNIRIMHLNNVQYQEQMLGSLVSVIEALDYEPLMKNDVEITKDILNACSHHGGVRIE
+                     KKDVIFSLEVIENLIKAIKKTDINKLQLDGMFKSIQK"
+     gene            complement(23002..23040)
+                     /gene="Z0341"
+     CDS             complement(23002..23040)
+                     /gene="Z0341"
+                     /function="orf; Other or unknown (Phage or Prophage
+                     Related)"
+                     /note="No significant matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="unknown protein encoded in prophage CP-933I"
+                     /protein_id="NP_285992.1"
+                     /translation="MGAILFSDNGML"
+ORIGIN
+        1 ttacacatca ttagtacctt ccttattttt tgactgggac aaatttggga ccgatgggtt
+       61 caggatcgag tctatttgcc gtgcgtgttc ggtaaggtga ttaggtgcaa ggtgagcata
+      121 tcgacgaacc atttcgatag actcccagcc tcccatttcc tgtaacactg acaacgggac
+      181 tccggcttga accagccaac ttgcccaggt gtgtctcaag tcgtgaaatc tgaaatcatc
+      241 aataccagcc cgtctcagcg ccgctttcca ggctgtgttt gcgtcatacc gcatcttcct
+      301 tactgttggc gctttcgttc cgtctggttt ggtacagctt tccttgtaca caaataccca
+      361 acggtgatga ttaccgattt gttttttcaa tacgcgacat gcagtatcat tcagcgcaac
+      421 gccaattgcg cggtttgatt tactctcttc cgggtttatc catgccaccc ggcgctgcat
+      481 atctatttgt tgccattcaa ggttgatgat gttcgagcgt cttaagcctg ttgccagtgc
+      541 aaattcaaca acagacttta atggctccgg acattcatca atcagccttt gtgcttcatg
+      601 gggctccagc cagcggagcc gtttattctt tggttgaggc actttaataa ttggtgcctt
+      661 atcgagcatt ttccattcac gctctgcggc tcttagcagg gcctttataa atgaaagatg
+      721 cgtagccttc gttgcaacgg acgctggttt tggcgtgtat tctggaacag gtttcccttt
+      781 ttttctgcat gcttctgccc tgagtttcca gttttcctca tgacgccggt tcgtcatttt
+      841 ctgcattgct gaataaattt ttgattcagt aatgtctctt agttgcattc ctgcgaaatg
+      901 ttgaagccag aatccgatct gctttccatt gagcctgttt ctctgcgcga cgttcgcggc
+      961 ggcgtgtttg tgcatccatc tggattctcc tgttagttag ctttggttgt gtgtgggagt
+     1021 cgtagtcctg aacgaaaaca ccccgcaatg gcacattggc tgctaatccg gattcgcact
+     1081 tccggccaat gcttcgtttc gtatcacaca caccaaagcc ttctgctttg aatgctgccc
+     1141 ttcttcaggg cttaattttt aagagcatca ccttcatggt ggttagtgcg tcctgctgat
+     1201 gtgcttagta tcaccgctag tggtatttgt gtcaacaccg ccagagataa tttatcaccg
+     1261 cagatggtta tctgtatgtt ttttatatag atttattttt tgcagggttg tgtggcttgg
+     1321 gaggtgatcg agagatcaga attgcgttgt ttagtgagtt gcacctatta attttaaaat
+     1381 aaatacaatt ggtgtttttc gagtttttct taactcttca tgcagctccg ttctcagaat
+     1441 atatgatttt tcgagtttga aattcttgcg accaggcgtc ttattgccag gctcaggaag
+     1501 tggaaggcgt gtttgaatgt cgagtggtgg acagtcatag aagtaaattc tataaagctc
+     1561 aagcggttcc ctacgttctt gtgattgacg ttttccatta agatgggaaa gaaccattga
+     1621 ccatattact ttcattatgc attgcgcagt cagttcatgc tcggcgaagt gtttacgatg
+     1681 cgtagcatga acacgctgca tgaaaaaacc cgcatcaatt aaaattgctg ctttcttcat
+     1741 aagagtccca aaaaaatagc ccagagccgt tatgcagata ttaacaattg tctgcgaacg
+     1801 gggctgggct tggtttaatt aatctatgcc aagttgactg tgccgtcaac ataaaactta
+     1861 cttcctatca cccaaacgtc tcttcaggcc actgactagc gataactttc cccacaacgg
+     1921 aacaactctc attgcatggg atcattgggt attgtgggtt tagtggctgt agaaacacct
+     1981 gaccgctatc cctgatcagt ttcttgaagg taaactcatc accaccaagt ctggctatac
+     2041 agaaatcgcc tggctcaaca gcctgctcag ggtcaaccag aattaacatc ccgtcaggaa
+     2101 agctgggctt ggatcctgtt ggtgcggtca tggaattacc ttcaacctca agccagaatg
+     2161 cagagccact ggcttttttg gttgtgctta cccatttctc cgcatcgcct ttggtaaagg
+     2221 ttctaagctc aggcgagaac atcccggcct gaacatgaga aaaaacaggg tactcatact
+     2281 cacttctaag tgacggctgc atactaaccg cttcatacat ctcgtagatt tctctggcga
+     2341 ttgaagggct aaattcttca acgctaacgt tgagaatttt tgcaagcaat gcggcgttat
+     2401 aagcatttaa tgcattgatg ccattaaata aagcaccaac gcctgactgc cccatcccca
+     2461 tcttgtctgc gacagattcc tgggataagc caagttcatt tttctttttt tcataaatag
+     2521 ctttaaggcg acgtgcgtcc tcaagctgct cttgtgttaa tggtttcttt tttgcgctca
+     2581 tacgttaaat ctatcaccgc aagggataaa tatctaacac cgcgcgtgtt gactacttta
+     2641 cctctggcgg tgataatggt tgcatgtact aaggaggttg tatggaacaa cgcataaccc
+     2701 tgaaagatta tgcaatgcgc tttgggcaaa ccaagacagc taaagatctc ggcgtatatc
+     2761 aaagcgcgat caacaaggcc attcatgcag gccgaaagat ttttttaact ataaacgctg
+     2821 atggaagcgt ttatgcggaa gaggtaaagc ccttcccgag taacaaaaaa acaacagcat
+     2881 aaataacccc gctcttacac attccagccc tgaaaaaggg catccaatta aaccacacct
+     2941 atggtgtatg catttatttg catacattca atcaattgtt atctaaggaa atacttacat
+     3001 atggttcgtg caaacaaacg caacgaggct ctacgaatcg agagtgcgtt gcttaacaaa
+     3061 atcgcaatgc ttggaactga gaagacagcg gaagctgtgg gagttgataa gtcgcagatc
+     3121 agcaggtgga agagagactg gattccaaag ttctcaatgc tgcttgctgt tcttgaatgg
+     3181 ggggtcgttg acgacgacat ggctcgattg gcgcgacaag ttgctgcgat tctcaccaat
+     3241 aaaaaacgcc cggcggcaac cgagcgttct gaacaaatcc agatggagtt ctgaggtcat
+     3301 tactggatct atcaacagga gtcattatga caaatacagc aaaaatactc aacttcggca
+     3361 gaggtaactt tgccggacag gagcgtaatg tggcagatct cgatgatggt tacgccagac
+     3421 tatcaaatat gctgcttgag gcttattcgg gcgcagatct gaccaagcga cagtttaaag
+     3481 tgctgcttgc cattctgcgt aaaacctatg ggtggaataa accaatggac agaatcaccg
+     3541 attctcaact tagcgagatt acaaagttac ctgtcaaacg gtgcaatgaa gccaagttag
+     3601 aactcgtcag aatgaatatt atcaagcagc aaggcggcat gtttggacca aataaaaaca
+     3661 tctcagaatg gtgtatccct caaaacgagg gaaaatcccc taaaacgagg gataaaacat
+     3721 ccctcaaatt gggggattgc tatccctcaa attgggggat tgctatccct caaaacaggg
+     3781 ggacacaaaa gacactatta caaaagaaaa aagaaaagat tattcgtccg agaattctgg
+     3841 cgaatcctct gaccagccag aaaacgatct ttctgtggtt aaaccggatg ctgcaattca
+     3901 gagcggcagc aagtggggaa cagcagaaga cctgaccgcc gcagagtgga tgtttgacat
+     3961 ggtgaagacc atcgcgccat cagccagaaa accgaatttt gctgggtggg ctaacgatat
+     4021 ccgcctgatg cgtgaacgtg acggacgtaa ccaccgcgat atgtgtgtgc ttttccgctg
+     4081 ggcctgccag gacaacttct ggtccggtaa cgtgctgagt ccggccaaac tccgcgacaa
+     4141 gtggacccag ctcgaaatca accgtaacaa gcaacaggca ggcgtgacag ccagcaaacc
+     4201 aaaactcgac ctgacaaaca ctgactggat ttacggggtg gatttatgaa aaacatcgcc
+     4261 gcacagatgg ttaactttga ccgtgagcag atgcgtcgga tcgccaacat cgataaccag
+     4321 gacatgacga tatcggtctg ggtctttcct gatactgata tttcagatgt atcgcgtgag
+     4381 ttaattgcgg caattaaaca ggggtatcta acagtaaaag ccgccggggt atgggcgggg
+     4441 ggcattgaaa caccttcggt ggaaactcca tcggaaggct ctaaattttt tggttttgat
+     4501 atggataacg aattcatcag tggttttgat gtaggggcat ggggagtatt actctgatgg
+     4561 cgaaaaatga ctttaaagcg tttgcaactg atcgaaatgc caatgttatg tcgcaggagg
+     4621 aatgggaagc gttgcctgcg cttatatccg gatttacagc agggaaagca tccagtgcgc
+     4681 aagtcaataa ggttattcgg caggccagct ttattgctgc agctctggcc cagtttgtaa
+     4741 gtgataaaac gcaacgggat gtgcttgata atggtgatct gcccggtttt gttgaattgc
+     4801 tgggatcggg gtttgctgtt gaatacctga gccgcaagaa tccgtttggc gatatcaaat
+     4861 cggacggcac ggtgaaaacg gctcttcaaa accttggttt gggagaagcg gcaaaacggg
+     4921 atgtggggac aggggaaaat cagataccgg acatggcctc ttttgccagt ggtaatggat
+     4981 ggatgaaatt acccaacggg aaaatcctgc aatatggtcg tggtgcggtt acgccgacat
+     5041 tatcgacgca aacaatgaga attacattca gcatcccttt ccccaaaaaa gcggactgcg
+     5101 ccatgcttac tcattctggt gatggcggtg cgcctttagg cgctgggcga gggttcgtga
+     5161 tgactgcaga aggcccaacg ttaaccggct ttaattctgc ttacagaacg tcatcaacca
+     5221 gcgacacggt atcgatgaat tacagttggt gggctgttgg tgagtaattt tattcagggt
+     5281 gatttatatg gacgaatatg tttatagcgc aaggcataat gcttttttcc ctgtggatat
+     5341 gattgataaa tataaatcag agggatggga tttatcagac gctaaggaag taaatcaaaa
+     5401 tattatcagt gagtttatgg ctgaaccgcc acaaggaaaa atccgtattg ccggagatga
+     5461 tgggctgcct gcgtgggcag atattcctcc acccacgcat gaagagctta ttgaaattac
+     5521 tgaatcagaa agacagctac taattaacca ggccaacgaa tacatgaaca gtaagcaatg
+     5581 gcccggtaaa gcggctattg gtcgtctgaa aggtgacgaa ctgacgcaat ataatttgtg
+     5641 gctggattat ctggacgcac tggagctggt cgatacttcc ggtgcgccag atattgaatg
+     5701 gcctacgcct ccggcagttc aggccagatg acatccggcg cggtgctggt atctgttgcc
+     5761 gtcaccgcgt caatgtaatc cagcacggcg ttaagtcggg ttgtttctgc ctgagtcagt
+     5821 ttccgtccgg cctgtaactt cagctgaatc agactaatgg aagccattgc tgcatcaatc
+     5881 agtgattggc gctgtgcttc tgccgcgtct actgcggcac tgtgttgtgc ctcagtgtct
+     5941 gtcacccatt tctcaccatc ccatttatcg tatggcgtta acggtgaaat cgtgacataa
+     6001 ccgtctttga tggcaccgat ataatccact gtaacagctg cgccattttc gattgagtaa
+     6061 acagtctcat tgcgatggtc ttcttcatgg ctccatccct tacctgtaaa tactgccact
+     6121 cttcccggaa tgttttcgcc agggtcaata ccagtggaac aggcgggcat acttacgcca
+     6181 gtattaatat attcatcaga ccagcccgta tactcagatg tttcagcatc ataataaaaa
+     6241 caacgcatat cgcccggcac tgtagccagc ccattttcat caaaaacagg tttcattatt
+     6301 tagccctcac cagaaagtta aatgcaatat ttcgcggtct gactgcaaca aaattcacac
+     6361 catcacccac agagttactg gtgaaattaa atcgtgaaaa tcctggctga tttccggcga
+     6421 tgccatcatg aaagttaatt gcgtgtcccg caccttcgcc tatattcccg gcaaactgag
+     6481 aaaagtttgt agctgcctgc cagcttaata attcgcgacc accgtctgca cctcgcccgt
+     6541 catcccagat acgaatgaaa tcaccgcggg cttcaggtaa taccagcgaa ggaaacactt
+     6601 tcgccagcac aggataatca gtggcagaga atttcgcgcc gttgaacttc aaaaacacca
+     6661 tacaggacca gctgtcgatt acagtatttg gcattgcagc ggacggccag aagaacggaa
+     6721 cgccaatagc tggagcacct tctcccaaac caacgtttat gaaaatgcag aaataacgag
+     6781 caaatggcat cattcctgct tttgtcaggg agatctacca tgcttattgg ctatgtacgt
+     6841 gtgtcaacaa atgaccagaa cacagatcta caacgtaatg cgctgaactg tgcaggatgc
+     6901 gagctgattt ttgaagacaa gataagcggt acaaagtccg aaaggccggg actgaaaaaa
+     6961 ctgctcagga cattatcggc aggtgacact ctggttgtct ggaaactgga tcggctgggg
+     7021 cgcagtatgc ggcatctggt cattctggtt gaggagttgc gcgaacgtgg cgttaatttt
+     7081 cgcagcctga cggatgctat tgataccagt accccaatgg ggcgcttttt ctttcatgtg
+     7141 atgggggccc tggctgaaat ggaacgagaa ctgattgttg aacgaacaaa agctggactg
+     7201 gaagctgctc gcgcacaggg acgaattggt ggacgtcgtc ccaaacttac accagaacaa
+     7261 tgggcgcagg ccggacgatt aattgcagca ggaattcctc gccagaaggt agcgatcatc
+     7321 tatgatgttg gtgtatcgac actgtataag aagtttccgg ccggagataa atgaaaccgt
+     7381 agcacgtcgt atgcaagatc gtgctgcggt ttatgcttac cacttgaaga ttcaaaaatt
+     7441 aggtgagtaa cgaactggag acatagctcc tttttttctt aattcatctg gtattttttt
+     7501 cccaagataa aggtttgcta tttcaggtgg ggcttctcga ccttcaaaac catagcgaga
+     7561 gctttgtgtt gcctcaaagt cagggtcttc gtcccagtat ttcatcgtag gaaaatgttc
+     7621 acgcgttgat tttagccatt tatcagcaat gaaaactcct cgaacgatcc cccttacagt
+     7681 agcaagaatg acttctgctt tactggcgcg cgagacatta atgcgccagc taaatcgaac
+     7741 cgcatcataa agctctgaat cttttgcact tctgttaacg gaaatcatta atgctttatg
+     7801 atgaaatgtt atggtttcgg gttgatatgt tgctatcaac tctttgacat gcgcggcgcc
+     7861 gaattcattg ctgccagcac cattcatgat attcgttaac ccagggtagg catcaataag
+     7921 tgctgcttca acttcgtacg ccgtcttttc atcagtcatt ccatgtcgat ggatgacatg
+     7981 gataacttca agtcccgcta atcttatttc tctgatttgc tttagcttgt tgctcagtaa
+     8041 gtcgtcatca tcagccgctg ccacttcacc gcgcatatgg gcaaatacgc ggttaccttt
+     8101 gcctttccct acatagaagg tgcttccgtc cctaggatca atcaatcggt atacatacca
+     8161 gccaaggtgt tcaattactc cagaaggaaa ctcagtaata tccattttgc aatatctgtg
+     8221 aattatttgt gagacgtata ttaatgaaca ttgcaagggc tcacaactag tagtgttgag
+     8281 aaagccatcg ggaaaatgag gctaaccctt tgaatttaca tagcgcaaaa agataccttt
+     8341 cctcataatg tgagctaatt ttatgtttcg tttgatgatc gggtcggtct cgaaaaccgg
+     8401 agtaggggca actctaccgg gggttcaaat ccccctctct ccgccacttt atcaatgact
+     8461 tatctcccga cttcccgtct tgcttttcct aaacagaaca atcgtagaat attcttgaag
+     8521 ggttagatcg tcactgtttt ctgttcgata ctgtgacatt cagcacttga ttcgctatgg
+     8581 atctgacagg aaggttttga gcgaaaatct gcagttattc agtcgttttc ttatcggtca
+     8641 ccattattct tttagacatt gatcctacaa agctgccgca aagttggtgg tgggaactga
+     8701 agttgcgtag agaaggggtc aatacccgga ggcaaacatg ggctggcaaa agtgtagcgg
+     8761 tattaggcgc agctatttag cctagttatg ttttatgaaa acttgatatc atataagtgt
+     8821 cttacttatt ggctgtaaat aagtttttcc taaggaattg tttcttgagt atcatttgta
+     8881 actgtaacgg aatttataat cctttgcttt attgttacgg tattttttat cacaccctat
+     8941 ttttagtggt tttttatact gaagtttggc aaagtgaact ttatatacat atacttcatc
+     9001 ctggtttcag ttaaattggg gggatgatat ggcaactaca tgttcagtta tattgatttt
+     9061 ggagtccttt gatgtttatt tcggaaaaga gagtgtgttt ctggagagag gttcatctgt
+     9121 acttgtcgac tctagctcta gagatttttt cctgacatat cctgaaagag tgatagtggc
+     9181 ggattttggc gctgagttta ttagtcgcta tttgaaagct aataacttaa gggatatttc
+     9241 tgattgtagg gaatatccat cttatttaaa aataaacttt gctgacttca gtttaattaa
+     9301 aggattaatt agttgggcta atcactgtgc tgaatacata gaaatttttg atgagtctat
+     9361 tgcttttaca tgtctctctg cattttcttc tgaaaaacaa tttggagtat ttctgtttgg
+     9421 atgtttgaaa agcacagggg ctaaagttaa aacgattatt catacggatt tatctgcacc
+     9481 atggcgtctt aaggatatat catcaagatt atatctcagc gaaagtttac taaagaggaa
+     9541 attgaaagaa gagggggtat cattcagtaa gatcatactt gatgagagga tgcaaatggc
+     9601 tgaatattta ctcagcactc gttgttatcc tattagtaaa gtagctaagg tctgtggtta
+     9661 tgccagtgtc tcatacttta cttatgtatt tagacgttat tttggtgttt ctccaagtca
+     9721 atactctcag aggagttcag aaagtaaaat tcttactcac cagggaatct gatcattgtt
+     9781 cttgccccct tatttccaga cagggggggt atcttaagtt aacgttaccc gctgacgtcg
+     9841 atattctcgc ggagagcgat aacccaacgc actgtgcgga tggttttcat tgtaatgttc
+     9901 gatcgccact gcaagattat gcaatgccgt tcttacattc ggtttcggca tgaacgcgat
+     9961 gtagtcttcc ttcatcgttt tcacgaacct ttctgcaatt ccattactct gaggactgct
+    10021 gattgccgtt gtgcagggct ccagattcaa ctctctggcg aactgccgtg tttcatgcgc
+    10081 tctatacgct gaaccgttat ctgtcagcca ctggatggac tgttccggta ctttatcgcc
+    10141 aaagcgtttt tctatcgctc ctaacatgac atcctgcact gtcgctttat cgtaacctcc
+    10201 cgtgcttgcg gcccagtcta tggcttcacg atcgcaacag tccagggcga ttcatctggg
+    10261 ccaatccttg ctcataacag gcattcactt cagtcatggc agaaaggtat gcatgctgga
+    10321 gaagtcgtga aagaaaagaa gactgctgcg ccgtttgtcg tcacgtttat cttcattggc
+    10381 tatgcaagtc gtaatacaag gtgggacaaa actgagacac ataaggcctc gcaatggctt
+    10441 gcaaggcttt acatgttttg atgtggtggg acgtgtgagc gcagtgttga tggggtaatg
+    10501 ctttgaatta gaagcggatt cttataattc gtaatgcgaa ggtcgtaggt tcgactccta
+    10561 ttatcggcac catctcaact tcctcaaacg tccgtattag tccataaaat ctctgattta
+    10621 taacattttt tattctttta agtccatagt agtccgtaac catccagtag aatccggtac
+    10681 tgaatgtgta taggattgtg tatatgttcc tgttcggtct ggattcctat acacatgcct
+    10741 ttaaacgata tgcagattcg ccgcgctaag cctgaagcta aagcctatac atttggagat
+    10801 gggctagggt tgtcattact tatagaacct aatggaagca agagttggcg gttccgctat
+    10861 cgctatgccg gcaaacccaa aatgatctcg cttggtgttt acccaacgat cacccttgcc
+    10921 gatgctcgtt cccgtcgtga tgaagctcga aaacttgtgg cagaaggaaa gaaccctagt
+    10981 gaggttcgaa aagagcaaaa gctagctatg caaacagagt cagagaacgc cttcgaaaag
+    11041 atagccagag agtggcatca acttaaatct gctaaatggt cggcgggata tgcatcagac
+    11101 atcatggaag cgtttaagaa cgacattttt ccttatgtcg gaacaaggcc tgtgggagag
+    11161 attaaaccgc tagagctgct gaacgttctg cgtaaaattg agaaacgtgg tgcgttggag
+    11221 aaaatgcgca aagtgcggca gcgttgctcc gaagtgtttc gctacgcaat tgcaacgggt
+    11281 agggcggagt acaatcctgc ggctgatctc tccagcgctc tcgaagtaca ccaatccaat
+    11341 catttcccat tcctaaaagc tgatgagata cctgattttc tacgtgcctt agagggttac
+    11401 tccgggagta agcttgtcca gatagccacg aaattactga tgattacggg tgtgagaacc
+    11461 atcgaattac gcgcggcatt atggcaagaa tttgatctgg ataacgctat ttgggaaatt
+    11521 cctgctgaaa ggatgaaaat gcgtaggcca catcttgtgc ccttatcatc tcaagcggta
+    11581 gatttactca atgaactcaa gatcatgaca gggaactatc gttatgtttt tccagggcgg
+    11641 aacgatccga ataggccaat gagcgaagcg agtataaatc aagccattaa gcgtattggg
+    11701 tatggaggaa aagtcactgg acatggtttt cgtcataccc tttctacaat cctgcatgag
+    11761 caaggttttg agagtgcttg gattgaaatc cagttggctc atgtagataa aaattctatt
+    11821 agggggactt ataaccatgc tcaatatttt agtggaagga agtctatgat ggactggtac
+    11881 agtaatttga tatttgaaag actaaaaagg agttaatttg tgtctcaacc actttcggaa
+    11941 atattgacat gggatgatga acaatgggag gtatttgtcc atgattggct tattgtctgt
+    12001 aaatcagatg attacccgtg gagcgaacgt ttgggaggag ctggagataa aggtagagac
+    12061 gttgttggat ataaatcgga tcctaacgta gaaggttatt cttgggataa ttatcaatgc
+    12121 aaactgtaca aaaaaagttt agggttctct gatgttgtag ttgagtttgg aaaacttatc
+    12181 tattttactc tgaatggtga ttatcccatc cctcagaagt acttttttgt ggcaccctat
+    12241 gatttatcta ctacattttc taatttattg aaaaataaaa acgagcttaa aaaagcagtc
+    12301 cttgattcat gggattcagc aatttcaaaa aaataactaa aaagattgat attccattag
+    12361 atgatgaaat aaaaaaatat attgaggatt ttgattttag tattttttac tctctaccct
+    12421 tatcattgat tttaaatgat attgcaaata cacaccttta ttttaagtac tttaacgagc
+    12481 tgtatgtcgt gagaatccct ccaaatgaaa ttccaacata caattcaaaa aaagagtctg
+    12541 tatatgttaa tgcactgctt caagcctatt cagagcatgg aaataaaact tatagttctt
+    12601 tcttagagct tgatgatcca tacagacgac actttaataa tagtagaaat gatttttatt
+    12661 ttgcatcttc gcttgaggtt tttgtccgcg aagtatttaa agatgatgta ttcaaagcat
+    12721 tgaaatgtta catttcatct tcaattgaac ccgtctttta tgaagaccat aattatgcat
+    12781 ttattaggtg taatgcagtc ttgaagcagg ctgttctgac accaattgca cattcagtac
+    12841 tatcaaaaat atgtgaagca aatgataaaa aaggaatatg ccatcatttg gttaatgatg
+    12901 gtgaagtaat ttggacggtg agataatggt tagaatttat aattcaagtt tagaagtggc
+    12961 atgtcgaatg gcgaaagtgc tcgtcgctat ttatccttct tcattaagcc ttgaacggct
+    13021 tatttgtttt gattttattt tagtaaatct taaggatttt ttacctgaag agattagtct
+    13081 tcatcctcca ataccccgta gagatgctca gttagcccta aaacgagaga ttgttttaga
+    13141 atcattggct ttgttgcaag gctatgaact agcctcaaaa atttatacac atcgtggttt
+    13201 tgtatataaa gcttctgaaa aaacatatgc atttacaaat tctctacata atgaatatgt
+    13261 tgcgcagatg gagcataata taaatttggt ggttaagtta tatagtgata ttcctgatga
+    13321 gcagttgcaa tcaattataa aaaataaaat tggcaaatat gatatggaat ttaattatga
+    13381 atgacaattt ttttacgttc agaaaaataa aggtaaccgg attcaataaa ttagatgcta
+    13441 taattgaatt tggttctaaa ttgactattt tatatggtgg ttctgactct ggaaaaacat
+    13501 acatatatta tttgattcga tatttattag ggagtgaaaa actaaaaaat aaagatatcg
+    13561 atcatgctca aggttatgat ttagcctatc tggaatttaa ttttcaaggt agggtaatga
+    13621 caattgagag gtctcttcag gatagcgccc attacagatt atatgattcg agcattgaaa
+    13681 atgttagtga agctaatctg ttgatggttt tttccaaaag tgcttcgtct aaaaagagtt
+    13741 tttcatcata cttttatggt aggttgaatt tcaaagaggc taaagtaaga acaaacttaa
+    13801 gtaatactct tcataaattt aatcttaata atgtttttga atttttttgt attgatgaat
+    13861 taagagtgtt aactgagaag tcgttaattc tttctgatat tcctagcgag gagacaaaaa
+    13921 gaaagtctga atttaaattc cttttaactc agagagatga tactaactcc ttagcagaaa
+    13981 aaccaaataa aaaagcaaga tatttttaaa aaaatcaaat tgcaaatatt tatgaggaat
+    14041 tgaaagcgca attaatttat cctgaatatg atcaagtcat tgtttcaaga gaacttgaga
+    14101 aagtagagca agatattgaa tcatcgaaag atatattgaa aggtattgtt gatgcacttg
+    14161 atgataagaa gcaattatta aaagagttaa gtgatgaatt atattcaatc agtgacaggg
+    14221 aaaaatactt atcattactc attgaaagat ttagtcttct taaagaccaa tactttatag
+    14281 atctacaaag aatagatgtt gtatcacagg cgaatttcta tttaaataat tttgcagata
+    14341 tttattgtga gttctgtaat acaccgcaaa aaaaagaaaa tgaaatatca tatgatgatt
+    14401 gttttttgtc gtgtaatgca gaaaaattga aaatcaaaag ccagctgaaa ggattaattg
+    14461 aatcaatcgg atctaatgtt cgcgaacatg aattaattat gttaagaaaa aatgatgtta
+    14521 atgaaattta tcaatcagaa aaaagtgatt ttaagacgtt agaagataaa aatataaaac
+    14581 aatacattca tctcttgaat cactttatga atataaagac aatcttttaa tggatcacac
+    14641 aaaacatagc attctatctt cattacaaga taaagaagat gatgttgacg aacttaaata
+    14701 ctccgccgag gactttgact ccttaacagt agctgatttg tatgatatag aaatagcgat
+    14761 gcaagacttt ttgaatgata taaattttga aaattctaaa gataacaaag tgcgatttga
+    14821 cgaagataca tatgacttta atatcaatgg gaaacgccga ggaatgtttg gtaaaggtac
+    14881 ccgtgcagta atgcatgcta tatttaccat ttgctttgcg gaatttttat caagaaaagg
+    14941 gaatccattc attggatttg ttgtgcttga tagtccatta gtgacgcact ttgataaaga
+    15001 tagagggggt tctctatcgg atgttaatag cgtcagtctc agtgattcat tttatcacgc
+    15061 attaatcaaa agggactata atttccagat tgtaattctt gagaataaag gtccgacgtt
+    15121 ccaaataaaa attaatgatg caaataaaat ccataactta aataagaatg gaagctctgg
+    15181 tttttatcct gtttaataca ttaaaaatat aactgctaat tggggtgctc gaaattatat
+    15241 ttcgtttcga gcgctcagtt catttctaaa taatttgcaa aattattttg ggtactttcg
+    15301 cctctacact tccttcgggt ggttccacaa taatggatct caccggcgtt tgatatttta
+    15361 taatctaacc ccttagcgcg cgcagccccc cacgcctgct cgcttcgctt aacagactgg
+    15421 ttttcatgca ttccgcaaat cgtctcagaa gccaccacac aagggctttc gcgtcaaaaa
+    15481 tggtgcatga gaatcatgcg ttttcatgcg ctatagacat gcactcatgc gctctcaggc
+    15541 cagccaggga aaaggcgtaa aaaatcccag tactggaccg ggattacgtg ggcttttttt
+    15601 gctaatcaga caggaatttg ctgacggctt gacagctttg acgcggagcc atagcgattg
+    15661 agagtttgct gttgtttttc cggcatttgt gctttctctg attcctgttc attgcgccgg
+    15721 ggcttcatga ttatcgtatc cacactttcc agtgcggtaa atgtgtagga acattcaaga
+    15781 ttctggcact gataccatga gcgtttaacc gatggtgctt cataggcgga ggttctggcg
+    15841 tgtgccgtcg taccgcattc gggacattta agtgccatta atattactcc tgcatgccgt
+    15901 taatgtaatc cagacgttgc tgaaagcgca gttgttgtgc aggggtgtaa gagctctggc
+    15961 aatcacgaac catcatgggg tcaggcatca caccggattc atccagaatc atacgataat
+    16021 ccccggcaat ttcaggcggt gttattgcca gctggcgaac cagagcattg cgtaatatac
+    16081 gggacgcaac gtcaacccct ccgcgcccct tcaggaacgg agccagtgca gatgtcaggg
+    16141 ctgctccatt cgcctgcata aaattgctga gagcgtcttc tgtgcaggcc tccatcagtt
+    16201 gatgctgcga gtaaatgcat tcgcgcgcag cacagttaat ttgccatttc agcacatcca
+    16261 gatgttcccg ctgtaattcg agctgtcgag cataatctgc tggtttttcc atggcagtga
+    16321 ggagtgattc tatctgttgt tcaacggctt ttcggctctc actatgtcca gcccacagaa
+    16381 tacgggcatt tctaaaactg ataagcgctt ggtctggagt gactcgggcc atcatactgc
+    16441 tttctccttc tcagcacgtt cctgacgaac cttcatttta tgcatagctg ctggagagag
+    16501 tttattactg aaatccagac gggccgcata atccggggca actcccgcca gtttaaacac
+    16561 ggggtcctgt tcgggcatcg catcgttagt cagagccggt ctggtgatat gtttatgaat
+    16621 aaaatctttc agcagtgtgt ccgggtcatt aactgaatgc accacaccga caactgcgct
+    16681 ggcttccctg cccattgttg atttgagcag gcttagtgtc tggattagtg cttttccatg
+    16741 cgactgcata aaatcttccc agatttgttt tgcgcgaata cccacaaggg tgtcgtgcgc
+    16801 gtggatatac tttccggcta attccgcagc ctcctgcggc aaaagtgcat tttcgctttc
+    16861 ctgagccgcc agcagctcat caaaatcctc aagcgtttct cgtcccagcg caatttccgt
+    16921 gcgcagtttt ttcatttcct ttgagactac gccctgactt tcacgaaata gcgtgcgcca
+    16981 ctcctcattc agggcgttcg tcgtggcttc catttcagcg cggcgctggc ggattgtcgc
+    17041 aatattatcc gctgccgctt tttgctgacg acgtgcttca agccatgcag atttggtggc
+    17101 attcactttc tcaagcgcct gttgcgtcga aacagggata gaaatttcaa cgatcgggtt
+    17161 attgttctgt tctgggattg tcatgtcagc acctagtggt ttgtcgtggt gtcaattgtg
+    17221 ctgtgatgca tacaaagctg ccattgaacg ccattgtgcg agcgacaaga caaagactga
+    17281 accgccccgg acctcttttg gctagccaga aaaggcctcg tttaactaag gctgtttcag
+    17341 acttacctta actattcact actattcact taggtaaaaa aaataggtaa tacagaaggt
+    17401 tataaggtga agggttggca tggcagtatt catcgactgt tcataactgt tcacatggga
+    17461 ataaaattat ttatggtatt ttttcataat gggtggtttt tttattcctc gtagctattt
+    17521 gttttttgct cctcaccact attcaccctt attcaggagt attcaacagg cacataaata
+    17581 gactgcatgt ttttgccggg gaataacatt ttcgcctctg gccatggtgt tgcatttcat
+    17641 actgattttt ataaaactag atctgtccgg ttctttatgg attcattcgg atatatttta
+    17701 cgatttaagg tgatgttatt taatatcaag gtttttatgc aggcccaatg tttataagtt
+    17761 ggatgcgatt caaaaatatg cccggaaatt ggggcctgca atgcaaggcc tcgtgtagaa
+    17821 gttgtactgc cttgctgtat tggcggtggg gttagcacta tcaggtgcaa tgacccatag
+    17881 gatagtaaac cctgggtgaa tggtagttcc tattaatgct cctgtattta tagtccgcag
+    17941 gcatggtatt tattatgtca ttttatatgg tttaatcggg ctttaaattc cataaaatca
+    18001 atatgtgacg ctaaataaaa aatgcgtgcg caggtggttt atatacacat aataaggaac
+    18061 tacctgaacc cggataaatt catccggact gttgtggaaa ttaaagaggg tagataaatg
+    18121 cgtaatattt ctgtgtctgc gccagctcct gctgcgccat tatttcctgt atcgaaccat
+    18181 catgagcgat ttttacgcct gcctgaggtg atgcacttat gcgggttgtc ccgttcgacc
+    18241 gtttacgacc tgatcagccg cgatgcgttt ccgaagcaga tcccgcttgg cggtaaaaat
+    18301 gtcgcctggg cacagtctga ggtcagcgca tggatggcgg accgcatcag cgcccgtggg
+    18361 cggggatgtg atgcatgatg atacctgcat acattaaata cctttattct ggcttgctta
+    18421 ctgtcgtcat ttccaggtat agtttttccg ctgtcgcaaa atcggcagcc ggaattggcg
+    18481 ttccgtataa cttattggcg acaattgacg ccccttgcgt ctttttttac gtcgtagctc
+    18541 aggcacaacc attttcaggg ctgtggtgtt tatgcttaca ccatggttct atcgagataa
+    18601 tggtagtccg ggcggggcag ccttcgggct ggccggtttc caataaggcc ggttacgcca
+    18661 accccgttcg ggctgccacc agtgaaattg gcgtttccgg tggtagcaat aaccgctact
+    18721 tattggaggc tgccatcatg gctacaatcc tcaccccgtc acacccgcaa tatgtctttg
+    18781 tgtttgccgc aatccgccgt gctgacactc acccccgcat ctgtatgctt cgcactgtct
+    18841 cctgcgatga gcgttccgcg cgccgtttgc tagtccgaga ttatgtactc tccctttctg
+    18901 cacggctgcc tgccggggag gtgacgctat gaaccagttt gagatttcct acgacgatgt
+    18961 tgtaaggctg aaacatttac gcaatgtggg tgagtatgta actggcatgg cagccctgca
+    19021 ggactgttat gaaaagccag caggtgccca atgcgaacaa ctggtttccc tcatttatct
+    19081 gatgacagag caactggatg gagtggtgca acgctgccat gacgacctga tgaatgcgga
+    19141 ggtggcctga tgatatgctg tgaatctctt ctggcacttc gtgccgctct gtatcgccgt
+    19201 gccgttgcct gtgcctggct ggctctaagc aatcatcagg aacgttattc cggcctgacg
+    19261 ctcgctgaac ttgaagatgc catagcccgc gagctggaag ggttctatct gcgccagcat
+    19321 gggcagcaaa gagggctgga aattgcctgc gcgttgcttt cggatctgat ggagtcgggg
+    19381 ccgcttaaag cctgtccggt tctctcactg ctcggaatga cggtcatgga tgaactttgt
+    19441 tcccgtcacc tcaacaaacc agcgctgcac taaggagggc cgcacaatgt caggaatgaa
+    19501 agttagccag gctgagaaag cagctcgggg tcactggtca agaattttac ctgcgctggg
+    19561 cgtaaatgta ctgaaaaatc ggcaccagcc ctgcccggtc tgtgccggga aagaccgctt
+    19621 tcgatttgat gaccaggaag ggcggggaac gtggttctgt aaccagtgcg gggcaggtga
+    19681 tggcctggcg cttgtaagta aagtactgga tgtaggcatt agtgaagcgg cagacagaat
+    19741 aaacggcatt atcggaaacc tgctgccagt atctcaggga atgcttgaat ctggttctcc
+    19801 tgaaaaagag gacgggagaa aagctgcagc agtgctggct gcccgtttgt ttgataagtc
+    19861 ccgccagacc actggcaatg cctatctgac gagtaaaggg tttcctgcac tgccttgccg
+    19921 ggaattaacc gctatgcata aagtcggtgg tgtggcattt cgcgcgggag atcttgtcgt
+    19981 tccattgtat gcagatggag agctggtaaa tctgcagtta atcaacgcta atgggggcaa
+    20041 atgcttcctt aaaggcggtc aggttaagaa tgccttttac ctggttgaag gtactgccaa
+    20101 agcagccaaa cggctctgga tagcggaagg atatgccacc gcacttacta tcaactatct
+    20161 gactggcgat gctgtcatgg tggccttttc gtccgtcaat ttcctttccc tggcgagcat
+    20221 tgcctgcagt gagtacccaa cgcaccagat aattattgct gctgaccgcg atctcaacgg
+    20281 tgcggggcaa acaaggggcg cagctgttac cggggcctgc aattgcacaa tggcgctccc
+    20341 gcctgtgttt ggtgactgga acgatgcatt cacgcaaaac ggcgaagaag ccacccggca
+    20401 tgcaattcat gaagtaataa aaccagctgt tgccagcccc ttcgacacaa tgagcgaagc
+    20461 tgaatttacc gcgctgagcg tcagcgaaaa agcgcagagg gtagtggatc actataaaaa
+    20521 ttcactggca gtagacccga acgggcagct cctttcacgc tatgaggcgg gggcctggaa
+    20581 agttatctat tacgccgatt ttgcccgtga tgtcgctgcg ctgtttcagc gcctcgacgc
+    20641 acctttttca tccgcgaaaa ttgcgtctct cgtggaaacc ctcaaactga tcgttccgca
+    20701 acagcagaat ccggcgcggc aacttatcgg atttcgcaac ggtgtgctcg atacccggac
+    20761 aggattgttc agcccgcacg ataagaagca ctggttacgt acgctgtgcg aggtggatta
+    20821 cacgcagccc gttgacggtg agtcactgga aacccatgcc ccggcattct ggcgctggct
+    20881 ggatcgtgcc gcaggtttta atcctgaaaa acgggacatt attctggctg cattgtttat
+    20941 ggtgctggct aaccgttatg actggcagct gtttctggag gtcactggcc ctggcggaag
+    21001 tggaaagagt attcttgctg aaatagcaac catgctggcg ggtgaagata acgcgacctc
+    21061 ggcaaccatt gaaatgcttg agtcgccaag agaacgagct gcgttaatag gtttttcact
+    21121 gattcgactt cccgaccagg aaaagtggag cggtgacggg gccggactaa aagccatcac
+    21181 tggcggcgat gcggtatccg ttgatcccaa atatcagaac gcctattcaa cccacatccc
+    21241 ggcggtcatc ctggctgtga acaataatcc gatgcgcttc actgatcgta gtggtggagt
+    21301 ttcacgccga agggtgatcc tgcatttccc cgaccagata gccccggagg aacgcgatac
+    21361 ccagctcaaa gagaaaattg ccagtgagct agcggtgatt gttcgccagc ttatgcagcg
+    21421 tttcagcgac ccaatgagtg ccaggacatt gcttcagtca cagcagaact ccgatgaagc
+    21481 gctcaccatc aaacgtgatg ctgattcagc ttttgatttt tgcggctacc ttgaggtcct
+    21541 acctgacacc acgggcatgt ttatggggaa cgctaatatt gttccacgtc agcctcgaac
+    21601 ttacctctac catgcctatc tggtctacat ggaggctaac ggctataaaa atacgctcag
+    21661 tctgaccatg tttggcaagg ggctaccgtt aatgctcaag gaatatgggc tgcagtatga
+    21721 gaaacgacgg accaatcaag gaatgcagac taatctggcc ctaagagagg aaagcaatgc
+    21781 tgactggttg ccaaaatgcg atgagtttgc agcgaaataa ctgacctaag accggctgtg
+    21841 ccggtcttaa atccgctaca ggaaattatc tcaaaatata tatcgataaa atttaaaagt
+    21901 tatatgctaa ggcgtcagcg gaaaatgcat ctaattcatt gttagatgat gtttattttt
+    21961 gaattgattt aaacatccca tcgagttgta atttatttat gtcggttttc tttatggctt
+    22021 taattaagtt ttcaataact tccaaagaaa aaattacatc tttcttttca attctaaccc
+    22081 ccccgtggtg gctgcaagca ttaaggatgt cctttgtaat ttcaacatca tttttcatta
+    22141 atggttcata gtccagagcc tcaataacag aaactaaact acctagcatt tgctcttggt
+    22201 attgaacgtt gtttaaatgc attatacgaa tattaacaag catgagaata tattctaaat
+    22261 atctcctggc agtatttcct ttctcttgta aagaatcacg atcatattcc tcaatactca
+    22321 tgacttcatt atgtaaagag gctattttgt gctctgctaa tgaaatattt atcgcatcca
+    22381 tgaggtttcg tgagaagcct gtagatgtaa catgaccatt tgcgggcctt gttaaaatac
+    22441 atgtagtata gcaatttata tttggggtct ggattgtctc atttactctt ttaaccgttc
+    22501 tataaacgtc taccatataa gaacctgagt tttcaaatga acatgaagag cattttgtat
+    22561 tatatattct atttagagat aactgattgt gatagtatcc ctttaagaaa gcatatatag
+    22621 tgtcattaaa ctcgacaaac acaacggact caatatatat atggaattta tcattggggt
+    22681 gccactctaa ttcaagtctt cttgtagagt catcaaagga aaagtttgaa ataaaatccc
+    22741 agttacctaa atctataaaa tcaacgatat ttctacctgc accatggata tttttattta
+    22801 ttaaagttgt gattgagttt tttataatgt cccaatcatg aatttcatga tcgaatttat
+    22861 tattgatggt ttcttttatt tgattggaaa agtttgaata actagtcact tgttagcctc
+    22921 aaaattaata atgagtatta aaatttaatt gatattgtct ataaaatgta gcgatgcaat
+    22981 tttattgcaa cgaaatgatt tttacaacat accattatcg ctaaacaaaa tcgcacccat
+//

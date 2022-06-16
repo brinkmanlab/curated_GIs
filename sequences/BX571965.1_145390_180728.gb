@@ -1,0 +1,1819 @@
+LOCUS       phiK96243|144|137      35339 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Burkholderia pseudomallei K96243.
+ACCESSION   phiK96243|144|137
+VERSION     phiK96243|144|137
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            complement(1..1131)
+                     /gene="int"
+                     /locus_tag="BPSL0129"
+     CDS             complement(1..1131)
+                     /gene="int"
+                     /locus_tag="BPSL0129"
+                     /note="Similar to the N-terminal regions of Escherichia
+                     coli prophage dlp12 integrase IntD or Int SWALL:INTD_ECOLI
+                     (SWALL:P24218) (387 aa) fasta scores: E(): 5.1e-19, 36.06%
+                     id in 366 aa, and Bacteriophage Sfx integrase Int
+                     SWALL:Q9ZXG4 (EMBL:U82084) (386 aa) fasta scores: E():
+                     4.7e-21, 38.21% id in 369 aa. Note - terminates within tRNA
+                     gene that is attachment site for phage"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="prophage integrase"
+                     /protein_id="CAH34115.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0129"
+                     /db_xref="EnsemblGenomes-Tr:CAH34115"
+                     /db_xref="GOA:Q63YQ9"
+                     /db_xref="InterPro:IPR002104"
+                     /db_xref="InterPro:IPR011010"
+                     /db_xref="InterPro:IPR013762"
+                     /db_xref="InterPro:IPR023109"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ9"
+                     /translation="MRFYKRQKNGPWWFDLSIDGSRIRQSSGTSDRRAAEELAAKVASD
+                     YWRQKKLGERPAVTWDAAVVHWLKQNQHQRSLETTKQRLRWLTDQLKGENVRNIDRERI
+                     QALIETKAAEKYRGSPVAGATVNRHMAALSVILHHCHAEGWIDAVPPIRKLRENSARLT
+                     WLTRAQAQRLLEELPTHLRQMARFALATGLRESNVRLLEWAQVDRERALAWIHADQAKA
+                     GKVISVPLNEDALGVLREQQGQHKRYVFVYKGAPIGRIYNHAWQKACMRAGLSGLRFHD
+                     LRHTWASWHVQAGTPLPILQQLGGWASYQMVLRYAHLGRDHVAAYADNIGTLRHKSGTP
+                     PEIEKGSDCSEPLSNLVAWGGIEPPTRGFSIRCSTN"
+     misc_feature    complement(157..693)
+                     /gene="int"
+                     /locus_tag="BPSL0129"
+                     /note="Pfam match to entry PF00589 Phage_integrase, Phage
+                     integrase family, score 91.4, E-value 1.2e-24"
+     misc_feature    complement(697..948)
+                     /gene="int"
+                     /locus_tag="BPSL0129"
+                     /note="Pfam match to entry PF02899 Phage_integr_N, Phage
+                     integrase, N-terminal SAM-like domain, score -6.0, E-value
+                     0.15"
+     gene            complement(1999..4791)
+                     /locus_tag="BPSL0130"
+     CDS             complement(1999..4791)
+                     /locus_tag="BPSL0130"
+                     /note="Poor database matches. Similar to Ralstonia
+                     solanacearum hypothetical protein rsc0967 or rs04399
+                     SWALL:Q8Y0S6 (EMBL:AL646062) (933 aa) fasta scores: E():
+                     6.5e-153, 50.53% id in 930 aa. N-terminus is similar to the
+                     N-termial region of Anabaena sp. DNA primase ALL323
+                     SWALL:Q8YX92 (EMBL:AP003585) (640 aa) fasta scores: E():
+                     0.21, 23.27% id in 391 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical phage protein"
+                     /protein_id="CAH34116.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0130"
+                     /db_xref="EnsemblGenomes-Tr:CAH34116"
+                     /db_xref="GOA:Q63YQ8"
+                     /db_xref="InterPro:IPR002694"
+                     /db_xref="InterPro:IPR006171"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ8"
+                     /translation="MATIDELKQRIDLHDLADRLGLKRGRGGDKALYHSPQHEDKSPSL
+                     SIYVNHPKHGTGWRDHSADAGGSCIDLVIHARGGTVADAVRYLHDAYGIPLDRPAPAER
+                     REKSTVEYIADRCLAERDRVREYLGGRGISAAAIDAAFAARSLGFNTWTSSKVAAGEVG
+                     HAGPAAAFIVREPADGRVVAVDMRYVDPALNGGVKTQTQGDKAGYGWTADARRLDKAKR
+                     IFIVESAINALSIDTCAMPGAAALALRGLANVDAIDFSSLRGKQVVICLDNDEPFADGH
+                     PRAGHRPGPEAAWALYERLASLNISAVLVDQAGWLADLADGETKQQPINDVNDYLQLRG
+                     PAELARALEQLEPWLIAGLAGDASRRGRPRIFLPSHDFAQYWRFRTRPDFTSYITKMDR
+                     NEESGVETPVMTDLCGFRIAGISRVSVASATSTMTGDADQAPTVYFAVSVQTPRHGAQL
+                     VRRVMLDDQLHNVDQWGKFGPIWAPAPFKRMVNILERGADLGARQAANFVGLAWRDGRL
+                     IVNEGPDCYFTEADKQCPYHNLTFPSGSTSDARRVITAYQTTFKQNAATIPLVWALGGH
+                     LKALLGFWPHITIQANKGAGKSTLIKRLERSLAFTMFSGQSLQTEFRLLTSISHTSHPV
+                     GWEELSARRQDVIDKAVGLLQENYQYTVTRRGTDMTEYLLCAPVMLAGEDVPVRSLLGK
+                     LVRTTLTGKRGPLLPDDLPRFPVRQWLEYLAGLDKRAVLEHYATLRDKALAKCIASGAD
+                     DGANRMAANYAAVALAWRYLCEFAGMDPSEGGFPHDLLAEMNSHVAETSADREPWVWIM
+                     ETVLSEIDGGNYKHPYTFDTVDGEFCLLLRTGHVMDHLAHTSALRDKWNGLPVKSDRVF
+                     KTQLKHAGVVVGEKEVERRIYTRRVPYLTPVSLERLAAFGLHVSVREDLATDALERSHA
+                     "
+     misc_feature    complement(2998..3021)
+                     /locus_tag="BPSL0130"
+                     /note="PS00017 ATP/GTP-binding site motif A (P-loop)."
+     gene            complement(4803..5057)
+                     /locus_tag="BPSL0130a"
+     CDS             complement(4803..5057)
+                     /locus_tag="BPSL0130a"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34117.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0130a"
+                     /db_xref="EnsemblGenomes-Tr:CAH34117"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ7"
+                     /translation="MNHDPNRAPHDIALASAIAAAAGTLRFDNKPGSLQRQCMLGLFVA
+                     ALSGRLALAFPESAAALHAVVFSPATTGNPTDRTPQQPK"
+     gene            complement(5054..5422)
+                     /locus_tag="BPSL0131"
+     CDS             complement(5054..5422)
+                     /locus_tag="BPSL0131"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34118.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0131"
+                     /db_xref="EnsemblGenomes-Tr:CAH34118"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ6"
+                     /translation="MVSMTAASIRYELMTTAGLRTVSGDHVVIPNDAGATFGIHMERHA
+                     PHGHPEKWTVTHLASGMAAGVGPTRDAAIAHAAANLERNKRRLRDMLDEAMTARANLQI
+                     AVHRIQQNEHAILGRIPA"
+     gene            complement(5416..5622)
+                     /locus_tag="BPSL0132"
+     CDS             complement(5416..5622)
+                     /locus_tag="BPSL0132"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34119.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0132"
+                     /db_xref="EnsemblGenomes-Tr:CAH34119"
+                     /db_xref="InterPro:IPR025863"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ5"
+                     /translation="MNLFAEPLPSDDMDADIRYRRACRYVMFDQIAELRALKRHGYFPW
+                     SHAALCIDVCSRLNALGGLAGEW"
+     gene            complement(5791..6030)
+                     /locus_tag="BPSL0133"
+     CDS             complement(5791..6030)
+                     /locus_tag="BPSL0133"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34120.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0133"
+                     /db_xref="EnsemblGenomes-Tr:CAH34120"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ4"
+                     /translation="MTLTEFFAEIGNDHLRFQLLEQSMTDIRAMRRGTLVSFATDAITT
+                     AEAALGAGRVGLIVWADRAAYERAATKANQAKPT"
+     gene            complement(6034..6243)
+                     /locus_tag="BPSL0134"
+     CDS             complement(6034..6243)
+                     /locus_tag="BPSL0134"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded membrane protein"
+                     /protein_id="CAH34121.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0134"
+                     /db_xref="EnsemblGenomes-Tr:CAH34121"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ3"
+                     /translation="MRNHTMKPYVFGVGVLLMLSFSLTGIHCLTADVLRLFDVRHARTI
+                     AFAVGVAALVALVAALAWSVPPRR"
+     misc_feature    complement(6046..6114)
+                     /locus_tag="BPSL0134"
+                     /note="2 probable transmembrane helices predicted for
+                     BPSL0134 by TMHMM2.0 at aa 9-31 and 44-66"
+     misc_feature    complement(6151..6243)
+                     /locus_tag="BPSL0134"
+                     /note="Signal peptide predicted for BPSL0134 by SignalP 2.0
+                     HMM (Signal peptide probabilty 0.908) with cleavage site
+                     probability 0.520 between residues 31 and 32"
+     gene            complement(6272..6469)
+                     /locus_tag="BPSL0135"
+     CDS             complement(6272..6469)
+                     /locus_tag="BPSL0135"
+                     /note="Similar to Ralstonia solanacearum hypothetical
+                     protein rsc1899 or rs03466 SWALL:Q8XY64 (EMBL:AL646067) (68
+                     aa) fasta scores: E(): 2.2, 28.78% id in 66 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical phage protein"
+                     /protein_id="CAH34122.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0135"
+                     /db_xref="EnsemblGenomes-Tr:CAH34122"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ2"
+                     /translation="MRAPLSELELRAAWSRLRMVGDFDMAPPAVRLVVESAARAMQNRE
+                     YVRLRCSFDAKRCAANDTND"
+     gene            complement(6475..6693)
+                     /locus_tag="BPSL0136"
+     CDS             complement(6475..6693)
+                     /locus_tag="BPSL0136"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34123.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0136"
+                     /db_xref="EnsemblGenomes-Tr:CAH34123"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ1"
+                     /translation="MATSAAAPLIFPFIVSDLPLEKRREYLRKLWNADVDAIVFLGAAR
+                     KLGYALGGRWDAATDMPALVPTIRLLH"
+     gene            complement(6709..7254)
+                     /locus_tag="BPSL0137"
+     CDS             complement(6709..7254)
+                     /locus_tag="BPSL0137"
+                     /note="No significant database matches to the full length
+                     CDS. N-terminus is similar to the N-terminal regions of
+                     bacteriophage APSE-1 hypothetical protein P43 SWALL:Q9T1Q5
+                     (EMBL:AF157835) (256 aa) fasta scores: E(): 3.6e-10, 35.33%
+                     id in 133 aa, and to Yersinia pestis putative phage protein
+                     YPO2093 SWALL:Q8ZER2 (EMBL:AJ414151) (187 aa) fasta scores:
+                     E(): 1.1e-13, 42.42% id in 132 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34124.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0137"
+                     /db_xref="EnsemblGenomes-Tr:CAH34124"
+                     /db_xref="InterPro:IPR003497"
+                     /db_xref="UniProtKB/TrEMBL:Q63YQ0"
+                     /translation="MQHTATNAVLVFETVEFDVVDIHNVPWLRGPQIAGALGYNRDDRL
+                     ADLYARNADEFTDEMTQLLELDTAGGRQQVRIFSPRGCYLLGMLARTDRAKSFRAWVLD
+                     VLEGRLVPQQTGRLTVSQRLSALRYRGMLAKDLSRTTERGVALELYANLRHVSRLLGMS
+                     TTDLDTLAPGLKQQSLAN"
+     gene            complement(7340..7588)
+                     /locus_tag="BPSL0138"
+     CDS             complement(7340..7588)
+                     /locus_tag="BPSL0138"
+                     /note="Similar to bacteriophage K139 hypothetical
+                     proteinOrf13 SWALL:Q8W755 (EMBL:AF125163) (83 aa) fasta
+                     scores: E(): 1.9e-07, 35.71% id in 84 aa, and to Ralstonia
+                     solanacearum putative bacteriophage transcriptional
+                     activator-related transcription regulator protein rsc0964
+                     or rs04403 SWALL:Q8Y0S9 (EMBL:AL646062) (73 aa) fasta
+                     scores: E(): 7.6e-08, 47.36% id in 76 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34125.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0138"
+                     /db_xref="EnsemblGenomes-Tr:CAH34125"
+                     /db_xref="InterPro:IPR007684"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP9"
+                     /translation="MRILNRCPHCRTRATARSSREMSLTFREVTYQCNNPECGHTYVVN
+                     MEFARTLSPSGTPNLSLNLPLSPHVRERLAQQLELPV"
+     gene            complement(7576..7872)
+                     /locus_tag="BPSL0139"
+     CDS             complement(7576..7872)
+                     /locus_tag="BPSL0139"
+                     /note="Poor database matches. Similar to an internal region
+                     of Salmonella typhimurium and Salmonella typhi hypothetical
+                     protein STM2627 or STM1013 or STY1021 SWALL:O84891
+                     (EMBL:AF001386) (124 aa) fasta scores: E(): 5.3, 31.76% id
+                     in 85 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage DNA-binding protein"
+                     /protein_id="CAH34126.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0139"
+                     /db_xref="EnsemblGenomes-Tr:CAH34126"
+                     /db_xref="GOA:Q63YP8"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP8"
+                     /translation="MRNPALIEPALRHALHGPKRQDVQQALGWDDSQVSRFLSGGQGVV
+                     IDKIDTLVAAVGFVLVTRKYLDAVATLGEVGVHCECARRGYGECRPGSSSCES"
+     misc_feature    complement(7756..7821)
+                     /locus_tag="BPSL0139"
+                     /note="Predicted helix-turn-helix motif with score
+                     1012.000, SD 2.63 at aa 18-39, sequence
+                     PKRQDVQQALGWDDSQVSRFLS"
+     gene            complement(7876..8070)
+                     /locus_tag="BPSL0140"
+     CDS             complement(7876..8070)
+                     /locus_tag="BPSL0140"
+                     /note="Poor database matches. Similar to Methanobacterium
+                     thermoautotrophicum hypothetical protein MTH467
+                     SWALL:O26567 (EMBL:AE000831) (53 aa) fasta scores: E():
+                     6.3, 41.17% id in 51 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34127.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0140"
+                     /db_xref="EnsemblGenomes-Tr:CAH34127"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP7"
+                     /translation="MLSNKPVYMRLMPDERRTLEELSASQNRSTSSVARLIYLEGVERY
+                     QAKVTDASAQAHANPVVGH"
+     gene            8151..8654
+                     /locus_tag="BPSL0141"
+     CDS             8151..8654
+                     /locus_tag="BPSL0141"
+                     /note="Similar to Ralstonia solanacearum putative
+                     DNA-binding repressor transcription regulator protein
+                     rsc1907 or rs03481 SWALL:Q8XY56 (EMBL:AL646067) (173 aa)
+                     fasta scores: E(): 2.2e-19, 43.45% id in 168 aa, and to
+                     Xanthomonas campestris pv. campestris str. ATCC 33913
+                     phage-related protein Z2969 SWALL:AAM42269 (EMBL:AE012413)
+                     (142 aa) fasta scores: E(): 3.2e-11, 43.13% id in 153 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage DNA-binding protein"
+                     /protein_id="CAH34128.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0141"
+                     /db_xref="EnsemblGenomes-Tr:CAH34128"
+                     /db_xref="GOA:Q63YP6"
+                     /db_xref="InterPro:IPR001387"
+                     /db_xref="InterPro:IPR010982"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP6"
+                     /translation="MIHTDWCVCNTKSNQMVSIGDRLREERKRTSLSQRAFAERGGVTE
+                     KTQVLYEKGERVPDAAYLEQVAAAGIDVLYVLTGQRNASELSADEEVLLAGYRSLDAKG
+                     RAGVLGLIGGMTQQVPAASKATKTKAVHQNFEGAKIGNHVVGDVTAPFTINMGGAGRKK
+                     KRES"
+     misc_feature    8244..8309
+                     /locus_tag="BPSL0141"
+                     /note="Predicted helix-turn-helix motif with score
+                     1033.000, SD 2.71 at aa 32-53, sequence
+                     LSQRAFAERGGVTEKTQVLYEK"
+     gene            8707..9456
+                     /locus_tag="BPSL0142"
+     CDS             8707..9456
+                     /locus_tag="BPSL0142"
+                     /note="Poor database matches. C-terminus is similar to the
+                     N-terminal region of Neisseria meningitidis putative phage
+                     transposase NMA1284 SWALL:Q9JUJ5 (EMBL:AL162755) (657 aa)
+                     fasta scores: E(): 1, 25.98% id in 177 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded membrane protein"
+                     /protein_id="CAH34129.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0142"
+                     /db_xref="EnsemblGenomes-Tr:CAH34129"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP5"
+                     /translation="MNQKFSGEVGLVAGRDVKSSSAQASVNLHFHSGESKAVVTKFISD
+                     KQRNVIARKAFEIQDRTGTDKLMVYRRLMTVFDFKKMDEMPRDVYERALKYLDGWIRNG
+                     TMGQVPAASTRSDIKPLSGIEPSKPSELSIPEVPETQPLPANAMTSEALTTASHAGDDR
+                     QRQRFRAFTAISVGALVCAAILYYQVDKRYTPTQSAVSESAPLQCEYGGSRYTVGSIVM
+                     QAGMRARCAEAVGRGVEWQPLATNKRH"
+     misc_feature    9214..9267
+                     /locus_tag="BPSL0142"
+                     /note="1 probable transmembrane helix predicted for
+                     BPSL0142 by TMHMM2.0 at aa 170-187"
+     gene            9499..9999
+                     /locus_tag="BPSL0143"
+     CDS             9499..9999
+                     /locus_tag="BPSL0143"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34130.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0143"
+                     /db_xref="EnsemblGenomes-Tr:CAH34130"
+                     /db_xref="InterPro:IPR001357"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP4"
+                     /translation="MKFIYQKYQGEFTEYELMSWAENGNYIQGVCVRSNAYKTFRKDRV
+                     SSYLDGSDTLLTAPYVTEDARIPVRREQASRINRGEPPPPGVPQILFTGFPAAQRAEME
+                     ALATEAGLYVRKSGVTRGLTFLCIGPNAGPAKVKQAREQGTYIVPATHFDVLIETGELP
+                     DEE"
+     gene            complement(10007..11104)
+                     /locus_tag="BPSL0144"
+     CDS             complement(10007..11104)
+                     /locus_tag="BPSL0144"
+                     /note="Similar to bacteriophage 186 late control gene D
+                     protein SWALL:VPD_BP186 (SWALL:P21679) (389 aa) fasta
+                     scores: E(): 4.9e-35, 41.59% id in 363 aa, and to
+                     Xanthomonas campestris pv. campestris str. ATCC 33913
+                     phage-related tail protein D SWALL:AAM42266 (EMBL:AE012413)
+                     (328 aa) fasta scores: E(): 8e-63, 49.69% id in 328 aa.
+                     Similar to BPSS1089, 97.253% identity (97.253% ungapped) in
+                     364 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34131.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0144"
+                     /db_xref="EnsemblGenomes-Tr:CAH34131"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP3"
+                     /translation="MTTSTNERTTRAELQDAPRVARLHPQPDYRISVGGRDLSRLFAPR
+                     LVSLSISESRSDEADTIDIVLDDSKNDLDIPKRGATIKASIGWAGEPLVDKGSFVVNEV
+                     EHSGAPDIITIRARSAAMTSGMQERREKSWHRQTIGSIVHAIAGRYSLSPTVGDALAKI
+                     LIAHIDQTHESDMSFLTRLAKRYDAVMNVKDLRLLFMPIGTGQTATGKKLDVLELTRAS
+                     GDSHRYHVSERENYAAVRAHYHSTGRAKRKSVIVGGENNKNVKVLPEDYATEAEARAAA
+                     QAEFKRMQRSQATMSYTLARGRAELFPEMPVTVSGFKPEIDETPWLVKKATHTIGDVGF
+                     TTALELEMRDDPTTERHRSHFQGSR"
+     misc_feature    10074..34349
+                     /note="Region with similarity to part of Genomic island GI
+                     15 (BPSS1089 to BPSS1160)"
+     gene            complement(11104..11529)
+                     /locus_tag="BPSL0145"
+     CDS             complement(11104..11529)
+                     /locus_tag="BPSL0145"
+                     /note="Similar to bacteriophage phi CTX Orf26 protein
+                     SWALL:Q9ZXJ9 (EMBL:AB008550) (146 aa) fasta scores: E():
+                     2.6e-21, 51.2% id in 125 aa, and to Xanthomonas campestris
+                     pv. campestris str. ATCC 33913 phage-related tail protein U
+                     SWALL:AAM42265 (EMBL:AE012413) (133 aa) fasta scores: E():
+                     3.7e-21, 53.6% id in 125 aa. Similar to BPSS1088, 98.582%
+                     identity (98.582% ungapped) in 141 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34132.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0145"
+                     /db_xref="EnsemblGenomes-Tr:CAH34132"
+                     /db_xref="InterPro:IPR009734"
+                     /db_xref="InterPro:IPR016912"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP2"
+                     /translation="MLMSLDQFVFSLTSAPFRELQRRRTWKHPTSSRVGARDGRQFAGV
+                     GDDTITLNGLVAPETFGSIASIRELAAMADTGEAYVLVDGAGNVYGAYVIAELNETQSY
+                     HTADGTPRRIEFQLTIERVDDDVLRMTREKNTRKDKR"
+     gene            complement(11547..14513)
+                     /locus_tag="BPSL0146"
+     CDS             complement(11547..14513)
+                     /locus_tag="BPSL0146"
+                     /note="Similar to bacteriophage phi CTX Orf25 protein
+                     SWALL:Q9ZXK0 (EMBL:AB008550) (904 aa) fasta scores: E():
+                     2.4e-15, 27.65% id in 1045 aa, and to Ralstonia
+                     solanacearum probable phage-related tail transmembrane
+                     protein rsc1914 or rs03483 SWALL:Q8XY49 (EMBL:AL646067)
+                     (887 aa) fasta scores: E(): 1.5e-86, 39.43% id in 989 aa.
+                     Similar to BPSS1087, 84.514% identity (84.514% ungapped) in
+                     988 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded membrane protein"
+                     /protein_id="CAH34133.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0146"
+                     /db_xref="EnsemblGenomes-Tr:CAH34133"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP1"
+                     /translation="MTMDNALKLRVMFDMIDNFTKPLKNVLNSNKGLAQALKQTRGELA
+                     ELGKQQKAVASFREMRTGLAGTAEKLGEARTRVNGLATALRAADQPSRQMIADFEKAKQ
+                     SAARLSIEHEKQSARVRELRAQLASTGIDTRQLAEHERTLRSNIAQTTAAMQTQTRQLE
+                     AMAEREKKLGAARGKMQALQGVAGGMAIGGYAAKSAGTGVLGGLGGTLDEAKKAQNEIA
+                     RIQALGLGEQSTRDAEKFARSMKVYGSSYTDNLTMMRDSMTIFADEHHAQMAAPILSQM
+                     KFANEAMYGAGHGEENERKFMNMLKVIELRNGTKDEATFRDEANRVQKVISATGGRVGG
+                     DQWMEFIQRGGVAAKSLSKDAFFYQMEPIVQEMQGGTAGNALMSGYQNLIEGRTTVRAT
+                     RKLMKLGLLDAKKVEYDKNGHVKAFADGALLNAEQYKSSPYEWLQKTLLPALEKKGIKG
+                     DKAILSAIGSIFTNRSASNLFATMYLQRGQIAKNERLNKGAAGITELDAIAKQQTSGKE
+                     IAALAKVKDLKEEIGERVTPIYNAALDKTRELADRLLKAIKAHPEATKAIVVVAAALGG
+                     LLAVMGTFTIVLAGVLGPLAVVRFSMATLGIQGGILSRALGIGAAAWRMFGTAAMGAGR
+                     LLLTTPIGLYAAAFAAAALLIYRYWGPIKAFIGGALTAIGDALAPISVALRGALQPVGR
+                     ALAAAKPLWNGLGGALSTVAGWLGKLFAPARASADGLSAAAAAGRGFGAVLGTVLRVAL
+                     VPLTWLGRALGGLAGLFVEAMGDARAALNGGLAALGTLILNWSPLGMFYRALAGVLSLF
+                     GVELPAKFSEFGGHLIDGLVGGISSGLGKVKDAISNMANSTVGWFKEKLGIHSPSRVFA
+                     QLGGFVGEGAALGMQGEQQRVAKAALGLATVAVTSFGTPALAKPMPPLVQATVPIDRRA
+                     PLAVPSAASSPAAPASPIVINIYPQAGQDPHAIARAVEAALDRRERAKQSRIGSRLSD"
+     misc_feature    complement(order(12108..12176,12195..12263,12342..12410,
+                     12447..12515,12543..12611,12645..12704,12747..12815))
+                     /locus_tag="BPSL0146"
+                     /note="7 probable transmembrane helices predicted for
+                     BPSL0146 by TMHMM2.0 at aa 567-589, 604-623, 635-657,
+                     667-689, 702-724, 751-773 and 780-802"
+     gene            complement(14510..14623)
+                     /locus_tag="BPSL0147"
+     CDS             complement(14510..14623)
+                     /locus_tag="BPSL0147"
+                     /note="Similar to bacteriophage phi CTX Orf24.5 protein
+                     SWALL:Q9ZXK1 (EMBL:AB008550) (39 aa) fasta scores: E():
+                     1.9e-07, 56.75% id in 37 aa, and to Xanthomonas campestris
+                     pv. campestris str. ATCC 33913 phage-related protein orf52
+                     SWALL:AAM42263 (EMBL:AE012413) (37 aa) fasta scores: E():
+                     4.4e-08, 62.16% id in 37 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34134.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0147"
+                     /db_xref="EnsemblGenomes-Tr:CAH34134"
+                     /db_xref="InterPro:IPR009493"
+                     /db_xref="UniProtKB/TrEMBL:Q63YP0"
+                     /translation="MADIATVFGWTPHDMAAFSLAELMDWRERARIRSGNE"
+     gene            complement(14632..14976)
+                     /locus_tag="BPSL0148"
+     CDS             complement(14632..14976)
+                     /locus_tag="BPSL0148"
+                     /note="Similar to bacteriophage phi CTX Orf24 protein
+                     SWALL:Q9ZXK2 (EMBL:AB008550) (108 aa) fasta scores: E():
+                     6.9e-14, 54.83% id in 93 aa, and to Ralstonia solanacearum
+                     probable phage-related protein rsc1916 or rs03484
+                     SWALL:Q8XY47 (EMBL:AL646067) (118 aa) fasta scores: E():
+                     4.6e-13, 55.31% id in 94 aa. Identical to BPSS1086,
+                     100.000% identity (100.000% ungapped) in 114 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34135.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0148"
+                     /db_xref="EnsemblGenomes-Tr:CAH34135"
+                     /db_xref="InterPro:IPR019289"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN9"
+                     /translation="MTTIDTAHIETTGHAAPDENTHTLDTPIEREGQTITQVTLRKPAA
+                     GALRGTSLAALVNLDVDALRKVLPRISTPTLTEFDVAGMDPADLVALGGIFAGFLMPKA
+                     LKASMESRPA"
+     gene            complement(15034..15543)
+                     /locus_tag="BPSL0149"
+     CDS             complement(15034..15543)
+                     /locus_tag="BPSL0149"
+                     /note="Similar to bacteriophage P2 major tail tube protein
+                     FII SWALL:VPF2_BPP2 (SWALL:P22502) (171 aa) fasta scores:
+                     E(): 1.8e-26, 44.7% id in 170 aa, and to Xanthomonas
+                     campestris pv. campestris str. ATCC 33913 phage-related
+                     tail protein FII SWALL:AAM42261 (EMBL:AE012413) (169 aa)
+                     fasta scores: E(): 8.2e-37, 54.16% id in 168 aa. Similar to
+                     BPSS1085, 99.408% identity (99.408% ungapped) in 169 aa
+                     overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage major tail tube protein"
+                     /protein_id="CAH34136.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0149"
+                     /db_xref="EnsemblGenomes-Tr:CAH34136"
+                     /db_xref="InterPro:IPR006498"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN8"
+                     /translation="MGMPRKLKGFNVFHNGANFVGEVEELNLPKLKRKMEAWQGSGMTG
+                     PVKIDYGSEELQLEWTCGGFMVEVLEQYGAVQHDGVLLRFAGGYRREDSKKHDQIEVVV
+                     KGRHEEIDMGTAKAKEDTKFKITTNASYYKLTVNGRDLIELDFVNAVEKINGMDLASDL
+                     RRAMGL"
+     gene            complement(15559..16731)
+                     /locus_tag="BPSL0150"
+     CDS             complement(15559..16731)
+                     /locus_tag="BPSL0150"
+                     /note="Similar to bacteriophage P2 major tail sheath
+                     protein FI SWALL:VPF1_BPP2 (SWALL:P22501) (395 aa) fasta
+                     scores: E(): 2.1e-90, 61.63% id in 391 aa, and to Ralstonia
+                     solanacearum probable phage-related protein rsc1918 or
+                     rs03487 SWALL:Q8XY45 (EMBL:AL646067) (391 aa) fasta scores:
+                     E(): 3.1e-100, 67.26% id in 388 aa. Identical to BPSS1084,
+                     100.000% identity (100.000% ungapped) in 390 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage major tail sheath protein"
+                     /protein_id="CAH34137.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0150"
+                     /db_xref="EnsemblGenomes-Tr:CAH34137"
+                     /db_xref="InterPro:IPR007067"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN7"
+                     /translation="MPQDYHHGVRVIEINEGGRPIRSVSTAVLGVVCTAADADASAFPL
+                     NTPVLLTNVVAALGKAGKKGTLRRTLDAIGKQTKPLTVVVRVAEGKDADETTSNVIGTV
+                     TPDGKYTGIKALLAAQGALGVKPRILAAPGLDTQPVAAALAATAQSLRAMAYVSASGCK
+                     TKEEAAAYRKQFGQREIMVIWPDWLGWDDTTNSTAVIPAPAIAAGLRAKIDNDIGWHKT
+                     ISNVVVNGVSGISADVSWDLQDPATDAGYLNEHEVTTLVNRNGFRFWGERTCSDDPKFA
+                     FENYTRTAQVAGDSIAEAQMPVVDGPLNPSLARDIVESINGWFRQQVANGYLIGGSAWI
+                     DPEPNTADILASGKAYIDYDYTPVPPLENLVLRQRITDRFLADFPARVAG"
+     gene            complement(16787..17458)
+                     /locus_tag="BPSL0151"
+     CDS             complement(16787..17458)
+                     /locus_tag="BPSL0151"
+                     /note="N-terminus is similar to bacteriophage lambda tail
+                     fiber assembly protein Tfa SWALL:TFA_LAMBD (SWALL:P03740)
+                     (194 aa) fasta scores: E(): 0.011, 27.89% id in 190 aa, and
+                     to the N-terminal region of Ralstonia solanacearum putative
+                     tail fiber assembly-like protein rsc1920 or rs03489
+                     SWALL:Q8XY43 (EMBL:AL646067) (250 aa) fasta scores: E():
+                     3.5e-09, 41.73% id in 115 aa. Similar to BPSS1083, 97.758%
+                     identity (97.758% ungapped) in 223 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage tail fiber assembly protein"
+                     /protein_id="CAH34138.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0151"
+                     /db_xref="EnsemblGenomes-Tr:CAH34138"
+                     /db_xref="InterPro:IPR003458"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN6"
+                     /translation="MLIHHYDPATGEYLSSGQPDADPRNDGRWLIPASATLDAPPARTP
+                     TTWPFYRDGAWFLLPDYRGRVCYRTDTGEPVEIAIAGKTPADLGLTTEPRPSERHAWLD
+                     GAWTVPAELLAREKRDAAMAEFERRLAIARRENLGKADAYAAGQLDDEQTYYFKAWSAY
+                     QMALVAAIQKDTFPEAIAWPDTPAPYVPPPPEPVAPEGVPPAAPAVAGDAARPEPEHAP
+                     A"
+     gene            complement(17475..19847)
+                     /locus_tag="BPSL0152"
+     CDS             complement(17475..19847)
+                     /locus_tag="BPSL0152"
+                     /note="No significant database matches to the full length
+                     CDS. N-terminal region is similar to Xanthomonas campestris
+                     pv. campestris str. ATCC 33913 phage-related tail fiber
+                     protein Orf8 SWALL:AAM42256 (EMBL:AE012412) (401 aa) fasta
+                     scores: E(): 9e-20, 31.07% id in 399 aa. C-terminus is
+                     similar to the C-terminal region of Escherichia coli side
+                     tail fiber protein homolog from lambdoid prophage RAC StfR
+                     SWALL:STFR_ECOLI (SWALL:P76072) (1120 aa) fasta scores:
+                     E(): 0.02, 25.6% id in 578 aa. Similar to BPSS1082, 98.348%
+                     identity (98.348% ungapped) in 787 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage-related tail fiber protein"
+                     /protein_id="CAH34139.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0152"
+                     /db_xref="EnsemblGenomes-Tr:CAH34139"
+                     /db_xref="InterPro:IPR011083"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN5"
+                     /translation="MAGMVIHITDAGRAALVAGGNTGTAAHRVVEIGLGTAPFAFDRGM
+                     KTMPNEHKRVSTFGGENVAPDTVHVVIQDDTSDQYSLYAFGLYLENGVLFAVCVQDAPI
+                     LEKSPAAMMLLATDVVFATIDAAKLEFGPATFLNPPATTERKGVVELATQAEVDAGDDD
+                     TRAITPKTAKRRYAALSGATFDGRVRVFADVDDRAAQLDVSPKTAGVGKAGKARLFGTF
+                     GDATLPDLSPRLVATLRAGFDAGAWGREYVDVCLNDGTNNDAASDAKQKRVARFASGGR
+                     VLIGERADDGKTALQVRGGVDASEGVAARAIDAGGAGGQFRAVYDGYGAFIRNDGRSVY
+                     FLSTPKGAPDGGFNDYRPFSWSLSTGQVIVDGSGAGTVFGGAVDVARDLEVGRQASEGH
+                     IKLGPVDGYLYANPVSTGWWSPAGSSYQYIFADHTFRIDGRMAWHEGNLDPLDKSKGGM
+                     LAGDVSFAPGKRLVLAEGSPAAPSLTFANDGAPDTGLYYAADGEFGVTCNGRAVVRFSP
+                     SLVAFEQPVTVPTPPAADRSTRAATTEWVRTVLSATTIGQIVFEPRTTVRPGFLKANGV
+                     LVNRADYPELWAYAQASGALVSDADWMKDRWGCFSTGDGATTFRLPELRGEFIRCWSDA
+                     RGGVDATRQIGAFQGDQNHTHAHGAAASEAPDHVHTAWTDVQGWHGHHGWTNAVGDHQH
+                     VSPWGEHPQMYNPPWGTWGAANNRGAEGSDNDNVYGMTSPAGNHNHEFNTEGNGNHGHA
+                     VGIGGGGRHAHTIAVQPDGGDEARPRNVALLALIRAY"
+     gene            complement(19849..20403)
+                     /locus_tag="BPSL0153"
+     CDS             complement(19849..20403)
+                     /locus_tag="BPSL0153"
+                     /note="Similar to bacteriophage phi CTX Orf19 protein
+                     SWALL:Q9ZXK7 (EMBL:AB008550) (178 aa) fasta scores: E():
+                     4.7e-15, 37.83% id in 148 aa, and to Xanthomonas axonopodis
+                     pv. citri str. 306 phage-related tail protein I
+                     SWALL:AAM37503 (EMBL:AE011905) (180 aa) fasta scores: E():
+                     3.5e-30, 50.29% id in 171 aa. Similar to BPSS1081, 99.457%
+                     identity (99.457% ungapped) in 184 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34140.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0153"
+                     /db_xref="EnsemblGenomes-Tr:CAH34140"
+                     /db_xref="InterPro:IPR006521"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN4"
+                     /translation="MTRRATSLLPPNATALERRLADTNARISDIPVDIGALMDPDAIPL
+                     RFLPWLAWHLGVETWKDYWPEQVKRARVKAAIRIARKKGTAAAVREVCASFGANVAMRE
+                     WFEKTPKGRPGTFEILMTVGARDGIPATAEYVADIIAEVDRAKRGTAHYTFTQGFGATG
+                     TQRIGAGARAAVYRRLSLTDI"
+     gene            complement(20396..21301)
+                     /locus_tag="BPSL0154"
+     CDS             complement(20396..21301)
+                     /locus_tag="BPSL0154"
+                     /note="Similar to bacteriophage P2 baseplate assembly
+                     protein J SWALL:VPJ_BPP2 (SWALL:P51767) (302 aa) fasta
+                     scores: E(): 2.4e-45, 45.6% id in 296 aa, and to Salmonella
+                     typhi phage baseplate assembly protein STY3689 SWALL:Q8Z344
+                     (EMBL:AL627279) (302 aa) fasta scores: E(): 2.3e-48, 49.66%
+                     id in 296 aa. Similar to BPSS1080, 95.017% identity
+                     (95.017% ungapped) in 301 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage baseplate assembly protein"
+                     /protein_id="CAH34141.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0154"
+                     /db_xref="EnsemblGenomes-Tr:CAH34141"
+                     /db_xref="InterPro:IPR006949"
+                     /db_xref="InterPro:IPR014507"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN3"
+                     /translation="MRSTPIDLSQLPAPDIVDPLDFETLFAERKARLVSLYPPEHQAEI
+                     AATLALESEPVTRVLQENAYREVLLRQLINDKARGLLLAYARGTTLDHIAALFDVERLV
+                     VTAADPEHGIDAVYEDDDSLRERVQLAPRGFSVAGPEEAYVFHARSADGRVLSAAAFSP
+                     EPCVMVITILSREGDGTASDELIEIVRKNLEGKRPQTDEVIVQSAKIVRYAIRATLRFF
+                     SGPDRGVALAEARKRTAKFAADMRRIGMEITVDGLHAAMRVAGVQKVLLDSPAGGVPVT
+                     HEQAPYCTGIELIDGGVADD"
+     gene            complement(21298..21660)
+                     /locus_tag="BPSL0155"
+     CDS             complement(21298..21660)
+                     /locus_tag="BPSL0155"
+                     /note="Similar to bacteriophage P2 baseplate assembly
+                     protein W SWALL:VPW_BPP2 (SWALL:P51768) (115 aa) fasta
+                     scores: E(): 9.9e-12, 36.28% id in 113 aa, and to
+                     bacteriophage phi CTX Orf17 protein SWALL:Q9ZXK9
+                     (EMBL:AB008550) (114 aa) fasta scores: E(): 1.1e-15, 43.59%
+                     id in 117 aa. Similar to BPSS1079, 99.167% identity
+                     (99.167% ungapped) in 120 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage baseplate assembly protein"
+                     /protein_id="CAH34142.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0155"
+                     /db_xref="EnsemblGenomes-Tr:CAH34142"
+                     /db_xref="GOA:Q63YN2"
+                     /db_xref="InterPro:IPR007048"
+                     /db_xref="InterPro:IPR015801"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN2"
+                     /translation="MRGMNAETGRSMSGLDHLAQSIGRIVSTPLGSCIQRRTFGSELPD
+                     LIDAPANGATRIRLYAAIATALMRWEPRLTVTRVQISAAAADAFAGRQFVDIEGWTDER
+                     DELVSLRVPMTNGGTA"
+     gene            complement(21657..22337)
+                     /locus_tag="BPSL0156"
+     CDS             complement(21657..22337)
+                     /locus_tag="BPSL0156"
+                     /note="Similar to bacteriophage P2 baseplate assembly
+                     protein V SWALL:VPV_BPP2 (SWALL:P31340) (211 aa) fasta
+                     scores: E(): 4.3e-14, 34.93% id in 229 aa, and to
+                     Xanthomonas campestris pv. campestris str. ATCC 33913
+                     phage-related baseplate protein V SWALL:AAM42258
+                     (EMBL:AE012413) (187 aa) fasta scores: E(): 2.8e-16, 36.46%
+                     id in 181 aa. Similar to BPSS1078, 96.903% identity
+                     (96.903% ungapped) in 226 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage baseplate assembly protein"
+                     /protein_id="CAH34143.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0156"
+                     /db_xref="EnsemblGenomes-Tr:CAH34143"
+                     /db_xref="InterPro:IPR006531"
+                     /db_xref="InterPro:IPR013046"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN1"
+                     /translation="MDANEIQRQARNAVRKGSILDVDHKAALCRVAIGESDDDGLQTNW
+                     IPWLTPSAGATREWLPPTKGEQVVVLGAMGDLAQGVALRGVFSDAFPAPDNLPNTHTRV
+                     YADGARVSYDHDAHALTAELPAGATVRLIAPVSVTVETESATVKAASVTFDAEQTTCTG
+                     ALLVKGPLVFKSGMTGSGSAGGGHVMRIDGAADFTGEVRSMGKSLPFHTHQARGESAEV
+                     SPPL"
+     gene            22511..23269
+                     /locus_tag="BPSL0157"
+     CDS             22511..23269
+                     /locus_tag="BPSL0157"
+                     /note="Similar to Brucella abortus modification methylase
+                     CcrM SWALL:MTB1_BRUAB (SWALL:O30570) (377 aa) fasta scores:
+                     E(): 4.1e-06, 31.66% id in 259 aa, and to Xanthomonas
+                     campestris pv. campestris str. ATCC 33913 site-specific
+                     DNA-methyltransferase xcc2967 SWALL:AAM42239
+                     (EMBL:AE012411) (234 aa) fasta scores: E(): 1.3e-37, 47.21%
+                     id in 233 aa. Similar to BPSS1077, 95.926% identity
+                     (95.926% ungapped) in 270 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage-encoded modification methylase"
+                     /protein_id="CAH34144.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0157"
+                     /db_xref="EnsemblGenomes-Tr:CAH34144"
+                     /db_xref="GOA:Q63YN0"
+                     /db_xref="InterPro:IPR001091"
+                     /db_xref="InterPro:IPR002052"
+                     /db_xref="InterPro:IPR002941"
+                     /db_xref="InterPro:IPR029063"
+                     /db_xref="UniProtKB/TrEMBL:Q63YN0"
+                     /translation="MTIHATDAAPAADLSPLLDRLHAMDALTLARMLPDASIDMVFTDP
+                     PYSSGGLHTSARSRPPSTKYINSDTKTVYTDFESDNMDQRAWAFWCHAWLSECRRALKP
+                     GGLLVSFIDWRQLPTLTDVVQAAGLILRGVAVWDKTPGRTRPRRGGFAQQAEFVVWASR
+                     GVMRDCEVYLPGVFPCRLPLPKQHVTEKPLDIAREVVRLVPAGGVVCDLFAGSGTFLVA
+                     AREVGLHWIGSETNQTYRSLACNRLMQPCN"
+     misc_feature    22631..22651
+                     /locus_tag="BPSL0157"
+                     /note="PS00092 N-6 Adenine-specific DNA methylases
+                     signature."
+     misc_feature    22802..23251
+                     /locus_tag="BPSL0157"
+                     /note="Pfam match to entry PF01555 N6_N4_Mtase, DNA
+                     methylase, score 36.1, E-value 5.4e-08"
+     gene            complement(23266..23412)
+                     /locus_tag="BPSL0158"
+     CDS             complement(23266..23412)
+                     /locus_tag="BPSL0158"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34145.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0158"
+                     /db_xref="EnsemblGenomes-Tr:CAH34145"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM9"
+                     /translation="MLIINIYLIAHPRASFIDLMREVSIGGSPFKVTAIDFRLMNDEAF
+                     LFC"
+     gene            complement(23669..24136)
+                     /locus_tag="BPSL0159"
+     CDS             complement(23669..24136)
+                     /locus_tag="BPSL0159"
+                     /note="Similar to bacteriophage P2 tail completion protein
+                     S SWALL:VPS_BPP2 (SWALL:P36934) (150 aa) fasta scores: E():
+                     9.2e-13, 36.84% id in 152 aa, and to Xanthomonas axonopodis
+                     pv. citri str. 306 phage-related tail protein S
+                     SWALL:AAM37500 (EMBL:AE011905) (148 aa) fasta scores: E():
+                     4e-25, 50.99% id in 151 aa. Similar to BPSS1075, 94.194%
+                     identity (94.194% ungapped) in 155 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage tail completion protein"
+                     /protein_id="CAH34146.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0159"
+                     /db_xref="EnsemblGenomes-Tr:CAH34146"
+                     /db_xref="InterPro:IPR006522"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM8"
+                     /translation="MTDDLQALERWAGGLLAKLSPAARRQLLRELGRDLRRAQQSRVAA
+                     QRNPDGSAYEPRKVKAGGKRLREKAGRVKREAMFRKLRTARYLRIDVDNTGLAIGFDER
+                     LSRIARVHQEGQKAPVEPGGPLAQYPVRVVLGISPNDRELVRDRLIKHLSQ"
+     gene            complement(24133..24549)
+                     /locus_tag="BPSL0160"
+     CDS             complement(24133..24549)
+                     /locus_tag="BPSL0160"
+                     /note="Similar to bacteriophage P2 tail completion protein
+                     R SWALL:VPR_BPP2 (SWALL:P36933) (155 aa) fasta scores: E():
+                     9.4e-13, 37.87% id in 132 aa, and to Ralstonia solanacearum
+                     probable tail completion-like protein rsc1929 or rs03499
+                     SWALL:Q8XY34 (EMBL:AL646067) (144 aa) fasta scores: E():
+                     2.2e-19, 44.92% id in 138 aa. Similar to BPSS1074, 97.101%
+                     identity (97.101% ungapped) in 138 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage tail completion protein"
+                     /protein_id="CAH34147.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0160"
+                     /db_xref="EnsemblGenomes-Tr:CAH34147"
+                     /db_xref="InterPro:IPR009678"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM7"
+                     /translation="MNKPSSLRAALVAALPQLNASPDQLLVFVNEGRIEATGTRTASFD
+                     YEYECEIIIRDFIGNPDDVMVAVVEWARANQPDLVMNRDERRDGMTFVADILSNNAVDL
+                     GLKVKLSESVVVGTDEAGNRTVEHIDDAADEWLA"
+     misc_feature    complement(24490..24549)
+                     /locus_tag="BPSL0160"
+                     /note="Signal peptide predicted for BPSL0160 by SignalP 2.0
+                     HMM (Signal peptide probabilty 0.983) with cleavage site
+                     probability 0.798 between residues 20 and 21"
+     gene            complement(24542..24817)
+                     /locus_tag="BPSL0161"
+     CDS             complement(24542..24817)
+                     /locus_tag="BPSL0161"
+                     /note="Similar to bacteriophage phi CTX Orf12.5 protein
+                     SWALL:Q9ZXL4 (EMBL:AB008550) (89 aa) fasta scores: E():
+                     9.3e-09, 41.97% id in 81 aa, and to Salmonella typhimurium
+                     Fels-2 prophage: similar to protein from phage CTX STM2713
+                     SWALL:Q8ZMT9 (EMBL:AE008823) (94 aa) fasta scores: E():
+                     6.2e-09, 43.59% id in 78 aa. Possible alternative
+                     translational start site"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein"
+                     /protein_id="CAH34148.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0161"
+                     /db_xref="EnsemblGenomes-Tr:CAH34148"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM6"
+                     /translation="MKTPPCALGLLALCLTMLCACTQAPPSTAPTISLNECAAVTPCTM
+                     PAMAPRTNGELSDALHVARAAWARCASEVDMIATCQARVRRTDGHE"
+     gene            complement(24654..25094)
+                     /locus_tag="BPSL0162"
+     CDS             complement(24654..25094)
+                     /locus_tag="BPSL0162"
+                     /note="Similar to bacteriophage P2 LysB protein
+                     SWALL:LYSB_BPP2 (SWALL:P51770) (141 aa) fasta scores: E():
+                     0.00013, 35.41% id in 144 aa, and to bacteriophage phi CTX
+                     Orf12 protein SWALL:Q9ZXL5 (EMBL:AB008550) (153 aa) fasta
+                     scores: E(): 0.0051, 31.65% id in 139 aa. Similar to
+                     BPSS1073, 98.571% identity (98.571% ungapped) in 140 aa
+                     overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded lipoprotein"
+                     /protein_id="CAH34149.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0162"
+                     /db_xref="EnsemblGenomes-Tr:CAH34149"
+                     /db_xref="InterPro:IPR020000"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM5"
+                     /translation="MNLSRLMPWLALLALIALVASCQHGRALRAQLDRATDDARRAKLD
+                     AQASAAVIERLLADAKAKDAQRAQLARARAGVDATLATYRNELRRLIDENAAVRAWAAG
+                     ALPDDVVRLHASPALNGADDFAQRMRGGDAVHDAGDGAANQR"
+     misc_feature    complement(25008..25094)
+                     /locus_tag="BPSL0162"
+                     /note="Signal peptide predicted for BPSL0162 by SignalP 2.0
+                     HMM (Signal peptide probabilty 0.996) with cleavage site
+                     probability 0.515 between residues 29 and 30"
+     misc_feature    complement(25029..25061)
+                     /locus_tag="BPSL0162"
+                     /note="PS00013 Prokaryotic membrane lipoprotein lipid
+                     attachment site."
+     gene            complement(25091..25903)
+                     /locus_tag="BPSL0163"
+     CDS             complement(25091..25903)
+                     /locus_tag="BPSL0163"
+                     /note="Similar to bacteriophage phi CTX Orf11 protein
+                     SWALL:Q9ZXL6 (EMBL:AB008550) (268 aa) fasta scores: E():
+                     2.2e-45, 51.3% id in 269 aa, and to Ralstonia solanacearum
+                     putative phage-related protein rsc1931 or rs03500
+                     SWALL:Q8XY32 (EMBL:AL646067) (268 aa) fasta scores: E():
+                     3.3e-50, 56.77% id in 273 aa. Similar to BPSS1072, 98.148%
+                     identity (98.148% ungapped) in 270 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded peptidoglycan binding
+                     protein"
+                     /protein_id="CAH34150.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0163"
+                     /db_xref="EnsemblGenomes-Tr:CAH34150"
+                     /db_xref="InterPro:IPR002477"
+                     /db_xref="InterPro:IPR024408"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM4"
+                     /translation="MNILRFNDHGAEVGLLQQRLVRAGYSLDVSHLYDEQTERAVQTLQ
+                     ATAGLVVDGIAGPKTYRVLASGQRDPKHLTDADLARAAATLGVSLACVRAVNEVESRGV
+                     GFLDDGRPKILFERHVMYQRLVANVGREAADAAAARWPGVVNPKRGGYQGGGAEYVRLD
+                     TAARIDAASAYESASWGAFQIMAYHWKRLGYASVDEFVSRMELGEAEHLDAFVRYVAAD
+                     KKLLAALRARKWAAFAEGYNGPEFAINLYDVKLDRAYAKYAGTSKAAA"
+     misc_feature    complement(25700..25879)
+                     /locus_tag="BPSL0163"
+                     /note="Pfam match to entry PF01471 PG_binding_1, Putative
+                     peptidoglycan binding domain, score 49.5, E-value 5e-12"
+     gene            complement(25900..26172)
+                     /locus_tag="BPSL0164"
+     CDS             complement(25900..26172)
+                     /locus_tag="BPSL0164"
+                     /note="Similar to bacteriophage phi CTX Orf10 protein
+                     SWALL:Q9ZXL7 (EMBL:AB008550) (90 aa) fasta scores: E():
+                     2.9e-06, 37.5% id in 80 aa, and to Xanthomonas campestris
+                     pv. campestris str. ATCC 33913 phage-related protein Orf90
+                     SWALL:AAM42249 (EMBL:AE012412) (91 aa) fasta scores: E():
+                     4.7e-10, 41.75% id in 91 aa. Identical to BPSS1071,
+                     100.000% identity (100.000% ungapped) in 90 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded membrane protein"
+                     /protein_id="CAH34151.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0164"
+                     /db_xref="EnsemblGenomes-Tr:CAH34151"
+                     /db_xref="InterPro:IPR008473"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM3"
+                     /translation="MHVSSALVALAAHLAVIVRVLTYRKNGARHRFHVAWAAWVIVAIS
+                     GGSAIELLFHPKPTGFFHAALAVLLAVLVYLARGNVARLLRSDEA"
+     misc_feature    complement(order(25945..25998,26011..26079,26104..26163))
+                     /locus_tag="BPSL0164"
+                     /note="3 probable transmembrane helices predicted for
+                     BPSL0164 by TMHMM2.0 at aa 4-23, 32-54 and 59-76"
+     gene            complement(26174..26518)
+                     /locus_tag="BPSL0165"
+     CDS             complement(26174..26518)
+                     /locus_tag="BPSL0165"
+                     /note="Similar to bacteriophage phi CTX protein
+                     SWALL:Q9ZXL8 (EMBL:AB008550) (117 aa) fasta scores: E():
+                     0.00085, 31.85% id in 113 aa, and to Xanthomonas campestris
+                     pv. campestris str. ATCC 33913 phage-related protein Orf89
+                     SWALL:AAM42248 (EMBL:AE012412) (118 aa) fasta scores: E():
+                     1.6e-15, 51.75% id in 114 aa. Identical to BPSS1070,
+                     100.000% identity (100.000% ungapped) in 114 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded membrane protein"
+                     /protein_id="CAH34152.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0165"
+                     /db_xref="EnsemblGenomes-Tr:CAH34152"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM2"
+                     /translation="MAEPNTSSAAALFAAVGLAGIAPGVDGDALIGAFAGAALVVVTSK
+                     DLGLAKRAAYMLISLVMGYLAAPEIIHAVPIRSTGVAAFFAAALVIAVTLTLIERVKGM
+                     DLFALFRKGD"
+     misc_feature    complement(order(26225..26278,26291..26359,26393..26461))
+                     /locus_tag="BPSL0165"
+                     /note="3 probable transmembrane helices predicted for
+                     BPSL0165 by TMHMM2.0 at aa 20-42, 54-76 and 81-98"
+     misc_feature    complement(26447..26518)
+                     /locus_tag="BPSL0165"
+                     /note="Signal peptide predicted for BPSL0165 by SignalP 2.0
+                     HMM (Signal peptide probabilty 0.964) with cleavage site
+                     probability 0.544 between residues 24 and 25"
+     gene            complement(26533..26739)
+                     /locus_tag="BPSL0166"
+     CDS             complement(26533..26739)
+                     /locus_tag="BPSL0166"
+                     /note="Similar to bacteriophage P2 tail protein X
+                     SWALL:VPX_BPP2 (SWALL:P51772) (67 aa) fasta scores: E():
+                     2.4e-11, 69.81% id in 53 aa, and to Xanthomonas campestris
+                     pv. campestris str. ATCC 33913 phage-related tail protein X
+                     SWALL:AAM42247 (EMBL:AE012412) (69 aa) fasta scores: E():
+                     3.6e-13, 59.42% id in 69 aa. Identical to BPSS1069,
+                     100.000% identity (100.000% ungapped) in 68 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage tail protein"
+                     /protein_id="CAH34153.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0166"
+                     /db_xref="EnsemblGenomes-Tr:CAH34153"
+                     /db_xref="InterPro:IPR008861"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM1"
+                     /translation="MKIAALQGETLDALCWRHYGSTAGTVEAVLEANPGLAELGVVLPM
+                     GTVVEMPERRAIETTTPLLQLFD"
+     gene            complement(26736..26987)
+                     /locus_tag="BPSL0167"
+     CDS             complement(26736..26987)
+                     /locus_tag="BPSL0167"
+                     /note="No significant database matches. Similar to
+                     BPSS1068, 97.590% identity (97.590% ungapped) in 83 aa
+                     overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAH34154.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0167"
+                     /db_xref="EnsemblGenomes-Tr:CAH34154"
+                     /db_xref="UniProtKB/TrEMBL:Q63YM0"
+                     /translation="MARPLYRIRQFAQSRVRGGKLFCAGACQVQQRVAGLFWLEIAYCS
+                     DRTGAEAAIRAAVIARRRARLKPRVLGLFGRDGQALGQ"
+     gene            complement(26987..27466)
+                     /locus_tag="BPSL0168"
+     CDS             complement(26987..27466)
+                     /locus_tag="BPSL0168"
+                     /note="Similar to bacteriophage P2 head
+                     completion/stabilization protein L SWALL:VPL_BPP2
+                     (SWALL:P25475) (169 aa) fasta scores: E(): 2.8e-15, 42.25%
+                     id in 142 aa, and to Ralstonia solanacearum probable
+                     bacteriophage protein rsc1935 or rs03504 SWALL:Q8XY28
+                     (EMBL:AL646067) (159 aa) fasta scores: E(): 2.8e-26, 55.34%
+                     id in 159 aa. Similar to BPSS1067, 98.113% identity
+                     (98.113% ungapped) in 159 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage head completion/stabilization protein"
+                     /protein_id="CAH34155.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0168"
+                     /db_xref="EnsemblGenomes-Tr:CAH34155"
+                     /db_xref="GOA:Q63YL9"
+                     /db_xref="InterPro:IPR009225"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL9"
+                     /translation="MNSFVATAAPAVAATPIEGALTNDGFFPDIDLSALRDAMRLDGTV
+                     TAERLRHAARDALLTVNDELAAWRARQRAAGAATLADVPAPRIDGESAHVARYRRAVYH
+                     LTHADVTEKYRGYDTTKSGGQVAADLAATVDDSRRAARWAISDILGIARSTVELI"
+     misc_feature    complement(27410..27466)
+                     /locus_tag="BPSL0168"
+                     /note="Signal peptide predicted for BPSL0168 by SignalP 2.0
+                     HMM (Signal peptide probabilty 0.886) with cleavage site
+                     probability 0.385 between residues 19 and 20"
+     gene            complement(27566..28255)
+                     /locus_tag="BPSL0169"
+     CDS             complement(27566..28255)
+                     /locus_tag="BPSL0169"
+                     /note="Similar to bacteriophage P2 terminase, endonuclease
+                     subunit M SWALL:VPM_BPP2 (SWALL:P25476) (247 aa) fasta
+                     scores: E(): 2.7e-27, 46.29% id in 216 aa, and to Ralstonia
+                     solanacearum probable bacteriophage protein rsc1936 or
+                     rs03505 SWALL:Q8XY27 (EMBL:AL646067) (240 aa) fasta scores:
+                     E(): 8.6e-30, 48.73% id in 238 aa. Similar to BPSS1066,
+                     99.561% identity (99.561% ungapped) in 228 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage terminase, endonuclease subunit"
+                     /protein_id="CAH34156.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0169"
+                     /db_xref="EnsemblGenomes-Tr:CAH34156"
+                     /db_xref="GOA:Q63YL8"
+                     /db_xref="InterPro:IPR010270"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL8"
+                     /translation="MTINTPARAHFNRVSAARAAAAASPGATMKGATAYELMLAKLAAD
+                     RRALKGIQSIERKIELKRKLLPDYADYVAGVLSGGRGAQDDVLVTVMVWRIDAGDFDGA
+                     LAIAAYALSNGLTLPDQFERSLASLVAEQFADAALSSFLDGETFDAASLELVDDLTREA
+                     DMHDQVRAKLYKALGYATQAAAPARALDYLRRAVALNDRVGVKKDIDRLTKQVEAAGRR
+                     GDGADGT"
+     misc_feature    complement(28169..28255)
+                     /locus_tag="BPSL0169"
+                     /note="Signal peptide predicted for BPSL0169 by SignalP 2.0
+                     HMM (Signal peptide probabilty 0.947) with cleavage site
+                     probability 0.448 between residues 29 and 30"
+     gene            complement(28252..29262)
+                     /locus_tag="BPSL0170"
+     CDS             complement(28252..29262)
+                     /locus_tag="BPSL0170"
+                     /note="Similar to bacteriophage P2 major capsid protein
+                     precursor N SWALL:VPN_BPP2 (SWALL:P25477) (357 aa) fasta
+                     scores: E(): 5.7e-70, 55.84% id in 342 aa, and to
+                     bacteriophage phi CTX protein SWALL:Q9ZXM3 (EMBL:AB008550)
+                     (338 aa) fasta scores: E(): 1.6e-83, 64.39% id in 337 aa.
+                     Similar to BPSS1065, 97.626% identity (97.917% ungapped) in
+                     337 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage major capsid protein precursor"
+                     /protein_id="CAH34157.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0170"
+                     /db_xref="EnsemblGenomes-Tr:CAH34157"
+                     /db_xref="GOA:Q63YL7"
+                     /db_xref="InterPro:IPR006441"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL7"
+                     /translation="MRKETRQAYEKYTAQIAKLNDTGDVSKKFAVEPTVQQRLETKMQE
+                     SSEFLKRINILPVLELEGEKLGLSVSGPIASRTDTTKAARQPIDPTALDSNRYRCEKTD
+                     YDTAIPYRKLDMWAKFPDFQQRIRDVILNQGALDRIMIGWNGVKAAATTDRQANPLLQD
+                     VNIGWLQQYRERAAQRVLHEGKQAGKVLVGKAGDYDNLDALVMDIVSSMIDPWFQEDTG
+                     LVAICGRELLHDKYFPIVNATQAPTERLAADLIVSQKRIGNLPAVRVPFFPKRALMVTK
+                     LSNLSIYYQEGARRRTLKEVPERDRIENYESSNDAYVVEDFGCGCVAENIELAAA"
+     gene            complement(29296..30105)
+                     /locus_tag="BPSL0171"
+     CDS             complement(29296..30105)
+                     /locus_tag="BPSL0171"
+                     /note="Similar to bacteriophage P2 presumed capsid
+                     scaffolding protein O SWALL:VPO_BPP2 (SWALL:P25478) (284
+                     aa) fasta scores: E(): 3e-24, 43.44% id in 290 aa, and to
+                     bacteriophage phi CTX protein SWALL:Q9ZXM4 (EMBL:AB008550)
+                     (273 aa) fasta scores: E(): 9e-31, 44.71% id in 284 aa.
+                     Similar to BPSS1064, 98.885% identity (98.885% ungapped) in
+                     269 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage capsid scaffolding protein"
+                     /protein_id="CAH34158.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0171"
+                     /db_xref="EnsemblGenomes-Tr:CAH34158"
+                     /db_xref="GOA:Q63YL6"
+                     /db_xref="InterPro:IPR009228"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL6"
+                     /translation="MASKTKFFRVAVEGATVDGREIKREWLTQMAKHYDPKLYGARVNV
+                     EHIKGWAPLSANNPFGAYGDVIALKAAEIEDGPLKGKMALYAQIDPTDELVALSKKRQK
+                     LFTSIEINPDFADIGEAYLVGLAATDDPASLGTEALQFAAKRSNNLYTPACETAIEFEG
+                     AAETAGLKEWVKGLFARNRENDDERFADVREALERVAIHAHHTGREVATLSTAVTSATG
+                     AAADAKKRADEAFAAVEALTEKLSNTDNGAPQRPPSTGSTGELVTDC"
+     gene            30249..32018
+                     /locus_tag="BPSL0172"
+     CDS             30249..32018
+                     /locus_tag="BPSL0172"
+                     /note="Similar to bacteriophage P2 terminase, ATPase
+                     subunit P SWALL:VPP_BPP2 (SWALL:P25479) (590 aa) fasta
+                     scores: E(): 4.2e-136, 56.15% id in 593 aa, and to
+                     bacteriophage phi CTX protein SWALL:Q9ZXM5 (EMBL:AB008550)
+                     (594 aa) fasta scores: E(): 5.3e-160, 67.19% id in 564 aa.
+                     Simlar to BPSS1063, 98.980% identity (98.980% ungapped) in
+                     588 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage terminase, ATPase subunit"
+                     /protein_id="CAH34159.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0172"
+                     /db_xref="EnsemblGenomes-Tr:CAH34159"
+                     /db_xref="GOA:Q63YL5"
+                     /db_xref="InterPro:IPR004921"
+                     /db_xref="InterPro:IPR010332"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL5"
+                     /translation="MLETTDPHQLENDVRKVARTLYWQGWRIASIARHLDIKPATVASW
+                     CRREKWKDATPVERIEASLEVRLMVLIAKEKKDGADYKEIDLLGRQVERLARVRKYDET
+                     GKESDLNPKIASRNAGPKRRAPRNEISEEQHKRIIEAFRDSLFDYQKVWYRNGDQRTRN
+                     ILKSRQIGATWYFAREALVDALDTDRNQIFLSASKAQAHVFKQYITQFARAAADIELTG
+                     DPIILPSGATLYFLGTNARTAQSYHGNFYFDEYFWVPKFRELNKVASGMAMHKRWRKTY
+                     FSTPSSVTHEAYAFWSGAHANRGRAAGERIQIDTSHEALVRGMLCEDAQWRQIVTVLDA
+                     MAGGCDLFDIDELRREYSAEEFANLLMCQFIDDSLSVFKLSDLQRCMVDSWEEWADDFS
+                     PLLLRPFGYREVWVGYDPALTGDSAGLVVVAPPRVDDGAFRVLERHQFRGNDFEEQAAA
+                     IEAITQRYNVGYIAIDTTGMGQGVYQLVRKFFPAAVALNYSPEVKTRLVLKGQSVVRNG
+                     RLQFDAGWTDLAAAFMAIKQTMTASGRQATYTAGRTDETGHADLAWACLHAIDREPLAG
+                     GGIHSSSFTEFYT"
+     misc_feature    30324..30389
+                     /locus_tag="BPSL0172"
+                     /note="Predicted helix-turn-helix motif with score
+                     1584.000, SD 4.58 at aa 26-47, sequence
+                     WRIASIARHLDIKPATVASWCR"
+     gene            32015..33070
+                     /locus_tag="BPSL0173"
+     CDS             32015..33070
+                     /locus_tag="BPSL0173"
+                     /note="Similar to bacteriophage P2 presumed portal vertex
+                     protein Q SWALL:VPQ_BPP2 (SWALL:P25480) (344 aa) fasta
+                     scores: E(): 5.5e-78, 54.65% id in 344 aa, and to Ralstonia
+                     solanacearum probable bacteriophage protein rsc1941 or
+                     rs03510 SWALL:Q8XY22 (EMBL:AL646067) (361 aa) fasta scores:
+                     E(): 1.1e-90, 61.69% id in 355 aa. Similar to BPSS1062,
+                     99.430% identity (99.430% ungapped) in 351 aa overlap and
+                     to the C-terminal region of BPSL0111, 99.390% identity
+                     (99.390% ungapped) in 328 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage portal vertex protein"
+                     /protein_id="CAH34160.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0173"
+                     /db_xref="EnsemblGenomes-Tr:CAH34160"
+                     /db_xref="InterPro:IPR006430"
+                     /db_xref="InterPro:IPR006944"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL4"
+                     /translation="MSKRRSRAPRTLAAAPNPSAGSAAPARAEVFTFDDPTPVMNRAEI
+                     LDYVECWSNGEWFEPPVSFAGLAKSFRASTHHSSALFFKANVLASTFRPHRWLSRHAFE
+                     RWALDFLTFGNGYLERRRNMVGGTLRLEPALAKYVRRKADFSGFVYVNGWQERHEFAPD
+                     SVFQLVRPDINQEVYGLPEYLSSLHSAWLNESSTLFRRKYYENGSHAGFILYMTDAAQK
+                     QDDVDNMRDALKNAKGPGNFRNVFMYAPGGKKDGIQLIPVSEVAAKDEFFNIKNVTRDD
+                     LLAAHRVPPQLLGIVPSNSGGFGTPDTAARVFGRNEIRPLQARFAELNDWLGDEVVTFD
+                     DYEIPPAPVAA"
+     gene            complement(33114..33470)
+                     /locus_tag="BPSL0174"
+     CDS             complement(33114..33470)
+                     /locus_tag="BPSL0174"
+                     /note="Similar to Ralstonia solanacearum hypothetical
+                     protein rsp0076 or rs05545 SWALL:Q8XTN0 (EMBL:AL646076) (99
+                     aa) fasta scores: E(): 5.5e-10, 50% id in 88 aa, and to
+                     Xylella fastidiosa hypothetical protein XF2763 SWALL:Q9P9V8
+                     (EMBL:AE004082) (102 aa) fasta scores: E(): 3e-11, 44.68%
+                     id in 94 aa. CDS is extended at the C-terminus in
+                     comparison to orthologues. Similar to BPSS1061, 99.153%
+                     identity (99.153% ungapped) in 118 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage DNA-binding protein"
+                     /protein_id="CAH34161.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0174"
+                     /db_xref="EnsemblGenomes-Tr:CAH34161"
+                     /db_xref="GOA:Q63YL3"
+                     /db_xref="InterPro:IPR010982"
+                     /db_xref="InterPro:IPR014057"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL3"
+                     /translation="MKISELAEFDGSKYLKDEETIRHYLAQAFEDGNPRLIQAALGNVA
+                     KARGMTALARESGVKREALYRALSEGGNAEFATIMKVVGALGLHLTVAPAEPAPVPAPA
+                     TTRARSRVRTAAHA"
+     misc_feature    complement(33264..33329)
+                     /locus_tag="BPSL0174"
+                     /note="Predicted helix-turn-helix motif with score
+                     1567.000, SD 4.52 at aa 48-69, sequence
+                     RGMTALARESGVKREALYRALS"
+     gene            complement(33473..33796)
+                     /locus_tag="BPSL0175"
+     CDS             complement(33473..33796)
+                     /locus_tag="BPSL0175"
+                     /note="Similar to Xylella fastidiosa hypothetical protein
+                     XF1703 SWALL:Q9PCS5 (EMBL:AE003994) (102 aa) fasta scores:
+                     E(): 2e-15, 45.91% id in 98 aa, and to Haemophilus
+                     influenzae hypothetical protein HI1419 SWALL:YE19_HAEIN
+                     (SWALL:P44190) (99 aa) fasta scores: E(): 3.7e-14, 48.93%
+                     id in 94 aa. Simlar to BPSS1060, 95.690% identity (95.690%
+                     ungapped) in 116 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical phage protein"
+                     /protein_id="CAH34162.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0175"
+                     /db_xref="EnsemblGenomes-Tr:CAH34162"
+                     /db_xref="InterPro:IPR009241"
+                     /db_xref="InterPro:IPR014056"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL2"
+                     /translation="MSLMGYNSRMFKVLTTPQFDKWLDGLRDPVGSAAINLRIERAKLG
+                     NLGQWRAVGDGVNEMKIDVGPGYRAYFVRRGKIIVVVLCGGDKSTQKKDIKLAKQIAGE
+                     LED"
+     gene            complement(34599..35339)
+                     /locus_tag="BPSL0176"
+     CDS             complement(34599..35339)
+                     /locus_tag="BPSL0176"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage-encoded membrane protein"
+                     /protein_id="CAH34163.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0176"
+                     /db_xref="EnsemblGenomes-Tr:CAH34163"
+                     /db_xref="UniProtKB/TrEMBL:Q63YL1"
+                     /translation="MDRFHGSSDGVGHRRTLVATPKGCEHVAALEELGAAVRCKSDRQR
+                     VNRDWAGAETKRGRMMNNISELNALLNLLGVAALLALLYGPIQSFIVDTVRQRFFEIRD
+                     GVFDAAAKGEIAFDDPHYVKFRASMNGLLRNAHECTIWRMVTLSIVGVKLFGKPSESDL
+                     NPFAEAPDFIKQAHQRATIWLGVLMWLRSPILIVLSMLGVLVIPVILIAATTSATARRL
+                     PLKLISTLQKDLRRDAALEVMLSR"
+     misc_feature    complement(order(34707..34775,35067..35135))
+                     /locus_tag="BPSL0176"
+                     /note="2 probable transmembrane helices predicted for
+                     BPSL0176 by TMHMM2.0 at aa 69-91 and 189-211"
+ORIGIN
+        1 tcagttggta gagcagcgga ttgaaaatcc gcgtgtcggt ggttcgattc cgccccaggc
+       61 caccagattt gacaagggtt ccgagcaatc ggaacccttt tctatttctg gcggtgtgcc
+      121 agatttgtgc cgcagtgtgc cgatgttgtc cgcgtaagcc gccacgtggt cccgcccgag
+      181 gtgcgcgtag cgcagcacca tctgatagct ggcccatcct ccgagctgct gaaggattgg
+      241 cagaggcgtg ccggcctgaa cgtgccagct cgcccacgtg tgccgcagat catgaaagcg
+      301 caaccctgac aggcccgctc gcatgcatgc cttttgccat gcgtggttgt agatgcggcc
+      361 gatgggtgcc cccttgtaca cgaacacgta gcgcttgtgc tgcccctgct gctcgcgcag
+      421 cacgcccaac gcgtcctcgt tcagcggcac ggaaatcacc ttgccggctt tggcctggtc
+      481 ggcatgaatc cacgccagcg cccgctctcg atcgacctgc gcccattcca gcagtcgcac
+      541 gttcgattca cgcagccccg tcgccaacgc aaaccgcgcc atctgtcgca ggtgcgtcgg
+      601 cagttcttcc agtagccgtt gcgcttgcgc gcgggtaagc caggtcaggc gtgcgctgtt
+      661 ctcccgcagc ttgcgaatcg ggggaaccgc gtcgatccac ccctccgcgt ggcagtgatg
+      721 caggatgacc gagagcgcgg ccatgtgccg gttcaccgtc gcgcctgcta ccggactacc
+      781 gcggtatttc tcggccgcct tcgtctcgat cagcgcctgg atgcgttcgc gatcgatgtt
+      841 gcggacgttc tctcccttca gttgatccgt tagccagcgc aggcgctgtt tggtggtctc
+      901 cagcgagcgc tgatgctggt tctgcttgag ccaatgtacg accgccgcgt cccacgttac
+      961 ggccggccgc tcgccgagct ttttttgccg ccagtaatcg ctcgcaacct tggcggcaag
+     1021 ttcttccgcc gccctacggt ccgaggtgcc agaagattgt ctaattcgcg agccgtcgat
+     1081 gctgaggtcg aaccaccaag ggccattttt ttgtcgcttg tagaaccgca tttcccacct
+     1141 gttttttcgt attgctgtct gagccaatct atcacgtcga catccacgag aacccacgct
+     1201 cgaccgatct ttgcggccgg cagtccgtgg cggcggatgc attcggacac ggtttcgggc
+     1261 gtcgtgaaca accacgctgc cgcttcttcc agattcatcg ttcgcatctt gagcgcctca
+     1321 cgttcaggcc cgcgtggaag ggatacacgc agcgcaactc atggaatgat ggtttgaggt
+     1381 cgtttttatg ggtaactgtt tgattcaaaa catattcgtc tgccatcaat tgccaccatt
+     1441 caggcatggc gaccctcaaa aactcgtggc ctaaaaaata ggcagcgtcc gtaactgatg
+     1501 gcaaaacgcc tgtaactcgt ggcagtccat tccggcctat gccttgccct tcctcgcttt
+     1561 ctttctcttt ctttttcaat gaaatagaga gagaagagag aaggacggcg gcggcccgca
+     1621 ccaaaaccgg actgatggca aaagcggctc gactagtggc aaatgcgggg tgacacgtgg
+     1681 cggcactctt ctcaacaatc aaagacttac gagcggacac ccgcgaaatc cacgattcgc
+     1741 atgcgctgcc tgcccggccc ctgtggaaaa atccgcccgc gcggccccgc tccctctcgg
+     1801 ctcgtgctgt tgcccggccg tttcgactcg ctggggggac ggggggaagc gaaccgaacg
+     1861 gcggccgcgt gacgacgcgc gccgactgct gcgcgcatcg gcgcacgcgg cggaaacccg
+     1921 attccagggc cgctacgcgg ccggaaagaa cgggagaagg ggcacggccg cactgcggcc
+     1981 gcgacggctg agaaggcgtc atgcgtggct ccgctcgagt gcgtcggtcg ccaggtcttc
+     2041 gcgcaccgat acgtggaggc cgaacgcggc gaggcgctcg agcgagacgg gcgtgaggta
+     2101 gggcacacgg cgggtgtaga tgcgccgctc gacttccttc tctccgacca cgacgccggc
+     2161 gtgcttgagc tgcgtcttga acacgcggtc cgacttcacg ggcaggccgt tccatttgtc
+     2221 gcgcagcgcg ctcgtgtgcg cgaggtggtc catcacgtgg cctgtgcgca gcagcaggca
+     2281 gaattcgccg tcgaccgtat cgaaggtgta cgggtgcttg tagttgccgc cgtcgatctc
+     2341 cgacagcacg gtttccatga tccagaccca cggctcgcga tcggcgctcg tctcggcgac
+     2401 gtggctgttc atttccgcga gcaggtcgtg cggaaaaccg ccctcgctcg ggtccatgcc
+     2461 ggcgaattcg cacagatagc gccaggcgag ggcgacggcg gcgtagttgg cggccatgcg
+     2521 gttcgcgcca tcatcagcgc cgctcgcgat gcatttcgca agtgccttgt cgcgcagtgt
+     2581 cgcgtaatgc tcgagcacgg cgcgcttatc gaggcccgcc agatactcga gccactgccg
+     2641 aaccgggaag cgcggcagat cgtcgggcag cagcgggccg cgcttgccgg tcagcgtcgt
+     2701 gcgcacgagc ttgccgagca ggcttcgtac gggcacatcc tcgccggcca gcatcacggg
+     2761 cgcgcacaac aggtattccg tcatgtcggt gccgcggcgc gtcacggtgt actggtagtt
+     2821 ctcctgcaac agcccgaccg ccttgtcgat tacgtcctgt cgacgcgcgg acagctcttc
+     2881 ccatccgacc gggtggctcg tatggctgat actcgtgagc agccggaatt cggtttgcag
+     2941 cgattgcccg gagaacatcg tgaacgcgag cgagcgctcg aggcgcttga tgagtgtcga
+     3001 cttgccggcg cccttgtttg cctggatcgt gatgtgcggc cagaagccga gcagcgcctt
+     3061 caggtgcccg ccgagcgccc acacgagcgg gatggttgct gcgttctgct tgaatgtcgt
+     3121 ctggtaggcc gtgatgacgc ggcgtgcgtc gctggtcgag ccgctcggga acgtcaggtt
+     3181 gtgatacggg cactgcttgt cggcttcggt gaagtagcag tccggcccct cgttgacgat
+     3241 caggcggccg tcgcgccatg caagcccgac gaagttcgcg gcctggcgcg cgccgaggtc
+     3301 ggcgccgcgc tcgaggatgt tgaccatgcg cttgaacggc gccggtgccc agatcgggcc
+     3361 gaacttgccc cactggtcga cattgtggag ctggtcgtcg agcatcacgc ggcggacgag
+     3421 ctgcgcgcca tgccgcggcg tctgcaccga cacggcgaag tagacggtcg gcgcctggtc
+     3481 ggcgtcgccc gtcatcgtcg acgtcgcgct cgcgaccgat acgcggctga tgccggcgat
+     3541 gcgaaagccg cacaggtccg tcatgacggg cgtctcgacg ccggattcct cgttgcggtc
+     3601 catcttcgtg atgtagctcg tgaagtcggg gcgcgtgcgg aagcgccagt actgcgcgaa
+     3661 gtcgtgcgac ggcagaaaga tgcggggtcg gccgcggcgc gacgcgtcgc cagccaggcc
+     3721 ggcaatgagc cacggctcga gctgctcgag cgcgcgcgcc agctcggccg ggccgcgcag
+     3781 ttgcaggtag tcgttcacgt cgttgatcgg ctgctgcttc gtttcgccgt ccgccagatc
+     3841 ggcgagccag ccggcttggt cgacgagtac ggcgctgatg ttgaggctcg cgagacgctc
+     3901 gtagagcgcc cacgcggctt ccgggccggg acggtggccg gcgcgcggat ggccgtccgc
+     3961 gaacggctcg tcgttgtcga ggcagatcac gacttgctta ccgcgcagcg acgagaagtc
+     4021 gatcgcgtcg acattggcga ggccgcgcag cgcgagcgcc gctgcgccgg gcatcgcgca
+     4081 ggtgtcgatc gacagcgcat tgattgcgct ttcgacgatg aatatgcgct tcgccttgtc
+     4141 gagacgccgg gcgtcggcgg tccagccgta gccggccttg tcgccctgcg tctgcgtctt
+     4201 gacgccgcca ttgagcgccg ggtcgacata gcgcatgtcg acggcgacga cgcggccgtc
+     4261 ggccggctcg cgcacgatga atgcggcggc cgggccggcg tgcccgactt cgccggcggc
+     4321 gactttcgaa ctcgtccacg tgttgaagcc gagcgagcgc gcggcgaacg cggcgtcgat
+     4381 tgccgcggcc gaaatgccgc ggccgccgag gtattcgcgc acgcggtcgc gctcggcgag
+     4441 gcagcggtcg gcgatgtatt cgacggtcga cttctcgcgg cgctccgccg gcgccggtcg
+     4501 atcgagcggg atgccgtagg cgtcgtgcag gtagcgcacg gcgtcggcga ccgtgccgcc
+     4561 gcgcgcgtgg atcaccaggt cgatgcacga gccgccggca tcggcgctgt gatcgcgcca
+     4621 gccggtgccg tgcttcgggt ggttcacgta gatcgacagg gacgggctct tgtcctcgtg
+     4681 ctgcggcgag tgatagagcg ccttgtcgcc gccgcggccg cgcttgaggc cgaggcggtc
+     4741 ggcgaggtcg tgcaggtcga ttcgttgttt cagttcgtcg atcgtggcca tttctgtgtc
+     4801 tgctacttgg gttgctgcgg tgtgcggtcg gtggggttgc cggtcgtggc cgggctgaac
+     4861 acgacggcgt gcaacgccgc ggcggattcg gggaaggcga gggcgaggcg gccgctgagc
+     4921 gcggcgacga acaggccgag catgcattgc cgttgaaggc tgcccggctt gttgtcgaag
+     4981 cgcagcgtgc cggcggccgc ggcgattgcg gaggcgagcg cgatgtcgtg cggcgcgcgg
+     5041 ttcggatcgt ggttcatgcg ggaatcctcc cgaggatggc gtgttcgttc tgttggattc
+     5101 gatgcacggc gatttgcaga ttggcgcgcg ccgtcatcgc ctcgtcgagc atgtcgcgca
+     5161 gccggcgctt atttcgctcg aggttcgcgg ccgcgtgcgc gatcgcggcg tcgcgcgtgg
+     5221 ggccgacgcc ggccgccatg ccggacgcaa gatgcgtgac ggtccacttt tcggggtggc
+     5281 cgtgcggcgc gtgacgctcc atgtgaatgc cgaaggttgc gccggcgtcg ttcggaatca
+     5341 cgacgtgatc gccgctcacg gtgcgaaggc cggcggtcgt catgagctcg tagcggatcg
+     5401 atgcggccgt catgctcacc actccccggc gaggccgcca agcgcattca ggcgcgagca
+     5461 gacatcgata cacaaagcag cgtgcgacca cgggaagtac ccgtgacgtt tcagcgctcg
+     5521 tagttctgcg atttgatcga acatcacgta gcggcaggcg cgccgatagc ggatgtcagc
+     5581 atccatgtcg tccgacggta ggggttcagc aaacaggttc atgtcaccct cgaaaaagcc
+     5641 ggggcgtcgt gcggaccgcc ccggaaaagc gccgcgcccc gaggcatcgg ggagtgcgcg
+     5701 cggcgtgaaa gtggatgcgc tatcgggcga tgcagcgcga cagcgcgtga tcggatcgcc
+     5761 tcgagctcgt cgacggcggc cggcgcggcg ctatgtgggc ttggcttgat tggctttggt
+     5821 cgccgcgcgt tcgtatgcgg cgcgatcagc ccatacgatc aagcccacac ggcccgcgcc
+     5881 gagcgctgct tcggccgtcg tgatcgcgtc ggttgcgaac gagacgagcg ttccccgccg
+     5941 catggcgcgg atgtccgtca tggactgttc gaggagctgg aagcgcaggt ggtcgttgcc
+     6001 gatctcggcg aagaattccg tgagcgtcat ggcttacctc cgcggcggaa cggaccaggc
+     6061 caacgccgcg accagggcga ccaatgcggc gacgccgacc gcgaacgcga tggtgcgtgc
+     6121 gtggcgtaca tcgaacaggc gcagcacgtc ggcggtcagg cagtgaatgc ccgtgagtga
+     6181 aaaagagagc atcagcagta cgccgacgcc gaaaacgtag ggcttcatcg tgtggttcct
+     6241 catgtatgcg ccggcggccg gcgcagatgg gtcagtcgtt ggtgtcattt gccgcgcagc
+     6301 gtttcgcgtc gaagctgcac cgcaagcgga cgtattcgcg gttctgcatc gctcgcgccg
+     6361 cggattcgac gacaaggcga accgcgggcg gagccatgtc gaagtcgccg accatgcgca
+     6421 ggcgcgacca ggccgcgcgc agctcgagct cggagagagg cgcgcgcatc gtgatcagtg
+     6481 cagaagccgg atggtcggaa cgagcgccgg catgtcggtc gcggcatccc agcggccgcc
+     6541 gagcgcgtag ccgagcttgc gggcggcgcc gagaaacacg atggcgtcga cgtcggcgtt
+     6601 ccagagcttt cgcaggtatt cgcggcgttt ctcgagtgga aggtcagaga cgatgaaggg
+     6661 aaaaatgagc ggggcggcag cggaggtcgc catattcgtc tccttctttc agttggcgag
+     6721 ggactgttgc ttgaggccgg gcgcgagcgt gtcgaggtcc gtagtcgaca tgccgaggag
+     6781 ccgggagacg tggcgaaggt tggcgtacag ttcgagtgcg acgccgcgct cggtggtacg
+     6841 agacaggtcc tttgcgagca tgccgcggta gcgcaaagct gacaggcgct gcgagacggt
+     6901 gaggcgtccc gtctgttgcg gcaccaggcg accctcgagt acgtcgagca cccatgcgcg
+     6961 gaacgacttc gcacgatcgg tgcgagcaag catgccgagc aggtagcagc cacgcgggct
+     7021 gaagatgcgg acctgctggc ggccgccggc ggtgtcgagc tcgaggagct gcgtcatctc
+     7081 gtcggtgaat tcgtcggcgt ttcgggcgta caagtcggcg agccgatcat cacggttgta
+     7141 gcccaaggcc cccgcaatct gcgggcccct tagccatggc acgttatgaa tgtcgacgac
+     7201 gtcgaactcg acggtttcga acacgaggac tgcattggtg gcggtgtgct gcatggattt
+     7261 ctcctttctt cgggcaaaaa aaccccctcg cgccggttag gcacgatgcg aggggaaaca
+     7321 gcggaagcga gttagggtgc tagacgggca gctcgagctg ctgcgcgagg cgttcgcgca
+     7381 cgtgcggcga aagcggcagg ttcagcgaca gattcggcgt cccggacggc gacagcgtgc
+     7441 gtgcgaactc catgttcacg acgtacgtgt ggccgcattc ggggttgttg cactgatacg
+     7501 tgacttcgcg gaaggtcagc gacatttcgc ggctgctgcg tgcggtggct cgcgtgcggc
+     7561 agtgagggca gcgattcagg attcgcatga cgaactccct gggcggcatt cgccgtagcc
+     7621 gcggcgggcg cattcgcaat gcacgcccac ttcgccaagt gtggcaacgg cgtcaaggta
+     7681 tttgcgggtg acgagcacga agccgactgc ggcgacgagc gtgtcgattt tgtcgatcac
+     7741 gactccctgc ccgccgctga ggaaacggct gacctgagag tcatcccatc caagagcttg
+     7801 ttgcacgtcc tgacgcttgg ggccgtgcag agcatggcga agcgctggct cgattagggc
+     7861 agggtttcgc atgattcaat gccccacaac gggatttgcg tgcgcttgcg cgctcgcgtc
+     7921 ggtaactttg gcctgatacc gctcaacccc ttcgaggtag attagtcgcg cgacgctgga
+     7981 cgtcgagcga ttttgggacg cggacagctc ttcgagcgtg cggcgttcgt ccggcatgag
+     8041 ccgcatgtac acgggcttgt tggacaacac gccgcgcggc gagcgcgtaa cgggagcttt
+     8101 cttgcgaagc atggcggtat acttcccttc gttaaccttg cacaacactg atgatacaca
+     8161 ccgattggtg tgtatgcaac acaaaatcaa accaaatggt aagtattggc gatcgattgc
+     8221 gtgaggagcg gaagcgcacg tccttatcgc agcgcgcgtt tgctgagcgc ggaggcgtga
+     8281 cggagaagac gcaagttctg tacgaaaaag gggagcgagt gcctgatgct gcgtatttgg
+     8341 agcaagttgc ggcggcgggg atcgatgtgc tctacgttct tactgggcag cgcaatgcat
+     8401 ccgagttgtc ggcagacgaa gaagtgttgc tggcagggta tcgctcgctc gacgcaaagg
+     8461 ggcgagccgg tgtgctcggc ttgattgggg ggatgacaca gcaggttccc gccgcgtcga
+     8521 aggccacgaa aaccaaggcg gttcatcaga atttcgaggg ggcgaagatc gggaatcacg
+     8581 tggttggcga tgtgacggcg cccttcacaa tcaacatggg gggggcagga cgaaaaaaga
+     8641 agcgggaaag ctaacgcacc tgggagaaac aaacggcgag gccagccgta ggagaaaaag
+     8701 aaggtaatga atcagaaatt cagcggagag gtcggcctgg ttgcgggtcg agatgtgaag
+     8761 agtagtagcg cacaggcgag tgtcaatctt cactttcaca gtggcgaatc gaaagctgtc
+     8821 gtgacgaagt tcatcagcga caagcagcgc aatgtgattg cacgcaaggc gttcgagata
+     8881 caggacagga ctggtaccga taaactgatg gtgtatcggc ggctcatgac ggtgttcgat
+     8941 ttcaagaaga tggacgagat gccgcgcgat gtatacgagc gtgcgttgaa gtatctggat
+     9001 ggttggatac gaaacggtac gatggggcag gtgccggcgg catcaacgag atcagacatc
+     9061 aaacccttat ccggcattga gccatcaaag ccatcggaat tgtcgattcc agaagtgccg
+     9121 gagacgcagc ctcttccagc caatgccatg acatcagagg cgcttacgac cgcatcacat
+     9181 gccggagatg ataggcaacg gcagcgtttc cgagcattta cagctatcag tgttggcgct
+     9241 cttgtttgtg cagcgatttt gtattaccaa gtcgataaga gatacacacc gacgcaaagc
+     9301 gcagtatccg aatcagctcc attgcaatgc gaatacgggg ggagccggta cacggtcggc
+     9361 agcattgtga tgcaggcagg catgcgtgcg cgatgcgccg aagcggtcgg acgtggtgtt
+     9421 gagtggcagc cactcgcgac gaataagcgg cactaatcgc aatatcacat agacagccgg
+     9481 gaaccggcgc gcgagaccat gaaattcatc taccagaagt atcaaggcga gttcaccgaa
+     9541 tacgaattga tgagctgggc ggagaacggc aactatatcc agggcgtatg tgtgcgctca
+     9601 aatgcataca aaacgtttcg aaaagaccgc gtctcttcgt atctcgatgg atcggatact
+     9661 ttactgactg ctccttacgt gactgaggac gcacgtattc ctgtccgacg ggagcaggca
+     9721 tcaagaatca accgaggcga gccaccaccg ccgggcgttc cgcagatcct ttttacgggc
+     9781 tttcccgccg cgcagcgtgc agaaatggag gcgctggcaa ctgaagcggg attgtacgtt
+     9841 cgaaaaagcg gcgtgacgcg cggactgaca tttctatgta ttgggccgaa cgcaggtccg
+     9901 gcgaaagtta agcaggctcg tgagcagggc acatatatcg tgccggctac gcacttcgac
+     9961 gtgttaatcg aaaccggaga attgcccgac gaagagtagt gcagagctat ctgcttccct
+    10021 gaaaatgcga ccggtgccgc tccgtcgtcg gatcgtcccg catttcgagc tcgagcgcgg
+    10081 tcgtgaatcc aacgtcgccg atcgtgtgcg ttgccttctt cacgagccac ggcgtctcgt
+    10141 cgatttccgg tttgaagcct gacacggtca cgggcatttc cgggaacagt tcggcgcggc
+    10201 cgcgcgcgag cgtgtagctc atcgtcgcct ggctgcgctg catccgcttg aactccgctt
+    10261 gcgcggccgc gcgcgcttcc gcctccgttg cgtaatcttc cggcagcacc ttcacgttct
+    10321 tgttgttctc gccgccgacg atgaccgact tccgcttcgc gcggccggtc gaatggtagt
+    10381 gcgcgcgcac ggccgcgtag ttctcgcgtt cggacacgtg gtagcgatga ctgtcgccgc
+    10441 tcgcgcgcgt cagttcgagc acgtcgagct tcttcccggt cgccgtctgg ccggtgccga
+    10501 tcggcatgaa cagcaagcgt agatccttca cgttcatgac ggcgtcataa cgcttcgcca
+    10561 ggcgcgtcag aaacgacatg tccgattcgt gcgtctggtc gatgtgcgcg atcaggattt
+    10621 tcgcgagcgc gtcgccgact gtcggcgaca gcgagtagcg cccggcgatc gcatgcacga
+    10681 tcgagccgat cgtctgtcga tgccagctct tctcgcggcg ctcctgcatg ccgctcgtca
+    10741 tcgcggccga gcgcgcgcgg atggtgatga tgtccggcgc gccgctgtgc tcgacttcgt
+    10801 tcacaacgaa gctgcccttg tcgacgagcg gctcgccggc ccatccgatc gacgccttga
+    10861 tcgtcgcgcc gcgcttcgga atgtccagat cgtttttcga gtcgtcgagc acgatatcga
+    10921 tggtgtccgc ctcgtcggag cgcgattccg aaatcgacag cgacacgagc cgcggcgcga
+    10981 acaggcgcga cagatcgcgg ccgccgactg aaatgcggta gtccggctgc ggatgcaggc
+    11041 gcgcgacgcg cggcgcgtcc tgcaattccg ccctcgtggt gcgttcgttc gtcgacgtgg
+    11101 tcatcagcgc ttgtccttgc gcgtgttctt ctcgcgcgtc atgcgcagca cgtcgtcgtc
+    11161 gacgcgctcg atcgtgagct ggaactcgat gcgcctcggc gtgccgtccg ccgtgtggta
+    11221 gctctgcgtc tcgttcagtt cggcgattac gtacgcgccg tagacgttgc cggcgccgtc
+    11281 gacgagcacg tacgcttcgc cggtgtccgc catcgcggcg agctcgcgaa tcgacgcgat
+    11341 cgagccgaac gtctcgggcg cgacgaggcc gttcagcgtg atcgtgtcat cgccgacgcc
+    11401 ggcgaactgg cgaccgtcgc gcgcgccgac gcgcgagctc gtcggatgct tccacgtgcg
+    11461 ccgccgctgc aattcgcgga acggtgcgct cgtcaggctg aaaacgaatt ggtcgaggga
+    11521 catgagcatg cgtgactccg gttgcgtcag tccgacaggc gcgagccgat gcgcgactgc
+    11581 ttcgcgcgct cgcggcgatc gagcgcggct tcgacggcgc gtgcgatcgc gtgcgggtcc
+    11641 tgcccggcct gcgggtagat gttgatgacg atcggcgacg ccggcgcggc cggcgatgaa
+    11701 gccgcggatg gcaccgcgag cggcgcgcgg cgatcgatcg gcacggtcgc ctgcacgagc
+    11761 ggcggcatcg gctttgcgag cgccggtgtg ccgaatgacg tgacggctac ggttgcaagg
+    11821 ccgagcgccg ctttcgcgac gcgctgctgc tcaccctgca tgccgagcgc ggcgccttca
+    11881 ccgacgaagc cgccgagctg cgcgaatacg cggctcgggc tatggatgcc gagcttctct
+    11941 ttgaaccagc ccaccgtgct gttcgccata ttcgaaatcg cgtctttcac cttgcccagt
+    12001 ccgctgctga tgccgccgac gagcccgtcg attaggtgcc cgccgaactc ggagaacttc
+    12061 gcaggcagct cgacgccgaa cagcgacagc acgcccgcga gcgcccggta gaacatgccg
+    12121 agcggcgacc agttcagaat cagcgtgccg agcgcggcga gcccgccgtt caatgccgcg
+    12181 cgcgcgtcgc ccatcgcttc gacgaacagg ccggcgagcc cgccgagcgc gcggccgagc
+    12241 cacgtgagcg gcacgagcgc gacgcgcaac accgtgccga gcaccgcacc gaatccgcgg
+    12301 ccggctgccg ccgccgcgga taggccgtcg gcgctcgcgc gcgccggcgc gaacagcttg
+    12361 ccgagccagc cggccaccgt cgagagcgca ccgcccagcc cgttccacag cggttttgcc
+    12421 gccgctagcg cgcgaccgac cggctgcaat gcgccccgga gcgcgacact gatcggcgcc
+    12481 agtgcatcgc cgatcgccgt gagcgcgccc ccgatgaacg ccttgatcgg cccccaatag
+    12541 cggtagatca gcagcgcggc ggcggcgaac gccgcggcgt ataggccaat cggcgtcgtg
+    12601 agcaataggc ggccggcacc catcgcggcc gtgccgaaca tccgccatgc ggccgcgccg
+    12661 atgccgagcg cgcgcgacag gatgccgccc tggatgccga gcgtcgccat gctgaaacgc
+    12721 acgacggcga gcgggccgag cacgccggcg agaacgatcg tgaaggttcc cattacggcg
+    12781 agtagcccgc cgagcgcggc ggcgacaaca acaatcgcct tggtcgcttc gggatgcgcc
+    12841 ttaatcgcct tcaacagtct gtcggccagt tcgcgggttt tgtcgagcgc ggcgttgtag
+    12901 atcggcgtga cgcgctcgcc gatctcttct ttcaggtctt ttaccttcgc gagcgcggcg
+    12961 atttcctttc cggaggtttg ctgtttcgca atggcgtcca gttcggtaat acccgcggca
+    13021 cccttgttca gacgctcgtt cttcgcgatc tggccgcgct gcaagtacat cgtcgcgaac
+    13081 aggttcgatg cggaccggtt tgtgaagatc gagccgattg cgctgagaat tgccttgtct
+    13141 cccttgatgc ccttcttttc cagcgccggc agcagcgtct tctgcaacca ttcgtaagga
+    13201 gacgatttgt actgctctgc attgagcagc gcgccatccg cgaacgcctt cacgtggccg
+    13261 ttcttgtcgt attcgacttt cttcgcatcc agcaggccga gcttcatcaa cttgcgcgtg
+    13321 gcgcgtaccg tcgttcgccc ttcgatcaaa ttctgatagc ccgacatcag cgcgttacct
+    13381 gctgtgccgc cctgcatctc ctgaacgatc ggctccatct gatagaagaa tgcgtccttc
+    13441 gacagcgact tggcggcaac gccgccgcgt tggatgaact ccatccactg gtcgcccccg
+    13501 acgcggccgc cggtcgccga aatcactttc tgcacccggt tcgcctcgtc acgaaacgtc
+    13561 gcctcgtctt tcgtgccgtt gcgcagctcg atcaccttga gcatgttcat gaacttgcgt
+    13621 tcgttttcct ccccatgccc ggcgccgtac atggcctcgt tcgcgaattt catctgcgac
+    13681 aggatcggcg cggccatctg cgcgtgatgc tcgtcggcga agatcgtcat cgagtcgcgc
+    13741 atcatggtca gattgtcggt gtagctcgaa ccgtacacct tcatgctacg ggcgaacttc
+    13801 tccgcgtccc gcgtcgactg ctcgcccagg ccgagagcct gaatgcgcgc gatttcgttc
+    13861 tgcgccttct tagcttcgtc caacgtgccg cccaaaccgc cgagaacgcc tgtgccggcg
+    13921 gacttcgccg cgtaaccgcc aatcgccatg ccgccggcga cgccctgtag cgcctgcatc
+    13981 ttgccgcgcg ccgcgccgag cttcttctcg cgctcggcca tggcttcgag ctggcgcgtc
+    14041 tgtgtctgca ttgccgccgt ggtctgcgcg atgttcgagc gcagcgtgcg ttcgtgctcg
+    14101 gcgagctggc gcgtgtcgat gcccgtgctc gcgagttgcg cgcgtagctc acgtacgcgg
+    14161 gcggactgct tctcgtgctc gatcgacagg cgcgccgcgg actgcttcgc cttctcaaaa
+    14221 tcggcaatca tctggcgcga gggttggtcg gccgcacgca acgcagtggc gaggccattc
+    14281 acgcgcgttc gcgcttcgcc gagcttctcc gctgtgcccg cgagcccggt tcgcatctcg
+    14341 cggaacgagg cgacggcctt ctgctgcttg ccgagctcgg cgagttcgcc gcgcgtctgc
+    14401 ttgagcgcct gcgcgagccc cttgttgctg ttcagcacgt ttttcagggg cttcgtgaag
+    14461 ttgtcgatca tgtcgaacat cacgcgcagt ttcagggcgt tgtccatcgt cactcgtttc
+    14521 cgctacgtat ccgggcgcgc tcgcgccagt ccatcaattc ggccagggag aaggcggcca
+    14581 tatcgtgcgg cgtccagcca aacaccgtcg cgatatcggc catcgcgtct tctacgcggg
+    14641 ccgggactcc atgctcgctt tcagcgcctt cggcatcaaa aaaccggcga agataccccc
+    14701 caacgccacg aggtcggccg ggtccatgcc ggccacgtcg aactcggtca gcgtcggcgt
+    14761 gctgatgcgc ggcaacacct tgcgcagcgc gtcgacatcg agattcacga gtgcggcgag
+    14821 cgacgtgccg cgcagcgcgc ccgcggccgg cttgcgcaac gtcacctgcg tgatggtctg
+    14881 cccttcgcgc tcgatcggtg tgtcgagcgt gtgcgtgttc tcgtcgggcg cggcgtggcc
+    14941 cgtcgtttcg atgtgagcgg tatcgatggt cgtcatggtg tttcctgggt tggatgtgaa
+    15001 attggactgg cccgcgctcg acgcgggcgt cgattacagg cccatcgcgc ggcgaaggtc
+    15061 cgacgcgagg tccatgccgt tgatcttctc gaccgcgttc acgaagtcga gctcgatgag
+    15121 gtcgcgcccg ttcacggtca gcttgtagta gctggcgttg gtcgtgatct tgaatttagt
+    15181 gtcttccttc gccttcgcgg tgcccatgtc gatctcttcg tggcggccct tcactaccac
+    15241 ttcgatctgg tcgtgcttct tgctgtcctc gcgacgatag ccgccggcga agcgcagcag
+    15301 cacgccgtcg tgctgtacgg cgccgtactg ttcgagcact tcgaccatga agccgccgca
+    15361 cgtccactcg agctggagct cttcgctgcc gtagtcgatt ttcacggggc cggtcatgcc
+    15421 gctgccctgc cacgcttcca tcttgcgctt gagcttcgga agattgagct cttcgacttc
+    15481 gcccacgaag ttcgcgccgt tgtgaaagac gttgaagccc ttcagttttc gaggcatacc
+    15541 cattgcattt gactcctgtt agcccgccac gcgcgccggg aaatcggcga ggaagcggtc
+    15601 ggtgatgcgc tggcgcagca ccagattttc gagaggcgga accggcgtgt agtcgtaatc
+    15661 gatgtacgcc ttgccggacg cgagaatgtc ggccgtgttc ggctccggat cgatccacgc
+    15721 gctaccgccg atcaggtagc cgttcgcgac ctgctgccga aaccagccgt tgatgctttc
+    15781 cacgatgtcg cgcgcgagcg acggattcag cgggccgtcg acgacgggca tctgcgcttc
+    15841 ggcgatcgaa tcgccggcca cctgagcggt gcgcgtgtag ttctcgaacg cgaacttcgg
+    15901 atcgtccgag cacgtgcgct cgccccagaa ccggaagccg ttgcggttca cgagcgtcgt
+    15961 cacttcgtgc tcgttcaggt agcccgcatc ggtcgccggg tcctgcaaat cccacgacac
+    16021 gtcggcgctg atgccggaca cgccgttcac gacgacattc gaaatcgtct tgtgccagcc
+    16081 gatgtcgttg tcgatcttcg cgcgcaagcc ggcggcgatc gccggcgccg ggatgacagc
+    16141 cgtcgagttc gtcgtgtcgt cccagccgag ccagtccggc cagatcacca tgatttcgcg
+    16201 ttggccgaac tgcttgcggt acgcggcggc ttcttccttc gttttgcagc cggacgccga
+    16261 cacataggcc atcgcgcgca gcgactgcgc ggtcgccgcg agcgcggccg ccaccggctg
+    16321 cgtatcgagg ccgggcgccg cgagaatgcg cggcttcacg ccgagcgcac cctgcgcggc
+    16381 gagcagcgcc ttgatgcccg tgtacttgcc gtccggcgtc acggtgccga tgacgttcga
+    16441 ggtcgtctcg tcggcgtcct tgccttcggc gacgcgcacg acgacggtca gcggcttcgt
+    16501 ctgcttgccg atcgcgtcga gcgtgcggcg cagcgtgcct ttcttgccgg ccttgccgag
+    16561 cgccgcgacg acgttcgtca gcagcacggg cgtattgagc ggaaacgcgc tcgcgtcagc
+    16621 gtcggccgcc gtgcagacga cgccgagcac ggccgtcgac actgagcgaa tcgggcggcc
+    16681 gccttcgttg atttcgatga cgcgtacgcc gtggtggtaa tcctgcggca tggtgtgcag
+    16741 ctcctgttac gtaaaaatcg ggaggattcc ctatgatcgg ccggcgtcag gccggggcgt
+    16801 gttcgggttc cggccgcgcg gcgtcgccgg caacggccgg cgcggcgggc ggcacgcctt
+    16861 ccggcgcgac gggctcgggc ggcggcggaa cgtacggcgc gggcgtgtcg ggccacgcga
+    16921 tcgcttccgg gaacgtgtct ttctggatcg cggcaacgag cgccatctgg taggccgacc
+    16981 aggctttgaa gtagtacgtc tgctcgtcgt cgagctggcc ggccgcgtac gcgtcggctt
+    17041 tgccgaggtt ctcccggcgc gcgatcgcca accgtcgctc gaactcggcc atcgccgcgt
+    17101 cgcgcttctc gcgcgcgagc agctcggccg gcacggtcca tgcgccgtcg agccacgcgt
+    17161 gccgctcgga cgggcgcggc tcggtcgtca ggccgaggtc ggccggcgtc ttgcccgcga
+    17221 tcgcgatctc gaccggctcg cccgtgtccg tccgatagca gacgcggccg cggtagtcgg
+    17281 gcagcagaaa ccacgcgccg tcgcggtaaa acggccacgt ggtcggcgtg cgcgccggcg
+    17341 gggcgtcgag ggtcgcggac gccggaatca gccagcggcc gtcgttgcgc gggtcggcgt
+    17401 ccggctggcc gctgctcagg tattcgcccg ttgccgggtc gtagtggtga atcagcatgt
+    17461 cgtgtctctc gtggttagta ggcgcgaatc agcgcgagca gcgcgacgtt gcgcgggcgc
+    17521 gcttcgtcgc cgccgtcggg ttgaacggcg atcgtgtgcg cgtgccggcc accgccgccg
+    17581 ataccgacgg cgtgcccgtg attgccgttg ccttcggtgt tgaattcgtg gttgtggttg
+    17641 ccggccgggc tcgtcatccc gtacacgttg tcgttgtcgc tgccctccgc gccgcggttg
+    17701 ttggcggcgc cccacgtgcc ccacggcggg ttgtacatct gcgggtgctc gccccacggc
+    17761 gagacgtgct ggtggtcgcc cacagcgttc gtccaaccgt ggtggccgtg ccagccctgc
+    17821 acgtcggtcc acgcggtgtg gacgtggtcc ggcgcttcgc ttgccgcggc gccgtgtgcg
+    17881 tgcgtgtggt tctggtcgcc ctggaaggcg ccgatttggc gcgtcgcatc gacgccgccg
+    17941 cgcgcatcgg accagcaacg aatgaattcg ccgcgcagct cgggcaggcg aaacgtcgtc
+    18001 gcgccgtcgc cggtcgagaa gcagccccac cgatccttca tccagtccgc atcggagacg
+    18061 agcgcgccgc tcgcctgcgc atacgcccac agctcgggat agtcggcacg gttcacgagc
+    18121 acgccgttcg ccttgaggaa gcccggccgc acggtcgtgc gcggctcgaa gacaatctgg
+    18181 ccgatcgtcg tcgccgacag gaccgtgcgc acccattccg tcgtcgcggc gcgcgtcgat
+    18241 cgatccgccg ccggcggcgt cggcacggtc acgggttgct cgaaggccac gagcgacggc
+    18301 gagaatcgca cgacggcgcg cccgttgcag gtcacgccga actcgccgtc ggccgcgtaa
+    18361 tagaggccgg tatccggcgc gccgtcgttg gcgaacgtga gcgacggcgc ggccgggctg
+    18421 ccttcggcga gcacgagccg cttgcccggc gcgaacgaca catcgccggc cagcatgccg
+    18481 cccttgctct tgtcgagcgg gtcgagattg ccttcgtgcc acgccatccg cccgtcaatg
+    18541 cgaaacgtgt gatcggcgaa gatgtactga taggacgatc ccgccggcga ccaccaaccg
+    18601 gtgctgaccg ggttcgcgta gaggtagccg tcgaccggcc cgagcttgat atgcccttcg
+    18661 cttgcctgcc gaccgacttc gaggtcgcgc gcgacgtcca cggcgccgcc aaagaccgtg
+    18721 cccgctccgc tgccgtcgac gatcacctgc cctgtcgaca gcgaccacga gaacggccga
+    18781 tagtcattga agccgccgtc cggggccccc ttcggtgtcg acaggaaata gacgctccgg
+    18841 ccgtcgttgc ggatgaacgc gccgtagccg tcgtacacgg cgcggaactg cccgccggcg
+    18901 ccgccggcgt cgatcgcgcg tgcggcgacg ccttccgatg cgtcgacgcc gccgcgcacc
+    18961 tgcagcgcgg tcttgccgtc gtccgcgcgc tcgccgatca gcacgcggcc gcccgacgcg
+    19021 aagcgtgcga cgcgcttctg cttcgcgtcg ctcgccgcat cgttgttcgt gccgtcgttc
+    19081 aggcaaacgt cgacgtactc gcgcccccac gcgccggcgt cgaatcccgc gcgcagcgtc
+    19141 gcgaccaggc gcgggctcag atcgggcagc gtcgcgtcgc cgaacgtgcc gaacaggcgc
+    19201 gccttgccgg ccttgccgac gccggccgtc ttcggcgaca cgtcgagctg cgcggcgcga
+    19261 tcgtcgacat cggcgaagac gcgcacgcgc ccgtcgaacg tcgcgcccga gagcgccgcg
+    19321 tagcgccgct tcgccgtctt cggcgtgatc gcgcgcgtgt cgtcgtcgcc ggcgtccact
+    19381 tcggcctgcg tggcgagctc gaccacgccc ttgcgctcgg tcgtcgccgg cggattcagg
+    19441 aacgtcgccg gcccgaactc gagtttggct gcgtcgatcg tcgcgaaaac gacatcggtc
+    19501 gcgagcagca tcatcgccgc gggggatttt tcgagaatcg gcgcgtcctg tacgcacacg
+    19561 gcgaacagca cgccgttctc gagatacagg ccgaacgcgt acagcgaata ctgatcgctc
+    19621 gtgtcgtcct ggatcacgac atgcaccgtg tccggcgcga cgttttcgcc gccgaacgtg
+    19681 gacacgcgct tgtgctcgtt cggcatcgtc ttcatgccgc gatcgaacgc gaacggcgcg
+    19741 gtgccgagcc cgatttcgac gacgcggtgc gcggccgtgc cggtgttgcc gccggcgacc
+    19801 aaggccgcgc ggccggcgtc ggtaatgtgg atgaccattc ctgccatgtc agatatccgt
+    19861 gagggacagg cggcgataca ccgccgcgcg tgcgcccgcg ccgatgcgct gcgtgcccgt
+    19921 cgcgccgaac ccctgcgtga acgtgtagtg cgcggtgccg cgcttggccc ggtcgacttc
+    19981 ggcgatgatg tcggcgacgt attcggcggt cgccgggatg ccgtcgcgcg cgccgaccgt
+    20041 catcaagatt tcgaacgtgc ctggccggcc cttcggcgtc ttctcgaacc actcgcgcat
+    20101 cgcgacattc gcgccgaacg acgcgcacac ttcgcgcacg gctgcggccg tgcctttttt
+    20161 gcgcgcgatc cggattgccg ctttcacgcg cgcgcgcttc acctgttcgg gccagtagtc
+    20221 cttccacgtc tcgacgccga ggtgccacgc gagccacggc agaaaccgca gcgggatcgc
+    20281 gtccgggtcc atcagcgcgc cgatgtcgac cgggatgtcg ctgatgcgcg cgttcgtgtc
+    20341 cgcgagccgg cgctcaaggg cggtcgcgtt cggcggcagc agcgaggttg cccgtctagt
+    20401 catctgccac cccgccgtcg atcagctcga ttccggtgca gtacggcgcc tgctcgtgcg
+    20461 tcacgggcac gccgccggcg ggcgagtcga gcagcacctt ttgcacaccg gcgacgcgca
+    20521 tcgccgcgtg caggccgtcg accgtgattt ccatgccgat gcgccgcatg tccgccgcga
+    20581 acttcgcggt gcgcttgcgg gcttccgcga gcgccacgcc gcgatccggg ccggagaaga
+    20641 agcgcagcgt cgcgcggatc gcgtagcgca cgatctttgc gctctgcacg atcacttcgt
+    20701 cggtctgcgg ccgcttgcct tccaggttct tcctgacgat ctcgatcagc tcgtcgcttg
+    20761 cggttccgtc gccttcgcgc gacaggatcg tgatgaccat cacgcacggc tcggggctga
+    20821 acgcggcggc agacagcacg cggccatcgg ctgaacgtgc atgaaacacg tatgcctctt
+    20881 cagggccggc gacggagaag ccgcgcggcg cgagctgcac gcgctcgcgc aggctgtcgt
+    20941 cgtcctcata gaccgcatcg ataccgtgct ccggatcggc cgccgtgacc acgagccgct
+    21001 cgacatcgaa cagcgccgcg atgtggtcga gcgtcgtgcc gcgcgcatag gcgagcagca
+    21061 ggccgcgcgc cttgtcgttg atgagctgcc tcagcaggac ttcgcgatag gcgttctcct
+    21121 gaaggacgcg cgtcacgggc tcggattcga gcgcgagcgt cgcggcgatt tccgcctggt
+    21181 gctcgggcgg atacagcgac acgaggcgcg ccttgcgctc ggcgaacagc gtctcgaagt
+    21241 cgagcgggtc gacgatgtcc ggcgcgggga gctgcgaaag atcgatgggc gtgcttctca
+    21301 tgctgttcct ccgttcgtca tcggcacgcg cagcgagacg agctcgtcgc gctcgtcggt
+    21361 ccagccttcg atgtcgacga actgccggcc ggcgaaagca tcggcggcgg ccgccgaaat
+    21421 ctgaacgcgc gtgacggtca agcgcggctc ccaccgcatg agcgcggtcg cgatcgccgc
+    21481 atacaggcga atccgggttg cgccgttggc gggcgcgtcg atgaggtcgg gcagttccga
+    21541 gccgaacgtg cggcgctgga tgcacgagcc aagcggcgtc gagacgatgc ggccgatgga
+    21601 ctgcgcgagg tgatcgagcc cggacatcga gcggcccgtc tctgcgttca tgcccctcat
+    21661 agcggcgggc tcacttcggc cgattcgccg cgcgcctggt gtgtatggaa gggcaagctc
+    21721 ttgcccatcg agcgcacttc gcccgtgaaa tcggccgcgc cgtcgatgcg catgacgtgg
+    21781 ccgccgccgg cgctgcccga gcccgtcatg ccggacttga acacgagcgg ccctttcacg
+    21841 agcaacgcgc ccgtgcaggt ggtctgttca gcgtcgaacg tgaccgacgc ggctttcacg
+    21901 gtcgccgatt ccgtctcgac cgtgaccgac acgggcgcga tgaggcgcac cgtcgcgccg
+    21961 gcgggcagtt cggccgtgag cgcatgcgcg tcgtggtcgt agctcacgcg cgcgccgtcc
+    22021 gcgtagacgc gggtgtgggt gttcggcagg ttgtccggcg cggggaacgc gtcggagaac
+    22081 acgccgcgca gcgcgacgcc ttgcgcaagg tcgcccatcg cgccgagcac gacgacttgc
+    22141 tcgcccttcg tcggcggcag ccattcgcgc gtcgcgccgg ccgagggcgt gagccaggga
+    22201 atccagttcg tttgcaggcc gtcgtcgtcc gattcgccga tcgccacgcg gcaaagcgcc
+    22261 gccttgtggt cgacatcgag aatcgagcct ttgcgcacgg cgttgcgtgc ttgccgttga
+    22321 atttcgttcg catccatacc ggcaatggtg ccggtcgccc gcgcgtggcg cgagcactcg
+    22381 cctttgtcgt gccgccgggt acagcgcact cgtgatccgc gcagtgaaac gtgcgtcgac
+    22441 aatggccgct cgacacacgc aacagtgcgg gcggctcgtg ccgcgcgcgc atttccactc
+    22501 tcgcaacacg atgacgattc acgctaccga cgccgcgccc gcggccgatc tttccccgct
+    22561 actcgaccga cttcacgcaa tggatgcgct cacgctcgcg cgcatgctgc ccgacgcgtc
+    22621 aatcgacatg gtgttcaccg atccgccgta ttcgtcgggc ggactgcaca cgtcggcgcg
+    22681 ctcgcggccg ccgagcacga agtacatcaa cagcgacacg aagactgtct ataccgactt
+    22741 cgagagcgac aacatggacc agcgcgcgtg ggcgttctgg tgtcacgcct ggctgagcga
+    22801 atgccgccgc gcgttgaagc cgggcgggct gctcgtgagc ttcatcgact ggcgtcagct
+    22861 cccgacgctg accgatgtcg tgcaggcggc cggcttgatc ctgcgcggcg tcgcggtatg
+    22921 ggacaagacg cccggccgca cgcggccgcg gcgcggcggc ttcgcgcagc aggcggaatt
+    22981 cgtcgtatgg gcgagccgcg gcgtgatgcg cgactgcgag gtgtatctgc cgggcgtgtt
+    23041 cccgtgccgc ttgccgttgc cgaagcaaca cgtgaccgag aagccgctcg acatagcacg
+    23101 cgaggtcgtg cggctcgtgc cggccggcgg cgtcgtgtgc gatctgtttg ccggttccgg
+    23161 cacgtttctc gtcgcggcgc gcgaggtggg gttgcactgg atcggaagcg agacgaatca
+    23221 gacgtatcgc tcacttgctt gcaaccgact tatgcagcca tgcaactaac aaaaaaggaa
+    23281 tgcctcgtca ttcatcagac gaaaatcgat cgccgtgact ttaaatgggc ttccgcctat
+    23341 actgacttcg cgcattaaat caataaacga tgcgcgcgga tgcgcaatta aataaatatt
+    23401 tattatcaac atgcgggggt tataaaaatg aaagccgctc taattgcaat agcactgctt
+    23461 tttccggttg tctcgcatgc ggtctgcttt gtcgatccag ctggcgtcac gcgcgggaac
+    23521 gtctgctata acggcgcggc attttgggtt tatccattgt ttgatgccat gccaatcggg
+    23581 accgcttgca cgattccagg accgatgcct gttgcaggac ttgtcggttg ctgaattgga
+    23641 atggcgaaat gtctttgtat gaggtggttt attggctaag gtgcttaatt aaacgatctc
+    23701 gtacaagttc tcgatcattt ggggaaatgc caagcacgac gcgaaccgga tactgcgcga
+    23761 gcggcccgcc cggctcaacg ggcgctttct ggccttcctg gtggacacgt gcgatgcgcg
+    23821 acagtcgttc gtcgaagccg attgccaggc ccgtgttgtc gacatcgatg cgcagatagc
+    23881 gcgcggtgcg cagcttccgg aacatcgcct cgcgcttgac gcggccggcc ttctcgcgca
+    23941 agcgcttgcc gcccgccttc accttccgcg gctcgtacgc gctgccgtcc ggattccgct
+    24001 gcgcggcgac gcgcgactgc tgcgcgcggc gcagatcgcg gccgagctcg cgcagcagtt
+    24061 gacggcgggc cgccggcgac agcttcgcga gcaacccgcc cgcccatcgt tcgagcgcct
+    24121 gaagatcgtc cgtcatgcga gccactcgtc ggctgcgtcg tcgatgtgct cgaccgtgcg
+    24181 gttgccggct tcgtcggtgc cgaccacgac gctttccgac agcttcactt tgagcccgag
+    24241 gtcaacggcg ttgttcgaca ggatgtcggc gacgaacgtc atgccgtcgc ggcgctcgtc
+    24301 gcggttcatc acaaggtccg gctgattcgc gcgcgcccac tcaacaacgg cgaccatcac
+    24361 gtcgtccggg ttgccaatga agtcgcgaat gatgatctcg cactcgtatt catagtcgaa
+    24421 cgacgccgtg cgcgtgcccg tcgcctcgat ccggccttcg ttgacgaaca cgagcaactg
+    24481 gtccggcgag gcgttgagct gcggcaacgc ggcgacgagc gcggcgcgta ggctgctcgg
+    24541 cttattcatg gccgtccgtc cgccgcacgc gtgcctgaca cgtcgcgatc atgtcgactt
+    24601 cggacgcgca gcgcgcccac gccgcgcgcg cgacgtgcag cgcgtcgctg agttcaccgt
+    24661 tggttcgcgg cgccatcgcc ggcatcgtgc acggcgtcac cgccgcgcat tcgttgagcg
+    24721 aaatcgtcgg cgccgttgag ggcggggctt gcgtgcaggc gcacaacatc gtcaggcaga
+    24781 gcgccagcag cccaagcgcg cacggcggcg ttttcatcga tcagtctccg cagttcgttt
+    24841 cgataggtcg cgagcgtcgc gtcgacgccg gcgcgtgcgc gcgcgagctg cgcgcgctgc
+    24901 gcgtctttcg ccttggcatc ggccaacagg cgctcgatca cggcggcgct cgcctgcgcg
+    24961 tcgagtttcg cgcggcgcgc gtcgtcggtc gcccggtcga gctgcgcgcg cagcgcgcga
+    25021 ccgtgctgac agcttgcgac gagcgcgatc aacgcgagca gcgccagcca cggcatgagg
+    25081 cgcgagaggt tcatgcggcc gccttgctcg tgccggcgta cttcgcatac gcgcggtcga
+    25141 gcttcacgtc atacaggttg atcgcgaatt ccgggccgtt gtagccttcc gcgaacgccg
+    25201 cccacttccg ggcacgaagc gccgcgagca gcttcttgtc ggccgcgacg taccgcacga
+    25261 acgcgtcgag gtgctcggct tcgcccagct ccatacggga cacgaattcg tcgacgctcg
+    25321 cgtaacccag gcgtttccag tgatacgcca tgatctggaa cgcgccccag ctcgcggact
+    25381 cgtaagcgga tgccgcgtcg atgcgcgccg cggtgtcgag ccgcacgtat tcggcgccgc
+    25441 cgccctggta gccgccgcgc ttcgggttga cgacgcccgg ccatcgtgcg gcagcagcgt
+    25501 ccgccgcttc cctgccgaca ttcgcgacga gccgctgata catgacatgc cgctcgaaca
+    25561 ggattttcgg ccggccgtcg tccagaaagc cgacgccgcg ggactcaact tcgttgaccg
+    25621 cccgcacgca cgcgagcgat acgccgagcg tcgcggccgc gcgcgcgagg tcggcgtccg
+    25681 tcaggtgctt agggtcgcgc tgcccgctgg cgagcacccg gtacgtcttc gggccggcga
+    25741 tgccgtcgac gacgaggccc gcggtcgcct gcaacgtctg aacggcacgc tcggtctgtt
+    25801 cgtcgtagag atgcgacacg tcgagcgaat agccggcgcg cacgaggcgc tgctgcagca
+    25861 acccgacttc cgcgccgtgg tcgttgaatc gaaggatgtt cacgcttcgt cactccgtag
+    25921 aagacgcgcg acgttgccgc gcgcgaggta caccaacacg gcgagcagga ccgcgagcgc
+    25981 cgcgtggaaa aagccggtcg gcttcggatg aaacagcagc tcgatcgccg agccgcccga
+    26041 aatcgcgacg atcacccagg ccgcccaggc gacgtggaag cgatgccgcg cgccgttctt
+    26101 gcggtaggtc agcacgcgca cgatgacggc gaggtgcgcg gcgagcgcga cgagtgcgga
+    26161 cgagacatgc acgtcagtct cccttgcgaa acagcgcgaa caggtccatg cccttcacgc
+    26221 gctcgatcag cgtcagcgtg accgcgatca cgagcgcggc cgcgaagaac gcggcgacgc
+    26281 ccgtcgagcg gatcggcacg gcgtggatga tttcaggcgc ggcgaggtag cccatcacga
+    26341 gcgagatgag catgtatgcg gcgcgctttg cgaggccgag gtctttcgac gtgacgacga
+    26401 cgagcgccgc gcccgcgaac gcgccgatta gcgcgtctcc gtcgacgccc ggcgcgatgc
+    26461 cggcgaggcc gaccgcggcg aacagcgccg cggccgaaga agtgttcggt tcagccattc
+    26521 attcggctcc ggtcagtcaa acagttgcaa tagcggcgtg gtcgtctcga tcgcgcggcg
+    26581 ctcgggcatc tccacgacgg ttcccatcgg cagcacgacg ccgagctcgg cgaggccggg
+    26641 gttcgcttcg agcacggctt caaccgtgcc cgccgtgctg ccgtagtgcc gccagcacag
+    26701 cgcgtcgagc gtctcgcctt gcagcgccgc aatcttcatt gcccgagcgc ctgcccgtcg
+    26761 cgaccgaaca ggccgagcac gcgcggcttg agccgggctc gccggcgcgc gatcacggcg
+    26821 gctcgtatgg ccgcctccgc gccggtgcga tccgagcaat aggcaatctc aagccagaac
+    26881 aggccagcga cgcgctgctg cacctggcac gcgccggcgc agaacagctt cccgccgcgc
+    26941 acgcgggact gcgcgaactg acgaatgcgg tacagagggc gggccatcag atcagctcca
+    27001 ccgtcgagcg cgcgatgccg aggatgtcgc tgatcgccca tcgcgcggcg cggcgcgaat
+    27061 cgtcgaccgt cgcggccaga tcggctgcga cctggccgcc gctcttcgtc gtgtcgtagc
+    27121 cgcggtactt ctccgtcacg tccgcgtgcg tcaggtggta caccgcgcgc cggtagcggg
+    27181 ccacgtgtgc cgattcgcca tcgatgcgcg gcgccggcac gtcggcgagc gtcgccgcgc
+    27241 ccgccgcgcg ctgccgggcg cgccacgcgg cgagctcgtc gttcacggtc agcagcgcgt
+    27301 cgcgcgcggc gtgccgcagc cgctcggccg tcacggtgcc gtccaggcgc atcgcgtcgc
+    27361 gcagcgcgga cagatcgatg tccgggaaga agccgtcgtt cgtcaacgcg ccttcgatcg
+    27421 gcgtcgccgc gacggcgggc gcggcggtgg caacaaagct gttcatggtc ggttcgcgat
+    27481 gaggtggcgg tggaccggcg cacaaggccc gtgaccgtca ggcgtagggg ctgggcgccg
+    27541 gtgccgccat gccgaggtgg gctctttacg tgccgtcggc gccgtcgccc cgacggcccg
+    27601 cggcttcgac ctgcttcgtc agccggtcga tgtccttttt cacgccgacg cgatcgttca
+    27661 gcgcgaccgc gcggcgcaga tagtcgagcg cgcgcgccgg cgcggcggcc tgcgtcgcgt
+    27721 agccgagcgc cttgtacagc ttcgcgcgca cctggtcgtg catgtcggcc tcgcgcgtca
+    27781 gatcgtcgac gagctcgagg ctcgccgcgt cgaacgtctc gccgtcgagg aacgacgaca
+    27841 gcgcggcgtc ggcgaactgc tcggcgacga gcgacgcgag cgagcgctcg aactggtcgg
+    27901 gcagcgtgag cccgttcgag agcgcgtagg ccgcgatcgc gagcgcgccg tcgaagtcgc
+    27961 cggcgtcgat gcgccagacc atgaccgtca cgagcacgtc gtcctgcgcg ccgcggccgc
+    28021 cgctcaacac gcccgccacg tagtcggcgt agtccggcag cagcttgcgt ttcagctcga
+    28081 tcttccgctc gatcgactga atgcccttga gcgcgcggcg gtcggccgcg agcttcgcga
+    28141 gcatcagctc ataggcggtc gcgcccttca tcgtcgcgcc gggcgacgcg gcggccgccg
+    28201 cgcgcgcggc cgagacgcga ttgaagtgtg cgcgggcggg cgtgttgatc gtcatgccgc
+    28261 cgccagttcg atgttttcgg ccacgcagcc gcaaccgaag tcttcgacca cgtaggcgtc
+    28321 gttcgacgat tcgtagttct cgatgcggtc gcgttccggc acttccttca gcgtgcgccg
+    28381 gcgcgcgcct tcctggtagt agatcgacag attcgacagc ttcgtgacca tcagcgcgcg
+    28441 cttcgggaag aacggcacgc gcacggccgg cagattgccg atgcgcttct ggctcacgat
+    28501 cagatcggcc gcgagccgct cggtcggcgc ctgcgtcgcg ttgacgatcg ggaaatactt
+    28561 gtcgtgcagc agctcgcggc cgcagatcgc gacaaggccc gtgtcttcct gaaaccacgg
+    28621 gtcgatcatc gacgagacga tatccatcac gagcgcgtcg aggttatcgt aatcgcctgc
+    28681 cttgccgacg agcaccttgc cggcctgctt gccttcgtgc agcacgcgct gcgccgcgcg
+    28741 ctcgcggtac tgttggagcc agccgatgtt cacgtcctgc aacagcgggt tcgcctgccg
+    28801 gtcggtcgtc gcggccgcct tcacgccgtt ccagccgatc atgatgcggt cgagcgctcc
+    28861 ctggttgagg atcacgtccc ggatgcgctg ctggaagtcc gggaacttcg cccacatgtc
+    28921 gagcttgcga tacggaatcg ccgtgtcgta gtcggtcttc tcgcagcggt agcggttgct
+    28981 gtcgagcgcc gtcgggtcga tcggttggcg tgcggccttc gtggtgtcgg tgcggctcgc
+    29041 gatcgggccg gacacggaca ggccgagctt ttcgccttcg agctcaagta cgggcaggat
+    29101 gttgatgcgc ttgagaaact cgctcgattc ctgcatcttc gtttcgagcc gctgttgcac
+    29161 ggtcggctca accgcgaatt tcttcgacac gtcgcccgtg tcgttcagct tggcgatttg
+    29221 cgcggtgtac ttttcatatg cctggcgcgt ttccttcctc atcgggaaat tctcctgtgt
+    29281 ggtgtgcggg atgggtcagc agtcggtcac gagctcgccc gtcgagccgg tcgacggcgg
+    29341 gcgctgcggc gcgccgttgt cggtgttcga cagcttctcg gtcagcgctt cgacggcggc
+    29401 gaaggcttca tcggcgcgct tcttcgcgtc ggctgcggcg cccgtcgcgc tcgtgacagc
+    29461 cgtgctcagc gtcgcgactt cgcggcccgt gtggtgcgca tggatggcga cccgctcgag
+    29521 cgcttcgcgc acgtcggcga agcgctcgtc gtcgttctcg cggttgcggg cgaacaggcc
+    29581 ctttacccat tccttgaggc cggccgtttc ggccgcgcct tcgaattcga tcgccgtctc
+    29641 gcacgcgggc gtatagaggt tgttcgagcg cttcgcggcg aattgcagcg cttcggtgcc
+    29701 gaggctcgcc gggtcgtcgg tcgccgcgag cccgacgaga tacgcctcgc cgatgtcggc
+    29761 gaagtcgggg ttgatctcga tcgacgtgaa gagcttctgg cgcttcttcg acagcgcgac
+    29821 gagctcgtcg gtcggatcga tctgcgcata cagcgccatc ttccctttca gcgggccgtc
+    29881 ttcgatttcg gccgccttca gcgcgatcac gtcgccatac gcgccgaacg ggttgttcgc
+    29941 cgacagcggc gcccagccct tgatgtgctc gacgttcacg cgtgcgccgt acagcttcgg
+    30001 gtcgtagtgc ttcgccatct gcgtgagcca ttcacgcttg atctcgcgac cgtcgacggt
+    30061 cgcgccttcc actgcgacgc ggaagaattt ggttttgctt gccatagaga gggtcgaacg
+    30121 tggttgagtg agcgtggttc tcatgttcgg cgttcacgcg ccacggctca atccgcggcg
+    30181 tttgtgggtc acgcgggtac agcgcgctgc gcgtgctcgc gcgcacgcgg cggcctacgc
+    30241 ttggtcgcat gctcgaaact acggaccccc atcagctcga aaacgacgtg cgcaaggtcg
+    30301 cgcgcacgct ctattggcaa ggctggcgca tcgcgtcgat cgcccgccat ctcgacatca
+    30361 agcccgcgac cgtcgcgtcg tggtgccgcc gcgaaaagtg gaaggacgca acgcccgtcg
+    30421 agcgcatcga ggcatcgctc gaagtacgcc tgatggtgtt gatcgcgaag gagaagaagg
+    30481 acggcgcgga ctacaaggaa atcgacctgc tcggccgcca agtcgagcgg ctcgcgcgcg
+    30541 tgcgcaagta cgacgagacg gggaaggaat cggacctgaa tccgaagatt gcgtcgcgca
+    30601 acgccggccc gaaacgccgt gcgccccgta acgaaatcag cgaggaacag cacaagcgca
+    30661 tcatcgaagc gttccgcgat tcgctgttcg actatcagaa agtctggtat cggaacggcg
+    30721 atcagcgcac gcgcaacatc ctgaaatcgc ggcagatcgg tgcgacgtgg tacttcgcgc
+    30781 gcgaggcgct cgtcgacgcg ctcgacaccg accgcaatca aatcttcctg tcggcgagca
+    30841 aggctcaggc gcacgtcttc aagcagtaca tcactcagtt cgcgcgcgcg gcggccgaca
+    30901 tcgaactcac gggcgatccg atcatcttgc cgagcggcgc gacgctgtac ttcctgggga
+    30961 cgaacgcgcg caccgcgcag tcgtaccacg gcaacttcta cttcgacgaa tacttttggg
+    31021 ttccgaagtt ccgcgagctg aacaaggtcg cctccggcat ggcgatgcac aagcgctggc
+    31081 gcaagactta cttcagcacg ccgtccagcg tcacgcacga ggcgtacgcg ttctggagcg
+    31141 gcgcgcacgc gaaccgcggc cgcgccgcgg gcgagcgcat ccagatcgac acgagccacg
+    31201 aggcgctcgt gcgcggcatg ttgtgcgagg acgcgcagtg gcggcagatc gtgaccgtgc
+    31261 tcgatgcgat ggcgggcggc tgcgacctgt tcgacatcga cgagctgcgc cgcgagtaca
+    31321 gcgccgagga attcgcgaat ctgctcatgt gccagttcat cgacgattcg ctgtcggtgt
+    31381 tcaagctgtc ggacctgcaa cgctgcatgg tcgactcgtg ggaagaatgg gcggacgact
+    31441 tctcgccgct gctgctgcgg ccgttcggct atcgcgaggt gtgggtcggc tacgatccgg
+    31501 cgctcacggg cgactcggcg gggctcgtcg tcgtggcgcc gccacgcgtc gacgacggcg
+    31561 ccttccgcgt gctcgaacgt catcagttcc gcggcaacga ctttgaggaa caggccgcgg
+    31621 caatcgaggc gatcacgcag cgctacaacg tcggctacat cgcgatcgac accacgggca
+    31681 tggggcaagg cgtctaccag ctcgtgcgca agttcttccc ggccgccgtc gcgctgaact
+    31741 actcgcccga ggtgaaaacc cgcctcgtgc tcaagggcca gtccgtcgtc cggaacggcc
+    31801 gcctgcaatt cgacgcgggc tggaccgatc tggcggcggc gttcatggcg atcaaacaga
+    31861 cgatgacggc gagcggccgt caggcgacct acaccgccgg ccgcaccgac gagacgggcc
+    31921 acgccgacct ggcgtgggcg tgcctgcacg cgatcgaccg cgagccgctc gccggcggcg
+    31981 gcattcattc atcttcattc acggagtttt acacatgagc aagcgccgat cgcgcgcgcc
+    32041 gcgcacgctc gcggccgcgc ccaatccgag cgccggcagc gccgcgccgg cgcgtgccga
+    32101 ggtcttcacg ttcgacgatc cgacgcccgt catgaaccgg gccgagattc tcgattacgt
+    32161 cgagtgctgg tcgaacggcg aatggttcga gccgccggtc agcttcgccg gcctggcgaa
+    32221 atcgtttcgc gcgagcacgc accatagctc ggcgctgttc ttcaaggcga acgtgctggc
+    32281 gtcgacattc cgcccgcacc gctggctgtc gcggcacgcg ttcgagcggt gggcgctcga
+    32341 tttcctgacg ttcggcaacg gctatctgga acgccgccgc aacatggtcg gcggcacgct
+    32401 gcggctcgag cccgcgctcg cgaagtacgt acggcgcaag gccgatttca gcggcttcgt
+    32461 gtacgtgaac ggctggcagg agcggcacga gttcgcgccc gacagcgtgt tccagctcgt
+    32521 gcggccggac atcaatcagg aggtctatgg cctgcccgag tatctgagct cgctgcactc
+    32581 ggcctggctg aacgaatcgt cgacgctgtt ccggcgcaag tattacgaga acggcagcca
+    32641 cgccggcttc atcctgtaca tgacggacgc cgcgcagaag caggacgacg tggacaacat
+    32701 gcgcgacgca ctgaagaacg cgaaggggcc gggcaacttc cgcaacgtgt tcatgtacgc
+    32761 gccgggcggg aagaaggatg gcatccagct cattcccgtg tccgaggtcg ccgcgaagga
+    32821 cgagttcttc aacatcaaga acgtgacgcg cgatgacctg ctcgccgcac accgcgtgcc
+    32881 gccgcagttg ctcggcatcg tgccgagcaa ttcgggcggg ttcggcacgc cggataccgc
+    32941 cgcgcgcgtg ttcgggcgca atgaaatcag gccgctacag gcgcgcttcg ccgagctgaa
+    33001 cgactggctc ggcgacgagg ttgtgacgtt cgacgattac gagattccgc cggcgccggt
+    33061 tgcggcgtag cgcgcagacc agtgcaacgc cgcgcatccg gccgtcgatg gcgttacgcg
+    33121 tgcgcagccg tgcgaacgcg cgagcgtgca cgcgttgttg ccggcgcggg caccggcgca
+    33181 ggttcggccg gcgcaacggt caggtgcagc cccaacgcgc ccacgacttt catgatcgtt
+    33241 gcgaattccg cgttcccacc ttccgacagc gcgcgataga gcgcttcacg cttcacgccg
+    33301 gactcgcgcg cgagcgctgt catgccgcgc gctttcgcga cgttcccgag cgcggcttga
+    33361 atcagccgcg ggtttccatc ctcgaacgct tgcgccaggt agtgacgaat cgtttcctcg
+    33421 tccttcaggt acttcgagcc gtcgaactcg gccagttcgc tgattttcat actcaatcct
+    33481 ccagttcgcc agcgatttgc ttcgctagct tgatgtcctt cttctgcgtc gacttgtccc
+    33541 cgccgcacaa caccacgacg ataatttttc cgcgccgcac gaaataggcc cgatatcccg
+    33601 gccccacatc aatcttcatt tcgttgacgc cgtcgccgac tgcgcgccac tggccgagat
+    33661 tgccaagctt cgcccgctcg atgcgcaggt tgattgccgc gctaccgacc ggatcgcgaa
+    33721 gcccgtcaag ccatttgtca aactgggggg tcgtcagaac tttgaacatg cgagaattgt
+    33781 aacccataag ggacaattcg gctacagctg tgaaggagtg gctcaagtcg cacaagccag
+    33841 tgtaacgaag cgcattcgcc acgcgaaggg ccgcgcaccg ggcaaccggg cgcggccctt
+    33901 tttgcgtctg acgagcgcga gctgcggagt cgctcggcgc gacggcgcgt agggcatccc
+    33961 gtcgctgtcc cattcgtgtc ccgattagcg tcccgttgtc ccgtctggcg tcccattgtc
+    34021 ccgaaccctg ttgccgcgag gccgcgaaag cggtataggg cgaatccgtc ggtgcggata
+    34081 gagggcctac agcggcttgg cgctggcggg gtggccgcgt tcccgccgcg cgccatgagc
+    34141 ggctccacga ggccgtgacg cggtcgcacg ggggcatttg agggtccggc ccgcccacgc
+    34201 gccggcgatc gccgcggcgg cctttgcgcg gtccccctcc tcgcccgcga tctttcttga
+    34261 tggggcggtt ttcatgcatc cgttgtccgc cgcgcgagcg cctactggcg agggcgcccg
+    34321 gcaactccac atggtggtgg attcgtgcat tttgatgcgc gagggtgcga attgatgcgc
+    34381 tgacgcacgc agttgtgacc ccgccccacc tgcaagtaaa gacgaacggt ttttatgcac
+    34441 gcatgcgcag gccgctcggg gccggccagc gcgggccgcg cggcgatcgg cgggtggatt
+    34501 ccttcttcta tgcactttta tgcgcctcgg ttatgtagtc tcggcgaccg gcaaaaaaaa
+    34561 gccccgcaaa gcggggccct gatggaattg cagagtgctt accgggagag cattacctct
+    34621 aatgcagcgt ctcgccggag atctttctgg agagtcgaga tcaacttcaa tggcaatcgc
+    34681 cgggccgtcg cgctagtggt cgccgcaatc aaaattaccg gaataaccaa gactccaagc
+    34741 atcgacaaaa cgatcaggat tggcgagcgc agccacatca aaacgccgag ccatatggtc
+    34801 gcacgttgat gcgcctgttt aataaaatcc ggcgcctcgg caaacgggtt gagatcactt
+    34861 tctgagggct tgccgaaaag cttcactccg acgatcgaca gggtaaccat gcgccaaatc
+    34921 gtgcactcgt gcgcattccg gagcagacca ttcatactgg cccgaaattt cacataatga
+    34981 gggtcgtcga aggcaatctc gccctttgcc gctgcgtcga aaacgccatc gcggatttca
+    35041 aagaatcgtt ggcgcacggt gtctacgata aagctctgaa taggcccgta aagcagtgcc
+    35101 agcagcgctg cgacccccag gaggttgagc agcgcgttca attcgctaat gttgttcatc
+    35161 atgcgtcccc gtttcgtctc ggcacctgcc cagtctcggt taacccgctg ccggtccgat
+    35221 ttgcatcgaa cagccgctcc aagttcttcg agcgccgcga catgctcgca acctttcggc
+    35281 gtcgcaacca acgttctgcg atgccccaca ccgtcgctag aaccgtggaa ccgatccac
+//

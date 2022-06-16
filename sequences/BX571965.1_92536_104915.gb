@@ -1,0 +1,551 @@
+LOCUS       GI1_(cGI1)|150|143     12380 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Burkholderia pseudomallei K96243.
+ACCESSION   GI1_(cGI1)|150|143
+VERSION     GI1_(cGI1)|150|143
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            1..1230
+                     /gene="intA"
+                     /locus_tag="BPSL0081"
+                     /gene_synonym="intX"
+                     /gene_synonym="slpA"
+     CDS             1..1230
+                     /gene="intA"
+                     /locus_tag="BPSL0081"
+                     /gene_synonym="intX"
+                     /gene_synonym="slpA"
+                     /note="Similar to Escherichia coli prophage cp4-57
+                     integrase IntA or SlpA or IntX SWALL:INTA_ECOLI
+                     (SWALL:P32053) (413 aa) fasta scores: E(): 3.9e-38, 33.57%
+                     id in 408 aa, and to Ralstonia solanacearum putative
+                     integrase protein rsc2489 or rs01107 SWALL:Q8XWI5
+                     (EMBL:AL646070) (417 aa) fasta scores: E(): 1.7e-45, 38.15%
+                     id in 401 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage integrase"
+                     /protein_id="CAH34065.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0081"
+                     /db_xref="EnsemblGenomes-Tr:CAH34065"
+                     /db_xref="GOA:Q63YV8"
+                     /db_xref="InterPro:IPR002104"
+                     /db_xref="InterPro:IPR011010"
+                     /db_xref="InterPro:IPR013762"
+                     /db_xref="InterPro:IPR023109"
+                     /db_xref="InterPro:IPR025166"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV8"
+                     /translation="MPKISTPLNDTRIKALKPKAARYTVSDGGGLVLEVMTSGSKFWRY
+                     RYSLHGKQQPVVTIGEYPAVSLTAARERARRYAEIVAGGVSPVADARKDRGAVKSLDTI
+                     HEFAEYWIEQQMMGKSAEYLRTTRRALEKDIYPAIGGKSVSDVTPGDVLAICDRIKKRG
+                     APKMALSTRNILKRIYEYAIARQLVTSNPAQAIVARFVATQASRDRVLSPNEIGRVLRA
+                     VYASSIRRPLKLAIHLLVLTMVRKSELIEARWDEFDLDASIWRIPAERMKKDREHWVYL
+                     APQAVAMLRELHATRTSHQYVFPSSRGADRPIAKSTLNQAVRALDMDVQHFVLHDFRRT
+                     ASTHLHEMGQPSDAIEKALAHSIKGIKGVYNRAEYADERRRITALWADFVDAQIDEGRK
+                     VVIGKFGSAA"
+     misc_feature    22..6433
+                     /note="Region with similarity of part of (BPSS0378 to
+                     BPSS0382) Genomic island GI 13"
+     misc_feature    631..1140
+                     /gene="intA"
+                     /locus_tag="BPSL0081"
+                     /gene_synonym="intX"
+                     /gene_synonym="slpA"
+                     /note="Pfam match to entry PF00589 Phage_integrase, Phage
+                     integrase family, score 79.6, E-value 4.1e-21"
+     gene            complement(1878..4745)
+                     /locus_tag="BPSL0082"
+     CDS             complement(1878..4745)
+                     /locus_tag="BPSL0082"
+                     /note="No significant database matches to the full length
+                     CDS. C-terminus is similar to the C-terminal region of
+                     Salmonella typhimurium putative inner membrane protein
+                     STM2745 SWALL:Q8ZMQ9 (EMBL:AE008824) (689 aa) fasta scores:
+                     E(): 2.4e-63, 35.3% id in 609 aa. Internal region is
+                     similar to the internal region of Escherichia coli DNA
+                     primase TraC SWALL:TRC4_ECOLI (SWALL:P27189) (1061 aa)
+                     fasta scores: E(): 3.1e-22, 39.32% id in 267 aa. Similar to
+                     BPSS0382 (956 aa) fasta scores: E(): 0, 91.832% identity in
+                     955 aa overlap"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAH34066.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0082"
+                     /db_xref="EnsemblGenomes-Tr:CAH34066"
+                     /db_xref="GOA:Q63YV7"
+                     /db_xref="InterPro:IPR006171"
+                     /db_xref="InterPro:IPR009270"
+                     /db_xref="InterPro:IPR014819"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV7"
+                     /translation="MSNAPMSEFERASVALGYVPADDRDTWRQAGMALKAEFGEEGFTL
+                     WNEWSQGAQNYNARDARDVWKSFKGGKITINTLFHLAKQGGFDPRAHRAKPVDPAERER
+                     QKAERAAREAAELVELIEKQQAASALAESIWSAAEPAPAGHPYLVRKRIPADALRVYRG
+                     NLSIGTAACDSALVIPARDADGTLWTLEFILTDGQKRYLLNGRKAGCFSLIGDAVSSVL
+                     LIGEGYATCATLAAATGYPVAVAFDTGNLHAVATALRGRYPDARIVVCAYDDHTTNGNP
+                     GVTKARAAADAVGGAVAVPDFGPNRPAAGTDFNDLAAHLGPDAVAVAVRAALTSAGSSD
+                     ADRGKARSPVEKPAKRPKTARAQDGKSRFVVDDKGVWFHGFNNQGDPLPPHWVSTRIDV
+                     IAETRNEMNSEWGYLLEFTDRDGILKRWAVPAGLFAGDGTELRRMLLDMGVKLGVTQIA
+                     RTQIANYVQMAQPDERVRCVPRVGWHHGAFVLPDRVIGTGKEALIYQADTPIQSQFKER
+                     GTLDDWQREVAAYCVGNSRLLFCVATAFAGPLLHFSGLQSGGFHLLGTTSKGKSTGGVI
+                     AASVFGSPDYVRSWKATDNALEAVATQHSDALLILDEIGQVEPRLVGDVIYMLANESGK
+                     ARASRSGSAKPVLTWRLLFLSNGEKSVSALMAEGNKPMKGGIEVRLPAIPAEVGEMGVV
+                     EKLHGFPTPAALIEHLERHAGMHYGTAGPAFIEWASSQAGELAEHLRVRVDELVGQWVP
+                     DGSHSQVARVAKRFCLVAVAGELATAHGLTGWPQGEAVEAARRCFEGWLELRGGTGNSD
+                     EAEAVRQVQHFLAAHGDNRFVWMNRAQDDHRPNVPHRAGFKQHVKRDERRTPIGSDREY
+                     YAEFGGKMSADDAESVETEYLIEAAVFRKDVCAGFDHKIVAKALMKRGVLMPRSDGYPY
+                     RQEYIPGHGKFMVYRVLPSIFTLEL"
+     misc_feature    complement(3033..3056)
+                     /locus_tag="BPSL0082"
+                     /note="PS00017 ATP/GTP-binding site motif A (P-loop)."
+     misc_feature    complement(3645..3668)
+                     /locus_tag="BPSL0082"
+                     /note="PS00017 ATP/GTP-binding site motif A (P-loop)."
+     gene            complement(4870..5211)
+                     /locus_tag="BPSL0083"
+     CDS             complement(4870..5211)
+                     /locus_tag="BPSL0083"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAH34067.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0083"
+                     /db_xref="EnsemblGenomes-Tr:CAH34067"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV6"
+                     /translation="MSQYVRTAVIEGFDNAPPLDTSAPIELQFAVDLGAVCADAWLELK
+                     GEVRLHDYAAFQVDAFVRGLNASMHDNGDIDTHHVTVSGHAFVAGLMGRVQQHLFAALG
+                     VTRYPRTTH"
+     gene            complement(5208..5465)
+                     /locus_tag="BPSL0084"
+     CDS             complement(5208..5465)
+                     /locus_tag="BPSL0084"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAH34068.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0084"
+                     /db_xref="EnsemblGenomes-Tr:CAH34068"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV5"
+                     /translation="MADALSIHMNDGRRIEFAGALALSHFVASRAMHLESLLLAFADDG
+                     FTMFQDMSTGARLNLLWLVQGMASELRELAFAMTDIGDTQ"
+     gene            complement(5458..5634)
+                     /locus_tag="BPSL0085"
+     CDS             complement(5458..5634)
+                     /locus_tag="BPSL0085"
+                     /note="Similar to Ralstonia solanacearum hypothetical
+                     protein rsc0965 or rs04404 SWALL:Q8Y0S8 (EMBL:AL646062) (58
+                     aa) fasta scores: E(): 7.2e-05, 51.11% id in 45 aa, and to
+                     N-terminal region of Streptomyces coelicolor putative
+                     acetyltransferase sco0630 or SCF56.14c SWALL:Q9RD52
+                     (EMBL:AL133424) (173 aa) fasta scores: E(): 6.8, 39.58% id
+                     in 48 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAH34069.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0085"
+                     /db_xref="EnsemblGenomes-Tr:CAH34069"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV4"
+                     /translation="MRQPTHAHSGRNVPLIHSIIRAALREAATADTYQTALDATGAALV
+                     AIAALVRAEVRHG"
+     gene            complement(6002..6481)
+                     /locus_tag="BPSL0086"
+     CDS             complement(6002..6481)
+                     /locus_tag="BPSL0086"
+                     /note="Poor database matches. Weakly similar to N-terminal
+                     regions of Neisseria meningitidis putative DNA repair
+                     protein NMA0992 SWALL:Q9JV51 (EMBL:AL162754) (459 aa) fasta
+                     scores: E(): 7.2, 25.67% id in 148 aa, and Ralstonia
+                     solanacearum hypothetical protein rsc3362 or rs02637
+                     SWALL:Q8XU32 (EMBL:AL646074) (276 aa) fasta scores: E(): 4,
+                     29.93% id in 147 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAH34070.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0086"
+                     /db_xref="EnsemblGenomes-Tr:CAH34070"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV3"
+                     /translation="MTVNLMQACECMSTQPSVNARRAWLDACAAFEDARVTCGNPDLLR
+                     MAAFLERVATALWASDSRACHLAAIHATQIARLLVAPGTLSPASRIVLASDLEGASLDL
+                     GDALDDASRPLADPTVQQIDAITGVLWSSGNDERARAAVRLQRIAVMLVESGLSA"
+     gene            complement(6874..7395)
+                     /locus_tag="BPSL0087"
+     CDS             complement(6874..7395)
+                     /locus_tag="BPSL0087"
+                     /note="No significant database matches"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative DNA-binding protein"
+                     /protein_id="CAH34071.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0087"
+                     /db_xref="EnsemblGenomes-Tr:CAH34071"
+                     /db_xref="GOA:Q63YV2"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV2"
+                     /translation="MEDIIPRNVPVGEAMALLAGLLVKCIDEDDFRTAQELMKHELFNS
+                     RTLEGVVLYARRKTESALLERIDALHEQIAERAEEHEISRAHLALLEAEQRERQEQAKL
+                     ERQKAIKPAQAARLSKAKNTKIIEEFNRRRRNGEDFQGRNVCSDIAARFGVTADHVRKL
+                     KRAWLAGLNR"
+     misc_feature    complement(6901..6966)
+                     /locus_tag="BPSL0087"
+                     /note="Predicted helix-turn-helix motif with score
+                     1073.000, SD 2.84 at aa 144-165, sequence
+                     NVCSDIAARFGVTADHVRKLKR"
+     gene            complement(7803..8720)
+                     /locus_tag="BPSL0088"
+     CDS             complement(7803..8720)
+                     /locus_tag="BPSL0088"
+                     /note="Poor database matches. Similar to Ralstonia
+                     solanacearum hypothetical protein rsp0267 or rs03699
+                     SWALL:Q8XT48 (EMBL:AL646077) (287 aa) fasta scores: E():
+                     3e-27, 34.94% id in 289 aa, and to Mycobacterium
+                     tuberculosis hypothetical protein RV0836c or MT0857 or
+                     MTV043.29c SWALL:O53848 (EMBL:AL022004) (248 aa) fasta
+                     scores: E(): 3.4e-08, 29.96% id in 247 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAH34072.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0088"
+                     /db_xref="EnsemblGenomes-Tr:CAH34072"
+                     /db_xref="InterPro:IPR014513"
+                     /db_xref="InterPro:IPR014942"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV1"
+                     /translation="MLEVPVDRPVEALTIALLRDVKHACAQLGAKFVLAGATARDILMW
+                     HLHDIRAPVATRDVDVAVCAVSWESHDALIELLVQTQRFRRHSKQQQKLLFKRSAEDYE
+                     GELDIVPFGQIEGPPGEIHWPPDGDIVMTVLGFQEAVDTAQPVSIGEGLVVPVVTLPAF
+                     VLLKLIAWKDRRLMKNTDSADLLFVLRNYIDAGNIERTYEQATDLLKAANFDAGLAAAG
+                     LLGRDVRGLAYPDTRAALRALLQSADAYETLRLDLQARAAMLLGGFIDDSDALLAAFAR
+                     ELLTEENGSLNGTGPQVGSTGARA"
+     gene            complement(8713..9714)
+                     /locus_tag="BPSL0089"
+     CDS             complement(8713..9714)
+                     /locus_tag="BPSL0089"
+                     /note="No significant database matches to the full length
+                     CDS. C-terminus is similar to C-terminal regions of
+                     Ralstonia solanacearum hypothetical protein rsp0266 or
+                     rs03700 SWALL:Q8XT49 (EMBL:AL646077) (370 aa) fasta scores:
+                     E(): 1.3e-24, 35.66% id in 272 aa, and Corynebacterium
+                     glutamicum ATCC 13032 hypothetical protein CGl2790
+                     SWALL:BAC00184 (EMBL:AP005282) (375 aa) fasta scores: E():
+                     3.6e-07, 26.04% id in 311 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CAH34073.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0089"
+                     /db_xref="EnsemblGenomes-Tr:CAH34073"
+                     /db_xref="InterPro:IPR016600"
+                     /db_xref="InterPro:IPR019238"
+                     /db_xref="UniProtKB/TrEMBL:Q63YV0"
+                     /translation="MTANEKKDLAHARVSASDGADAWVRFTVAGKRFDMPVVINASTRS
+                     LGASIIVNRMLSRRAPNDARPLMLVTQHITSRMADDLIAKGIPFLDTAGNAYLHEPEAT
+                     IMIVGRDKPALNLKNPTSRSTTPKGLRVTFALLTQPGLVHAPYRTIADRSAVALNTVNL
+                     AMDDLIYRGLVVHKGARRVIADRRRLIEEWASLFPTRLRPKLSPCRFTSWTKESNWWSR
+                     PEILDIDARLGGEAGADILTHEIKPASLTIYSHRGITPRLMLNGMLRPDDRGNVEVLET
+                     FWPAKAEEGWNLPHREVVHPLLIYSDLITSGDDRNRAVAQTIYDRYLAKERA"
+     repeat_region   complement(10027..11261)
+                     /note="PF1527"
+     repeat_region   complement(10028..10043)
+     gene            complement(10074..10904)
+                     /locus_tag="BPSL0090"
+     CDS             complement(10074..10904)
+                     /locus_tag="BPSL0090"
+                     /note="Similar to Ralstonia solanacearum
+                     ISRso14-transposase OrfB protein SWALL:Q8XF72
+                     (EMBL:AL646083) (275 aa) fasta scores: E(): 7.1e-98, 86.86%
+                     id in 274 aa, and to Pseudomonas aeruginosa hypothetical
+                     protein pa0987 SWALL:Q9I4Y2 (EMBL:AE004531) (280 aa) fasta
+                     scores: E(): 4.2e-77, 70.49% id in 261 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase protein"
+                     /protein_id="CAH34074.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0090"
+                     /db_xref="EnsemblGenomes-Tr:CAH34074"
+                     /db_xref="GOA:Q63YU9"
+                     /db_xref="InterPro:IPR001584"
+                     /db_xref="InterPro:IPR012337"
+                     /db_xref="InterPro:IPR025948"
+                     /db_xref="UniProtKB/TrEMBL:Q63YU9"
+                     /translation="MAIREKVNISERRACRLVGLSRSVLHYDAKPDHENEVLAARLVKL
+                     AHERRRFGYRRLHALVEREGTHANHKRIYRLYREAGLAVRRRRKRHGVMIEREQLALPG
+                     APNEVWSIDFVMDALSNGRRVKCLTVVDDFTKEAVDIVVDHGISGLYVARALDRAARFR
+                     GYPKAVRTDQGPEFTSRALDQWAYANGVTLKLIQAGKPTQNAYIESFNGKFRDECLNEH
+                     WFTTLAHARAVIAAWRQDYNEQRPHSALNYLAPSEFAAKHRATADAPAAFQELV"
+     misc_feature    complement(10125..10601)
+                     /locus_tag="BPSL0090"
+                     /note="Pfam match to entry PF00665 rve, Integrase core
+                     domain, score 148.5, E-value 7.5e-42"
+     gene            complement(10931..11194)
+                     /locus_tag="BPSL0091"
+     CDS             complement(10931..11194)
+                     /locus_tag="BPSL0091"
+                     /note="Identical to Burkholderia cepacia insertion element
+                     IS407 hypothetical 10.0 kDa protein SWALL:YI74_BURCE
+                     (SWALL:P24580) (87 aa) fasta scores: E(): 3.7e-32, 100% id
+                     in 87 aa. Similar to Ralstonia solanacearum
+                     ISRso14-transposase OrfA protein SWALL:Q8XGL4
+                     (EMBL:AL646083) (87 aa) fasta scores: E(): 2.1e-29, 93.1%
+                     id in 87 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transposase protein"
+                     /protein_id="CAH34075.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0091"
+                     /db_xref="EnsemblGenomes-Tr:CAH34075"
+                     /db_xref="GOA:Q63YU8"
+                     /db_xref="InterPro:IPR002514"
+                     /db_xref="InterPro:IPR009057"
+                     /db_xref="UniProtKB/TrEMBL:Q63YU8"
+                     /translation="MKKRFTEQQIIGFLKEAEAGMPVKELCRKHGFSDASFYTWRAKFG
+                     GMEVSEARRLKDLEVENARLKKLLAEAMLDMEALKVVVKGKP"
+     misc_feature    complement(10934..11188)
+                     /locus_tag="BPSL0091"
+                     /note="Pfam match to entry PF01527 Transposase_8,
+                     Transposase, score 134.4, E-value 1.3e-37"
+     repeat_region   complement(11247..11261)
+     gene            complement(11493..12380)
+                     /locus_tag="BPSL0092"
+     CDS             complement(11493..12380)
+                     /locus_tag="BPSL0092"
+                     /note="Poor database matches. Weakly similar to internal
+                     region of Synechocystis sp. lipoprotein NlpD or SLR0993
+                     SWALL:P74517 (EMBL:D90915) (715 aa) fasta scores: E(): 3.7,
+                     22.95% id in 257 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative lipoprotein"
+                     /protein_id="CAH34076.1"
+                     /db_xref="EnsemblGenomes-Gn:BPSL0092"
+                     /db_xref="EnsemblGenomes-Tr:CAH34076"
+                     /db_xref="InterPro:IPR009739"
+                     /db_xref="UniProtKB/TrEMBL:Q63YU7"
+                     /translation="MRIFVLPCLSAAMLVSACNHSSKPETSAVATSAPQHASTSAAGSA
+                     NTPAALPVPAAMPAPPPHQYAMEQDGTYGYEPALSEDDVRSGKATKPLVMMRYVGRRDG
+                     TYVLLLIDPDNENYATRVTCQAPCNFAKLQTMSGTMVLKTETIRVAPNSLIGAMLDDAL
+                     SGQLRPYGQTVTMPRPTAVPSTAQPADQSAPQDSSPQSDLQRTSFDCSKVGSIPEYLIC
+                     HDPELAASDRELANIYQQAKDAVPDKAAFAARTRRQWNFRQRNCRDKPCLVSWYAYQKE
+                     TLTKIAQTGDVNAQ"
+     misc_feature    complement(12270..12380)
+                     /locus_tag="BPSL0092"
+                     /note="Signal peptide predicted for BPSL0092 by SignalP 2.0
+                     HMM (Signal peptide probabilty 0.992) with cleavage site
+                     probability 0.435 between residues 37 and 38"
+     misc_feature    complement(12327..12359)
+                     /locus_tag="BPSL0092"
+                     /note="PS00013 Prokaryotic membrane lipoprotein lipid
+                     attachment site."
+ORIGIN
+        1 atgcctaaga tctcgactcc cctgaacgac acgcgtatca aggctctcaa gccgaaggcc
+       61 gcccgctaca ccgtgtcgga cggcggtggg ctggtacttg aggtgatgac ttccggctcg
+      121 aagttctggc gctaccggta ttcgctccac ggaaagcagc agccggttgt cacgatcggc
+      181 gaatatccgg ccgtgagttt gactgccgcg cgggagcggg cgcgacgtta tgcggagatt
+      241 gtggctggtg gcgtgtcccc agtcgcagat gctcgaaagg atcgcggcgc ggtgaagagt
+      301 ctcgatacca tccatgagtt cgccgagtac tggatcgagc agcagatgat gggaaagtcc
+      361 gccgagtatt tgcggacgac gagacgggcg cttgagaaag atatctatcc ggccatcggc
+      421 ggcaagtccg tttcggacgt aacgcccggc gatgtgctcg cgatctgtga tcgaatcaag
+      481 aagcgtgggg cgccgaaaat ggccctgtct acgcgaaaca tcctcaagcg catttacgag
+      541 tacgcgatcg cacgtcagct cgttacgagc aatccggcgc aggccattgt cgcgcgcttc
+      601 gttgccacgc aggccagtcg cgatcgtgta ctgtcgccga atgaaatagg gcgcgtgttg
+      661 cgtgccgtct atgcgtccag cattcggcgg ccgctcaaac tcgcgattca tctgcttgtg
+      721 ctgacaatgg ttcgcaagtc ggagctgatc gaagcgcgtt gggacgaatt cgacctcgac
+      781 gcaagcattt ggcgcatccc tgccgagcgg atgaaaaagg accgggagca ttgggtctat
+      841 ctcgctccac aggctgttgc gatgctgcgc gaactgcacg ccactcggac cagtcaccag
+      901 tacgtgttcc cgtcgtcgcg cggtgctgac cggccgattg cgaaaagcac gctgaatcag
+      961 gccgtcaggg cgctcgatat ggacgtccag cacttcgttt tgcacgactt ccgtcgtacc
+     1021 gcatcgacgc atcttcacga gatgggccag ccgtccgacg cgatcgagaa ggcgctcgcg
+     1081 cattcgatca agggtatcaa gggcgtgtac aaccgtgctg agtacgccga cgagcgtcgc
+     1141 cgaatcacgg cgttatgggc cgatttcgtc gacgctcaaa tcgacgaagg tcgcaaggta
+     1201 gttattggaa agttcggctc tgctgcctga gcttacgggt aggcccactg cgtaccgttt
+     1261 gcgttgtacc cgcatggcat gacccccttg ccgcacacct cccaccagca aagcggactg
+     1321 ggcctgccat agggcggccg attgatttgg ctccttattg tgtgcccccc tatgtttgcc
+     1381 gtcagtagag aaaagacgcg ggtgtgagcc cccgcgtgtt tgctctaggc gcagggtccc
+     1441 ccgctttccg gccgccccga cacttgcggc cagcgcaaca atgcccgatc gaggcgcatc
+     1501 tcggacaccc ccctcgaaaa cacgcctctg atgcccgtca gatcccggag cgccgcgccc
+     1561 cgtctggctt cgcggtcgat acagttggtc gacgcctgtc cgctcagtgc aaaacgagtt
+     1621 ggagatttgg agataaacgt ctgaatcggc cgcaaagcct tatggggtaa ggcttcgcgt
+     1681 gtctccaaac gatttggaga gcgctggaga tactggagat aaatcgggct ggattgttac
+     1741 ggttacggca agattcgcgg cagtcgccgg cccggttcca tctggagcgg atcgctcaaa
+     1801 gtaactttga cgcgcgggcc aaaaatgccg cgcaaaggaa tgcccgccac cgccctcccg
+     1861 gacggcggcg gtgcatttca cagttcaagc gtgaagatgg acggcaacac gcgatagacc
+     1921 atgaacttgc cgtgaccggg gatgtactcc tgccggtacg ggtagccgtc gctgcgtggc
+     1981 atcagcacgc ctcgcttcat gagcgctttg gcgacgatct tgtgatcgaa gccggcgcac
+     2041 acatccttgc gaaacacggc cgcttcgatc aggtattccg tctcgacgct ttcggcatcg
+     2101 tcggcgctca tcttgccgcc gaactcggcg taatactcgc gatcggagcc gatgggcgtg
+     2161 cggcgctcgt cgcgcttcac gtgctgcttg aagcccgctc gatgcggcac gttcggccgg
+     2221 tggtcgtcct gcgcccggtt catccacacg aaacggttgt ccccgtgtgc ggcgaggaaa
+     2281 tgctgtacct gtcggacggc ttcggcctcg tccgaattgc cggtgccgcc gcgtagttcg
+     2341 agccagcctt cgaagcaacg acgcgctgct tcgaccgctt cgccctgcgg ccagccggtc
+     2401 agcccgtgcg cggtcgccag ctcgcccgcc accgcaacga ggcagaaccg cttggcgacg
+     2461 cgggcaacct gcgaatgcga tccatcaggc acccattgcc cgaccagctc gtcgacgcgc
+     2521 acgcgcagat gctcggccag ctcgccggcc tgcgacgacg cccactcgat gaacgcgggg
+     2581 ccggccgtgc cgtagtgcat gccggcgtgc cgctctagat gctcgatcag cgcggccggc
+     2641 gtcgggaagc cgtgcagctt ctccacgacg cccatttcgc cgacctcggc cgggatcgcg
+     2701 ggcaagcgca cctcgatacc gcctttcatc ggcttgttgc cctcggccat cagcgcagac
+     2761 acgctctttt cgccgttcga caggaacagc agccgccacg tgagaaccgg cttcgccgag
+     2821 ccgctacgcg acgcacgagc cttgcccgac tcgttcgcga gcatgtaaat cacatcgccg
+     2881 accaagcgcg gctccacctg cccgatttca tcgaggatca gcagcgcgtc gctatgctgc
+     2941 gtggcgaccg cttcgagcgc gttgtcggtc gccttccagc tccgcacgta gtccggcgag
+     3001 ccgaacacgg acgcggcgat gacgccgccc gtcgacttgc ccttggacgt cgtgccgagc
+     3061 aggtgaaacc cgcccgactg aagcccggag aaatgcagca acggaccagc gaaggcggta
+     3121 gcgacgcaga acagcagccg gctattgccg acgcagtagg ccgcgacctc gcgttgccag
+     3181 tcgtccagcg tgccgcgctc cttgaactgg ctctggatcg gcgtatcggc ctgatagatc
+     3241 agcgcctctt tgccggtgcc gatgacgcga tcgggcagca cgaacgcgcc gtgatgccag
+     3301 ccgacgcgcg gcacgcagcg cacgcgctcg tccggctgcg ccatctgcac atagttcgcg
+     3361 atctgcgtgc gggcgatctg cgtcacgccg agcttcacgc ccatatcgag cagcatgcgg
+     3421 cgcagctccg tgccgtcgcc ggcaaagagt ccggccggta ccgcccatcg tttcaggatg
+     3481 ccgtcgcgat cggtgaattc gagcagatag ccccactcgc tgttcatctc gtttcgcgtc
+     3541 tccgcgatca cgtcgatacg cgtgctgacc caatgcggcg gcagcggatc gccctgattg
+     3601 ttgaagccgt gaaaccacac gcccttgtcg tcgacgacga accgcgactt gccgtcctgc
+     3661 gcgcgagccg ttttcgggcg cttggcgggc ttctcgactg gcgacctagc cttgcccctg
+     3721 tcggcgtccg acgagccggc cgaagtgagc gccgcgcgca cggcgacggc caccgcatcc
+     3781 gggccgaggt gggcggccaa gtcgttgaag tccgtaccgg ctgccgggcg gttcgggccg
+     3841 aagtcgggaa cggccaccgc gccgcctacc gcgtcggctg ccgcgcgcgc cttcgtgacg
+     3901 cccggattgc cgttcgtcgt gtggtcgtcg taggcgcaca cgacgatgcg cgcgtccgga
+     3961 taccggccgc gcagcgccgt cgcgacggcg tgcaggttgc cggtgtcgaa agcgacggcg
+     4021 accggatagc ctgtcgccgc cgcgagcgtc gcgcaggtcg catacccctc gccgatcagc
+     4081 aggacggacg acaccgcgtc gccgatcaac gagaaacagc ccgccttgcg gccattcagc
+     4141 agatagcgtt tctgcccgtc ggtcaggatg aattcgagcg tccacaacgt gccgtccgcg
+     4201 tcccgtgcag gaatgacgag tgcgctgtcg cacgcggccg tgccgatgct caggttgcca
+     4261 cgatagacgc gcagcgcatc ggccgggatg cgcttgcgaa cgagatacgg gtgaccggcc
+     4321 ggcgcgggct cggccgccga ccagatcgat tcagcgagcg ccgatgcggc ttgctgtttc
+     4381 tcgatcagct cgaccagctc ggccgcttcg cgggccgcgc gctcggcctt ctgccgctcg
+     4441 cgctccgctg gatcgaccgg cttcgctcga tgcgcgcgcg gatcgaagcc gccttgtttg
+     4501 gcgagatgaa acagcgtgtt gatggtgatc ttaccgccct tgaacgactt ccatacatcg
+     4561 cgggcgtctc ttgcgttgta gttctgcgcg ccttggctcc attcgttcca gagggtgaaa
+     4621 ccctcttcgc cgaactcggc cttgagcgcc atgccggcct gacgccacgt gtctcggtcg
+     4681 tcggccggaa catagccgag cgcgacactt gcccgctcga attcggacat gggtgcgtta
+     4741 ctcatagatt cccattggac gcgcgcgagc cagctatccg attagcactc catatcggca
+     4801 agccgtttac ccggcgcgcg aagaatagaa tgatgttcgg ccgcctagcg gccgaacatc
+     4861 atgatcgcct tagtgcgtcg tgcgcggata gcgcgtaacg ccgagcgccg cgaacaggtg
+     4921 ctgttgcaca cgccccatta ggcccgccac gaacgcgtgg ccgctgaccg tgacgtgatg
+     4981 cgtatcgatg tcgccgttgt cgtgcatgct ggcattcagc ccgcgcacga aggcgtcgac
+     5041 ctgaaaggcg gcgtagtcgt gcagacgcac ttcgcctttc agctcaagcc atgcgtcggc
+     5101 gcagaccgcg ccgaggtcga cggcgaattg cagttcgatc ggtgcgctcg tgtcgagggg
+     5161 tggcgcgttg tcgaatcctt cgatgaccgc ggttcggacg tactggctca ttgcgtatct
+     5221 ccgatatccg tcattgcgaa ggccagctcg cgcaactcgc tcgccatgcc ctgcaccagc
+     5281 caaagtaggt tgaggcgcgc gcccgtgctc atgtcctgaa acatcgtgaa gccgtcatcg
+     5341 gcgaacgcca gcagcagcga ttcgaggtgc atcgcacggc tcgcgacgaa gtgagacaac
+     5401 gcgagtgcgc cggcgaattc gatgcggcgg ccgtcgttca tgtggatcga caacgcgtca
+     5461 gccatgccgc acctccgcgc gcacgagcgc cgcgatggcg acgagtgccg cgccggtcgc
+     5521 atcgagcgcg gtttggtacg tgtcggcggt ggccgcttcg cgcagtgcgg cacggatgat
+     5581 cgaatggata aggggaacgt ttcgcccgga atgggcgtgc gtcggctggc gcattgggtg
+     5641 cgacctcctt ggacgggttg gcgaacccgg cccccatcgc caaatggggt ggccgggcac
+     5701 atgacagggt tggcgaaccg gcgtccaagg aaaccggcgt gcgcgaacgc acccccacca
+     5761 aggcccgacc attgaaggcg caaggtgtac ggacgtaaaa aaaccgcacg tcggcggctg
+     5821 tccgccttgg aacaattccg gtcgccaaac cggatcgctg ctgtttcagc gacacccaca
+     5881 ggataccgcg tgacgccgcg cggcgcaaat tcgcacagca acagaccaat tacgacggag
+     5941 cggcccggcc gcagccggtc gctccgcgtc atggcaaagt gactttggat gcgcgcgatc
+     6001 gtcatgcgct cagcccgctt tcgaccagca tgactgcgat gcgttgcagg cgaacggcgg
+     6061 cgcgggcgcg ttcgtcgttg ccactcgacc aaagcacccc cgtgatcgcg tcgatctgct
+     6121 gaaccgtcgg atcggcgagc ggccggctgg catcgtccaa cgcgtcgccc aaatcgagcg
+     6181 acgcaccttc tagatcgctc gcgagcacaa tgcgtgacgc gggcgacaga gtgcccggcg
+     6241 cgacgagcag ccgggcaatt tgcgtcgcgt gaatcgccgc cagatggcag gcgcggctat
+     6301 ccgacgccca gagggcggtc gccacgcgct ccaggaacgc ggccatgcga agcagatcgg
+     6361 gattgccgca cgtcacgcgc gcgtcttcga acgccgcgca agcgtcgagc cacgcgcggc
+     6421 gcgcattaac ggacggctgc gtcgacatgc actcgcacgc ctgcatcaag ttgaccgtca
+     6481 ttacgcgccc tccgtcgtct ggttcgccgc gtcgacagcg cgatagttca acggatcggc
+     6541 catccagcga tgaagctcgc gattcgacca gaccgtgcaa cgctgcgtca gacgactcgc
+     6601 acgcggaaag cgcccttcca actcacgctg gcggacggtt tcgcgggaca agggaatgaa
+     6661 aggacggaga tcgccccaac gcgaaaaacc atcaagcggc agtccaaccg gggcaggtgt
+     6721 tgcgactgtg ttttttgcgg acattcgtgc tccctgagta tagctgtgcc accatcgaca
+     6781 caggccggaa gcctgaagca cgaaacgcga tcgacgtatc gacaatcgcg tttcggtcac
+     6841 ataaaacaag actgtcgtta cctcaatcgc gttttaccgg ttcaaccctg cgagccacgc
+     6901 ccttttcaac tttcgcacgt gatccgccgt aacgccgaag cgagccgcaa tgtccgaaca
+     6961 gacgttgcgt ccctgaaagt cttctccgtt acgccgacga cgattgaact cttcgatgat
+     7021 cttcgtgttc ttcgctttcg agagccgcgc cgcctgagcc ggtttgatgg ccttttgcct
+     7081 ttccagcttt gcttgctcct gccgttctcg ctgttccgct tcgagcagcg ccaaatgcgc
+     7141 gcgcgatatt tcgtgttctt ccgcacgctc ggcaatctgc tcatgcagcg cgtcgattcg
+     7201 ttccagcagc gctgattctg ttttacgcct cgcgtagagc acgacgcctt ccaatgtacg
+     7261 actgttgaac agttcgtgct tcatcaactc ttgcgcggta cgaaaatcat cctcgtcaat
+     7321 acatttgacc agcaagcccg ccaacaatgc catcgcttca ccaaccggga cattacgagg
+     7381 aatgatgtct tccatttgtc cgaatggact ttcacctccc tgactagcaa agggctgtga
+     7441 cgctcgatgt tttgcatcgg cagcggcgaa ggagaggatg cttcttctga cacgctgctt
+     7501 cggacgcctt ggacgaaagc cggagcgtgc tttgtttgtg aaaagcgggc gaggtttatt
+     7561 tgtacttggc aatagcgcac ccttccgtgc ggccttcacg aagaacgcca agccagccgg
+     7621 agaaggtgtc cgattttcgg gtggccgccc tagactcgac gggccacatt ttctcacgac
+     7681 ttgctacgcc aactattcgg ggcgcaaagc ttcagaccgc ccaacgcata gcaatcaggc
+     7741 gagaagcagg atgcatcgat agctcgccta ggaaatatcg agggtggatc gcgccgcttg
+     7801 tatcaggcgc gggcacctgt cgagccaacc tgcggaccag tgccgttcag actcccgttc
+     7861 tcctccgtca aaagctctct cgcgaatgcc gcgaggaggg cgtctgagtc atcgatgaag
+     7921 ccccctagta gcatcgcggc acgcgcttgg aggtccagcc gcagagtttc ataggcgtcg
+     7981 gccgattgca gtaatgcgcg cagcgcagct cgcgtgtctg gatacgcaag tcctcgtacg
+     8041 tcgcgcccga gcagccccgc tgctgccaag cccgcatcaa agttcgcggc cttgagcagg
+     8101 tccgtcgcct gctcgtaggt tcgctcgata tttccggcat caatgtagtt gcgcaggacg
+     8161 aacagcaggt ccgcggagtc cgtatttttc attagccgcc tgtctttcca cgcgatgagc
+     8221 ttgagcagga cgaacgccgg cagcgttacg accggcacga caagaccttc accgatgctc
+     8281 accggctgcg cggtatcgac cgcttcttgg aacccaagaa ccgtcatcac gatgtcgcca
+     8341 tctgggggcc agtggatctc gcccggcggg ccctcgatct gaccgaaggg cacaatgtcg
+     8401 agctcacctt cgtagtcttc cgcgctgcgc ttgaacagca gcttctgctg ctgtttggaa
+     8461 tgacgcctga agcgctgcgt ttgcaccaac agttcgatta gcgcgtcgtg ggactcccaa
+     8521 ctaacagcgc acacagcgac gtccacgtcg cgcgtggcga cgggggctct gatatcgtgc
+     8581 agatgccaca tgaggatgtc acgtgcggtc gcacccgcga gcacgaattt cgcaccgagt
+     8641 tgtgcacacg cgtgtttcac gtcgcgcagt aacgcgattg tgagcgcctc gacaggacga
+     8701 tcgacaggaa cttcaagcac gctcttttgc aaggtatcga tcataaatag tttgggcaac
+     8761 ggcacgattc cggtcatcgc ccgatgtgat tagatcgcta tagataagga gtggatggac
+     8821 cacttcccgg tgaggcaggt tccaaccttc ttccgccttg gccggccaga atgtctcgag
+     8881 tacttcgacg ttaccgcgat catcaggccg aagcatccca ttcagcatca agcgcggcgt
+     8941 aataccccgg tgagagtaaa tcgtcaacga cgcgggcttg atctcgtggg tcaggatgtc
+     9001 tgcgccggcc tcgccgccca agcgagcatc gatgtcgaga atctcgggtc ggctccacca
+     9061 attactttcc ttggtccaac tggtaaagcg acatgggctg agcttcggac gcaaacgcgt
+     9121 tggaaataga ctcgcccact cctcgatgag ccggcggcga tcggcaatga cccgacgcgc
+     9181 gcctttgtgc acgactagtc ccctgtatat caagtcgtcc atcgccaagt tgactgtgtt
+     9241 caaggcaaca gccgagcgat ccgcaatcgt acgatagggg gcgtggacga ggcccggctg
+     9301 ggtcaggagc gcgaaggtca cgcgcaatcc cttgggcgtc gtcgaacgcg acgttgggtt
+     9361 cttgaggttc agtgcgggtt tgtcacgccc gacgatcatg atggttgctt cgggctcgtg
+     9421 gagatatgcg ttgcccgctg tatcgagaaa cgggatgccc tttgctataa gatcatccgc
+     9481 catccttgat gttatgtgct gtgtgacaag cattagtggg cgcgcatcgt tcggcgcgcg
+     9541 ccgcgagagc atgcggttga cgatgatact tgcgcctagc gaacgggtac tcgcgttgat
+     9601 caccactggc atgtcgaagc gcttccccgc aacggtgaat cgaacccacg catctgcccc
+     9661 gtcgcttgcc gaaacccgag catgcgcgag atctttcttc tcgtttgcag tcacgggcgc
+     9721 agcgcgatag tggtgcgtcg cgtcagaaaa tgcttcgcaa gctagcgtta gcgcttgctg
+     9781 ttcggtagcg gtaaggcggt cggggggagc catcgaagga ttccttgtac ggtcactctc
+     9841 agtgtatgcc aaaaacgtac acattaagaa taacgtacaa acagaccgaa agcactcttg
+     9901 cgattgtggt cagcagggta gacacattgt tgtatgtttc tgagttgcat cctcaaaaaa
+     9961 cgtacatgag agaattagcg tacgccgtag aaggcttgag gggctcgttg gcgcgttgag
+    10021 tcaggctgac ctgccccctt cgatagggcc aatgggcttc tagcaaagtc cctttaaacc
+    10081 aactcctgga aagcggcagg agcgtccgcg gttgcccgat gtttcgccgc aaactctgac
+    10141 ggcgcaaggt agttcagtgc gctgtgcggc ctttgctcgt tgtagtcctg acgccatgcc
+    10201 gcgatgactg cccgagcgtg cgcgagcgtc gtgaaccagt gctcgttaag gcattcgtcg
+    10261 cggaacttgc cgttgaacga ttcgatgtac gcattctgcg ttggcttgcc cgcctgaatc
+    10321 aacttcagcg tgacgccgtt cgcatacgcc cactggtcaa gcgcgcggct cgtaaattcg
+    10381 ggtccctggt ctgttcgcac cgccttggga tagccacgga agcgagctgc acggtccaat
+    10441 gcccgagcga catacaaacc tgagatgcca tggtcgacga cgatgtcgac agcctctttc
+    10501 gtgaaatcgt cgacgacggt caggcacttc acgcgccggc cgttggaaag cgcatccatc
+    10561 acgaaatcga ttgaccacac ctcgttgggt gcgcccggca atgccagttg ctcgcgctca
+    10621 atcatgacgc cgtggcgctt gcgacggcgc cgcacagcca gtcctgcctc acggtacagg
+    10681 cgatagatgc gcttgtgatt ggcgtgcgtg ccttcgcgtt ccaccagggc gtgcagtcgg
+    10741 cggtagccga atcgacgacg ttcgtgcgcc aacttcacca gacgcgccgc gagcacctca
+    10801 ttctcgtggt ccggcttcgc gtcgtaatgc agcacgctgc gagaaagccc gacaagccgg
+    10861 caggcgcggc gctcggagat gttgaccttc tcccgaatcg ccaacactgc ttcgcgtttg
+    10921 gcttgcgggc tcagggcttt cccttgacga caaccttcaa cgcttccata tcgagcattg
+    10981 cttcggccag cagtttcttc agtcgggcat tctccacctc gaggtccttg agccggcggg
+    11041 cttccgagac ttccatgccg ccgaacttcg cgcgccaggt gtagaacgac gcgtcactga
+    11101 acccatgctt cctgcacagt tccttgaccg gcataccggc ctcggcttcc ttcagaaacc
+    11161 cgatgatttg ctgttccgta aagcgcttct tcatgttcgt cttcttctcc gaaagcgaac
+    11221 tttactagac tccggctggc cctgtttgta gggggcaggt cacgggtact tgaggcattt
+    11281 cactgggttc tgtatcggta atttccccct caaaaaagac gcggcgtcgc ggccacgacc
+    11341 cccatgcatc agcgagtcga tcaattgcgc gatacgcgtg ctgtgccgaa tcagccgcgc
+    11401 atgaccgtgg cggagccgat ccgcggcctg cgcatttcct tgccggcctg cgaggttgca
+    11461 aacgaagcag acgaagcaaa cgaaagtgcg cgttactgcg cattcacgtc gcccgtttgc
+    11521 gcgatcttcg tcaaagtctc cttctgatac gcgtaccacg aaacgaggca tggcttgtca
+    11581 cggcaatttc tctgacgaaa attccattgc cttcgcgtac gtgctgcgaa tgcggctttg
+    11641 tcgggtacgg catccttcgc ctgctggtag atgttcgcga gttcgcgatc cgaagccgcg
+    11701 agctccggat cgtggcagat cagatattcc ggaattgatc cgacctttga gcaatcgaag
+    11761 ctcgttcgtt gcagatcgga ttgcggcgag gaatcttgcg gcgctgattg gtccgctggt
+    11821 tgggccgttg atggaaccgc cgtcgggcga ggcatcgtta cggtctggcc atacggcctg
+    11881 agctgtcccg atagcgcatc gtcgagcatc gcgccgatca atgaattcgg tgcgacgcga
+    11941 atggtctcgg ttttcaggac catcgtaccg gacatcgtct gcagcttcgc aaaattgcac
+    12001 ggcgcctggc atgtcacgcg cgttgcataa ttttcgttat ccggatcaat caacagcagc
+    12061 acgtacgttc catcccgacg cccgacgtaa cgcatcatga cgaggggttt cgtcgccttg
+    12121 ccgctgcgaa cgtcatcttc gctcaaggcc ggctcgtaac cgtacgtgcc gtcttgttcc
+    12181 atcgcatatt gatgaggggg cggtgcgggc atggcggccg gcacgggaag ggcggcgggt
+    12241 gtattggcgg aaccggccgc agacgtggac gcatgctgcg gcgcgctggt cgctacggct
+    12301 gatgtttccg gcttgctgga gtgattgcag gcgctcacaa gcattgccgc tgataggcac
+    12361 ggcagcacga aaatcctcat
+//

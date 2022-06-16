@@ -22,6 +22,7 @@ if os.path.isfile('strain_names.dump'):
         strain_names = pickle.load(f)
 
 clean = True  # Delete database and start clean during import
+fileext = 'gb'  # or 'fasta'
 
 
 def fetch(line, gbuid, path, slice=None, id=None, description=None):
@@ -36,8 +37,8 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
     :return: gc content of sequence
     """
     try:
-        handle = Entrez.efetch(db='nucleotide', rettype='fasta', retmode='text', id=gbuid)
-        records = list(SeqIO.parse(handle, 'fasta'))
+        handle = Entrez.efetch(db='nucleotide', rettype='gbwithparts' if fileext == 'gb' else fileext, retmode='text', id=gbuid)
+        records = list(SeqIO.parse(handle, fileext))
         if len(records) < 1:
             print(line, gbuid, "No sequence returned by NCBI")
             return None
@@ -63,7 +64,7 @@ def fetch(line, gbuid, path, slice=None, id=None, description=None):
         # scrub bad chars from description
         records[0].description = records[0].description.replace('ﬄ', 'ffl').replace('\u2010', '-')
         with open(path, 'w') as file:
-            SeqIO.write(records, file, 'fasta')
+            SeqIO.write(records, file, fileext)
         return round(GC(records[0].seq), 1), len(records[0].seq)
     except HTTPError as e:
         print(line, gbuid, "No sequence returned by NCBI or bad request", e)
@@ -148,7 +149,7 @@ def loadcsv(reader, conn):
     line = 1
     gis = defaultdict(int)
     for row in reader:
-        names, type, role, gc, strain_name, strain_gbuid, gi_gbuid, size, start, end, publications, _, _, paths, *row_remainder = row
+        names, type, role, _, strain_name, strain_gbuid, gi_gbuid, size, start, end, publications, _, _, _, *row_remainder = row
         line += 1
 
         # Handle coordinates with ':'
@@ -171,6 +172,17 @@ def loadcsv(reader, conn):
         try: strain_end = int(strain_end) if strain_end else None
         except: strain_end = None
         del start, end
+        gi_gbuid = gi_gbuid.strip() or None
+        strain_gbuid = strain_gbuid.strip() or None
+        strain_seq_id = None
+        path = None
+        if gi_gbuid:
+            path = f"sequences/{gi_gbuid}.{fileext}"
+        elif strain_gbuid is not None and strain_start is not None and strain_end is not None:
+            strain_seq_id = '_'.join((strain_gbuid, str(strain_start), str(strain_end)))
+            path = 'sequences/' + strain_seq_id + f".{fileext}"
+        try: size = int(float(size) * 1000) if size else None
+        except: size = None
 
         # genomic_islands
         gi = None
@@ -186,8 +198,6 @@ def loadcsv(reader, conn):
             print(f"{line} discarding gi type {type}")
             type = None
         role = role.strip().replace(' ', ' ') or None
-        strain_gbuid = strain_gbuid.strip() or None  # TODO handle multiple accessions
-        gi_gbuid = gi_gbuid.strip() or None
         vals = dict(name=name, type=type, role=role)
         # deduplicate gi on source accession and start-end or gi accession
         if gi_gbuid:
@@ -239,72 +249,41 @@ def loadcsv(reader, conn):
         # sequence
         seq = None
         seq_gc = None
-        seq_len = None
+        seq_len = size
         seq_slice = None
-        try: gc = float(gc.strip()) or None
-        except: gc = None
-        paths = paths.replace(',', ';').replace(' and ', ';').split(';') or None
-        paths = list(p for p in paths if p.strip())
-        if gc and not paths and not gi_gbuid:
-            print(f"{line} GC provided but no path, dropping GC data")
-        if not paths and gi_gbuid:
-            paths.append(gi_gbuid + '.fna')
-        for path in paths:
-            path = path.strip() or None
-            if path:
-                path = 'sequences/' + path
-                if not os.path.isfile(path) and gi_gbuid:
-                    print(f"{line} Missing {path}, attempting to download..")
+        if path:
+            if not os.path.isfile(path):
+                print(f"{line} Missing {path}, attempting to download..")
+                if gi_gbuid:
                     if gi_start is not None and gi_end is not None:
-                        seq_slice = slice(gi_start, gi_end + 1)
+                        seq_slice = slice(gi_start-1, gi_end)
                     seq_gc, seq_len = fetch(line, gi_gbuid, path, seq_slice)
-                    if seq_gc is None:
-                        path = None
-                    elif gc is None:
-                        gc = seq_gc
-                elif os.path.isfile(path):
-                    for record in SeqIO.parse(path, 'fasta'):
-                        if not gc:
-                            gc = round(GC(record.seq), 1)  # should only be one record
-                        seq_len = len(record.seq)
-                else:
-                    print(f"{line} Missing {path}, unable to download.")
-            vals = dict(gi=gi, gbuid=gi_gbuid, start=gi_start, end=gi_end, gc=gc, length=seq_len, path=path)
+                elif strain_seq_id:
+                    if strain_start is not None and strain_end is not None:
+                        seq_slice = slice(strain_start - 1, strain_end)
+                    seq_gc, seq_len = fetch(line, strain_gbuid, path, seq_slice, id=strain_seq_id, description=role)
+                if seq_gc is None:
+                    print(line, "Unable to download", path)
+                    path = None
+            else:
+                for record in SeqIO.parse(path, fileext):
+                    seq_gc = round(GC(record.seq), 1)  # should only be one record
+                    seq_len = len(record.seq)
+        if gi_gbuid or seq_gc or seq_len or path:
+            vals = dict(gi=gi, gbuid=gi_gbuid, start=gi_start, end=gi_end, gc=seq_gc, length=seq_len, path=path)
             try:
                 seq = conn.execute(f'''INSERT INTO sequences (gi, gbuid, start, end, gc, length, path) VALUES (?,?,?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
             except sqlite3.IntegrityError:
                 seq = dup(line, 'sequences', vals, conn.execute(f'''SELECT id, gi, gbuid, start, end, gc, length, path FROM sequences WHERE gbuid = ?;''', (gi_gbuid,)).fetchone())
 
+
         # source
         source = None
-        seq_slice = None
-        try: size = int(float(size) * 1000) if size else None
-        except: size = None
-        if not seq and strain_gbuid and strain_start is not None and strain_end is not None:
-            id = '_'.join((strain_gbuid, str(strain_start), str(strain_end)))
-            path = 'sequences/' + id + '.fna'
-            if not os.path.isfile(path):
-                if strain_start is not None and strain_end is not None:
-                    seq_slice = slice(strain_start, strain_end + 1)
-                gc, seq_len = fetch(line, strain_gbuid, path, seq_slice, id=id, description=role)
-                if gc is None:
-                    print(line, 'Unable to fetch strain for source', strain_gbuid)
-                    path = None
-            else:
-                for record in SeqIO.parse(path, 'fasta'):
-                    gc = round(GC(record.seq), 1)  # should only be one record
-                    seq_len = len(record.seq)
-            if path:
-                vals = dict(gi=gi, gc=gc, length=seq_len, path=path)
-                try:
-                    seq = conn.execute(f'''INSERT INTO sequences (gi, gc, length, path) VALUES (?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
-                except sqlite3.IntegrityError:
-                    seq = dup(line, 'source sequence', vals, conn.execute(f'''SELECT id, gi, gc, length, path FROM sequences WHERE path = ?;''', (path,)).fetchone())
-        vals = dict(gi=gi, strain=strain, size=size, start=strain_start, end=strain_end, seq=seq)
+        vals = dict(gi=gi, strain=strain, start=strain_start, end=strain_end, seq=seq)
         try:
-            source = conn.execute(f'''INSERT INTO sources (gi, strain, size, start, end, seq) VALUES (?,?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
+            source = conn.execute(f'''INSERT INTO sources (gi, strain, start, end, seq) VALUES (?,?,?,?,?) RETURNING id;''', tuple(vals.values())).fetchone()['id']
         except sqlite3.IntegrityError:
-            source = dup(line, 'sources', vals, conn.execute(f'''SELECT id, gi, size, strain, start, end, seq FROM sources WHERE strain = ? and start = ? and end = ?;''', (strain, strain_start, strain_end)).fetchone())
+            source = dup(line, 'sources', vals, conn.execute(f'''SELECT id, gi, strain, start, end, seq FROM sources WHERE strain = ? and start = ? and end = ?;''', (strain, strain_start, strain_end)).fetchone())
 
         # publications
         publications = publications.split(';')  # .replace(',', ';')
@@ -334,6 +313,7 @@ def loadcsv(reader, conn):
 def validate(conn):
     """
     Scan through database, validating various aspects of the data
+    Also changes sequence id to "gi_name|gi_id|seq_id" in file
     :param conn: sqlite database connection
     :return: None
     """
@@ -341,11 +321,14 @@ def validate(conn):
     seqs = dict()
     paths = []
     for id, gc, path, name, gi, strain, gbuid, strain_gbuid, start, end, seq_start, seq_end in conn.execute(f'''SELECT s.id, s.gc, s.path, g.name, s.gi, s3.name, s.gbuid, s3.gbuid, s2.start, s2.end, s.start, s.end from sequences s LEFT JOIN genomic_islands g on s.gi = g.id left join sources s2 on s.id = s2.seq left join strains s3 on s3.id = s2.strain;'''):
+        if path is None:
+            print(f"sequence {id}: has no associated path")
+            continue
         paths.append(path)
         if not os.path.isfile(path):
             print(f"sequence {id}: {path} does not exist")
             continue
-        records = list(SeqIO.parse(path, 'fasta'))
+        records = list(SeqIO.parse(path, fileext))
         if len(records) != 1:
             print(f'multiple records found in {path}')
         for record in records:
@@ -365,25 +348,25 @@ def validate(conn):
                 print(f"Warning: {path} contains a sequence greater than 1Mb in length")
 
             # check provided file if they match a downloaded copy
-            if path.endswith('fasta') and (gbuid or (strain_gbuid and start is not None and end is not None)):
-                if not os.path.isfile(path+'.tmp'):
-                    if gbuid:
-                        fetch(id, gbuid, path + '.tmp', slice(seq_start-1, seq_end) if seq_start is not None and seq_end is not None else None)
-                    else:
-                        fetch(id, strain_gbuid, path + '.tmp', slice(start-1, end))
-                if os.path.isfile(path + '.tmp'):
-                    tmp_record = next(SeqIO.parse(path+'.tmp', 'fasta'))
-                    if tmp_record.seq != record.seq:
-                        print(f"Warning: Sequence mismatch between NCBI and {path} ({len(tmp_record.seq)}bp vs {len(record.seq)}bp)")
-            elif not (gbuid or (strain_gbuid and start is not None and end is not None)):
-                print(f"No strain or GI accession, unable to download comparison for {path}")
+            #if gbuid or (strain_gbuid and start is not None and end is not None):
+            #    if not os.path.isfile(path+'.tmp'):
+            #        if gbuid:
+            #            fetch(id, gbuid, path + '.tmp', slice(seq_start-1, seq_end) if seq_start is not None and seq_end is not None else None)
+            #        else:
+            #            fetch(id, strain_gbuid, path + '.tmp', slice(start-1, end))
+            #    if os.path.isfile(path + '.tmp'):
+            #        tmp_record = next(SeqIO.parse(path+'.tmp', fileext))
+            #        if tmp_record.seq != record.seq:
+            #            print(f"Warning: Sequence mismatch between NCBI and {path} ({len(tmp_record.seq)}bp vs {len(record.seq)}bp)")
+            #elif not (gbuid or (strain_gbuid and start is not None and end is not None)):
+            #    print(f"No strain or GI accession, unable to download comparison for {path}")
 
-            if not gbuid:
-                # TODO attempt to recover gbuid by searching sequence on NCBI
-                pass
+            #if not gbuid:
+            #    # TODO attempt to recover gbuid by searching sequence on NCBI
+            #    pass
 
         with open(path, 'w') as f:
-            SeqIO.write(records, f, 'fasta')
+            SeqIO.write(records, f, fileext)
 
     extra = set(f'sequences/{f}' for f in os.listdir('sequences/') if f.endswith('.fasta') or f.endswith('.fna')) - set(paths)
     if len(extra) > 0:

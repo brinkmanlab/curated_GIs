@@ -48,7 +48,7 @@ create table if not exists sequences
     end    integer,                 -- File sequence end relative to Genbank hosted sequence
     gc     real,                    -- % GC composition
     length integer,                 -- Sequence length
-    path   text    not null unique, -- path to fasta relative to this db
+    path   text unique,             -- path to fasta relative to this db
     foreign key (gi) references genomic_islands (id)
 );
 
@@ -60,7 +60,6 @@ create table if not exists sources
     strain integer,
     start  integer, -- GI start relative to strain reference genome
     end    integer, -- GI end relative to strain reference genome
-    size   integer, -- GI size
     seq    integer unique,
     foreign key (gi) references genomic_islands (id),
     foreign key (strain) references strains (id),

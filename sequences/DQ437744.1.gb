@@ -1,0 +1,165 @@
+LOCUS       ExoU-C|34|34            4296 bp    DNA     linear   BCT 18-MAY-2006
+DEFINITION  Pseudomonas aeruginosa X13273.
+ACCESSION   ExoU-C|34|34
+VERSION     ExoU-C|34|34
+KEYWORDS    .
+SOURCE      Pseudomonas aeruginosa
+  ORGANISM  Pseudomonas aeruginosa
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (bases 1 to 4296)
+  AUTHORS   Kulasekara,B.R., Kulasekara,H.D., Wolfgang,M.C., Stevens,L.,
+            Frank,D.W. and Lory,S.
+  TITLE     Acquisition and evolution of the exoU locus in Pseudomonas
+            aeruginosa
+  JOURNAL   J. Bacteriol. 188 (11), 4037-4050 (2006)
+   PUBMED   16707695
+REFERENCE   2  (bases 1 to 4296)
+  AUTHORS   Kulasekara,B.R., Kulasekara,H.D., Wolfgang,M.C., Stevens,L.,
+            Frank,D.W. and Lory,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-MAR-2006) Microbiology and Molecular Genetics, Harvard
+            Medical School, 200 Longwood Ave, Boston, MA 02115, USA
+FEATURES             Location/Qualifiers
+     source          1..4296
+                     /organism="Pseudomonas aeruginosa"
+                     /mol_type="genomic DNA"
+                     /strain="X13273"
+                     /isolation_source="blood"
+                     /db_xref="taxon:287"
+     tRNA            1..76
+                     /product="tRNA-Lys"
+     misc_feature    202..3679
+                     /note="ExoU Island C"
+     repeat_region   202..221
+                     /note="TAGI Repeat"
+     gene            204..887
+                     /locus_tag="EXC1"
+     CDS             204..887
+                     /locus_tag="EXC1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase derived protein"
+                     /protein_id="ABD94730.1"
+                     /translation="MGFSVSKDLKPFCRRSKRDLLPNFSTTLNLVESVFQAGDGSAEAF
+                     FSTSSSGSRPVYRPSCTPNWWNWPRSIDAVANAACTSCCGVQVNHKRIYRLYRAAGLMV
+                     RRRRIAVARFRGYPQAIRTDQGPEFTGKALDQWACQRDIKLKLIQPGQPTQSAFIESFN
+                     GKFRGECLNEHCSLVEARIRIAAWRDYNEHRPHSAIGNLSPAEFAAKWRTNQQQLKREK
+                     LISTP"
+     gene            1024..3087
+                     /locus_tag="EXC2"
+     CDS             1024..3087
+                     /locus_tag="EXC2"
+                     /note="ExoU; phospholipase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="type three secretion effector protein"
+                     /protein_id="ABD94731.1"
+                     /translation="MHIQSLGATASSLNQEPVETPSQAAHKSASLRQEPSGQGLGVALK
+                     STPGILSGKLPESVSDVRFSSPQGQGESRTLTDSAGPRQITLRQFENGVTELQLSRPPL
+                     TSLVLSGGGAKGAAYPGAMLALEEKGMLDGIRSMSGSSAGGITAALLASGMSPAAFKTL
+                     SDKMDLISLLDSSNKKLKLFQHISSEIGASLKKGLGNKIGGFSELLLNVLPRIDSRAEP
+                     LERLLRDETRKAVLGQIATHPEVARQPTVAAIASRLQSGSGVTFGDLDRLSAYIPQIKT
+                     LNITGTAMFEGRPQLVVFNASHTPDLEVAQAAHISGSFPGVFQKVSLSDQPYQAGVEWT
+                     EFQDGGVMINVPVPEMIDKNFDSGPLRRNDNLILEFEGEAGEVAPDRGTRGGALKGWVV
+                     GVPALQAREMLQLEGLEELREQTVVVPLKSERGDFSGMLGGTLNFTMPDEIKAHLQERL
+                     QERVGEHLEKRLQASERHTFASLDEALLALDDSMLTSVAQQNPEITDGAVAFRQKARDA
+                     FTELTVAIVSANGLAGRLKLDEAMRSALQRLDALADTPERLAWLAAELNHADNVDHQQL
+                     LDAMRGQTVQSPVLAAALAEAQRRKVAVIAENIRKEVIFPSLYRPGQPDSNVALLRRAE
+                     EQLRHATSPAEINQALNDIVDNYSARGFLRFGKPLSSTTVEMAKAWRNKEFT"
+     gene            3084..3497
+                     /locus_tag="EXC3"
+     CDS             3084..3497
+                     /locus_tag="EXC3"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ExoU chaperone"
+                     /protein_id="ABD94732.1"
+                     /translation="MIDTWLAQWGLRLPSSNDATLRLQPAEGPELVMERLEGGWLFVVE
+                     LGLVPSGLPLGVILQLLQVNSPFSSLAPVKLAADDAGRLVLWAEARDGVDDVDALNRLH
+                     DRLREGHSRLVPLLEPTGELVPAQIQTSALVFV"
+     repeat_region   3660..3679
+                     /note="TAGI Repeat"
+     CDS             3892..4296
+                     /note="similar to Pseudomonas aeruginosa PA01 PA0988"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="ABD94733.1"
+                     /translation="MPTPVFIKRTVLFGDCDPEGIVYTPRFSYFVLEAVQEALGVWLGG
+                     PGLRTLLGFRILPPARAFSLEFLHPVTWDDELTMQVGVSNVGTHSFSFSVEGRLSPDVV
+                     AFTASLTQVCVSPDTREVMEVPAQLRALLA"
+ORIGIN
+        1 gggtcgttag ctcagtcggt agagcagttg gcttttaacc aattggtcgt aggttcgaat
+       61 cctacacgac ccaccatttc tctacggcgt gttgcataga tatagaaagg ggtgttacgc
+      121 cttttacttg tccaacagcc gtatgggcca aatatgaagc ccgtatcgat gtgatatcaa
+      181 tatggaaaag cccacctatc taggtgggct tttctgtttc taaggacctg aaaccattct
+      241 gcaggcgtag caaacgtgac ctgctcccca acttcagtac cacgctgaac ttagtagagt
+      301 ccgttttcca agcaggagac ggcagtgcag aagcgttctt ctcgacttcc tcaagcgggt
+      361 cgaggccagt gtaccgaccg agctgcacgc ccaactggtg gaactggccc aggagcatcg
+      421 acgctgtggc taacgccgcc tgcacatcct gctgtggcgt gcaggtcaac cacaagcgga
+      481 tttaccggct gtaccgagcc gccggcttga tggtgaggcg gcggaggatc gcggtggcgc
+      541 ggtttcgcgg ctacccgcag gcgatccgca ccgaccaggg ccccgagttc accggcaagg
+      601 cgcttgatca gtgggcctgt cagcgtgaca tcaagttgaa gctgattcag cctggccagc
+      661 ccacgcagag cgccttcatc gagtcattca acggcaagtt ccggggcgaa tgcctcaatg
+      721 agcactgctc gctggtcgaa gccagaatcc gtatcgcggc ttggcgggat tacaacgagc
+      781 accgaccaca cagcgccatt ggcaatctct ccccggcaga gtttgctgcg aagtggcgaa
+      841 ccaaccagca gcagctgaag cgggaaaagt tgatatcaac cccatagcct actaactagg
+      901 cagcggtact aaaactgggg gcaggccagt ccgaactgat aaaaaaacgt ccgaaactgg
+      961 caaaacctta tggccggttt tcctaatatt tgctccgaac cctcggtatt tcaaggagcg
+     1021 aacatgcata tccaatcgtt gggggctact gcctcctcgc tgaatcagga gcctgtcgaa
+     1081 accccgtcgc aggcagcgca taagtccgcc agcttgcgtc aggaaccttc agggcaaggt
+     1141 ctcggggttg ccctaaagag cacgccggga atactttccg ggaagttgcc ggaaagcgtt
+     1201 agtgacgtgc gtttcagcag tccccaaggg caaggggagt cccgtactct gactgactcg
+     1261 gcagggccgc ggcagatcac tctgcgccag tttgagaacg gagtcaccga gctacagctc
+     1321 agtcggccac cattgaccag tctggtccta agcggcggtg gtgccaaagg tgcggcatac
+     1381 ccgggagcaa tgctggcgct agaagagaaa ggcatgctcg atggcatccg cagcatgtcc
+     1441 ggttcgtccg ctggcggcat caccgccgcc cttttggcct caggtatgag cccggcggcg
+     1501 ttcaagaccc tttccgacaa gatggatctt atttcgctgc tcgatagctc gaacaagaag
+     1561 ctgaagctgt tccaacacat tagcagcgag atcggcgcat cgctgaaaaa gggcttgggc
+     1621 aacaagatcg gcggcttctc tgagttgctg ctcaatgtac tcccacgcat agattcgcgg
+     1681 gctgagcccc tagaacgcct attgcgcgac gagacacgca aggccgtgct cggacagatc
+     1741 gctacgcatc cagaggttgc acgccagccg accgttgccg ccatcgccag cagattgcag
+     1801 tccggctccg gagtcacctt tggcgatcta gatcggttga gtgcttacat tccccagatt
+     1861 aagacgctga acatcacagg tacggccatg ttcgaggggc gtccgcaatt agtggtgttc
+     1921 aatgccagcc acacaccgga tctggaggtc gcccaggcgg cacatatctc cggttccttc
+     1981 ccaggagtgt tccagaaggt cagcttgagt gatcagccgt accaggccgg cgtagagtgg
+     2041 acagaattcc aggatggcgg ggtgatgatt aacgtgccgg tccctgagat gatcgacaag
+     2101 aattttgaca gcgggccact gcggcgcaac gacaacctga tccttgagtt cgagggcgaa
+     2161 gctggggagg tagcgcccga ccgaggtact aggggcggcg cgctcaaggg ctgggtcgtc
+     2221 ggggtgcctg ccctgcaggc gcgcgaaatg ctgcagctcg agggcctgga ggaattgcgc
+     2281 gagcaaaccg ttgtggtgcc gttgaagagc gagcgcggtg atttcagtgg catgctcggt
+     2341 ggcaccttga acttcaccat gccggacgag atcaaggcgc atcttcagga gcgcctccag
+     2401 gagcgagtcg gtgaacatct ggagaaacgt cttcaggctt cagagcgtca taccttcgct
+     2461 tctctcgacg aggcgctgct ggcacttgat gacagtatgc tcaccagtgt tgctcaacag
+     2521 aacccggaga tcacagacgg ggcggtggct tttcgccaga aggcgcggga tgcgttcacc
+     2581 gagctgactg tcgctatcgt tagcgccaat ggcttggcgg gtaggctcaa gttggacgag
+     2641 gctatgcgct ccgctcttca gcgactcgat gcgctggcag atactccgga acgcctagca
+     2701 tggttggcag ctgagttgaa ccatgctgat aacgttgatc atcagcagtt actcgatgcc
+     2761 atgcgcgggc agacggtgca gtcgccggtg ctcgccgctg cgttagcaga ggcgcagcgc
+     2821 cgcaaagtgg cggttattgc cgagaacatt cgtaaggaag ttatcttccc ctctctgtat
+     2881 cgccctggcc agccggattc caacgtagct ctgttacgtc gggcggagga gcagctacgg
+     2941 catgccacca gtccggcgga aatcaatcaa gcgctgaacg atatcgtcga caactactcg
+     3001 gcacgaggct tcctgcgttt cggcaaaccc ttgagttcga ctaccgttga gatggctaag
+     3061 gcttggcgga ataaggagtt cacatgattg atacatggct ggcacagtgg ggcttgagac
+     3121 ttccctcgag caacgatgcc acgttgcggc tgcaaccggc agagggaccg gaactggtta
+     3181 tggagcgcct cgagggcggt tggcttttcg tcgtcgagtt gggacttgtg ccttcagggt
+     3241 taccgctggg tgtgatcttg caattgttac aagtgaactc tccattctca tccttggcac
+     3301 cggtgaaact tgcggcggac gatgccggta gacttgtgct ctgggctgag gcacgtgatg
+     3361 gcgttgacga tgtggatgca ctgaaccgct tgcacgatag gctgcgggaa ggacattcac
+     3421 gattagtgcc attgctagag cccacgggtg agttggttcc agctcagata caaaccagcg
+     3481 cgttagtgtt cgtttgaacg caaggggaag gagcgatact gccaataaaa tccgcagttg
+     3541 gtaatttctc taatagatgg gccacccgaa ggtggcctat ctgttcatgc tgcaatgagt
+     3601 tgtcgtgcca acaccatttc taccgagccc catcctggtt caacgagccg aggccctcga
+     3661 ggtgggcttt tctgtttctg gagtccggat atccgatcca cagcgcgcca gaacgagcgg
+     3721 ctggtttcgt gctttcgcca gttatatcgg cactggcaac cacagtcgtg tgcctgccag
+     3781 tctgcttcca tgcagcctgg tgaacaggtg catggctatc cgaggatttg tcagtgggcc
+     3841 ttgactttca tagagtgaag ctcctttcct cgcgactgga ttagtgacgc gatgccgacc
+     3901 ccggttttca taaaaagaac ggtactgttt ggcgactgtg atcccgaagg gatcgtctat
+     3961 acgccacgtt tttcatactt tgtgctggaa gcggtgcagg aggcgctcgg ggtctggctg
+     4021 ggcggcccgg ggctcagaac cctcctgggg ttcaggattc ttcccccggc gagagcgttc
+     4081 tccctggaat tcctgcatcc ggtcacctgg gacgacgagc tcacgatgca ggtgggcgtg
+     4141 tcgaacgtgg ggacgcattc tttctcgttt tcagtcgaag gacgtctttc gccggacgtg
+     4201 gtggcgttca ctgcgagcct gacgcaggtc tgtgtctccc cggatacccg cgaagtcatg
+     4261 gaggtccccg cgcagctccg cgcgctcctc gcatag
+//

@@ -1,0 +1,424 @@
+LOCUS       SPI-5_(cGI1)|167|160    9109 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Salmonella enterica subsp. enterica serovar Typhimurium str. SL1344.
+ACCESSION   SPI-5_(cGI1)|167|160
+VERSION     SPI-5_(cGI1)|167|160
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    1..9109
+                     /note="SPI-5"
+     tRNA            1..85
+                     /product="tRNA-Ser"
+                     /note="tRNA Ser anticodon TGA, Cove score 58.36"
+     gene            complement(227..907)
+                     /gene="pipA"
+                     /locus_tag="SL1344_1026"
+     CDS             complement(227..907)
+                     /gene="pipA"
+                     /locus_tag="SL1344_1026"
+                     /inference="similar to AA sequence:INSD:AAL20019.1"
+                     /inference="similar to AA sequence:INSD:ACY87724.1"
+                     /inference="similar to AA sequence:INSD:ADX16784.1"
+                     /inference="similar to AA sequence:INSD:AEF06963.1"
+                     /inference="similar to AA sequence:INSD:CBG24111.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CBW17122.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1026"
+                     /db_xref="EnsemblGenomes-Tr:CBW17122"
+                     /db_xref="InterPro:IPR010777"
+                     /db_xref="UniProtKB/TrEMBL:E1W7B8"
+                     /translation="MLPVTYRLIPQSGVSTYRLNTADTPVFPDIPEHAPNPSRLRLAHD
+                     SLAINSEFRLEPECVVEYLISGAGGIDPDTEIDDDTYDECYDELSSVLQNAYTQSETFR
+                     RLMNYAYEKELHDVEQRWLLGAGEAFETTVAQEHFKLSEGRKVICLNLDDSDDSYTEHY
+                     ESNEGRQLFDTKRSFIHEVVHALTHLQDKEENHPRGPVVEYTNIILKEMGHPSPPRMVY
+                     IFNK"
+     gene            complement(1129..2004)
+                     /gene="pipB"
+                     /locus_tag="SL1344_1027"
+     CDS             complement(1129..2004)
+                     /gene="pipB"
+                     /locus_tag="SL1344_1027"
+                     /inference="similar to AA sequence:INSD:AAL20020.1"
+                     /inference="similar to AA sequence:INSD:ACY87725.1"
+                     /inference="similar to AA sequence:INSD:ADX16785.1"
+                     /inference="similar to AA sequence:INSD:AEF06964.1"
+                     /inference="similar to AA sequence:INSD:CBG24112.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Type III secretion system effector protein,
+                     homologous to pipB2, required for colonisation in chicks
+                     and for inducing the inflammatory response in the bovine
+                     ligated ileal loop model of infection"
+                     /protein_id="CBW17123.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1027"
+                     /db_xref="EnsemblGenomes-Tr:CBW17123"
+                     /db_xref="InterPro:IPR001646"
+                     /db_xref="UniProtKB/TrEMBL:E1W7B9"
+                     /translation="MPITNASPENILRYLHAAGTGTKEAMKSATSPRGILEWFVNFFTC
+                     GGVRRSNERWFREVIGKLTTSLLYVNKNAFFDGNKIFLEDVNGCTICLSCGAASENTDP
+                     MVIIEVNKNGKTVTDKVDSERFWNVCRMLKLMSKHNIQQPDSLITEDGFLNLRGVNLAH
+                     KDFQGEDLSKIDASNADFRETTLSNVNLVGANLCCANLHAVNLMGSNMTKANLTHADLT
+                     CANMSGVNLTAAILFGSDLTDTKLNGAKLDKIALTLAKALTGADLTGSQHTPTPLPDYN
+                     DRTLFPHPIF"
+     gene            2216..2542
+                     /locus_tag="SL1344_1028"
+     CDS             2216..2542
+                     /locus_tag="SL1344_1028"
+                     /inference="similar to AA sequence:INSD:AAL20021.1"
+                     /inference="similar to AA sequence:INSD:ACY87727.1"
+                     /inference="similar to AA sequence:INSD:ADX16786.1"
+                     /inference="similar to AA sequence:INSD:AEF06965.1"
+                     /inference="similar to AA sequence:INSD:CBG24113.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical inner membrane protein"
+                     /protein_id="CBW17124.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1028"
+                     /db_xref="EnsemblGenomes-Tr:CBW17124"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C0"
+                     /translation="MLLTSFISSIAYASSSLNKQLSLLSENLLKEKIISTNIFCSISTY
+                     TRINARRWRKNLMSRNTYTLKMLPQTEQNERDERLPLTFPPKILVLSLVKGIRIAFYLI
+                     KKVC"
+     gene            complement(2552..2893)
+                     /gene="pipC"
+                     /locus_tag="SL1344_1029"
+     CDS             complement(2552..2893)
+                     /gene="pipC"
+                     /locus_tag="SL1344_1029"
+                     /inference="similar to AA sequence:INSD:AAL20022.1"
+                     /inference="similar to AA sequence:INSD:ACY87728.1"
+                     /inference="similar to AA sequence:INSD:ADX16787.1"
+                     /inference="similar to AA sequence:INSD:AEF06966.1"
+                     /inference="similar to AA sequence:INSD:CBG24114.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell invasion protein"
+                     /protein_id="CBW17125.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1029"
+                     /db_xref="EnsemblGenomes-Tr:CBW17125"
+                     /db_xref="InterPro:IPR013095"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C1"
+                     /translation="MESLLNRLYDALGLDAPEDEPLLIIDDGIQVYFNESDHTLEMCCP
+                     FMPLPDDILTLQHFLRLNYTSAVTIGADADNTALVALYRLPQTSTEEEALTGFELFISN
+                     VKQLKEHYA"
+     gene            complement(2910..4595)
+                     /gene="sopB"
+                     /locus_tag="SL1344_1030"
+                     /gene_synonym="sigD"
+     CDS             complement(2910..4595)
+                     /gene="sopB"
+                     /locus_tag="SL1344_1030"
+                     /gene_synonym="sigD"
+                     /inference="similar to AA sequence:INSD:AAL20023.1"
+                     /inference="similar to AA sequence:INSD:ACY87729.1"
+                     /inference="similar to AA sequence:INSD:ADX16788.1"
+                     /inference="similar to AA sequence:INSD:AEF06967.1"
+                     /inference="similar to AA sequence:INSD:CBG24115.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Type III secretion system effector protein.
+                     Activates Cdc42, RhoG, AktA and chloride secretion through
+                     its inositol phosphatase activity and disrupts tight
+                     junctions"
+                     /protein_id="CBW17126.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1030"
+                     /db_xref="EnsemblGenomes-Tr:CBW17126"
+                     /db_xref="GOA:E1W7C2"
+                     /db_xref="InterPro:IPR008108"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C2"
+                     /translation="MQIQSFYHSASLKTQEAFKSLQKTLYNGMQILSGQGKAPAKAPDA
+                     RPEIIVLREPGATWGNYLQHQKASNHSLHNLYNLQRDLLTVAATVLGKQDPVLTSMANQ
+                     MELAKVKADRPATKQEEAAAKALKKNLIELIAARTQQQDGLPAKEAHRFAAVAFRDAQV
+                     KQLNNQPWQTIKNTLTHNGHHYTNTQLPAAEMKIGAKDIFPSAYEGKGVCSWDTKNIHH
+                     ANNLWMSTVSVHEDGKDKTLFCGIRHGVLSPYHEKDPLLRHVGAENKAKEVLTAALFSK
+                     PELLNKALAGEAVSLKLVSVGLLTASNIFGKEGTMVEDQMRAWQSLTQPGKMIHLKIRN
+                     KDGDLQTVKIKPDVAAFNVGVNELALKLGFGLKASDSYNAEALHQLLGNDLRPEARPGG
+                     WVGEWLAQYPDNYEVVNTLARQIKDIWKNNQHHKDGGEPYKLAQRLAMLAHEIDAVPAW
+                     NCKSGKDRTGMMDSEIKREIISLHQTHMLSAPGSLPDSGGQKIFQKVLLNSGNLEIQKQ
+                     NTGGAGNKVMKNLSPEVLNLSYQKRVGDENIWQSVKGISSLITS"
+     gene            4927..5097
+                     /gene="orfX"
+                     /locus_tag="SL1344_1031"
+     CDS             4927..5097
+                     /gene="orfX"
+                     /locus_tag="SL1344_1031"
+                     /inference="similar to AA sequence:INSD:AAL20024.1"
+                     /inference="similar to AA sequence:INSD:ACY87730.1"
+                     /inference="similar to AA sequence:INSD:ADX16789.1"
+                     /inference="similar to AA sequence:INSD:AEF06968.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CBW17127.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1031"
+                     /db_xref="EnsemblGenomes-Tr:CBW17127"
+                     /db_xref="InterPro:IPR025030"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C3"
+                     /translation="MPAKPRTSKTVTKNIRFSYSMLEQIEFALKSEKTRNFSAWVKEAC
+                     REKLCNTGHKL"
+     gene            complement(5098..5208)
+                     /locus_tag="SL1344_1032"
+     CDS             complement(5098..5208)
+                     /locus_tag="SL1344_1032"
+                     /inference="similar to AA sequence:INSD:AAL20025.1"
+                     /inference="similar to AA sequence:INSD:ACY87731.1"
+                     /inference="similar to AA sequence:INSD:ADX16790.1"
+                     /inference="similar to AA sequence:INSD:AEF06969.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="CBW17128.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1032"
+                     /db_xref="EnsemblGenomes-Tr:CBW17128"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C4"
+                     /translation="MTLQANISRETKAAKTQEVYKHVVLFKMAAPSYIRR"
+     gene            complement(5317..6786)
+                     /gene="pipD"
+                     /locus_tag="SL1344_1033"
+     CDS             complement(5317..6786)
+                     /gene="pipD"
+                     /locus_tag="SL1344_1033"
+                     /inference="similar to AA sequence:INSD:"
+                     /inference="similar to AA sequence:INSD:AAL20026.1"
+                     /inference="similar to AA sequence:INSD:ACY87732.1"
+                     /inference="similar to AA sequence:INSD:ADX16791.1"
+                     /inference="similar to AA sequence:INSD:AEF06970.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical secreted peptidase"
+                     /protein_id="CBW17129.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1033"
+                     /db_xref="EnsemblGenomes-Tr:CBW17129"
+                     /db_xref="GOA:E1W7C5"
+                     /db_xref="InterPro:IPR005322"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C5"
+                     /translation="MKKYLAFAVTLLGMGKVIACTTLLVGNQASADGSFIIARNEDGSA
+                     NNAKHKVIHPIAFHQQGEYKAHRNNFSWPLPETAMRYTAIHDFDTNDNAMGEAGFNSAG
+                     VGMSATETIYNGRAALAADPYVTKTGITEDAIESVILPVAQSARQGAKLLGDIIEQKGA
+                     GEGFGVAFIDSKEIWYLETGSGHQWLAVRLPADSYFVSANQGRLRHYDPNDNANYMASP
+                     TLVSFAKKQGLYDPARGEFDFHQAYSQDNKNDTTYNYPRVWTLQHQFNPHLDTVVSEGE
+                     TFPVFLTPITKISVAAVKNALRNHYQGTSHDPYASHNPQEPWRPISVFRTQESHILQVR
+                     PKLPQAIGNVEYIAYGMPSLSVYLPYYQGMRHYQPGDDKGTDRASNDSTYWTFRTLQTL
+                     VMQDYNAFAPDVQHAWKTFEQQTAKQQYKMEQSYLRLYASHPKEAQRLLQNFEDKTMQN
+                     AQTLARRLTNNIITTMTYRTDMKYHFSSTQP"
+     gene            complement(6959..8323)
+                     /gene="copS"
+                     /locus_tag="SL1344_1034"
+     CDS             complement(6959..8323)
+                     /gene="copS"
+                     /locus_tag="SL1344_1034"
+                     /inference="similar to AA sequence:INSD:AAL20027.1"
+                     /inference="similar to AA sequence:INSD:ACY87733.1"
+                     /inference="similar to AA sequence:INSD:ADX16792.1"
+                     /inference="similar to AA sequence:INSD:AEF06971.1"
+                     /inference="similar to AA sequence:INSD:CBG24117.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="histidine kinase"
+                     /protein_id="CBW17130.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1034"
+                     /db_xref="EnsemblGenomes-Tr:CBW17130"
+                     /db_xref="GOA:E1W7C6"
+                     /db_xref="InterPro:IPR003594"
+                     /db_xref="InterPro:IPR003660"
+                     /db_xref="InterPro:IPR003661"
+                     /db_xref="InterPro:IPR005467"
+                     /db_xref="InterPro:IPR006290"
+                     /db_xref="InterPro:IPR009082"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C6"
+                     /translation="MVKLSMTLRLTISFIAILILACTGISWTLYNALSKELTYRDDMTL
+                     INRAAQMQQLLLDGARPENLPLYFNRMVDTKQDILLIHSATGHNVAINHSGIPDQRFNE
+                     IPLTKNITRETLFRQAVQGTELTAVRVSARSGDDPLTLTIARLATERRQMLAQYRRNSL
+                     LMSLIAILVCSALSPLVIRNGLRAITSLSRLTAATDSGTLRQPLAEQALPVELRPLGQA
+                     LNTMRQKLSDDFERLNQFADDLAHELRTPVNILLGKNQVMLSQERSAEEYQQALVDNIE
+                     ELEGLSRLTENILFLARAEHQNIAVKKQPVSLNALVENMLDYLSPLAEEKRICFINQCQ
+                     GTVWADEILLQRVLSNLLTNAIRYSDENAVIRIESAYDDNVAEIRVANPGSHPADADKL
+                     FRRFWRGDNARHTAGFGLGLSLVNAIALLHGGSASYRYADEHNIFSVRLPDSGDS"
+     gene            complement(8316..9062)
+                     /gene="copR"
+                     /locus_tag="SL1344_1035"
+     CDS             complement(8316..9062)
+                     /gene="copR"
+                     /locus_tag="SL1344_1035"
+                     /inference="similar to AA sequence:INSD:AAL20028.1"
+                     /inference="similar to AA sequence:INSD:ACY87734.1"
+                     /inference="similar to AA sequence:INSD:ADX16793.1"
+                     /inference="similar to AA sequence:INSD:AEF06972.1"
+                     /inference="similar to AA sequence:INSD:CBG24118.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="response regulator"
+                     /protein_id="CBW17131.1"
+                     /db_xref="EnsemblGenomes-Gn:SL1344_1035"
+                     /db_xref="EnsemblGenomes-Tr:CBW17131"
+                     /db_xref="GOA:E1W7C7"
+                     /db_xref="InterPro:IPR001789"
+                     /db_xref="InterPro:IPR001867"
+                     /db_xref="InterPro:IPR006291"
+                     /db_xref="InterPro:IPR011006"
+                     /db_xref="InterPro:IPR011991"
+                     /db_xref="InterPro:IPR016032"
+                     /db_xref="UniProtKB/TrEMBL:E1W7C7"
+                     /translation="MTIMSSCWRFTDSLTSLWHTALMKILLIEDNQKTIEWVRQGLTEA
+                     GYVVDYACDGRDGLHLALQEHYSLIILDIMLPGLDGWQVLRALRTAHQSPVICLTARDS
+                     VEDRVKGLEAGANDYLVKPFSFAELLARVRAQLRQHVPAFTRLTINGLDMDATKQSVSR
+                     NGKPISLTRKEFLLLWLLASRAGEIVPRTAIASEVWGINFDSETNTVDVAIRRLRAKVD
+                     DPFEKKLIMTVRGMGYRLQAETSQNG"
+ORIGIN
+        1 ggaagtgtgg ccgagcggtt gaaggcaccg gtcttgaaaa ccggcgaccc gaaagggttc
+       61 cagagttcga atctctgcgc ttccgccaga ttaaacaagg ggttaccgaa aggtagcccc
+      121 tttgtttttt taggcgctat agaatatagt tagaaaatac tgttagaata tttcccgaaa
+      181 aaacggacta cgcgagtctt tagtttcttt tcgtttcccg atgtgtctat ttattgaaga
+      241 tgtagaccat tctgggaggt gaaggatgcc ccatctcttt cagaataatg ttggtatatt
+      301 cgacaacagg gcctcttgga tgattttctt ctttatcctg aagatgggtc agggcatgta
+      361 caacttcatg aataaatgaa cgttttgtgt caaaaagttg tcttccttcg ttactttcat
+      421 aatgttcggt atatgaatca tcagaatcgt ccagattgag acaaataact ttcctgcctt
+      481 ctgaaagttt gaagtgttcc tgagccacgg tagtttcaaa ggcttcgcct gcccccagta
+      541 gccagcgctg ctccacatca tgtagttctt tttcatatgc gtaattcatc agtctgcgga
+      601 atgtttcgct ttgggtatac gcattttgaa gtacggagga tagttcatcg tagcattcgt
+      661 cataagtgtc gtcatcaatt tctgtatcag ggtctattcc acccgcgcct gagataaggt
+      721 actccaccac acactctggc tccagacgga attcactgtt tatggcaagg ctgtcatgag
+      781 caaggcgtag ccgtgagggg tttggtgcat gttcgggaat atcggggaaa acaggtgtat
+      841 ctgcggtatt taatctatat gtggatactc cgctttgagg tattaatctg taggtgaccg
+      901 gaagcataac ttcttatttc ctgactacaa ttatgaatta tttaaattaa acaataatag
+      961 tgtttttagt taatgtgcca catacaggta acgctatgat tcagacaaag ccaacaagta
+     1021 atacgctgaa aatgttattt ataatgaaac ttaggggcgg ggtttattta ataaaacaag
+     1081 ggggcctctg tttgaatact tcttgtttat aaaatccctt tatctcgact aaaatatcgg
+     1141 atgggggaaa agagttctat cattgtaatc cgggagtgga gtaggggtat gttgactacc
+     1201 tgtcagatcg gctcctgtta atgctttcgc taaagttaga gctatcttat ctaatttcgc
+     1261 accatttagt ttggtgtcag ttaagtctga gccgaataga attgcagcgg ttaagtttac
+     1321 accggacatg ttagcgcaag tcaggtctgc gtgagtcagg tttgctttag tcatgtttga
+     1381 acccattaga tttacagcgt gtagatttgc acaacacaaa tttgcaccga ctaaatttac
+     1441 attagataga gttgtttcac ggaaatctgc attagaagca tctatttttg acaaatcttc
+     1501 cccctggaaa tctttatgag ccaggtttac tccgcgcagg ttcagaaaac catcctcggt
+     1561 tataagtgaa tcaggctgtt gtatattatg tttactcatc agttttaaca ttcgacatac
+     1621 attccaaaat ctctcactat caactttatc cgttacagtt tttccatttt tgttcacttc
+     1681 aataatgacc atgggatccg tattttcgga tgctgctcca catgacagac atatagtaca
+     1741 cccgttgaca tcctccagaa atattttatt accatcgaag aaagcatttt tatttacata
+     1801 taataatgat gtggtcagtt ttccaattac ctcccgaaac catctttcat tgcttcttct
+     1861 tactccacca caggtaaaaa aattgacaaa ccattccagt ataccgcgtg gtgaagttgc
+     1921 acttttcatt gcttctttcg taccggtacc ggccgcatgc aaatatctta atatattttc
+     1981 tggggacgcg ttagttattg gcattttgat tccttcttat ggaagtgagc cgactcctta
+     2041 taggtgtgag tcaagtcaca tttatacaag gaataataaa aaaagatata aggtgatttt
+     2101 tgtatttaga gctttggttg agtatgagta ggtgtctggc atctgacaag aggcgatgat
+     2161 atctgccata acggtgaagc agaagtaata tcacccgtga ataataagat tatccttgct
+     2221 attgacttcc ttcatttcca gcatagctta cgcttcatca tcattgaata aacaattaag
+     2281 tttgttgagc gaaaatttac ttaaagaaaa aataataagc accaatattt tttgcagtat
+     2341 ttcaacttat accagaataa atgcgcgtag atggcgtaaa aacctgatga gcaggaatac
+     2401 ttacacacta aaaatgctcc cgcaaacaga gcaaaatgag agagatgaac gtttgcccct
+     2461 tacatttcca ccaaagattc tggtcttgtc tcttgtaaag ggcatacgta tcgcgtttta
+     2521 tctcattaag aaagtatgtt gacgtattaa attatgcata atgctctttc aattgcttca
+     2581 cgtttgaaat gaataattca aaaccagtga gcgcctcttc ttcggtactg gtttgcggca
+     2641 agcgataaag cgccactaaa gcagtattgt ctgcgtcagc gccgatagtg acggcgctgg
+     2701 tgtagttcag acgtaaaaaa tgctgcaaag tcaggatgtc gtcaggcaat ggcataaagg
+     2761 gacagcacat ttccagtgta tgatcggatt cattaaaata aacctgtatc ccatcatcaa
+     2821 tgataagcag tggctcatct tctggcgcat ccaggcctaa cgcgtcatat aaacgattta
+     2881 atagactttc catatagtta cctcaagact caagatgtga ttaatgaaga aatgcctttt
+     2941 actgactgcc aaatattttc atccccaact cgtttttgat aggaaagatt gagcacctct
+     3001 ggcgataaat ttttcattac tttgtttccc gccccgcccg tattttgttt ctgaatctcc
+     3061 aggttaccgc tattcagtaa tactttttgg aaaattttct gtccaccgct atccggaaga
+     3121 ctaccaggcg cacttaacat atgggtctga tgtaaggaaa tgatctctcg cttgatttct
+     3181 gaatccatca tccctgtacg atctttgccg cttttacaat tccaggcggg taccgcgtca
+     3241 atttcatggg ctaacatggc aaggcgttgt gcgagtttat agggttcgcc gccatcttta
+     3301 tgatgttggt tatttttcca tatatcctta atctggcgcg ctaatgtatt gacgacctca
+     3361 taattatccg ggtattgcgc cagccattcg ccaacccagc cacctggtct ggcttcaggg
+     3421 cgtaaatcat tgcctaataa ctgatgtagc gcctcggcat tatagctatc cgatgcctta
+     3481 aggccaaagc cgagcttgag cgccagctca ttaacaccca cattaaatgc ggcgacgtcc
+     3541 ggttttattt ttaccgtctg tagatcgcca tctttattgc ggatttttaa atgaatcatt
+     3601 tttcccggct gggtcaacga ttgccatgcg cgcatttggt cctcgaccat cgttccctct
+     3661 ttgccgaaaa tattcgacgc ggtgagtaac ccgacggata ccagtttcag gcttaccgcc
+     3721 tcgcccgcta aggctttgtt aagcaactca ggtttactaa aaagtgccgc agttaatact
+     3781 tctttggctt tgttttcagc gccgacgtga cgcagaagcg gatctttttc atgatagggg
+     3841 gaaagcacgc catgacgtat cccgcaaaaa agcgttttat ctttaccgtc ctcatgcaca
+     3901 ctcaccgtgg acatccacaa attattggcg tgatgaatat tcttggtatc ccaactgcat
+     3961 acgccctttc cctcataagc actgggaaag atatcttttg cgccgatttt catctctgct
+     4021 gcagggagct gcgtgttggt atagtgatgc ccgttatgcg tgagtgtatt ttttatggtt
+     4081 tgccagggct ggttattaag ctgcttgacc tgagcatctc taaacgctac tgccgcaaag
+     4141 cgatgagctt cttttgcagg taagccatcc tgctgctgag tgcgtgctgc aataagttcg
+     4201 ataagatttt tcttcaatgc ttttgccgcg gcttcttctt gttttgttgc tggccggtcc
+     4261 gctttaactt tggctaactc catttggttt gccattgacg ttagaaccgg gtcttgttta
+     4321 cccagaacgg ttgccgcgac ggtaagaaga tcgcgctgta agttatagag gttatgcagc
+     4381 gagtggttag acgccttctg atgctgtaga taattccccc atgtcgcgcc gggttctcgc
+     4441 aggacaataa tttccgggcg agcgtcgggc gctttagccg gcgctttgcc ctggcctgag
+     4501 agaatctgca ttccgttgta taaggttttt tgtaggcttt taaaagcctc ctgggttttt
+     4561 agtgaagctg agtgatagaa gctctgtatt tgcatagcgt ttttaatatt cctgaatagg
+     4621 ggagtgggaa cattcaacag ggttaacaac cctttaaaag gatgtgactt ttatgcacca
+     4681 ggaactttaa aaaaatgtcc tttttaatga ggaaacgctt ctgatcaggc ggggaggcat
+     4741 cctgacgtcc atacgtagtg gcgatcatgg gggagatcgg tacatcaaat gttcataaaa
+     4801 tctacaaact tcacaattta tggcacaact tttattgaaa acccaccttc ttgactcaga
+     4861 tcaaattcac cgatttactc ctgcgtaaag taacggcgtt acatcaaatg ttatacaggt
+     4921 gtgtgtatgc cagcaaagcc ccggacaagt aagaccgtga cgaagaatat tcgtttttcc
+     4981 tattccatgc ttgaacagat agaattcgcg ttgaaatctg aaaagacgcg gaatttttca
+     5041 gcatgggtaa aagaggcctg tcgggaaaag ttatgtaaca cgggacataa gctgtagtta
+     5101 tcgtcttatg taagaggggg cggccatttt gaaaagaaca acgtgcttat atacctcctg
+     5161 ggtttttgcc gcttttgtct ctctgctgat atttgcctgg agtgtcataa actatcctct
+     5221 ctatgaatcc ataataatta ttgtctttta tatctggcta attctggtac cgctttatct
+     5281 tattgtgtat gagtggctaa tagattgtca ttaaatttat ggctgcgtac ttgaaaagtg
+     5341 atatttcata tctgtacggt aagtcattgt cgtaataata ttattggtca ggcgacgggc
+     5401 gagcgtctgc gcattttgca tcgttttatc ttcaaaattt tgcagtaagc gttgcgcttc
+     5461 tttcggatgc gacgcatata atctcagata gctctgctcc atcttatact gctgcttagc
+     5521 tgtttgctgt tcaaatgttt tccaggcgtg ttgcacatct ggcgcaaacg cattgtagtc
+     5581 ctgcataacc agcgtttgca gcgtgcggaa tgtccagtag gtagagtcgt tgctcgcccg
+     5641 atcggttcct ttatcatctc cgggttgata atgacgcatc ccctgataat aggggagata
+     5701 gacgctaaga gatggcattc cataggcgat gtattctacg ttgccgatag cctgcggtaa
+     5761 tttcggtctg acctgtaaaa tatgtgactc ctgggtacga aaaacggata taggtcgcca
+     5821 tggttcttgt ggattatgac tggcataagg gtcgtgcgac gttccctgat agtgattgcg
+     5881 tagcgcgttt tttactgccg ccacgctgat cttcgttatt ggcgttaaaa aaacaggaaa
+     5941 tgtttcccct tcgctaacga ccgtatccag atgcggatta aactggtgtt gtagcgtcca
+     6001 gacgcgcgga taattatagg tggtatcgtt tttgttatcc tgcgaatagg cttgatgaaa
+     6061 gtcgaattcg ccgcgggccg gatcatataa tccctgcttt ttcgcaaagc ttactaacgt
+     6121 tggtgacgcc atataattcg cgttatcatt cggatcgtaa tggcgtaaac gtccctgatt
+     6181 ggcggaaacg aaatagctat ctgccggaag tcgtactgcc agccattgat gaccgcttcc
+     6241 cgtctccaga taccatatct ctttgctatc aataaacgcg acgccgaaac cttcgcccgc
+     6301 gcctttttgt tcaataatat ctcccagtaa tttggcgccc tgacgcgccg attgcgccac
+     6361 tggcaggatc acggactcaa tggcgtcttc cgtgattccc gtttttgtca cgtaaggatc
+     6421 ggcagccagc gccgctctgc cgttataaat ggtttccgtt gcgctcattc cgacgcccgc
+     6481 cgaattgaaa ccggcttcac ccatggcgtt atcgttagta tcaaagtcat gaatcgccgt
+     6541 atagcgcatc gctgtctccg gaagcggcca gctaaaattg ttccgatgtg ctttatactc
+     6601 gccttgttga tgaaacgcga tgggatgaat aaccttatgc ttggcgttat ttgccgagcc
+     6661 atcttcgttg cgcgcgataa tgaaggagcc gtcagccgaa gcctgattgc ctaccaaaag
+     6721 ggtagtacag gcgatgactt tacccatacc cagcagcgta acggcgaatg caagatactt
+     6781 tttcataaag gttcccactg aataacgcat tatgggatga attgaccctg gattggaaac
+     6841 cgagaaagtg atcgagccag caatattctt tgccggcatc ctttattttc tctttattga
+     6901 ggttgtattg ataaccacag ccctgtggca gggaagggga acagaacctg tcctgacctt
+     6961 agctatcacc actatcaggc agacgaaccg aaaagatatt atgttcatcg gcatagcggt
+     7021 aagatgccga gccaccgtgt aatagagcaa tcgcgttaac taacgataac cccaggccga
+     7081 aaccggcagt gtggcgggca ttatctcctc gccaaaaacg ccggaaaagc ttatccgcat
+     7141 cggcggggtg gctgcctgga ttagcgaccc gaatttctgc aacgttatca tcataagcgc
+     7201 tttcaatacg tatcacggcg ttttcatcag aataacggat ggcattcgtc agcaggtttg
+     7261 agagcactct ttgtaataat atttcgtcag cccataccgt tccctgacat tgatttataa
+     7321 aacagatgcg cttctcctcg gcaagggggc taagataatc cagcatattt tcgaccagcg
+     7381 cattgagcga aacaggctgt ttttttaccg ctatattctg gtgctccgcg cgtgccagaa
+     7441 agagaatatt ttctgtcagt cgcgacagtc cctccagctc ttcaatatta tcgacaaggg
+     7501 cttgttgata ctcttcggcg ctgcgttcct gactcagcat cacctgattc ttccccagta
+     7561 aaatattaac cggcgtgcgc agctcatgcg ccagatcgtc ggcaaattgg ttcaggcgtt
+     7621 caaaatcgtc ggaaagcttc tggcgcatgg tatttagcgc ttgtccaagc ggcctgagct
+     7681 caacgggtaa cgcctgttcc gccaacggct ggcgaagtgt gccgctatct gtcgccgcgg
+     7741 tgagtcggct gagcgacgta atggcccgca gcccgtttct gatgactaat ggactgagcg
+     7801 ccgaacagac gaggatcgcg ataaggctca tcagcaaact gttgcggcga tattgcgcca
+     7861 gcatttgccg cctttccgtc gccagcctgg caatagtaag ggtcagcggg tcatcgccgc
+     7921 ttctggcgct tacgcgtacc gcggtcagtt ccgtgccttg taccgcctgg cgaaataagg
+     7981 tttcgcgggt gatgttttta gtcagcggaa tctcgttaaa gcgttggtcg gggatgccgc
+     8041 tatgattaat cgcaacattg tggcctgttg ctgaatggat caataagatg tcctgcttcg
+     8101 tatccaccat ccgattgaaa tagagcggca gattttccgg cctggcgcca tccagtaaca
+     8161 gttgctgcat ttgcgccgcc cgatttatta gcgtcatatc atcccgatac gttaattctt
+     8221 tgctcagcgc gttatagagc gtccagctaa tgccggtaca ggcgaggata aggatggcga
+     8281 taaaagaaat tgtcaggcgc agcgtcattg ataacttaac cattctgcga cgtttccgcc
+     8341 tgtaatcgat aacccatccc ccggacggtc ataatgagct tcttttcaaa tggatcgtct
+     8401 actttggcgc gcagccgacg aatcgcgaca tcaacggtgt tggtttcact atcaaagtta
+     8461 attccccaaa cttcgctggc gatcgcggtt cggggcacga tttctcctgc ccgggacgcc
+     8521 agtaaccaga ggagcaggaa ttctttgcgg gtcagggaaa tcggtttgcc atttcgtgac
+     8581 actgattgct ttgtggcatc catgtccaga ccattgatcg tcagtcgagt aaaggcaggg
+     8641 acatgctgtc tgagttgagc tctcacccgg gccagcagtt cggcgaagga aaaaggctta
+     8701 acaaggtaat cattagcgcc cgcctcaaga cctttgacgc gatcctcaac cgagtcgcgc
+     8761 gccgtcaggc aaataacagg ggactgatgc gcagtgcgta acgcgcgtaa aacctgccat
+     8821 ccatcaagcc ccggcagcat aatatcaaga ataatcaatg aataatgttc ctgaagggcc
+     8881 aggtgtaatc cgtctcgtcc atcacaggca taatcaacca catagcctgc ttccgtgagt
+     8941 ccctgacgta cccactcaat ggttttctgg ttatcttcaa tcaataaaat cttcatcaac
+     9001 gcagtatgcc ataggcttgt tagcgaatcc gtaaatctcc aacaagatga cataattgtc
+     9061 atgtccgtgt aaggttaatc ctggacgcgc cagatatatt ttcctgcat
+//

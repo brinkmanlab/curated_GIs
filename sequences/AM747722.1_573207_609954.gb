@@ -1,0 +1,1899 @@
+LOCUS       BcenGI14|137|130       36748 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Burkholderia cenocepacia J2315.
+ACCESSION   BcenGI14|137|130
+VERSION     BcenGI14|137|130
+KEYWORDS    .
+SOURCE      
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc_feature    1..36748
+                     /note="BcepMu; BcenGI14"
+     repeat_region   3..48
+                     /note="imperfect direct repeat; transposable end of BcepMu"
+     gene            160..1293
+                     /gene="BcepMu53"
+                     /locus_tag="BCAS0504"
+     CDS             160..1293
+                     /gene="BcepMu53"
+                     /locus_tag="BCAS0504"
+                     /note="possible virulence factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage transmembrane acetyltransferase"
+                     /protein_id="CAR57432.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0504"
+                     /db_xref="EnsemblGenomes-Tr:CAR57432"
+                     /db_xref="GOA:B4ENQ0"
+                     /db_xref="InterPro:IPR002656"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ0"
+                     /translation="MTKDVPYLNGLRAFAAIWVVVAHCMIWGGWTLTPIPDPKLAVDLF
+                     MMISGYLMAYNARLRDSVEPMTRPSSWLRFYIRRYFRIAPAYYVSLVFAVVTSTTFLKG
+                     YKVLQLLNPDFWGSGGIYDPSTITYTAGNLAAHVTFAFGLLPRYTFSTMLPDWSLSLEM
+                     QFYLAFPFLYILMRKAGAVTTAILLGVSAFAIARTLTGVFPEPGFLPLKLSLFLVGMLI
+                     AEIPFGVTFRQKAAIATLTATLPFAQESTYHGQWWLLPILSIMLYVLTVTGTEDSSRAT
+                     FATKVLGSRMAYALSDASYGIYLFHGFFIALSGSTLFGDAGLLQLNGNYRSAVLCAIAL
+                     PGSALLAMLIHRYVERPGVNLGRSAANIFTSNTPKLR"
+     misc_feature    172..1242
+                     /gene="BcepMu53"
+                     /locus_tag="BCAS0504"
+                     /inference="protein motif:HMMPfam:PF01757"
+                     /note="HMMPfam hit to PF01757, Acyltransferase family,
+                     score 3.6e-20"
+     misc_feature    join(196..264,277..336,397..465,616..684,703..771,799..852,
+                     913..981,1057..1116,1153..1221)
+                     /gene="BcepMu53"
+                     /locus_tag="BCAS0504"
+                     /inference="protein motif:TMHMM:2.0"
+                     /note="9 probable transmembrane helices predicted for
+                     BCAS0504 by TMHMM2.0 at aa 13-35, 40-59, 80-102, 153-175,
+                     182-204, 214-231, 252-274, 300-319 and 332-354"
+     gene            complement(1494..3851)
+                     /gene="BcepMu52"
+                     /locus_tag="BCAS0505a"
+     CDS             complement(1494..3851)
+                     /gene="BcepMu52"
+                     /locus_tag="BCAS0505a"
+                     /note="Similar to Salmonella typhi bacteriophage tail fiber
+                     protein SWALL:Q8Z6S9 (EMBL:AL627270) (341 aa) fasta scores:
+                     E(): 1.1e-10, 42.6% id in 230 aa; homology does not extend
+                     to C terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57433.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0505a"
+                     /db_xref="EnsemblGenomes-Tr:CAR57433"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ1"
+                     /translation="MGKLVESSQWEEDLYQIETADPVEGGPDGVSNKQAKQLGGRTRYL
+                     KAQVEQSQTGLAQHIAAPDPHSQYATKSDLAARLAELVGQAPGMLDTLKELADALGNDP
+                     NFATTITNQLGLKAPINSPVLTGTPKAPTQAQGDNSTALATTAFVKQSGESYSSIQGIA
+                     TTATLNSGHVGAFIWAYGVGITLTLPPVAGVPNGATITIGAPVTVTIKGNASENINSQF
+                     GVTSNTFALNAGEQAQFISNGGAWYLSSYTTILGVTPPQFDNTTKLATTGFVQRAVGNY
+                     RSANGYVGSATLSTSDVGCLITWDGNGTLTLPDATTVPGGSAIRVFKYAGPIASVLAAN
+                     KPGQLNVPASGADTYTFAVGVFGFFELINESGIKWDVAGELFSQYGTTAAQFDNSSKLA
+                     TTAFIQGALGNFRNQIGLSAGTTLNANAWGNAYTLFGGSPYNVTLPLLSSGVNGAAIRF
+                     SNIGSTAYTLVGAGSDAIFNGTTSNTLVLNPGDTVTLVSSGVWVMFGGSMSLPASGVMS
+                     GPGWKTQPQFDNSTKLATTAFVQRAVGSVVGSMRNASMSVPTVSASATFTADEIVVETA
+                     LGGAAFRIANFNATINLGTTGAGGMDTGTAPASGFVAIYAIYNPTNGTTALLATNATSS
+                     VAPNVYSGANMPAGYAASALVSVWSTNSSRQFGVGFQVDRTVNLTSFSVLSTSVQQSSY
+                     APFSVASYIPPNAKLVSGYTNCGSTAASIIGSAVSGSSTGIGSAGTNGQSILTLGAPFS
+                     DVPMVTPQTMFYVATASAGTMTFSCFISSYKF"
+     misc_feature    complement(1518..1550)
+                     /gene="BcepMu52"
+                     /locus_tag="BCAS0505a"
+                     /inference="protein motif:Prosite:PS00013"
+                     /note="PS00013 Prokaryotic membrane lipoprotein lipid
+                     attachment site."
+     gene            complement(3851..4432)
+                     /gene="BcepMu51"
+                     /locus_tag="BCAS0506"
+     CDS             complement(3851..4432)
+                     /gene="BcepMu51"
+                     /locus_tag="BCAS0506"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage tail protein gpI"
+                     /protein_id="CAR57434.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0506"
+                     /db_xref="EnsemblGenomes-Tr:CAR57434"
+                     /db_xref="InterPro:IPR006521"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ2"
+                     /translation="MADLLLPPALAKDPRFKAFAQLAERLDNIDMSPLLVYLIDGVDAS
+                     ALPFLADQFSVMGEDGWSLAESDEAKRALIKGAIELHRYKGTPWAVREVIRRLGFGEVE
+                     LVEGIGGAYYDGKSRHDSVMVYGGNGLWAAYRVILLDRAITNDQAALLRTTLAAFAPAR
+                     CVLASLEYRRVPMRYNGAAHYDGQYNHGSS"
+     misc_feature    complement(4079..4102)
+                     /gene="BcepMu51"
+                     /locus_tag="BCAS0506"
+                     /inference="protein motif:Prosite:PS00017"
+                     /note="PS00017 ATP/GTP-binding site motif A (P-loop)."
+     gene            complement(4425..5576)
+                     /gene="BcepMu50"
+                     /locus_tag="BCAS0507"
+     CDS             complement(4425..5576)
+                     /gene="BcepMu50"
+                     /locus_tag="BCAS0507"
+                     /note="Similar to Bacteriophage P2 baseplate assembly
+                     protein j J SWALL:VPJ_BPP2 (SWALL:P51767) (302 aa) fasta
+                     scores: E(): 2.7e-06, 33.5% id in 197 aa; homology doesn't
+                     extend to N terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage baseplate assembly protein gpJ"
+                     /protein_id="CAR57435.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0507"
+                     /db_xref="EnsemblGenomes-Tr:CAR57435"
+                     /db_xref="InterPro:IPR006949"
+                     /db_xref="InterPro:IPR014507"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ3"
+                     /translation="MTLGEPDFIARDPEAITAEIVADYEARTGKTLYPAQVERVLVDII
+                     AYRETLVRVGIQEAAKQNLVAFARAPMIDYLGELVGVTRLPAQPAKTTLRFSIEEALPS
+                     NLLIAAGTRVETSDGAVSFATDTDVTLVAGQLSIDVAATCETAGSIGNGWQPGQLGSLV
+                     DDLGDVDVTVANTKVSADGYEEETDDRLRERIRLAPQAFSTAGSRLAYVFHAKSAHQSI
+                     VDVGVIGPEMEMRDGRLVSVNGVQPGSVQVYPLVDTGLPSEAILQLVRDNLTDERRRPL
+                     TDYVDVRSPTPVDYAIDVRLTLYKDADADTTIAQARTAAEAYRTDRAAGLGRDIVPRQL
+                     SRAVQVQGVYDVDLPGLALRVLTASEWARCTGVSVIPIGVANG"
+     misc_feature    complement(4548..5468)
+                     /gene="BcepMu50"
+                     /locus_tag="BCAS0507"
+                     /inference="protein motif:HMMPfam:PF04865"
+                     /note="HMMPfam hit to PF04865, Baseplate J-like protein,
+                     score 4.6e-108"
+     gene            complement(5573..5926)
+                     /gene="BcepMu49"
+                     /locus_tag="BCAS0508"
+     CDS             complement(5573..5926)
+                     /gene="BcepMu49"
+                     /locus_tag="BCAS0508"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage baseplate protein gpW"
+                     /protein_id="CAR57436.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0508"
+                     /db_xref="EnsemblGenomes-Tr:CAR57436"
+                     /db_xref="GOA:B4ENQ4"
+                     /db_xref="InterPro:IPR007048"
+                     /db_xref="InterPro:IPR015801"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ4"
+                     /translation="MTQLSDITSVHWQPALNREGVVEGVDDIDQAIRLILGTPQGSDPH
+                     RPEFGSKLYLYLDMPIDRATPHVVRESVDAIRRWEPRCEVVRVIPSIAESRETIRVQWR
+                     LADGVIRETEVPR"
+     misc_feature    complement(5576..5854)
+                     /gene="BcepMu49"
+                     /locus_tag="BCAS0508"
+                     /inference="protein motif:HMMPfam:PF04965"
+                     /note="HMMPfam hit to PF04965, GPW / gp25 family, score
+                     8.3e-35"
+     gene            complement(5980..6582)
+                     /gene="BcepMu48"
+                     /locus_tag="BCAS0509"
+     CDS             complement(5980..6582)
+                     /gene="BcepMu48"
+                     /locus_tag="BCAS0509"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage baseplate assembly protein gpV"
+                     /protein_id="CAR57437.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0509"
+                     /db_xref="EnsemblGenomes-Tr:CAR57437"
+                     /db_xref="InterPro:IPR006531"
+                     /db_xref="InterPro:IPR013046"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ5"
+                     /translation="MSETLDEFGATIKFGTVSASKPGFARVRLTDLGNMRTMWLPIAYP
+                     KTLADQACWTYDNGEQVAVLLDSRCEDGVILGAIYSDADRPPVTDPNKFIVRFKDGAVL
+                     EYDRATHTLTCSGMQTVIVDSKSEIMLRAADKVTVDVPETEFTRNVTVKGKLTYQGGMA
+                     GSGGDGAALTGNVNVDGNVNATGTIMDAGGNSNHHSH"
+     misc_feature    complement(6238..6540)
+                     /gene="BcepMu48"
+                     /locus_tag="BCAS0509"
+                     /inference="protein motif:HMMPfam:PF04717"
+                     /note="HMMPfam hit to PF04717, Phage-related baseplate
+                     assembly protein, score 6.4e-27"
+     gene            complement(6579..7784)
+                     /gene="BcepMu47"
+                     /locus_tag="BCAS0510"
+     CDS             complement(6579..7784)
+                     /gene="BcepMu47"
+                     /locus_tag="BCAS0510"
+                     /note="Similar to Bacteriophage P2 gene d protein D
+                     SWALL:VPD_BPP2 (SWALL:P10312) (387 aa) fasta scores: E():
+                     5e-12, 28.69% id in 237 aa; homology does not extend to C
+                     terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57438.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0510"
+                     /db_xref="EnsemblGenomes-Tr:CAR57438"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ6"
+                     /translation="MDAVIDTPTSVADVPEPVFTLVYEQKNITNDIAPYVLSVAYTDFL
+                     SGQSDEIEVVLEDTDGRWLDAWYPGKGDALTLKIGYAGAPLLACGRFEIDEIGFDEPPS
+                     TVTIRGLGTGVKASVRSRKAKAYEHTTLATIAARVAKRNHLTLTGRIRDIRIDRVTQYQ
+                     EQDVAFLTRLAREYGYAFKISGSKLIFSELADLRGSDAVQQFKRADLKSIRLRDKIKDV
+                     YAQAKVGYHNPKTKKLVVYGVTGDSVGVVGQSEVAAGKRKQSGQSTSGDTLRLSARAGS
+                     KATLQTKARAALDRTNLKQTGGSVEMRGDTKLAAGASIELLELGKLSGKYLIESARHRL
+                     DRGGGYQTEVELKRSALAVQAGKGGGTAKKSTKGLQVYGVTAKGDVGVVGTTPVAAKGK
+                     KK"
+     misc_feature    complement(6714..7742)
+                     /gene="BcepMu47"
+                     /locus_tag="BCAS0510"
+                     /inference="protein motif:HMMPfam:PF05954"
+                     /note="HMMPfam hit to PF05954, Phage late control gene D
+                     protein (GPD), score 5.4e-82"
+     gene            complement(7772..7981)
+                     /gene="BcepMu46"
+                     /locus_tag="BCAS0511"
+     CDS             complement(7772..7981)
+                     /gene="BcepMu46"
+                     /locus_tag="BCAS0511"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage tail protein gpX"
+                     /protein_id="CAR57439.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0511"
+                     /db_xref="EnsemblGenomes-Tr:CAR57439"
+                     /db_xref="InterPro:IPR008861"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ7"
+                     /translation="MFLTHITTEGERWDQIAYRYYGDPFAYERIIAANPSVPITAVLAS
+                     GIALSIPVVAADDVADEELPPWMR"
+     misc_feature    complement(7802..7972)
+                     /gene="BcepMu46"
+                     /locus_tag="BCAS0511"
+                     /inference="protein motif:HMMPfam:PF05489"
+                     /note="HMMPfam hit to PF05489, Phage Tail Protein X, score
+                     3.6e-19"
+     gene            complement(7981..8871)
+                     /gene="BcepMu45"
+                     /locus_tag="BCAS0512"
+     CDS             complement(7981..8871)
+                     /gene="BcepMu45"
+                     /locus_tag="BCAS0512"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57440.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0512"
+                     /db_xref="EnsemblGenomes-Tr:CAR57440"
+                     /db_xref="InterPro:IPR009734"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ8"
+                     /translation="MFAILGDIEFDLIGYFDGFDATFGADYAEHALLQGKPRLQRMGDK
+                     LDEIRIALSFHYWYCDPEAELAKLRAAVSAKQAMALVFGNGDYKGWFVLTEVQSTSKQT
+                     DTSGTVLSLDAQITLREFVGDKKNPFKPPAVQPKVPPAAAQAVSSVTSAVATARGTIQQ
+                     AVTWANQAQSAMRVAVDAVKVVQKLKDDPFAALSRSSSVLTNIKQAADPLAKLSPALAS
+                     LTDQIPEAAGILRASNTALDAVRSAQGGLANATIGTITGAIDRAAGQLSTASSALSSAA
+                     PSLSKLAAKVATRRI"
+     misc_feature    complement(8497..8856)
+                     /gene="BcepMu45"
+                     /locus_tag="BCAS0512"
+                     /inference="protein motif:HMMPfam:PF06995"
+                     /note="HMMPfam hit to PF06995, Phage P2 GpU, score 2.6e-14"
+     gene            complement(8873..11413)
+                     /gene="BcepMu44"
+                     /locus_tag="BCAS0513"
+     CDS             complement(8873..11413)
+                     /gene="BcepMu44"
+                     /locus_tag="BCAS0513"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage tail protein"
+                     /protein_id="CAR57441.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0513"
+                     /db_xref="EnsemblGenomes-Tr:CAR57441"
+                     /db_xref="InterPro:IPR010090"
+                     /db_xref="UniProtKB/TrEMBL:B4ENQ9"
+                     /translation="MASEFYIGVKIGATLLGSFGAALSGTRTTLNGLGRVADELRARHT
+                     RLGDAMARAVAHPMRNIAELRGQYDRLGRTIDQVQAKQAALATRLARGAALREQRQGLG
+                     ADMLGTYATAAATAAPVIGAVRQAATFEAGLRDIAITGNLTRDEEFRIGETMRRAALAT
+                     SQGHNSILEGVGTLVAAGMDAKEAGQKSNLLGRVATATNADMKDLAGMVYSFSETLGIK
+                     GDAALKEAFNRAAYGGKLGRFELKDMAKALPEMTAAFAAKGIKGQDALTQIIASLEVGR
+                     EGAGSGDEAVTNLRNWLSHMNAKATIDAYKKAGVDYQKSMSNLVAGGYSSYEGSLQIAQ
+                     KFIASRGDAFMKQWKAAGAKGDEEAQRKLMESFGLNEVFQDIQTINHLLAMRQGWDKYQ
+                     QNKKDMGSAQALNTIDQDYVRRAELATVAWGRFQTQIADLGITVGRALLPSLTDLMNTV
+                     TPLIQRTAQFAAAHPGLIRGVVGFATAVIGMKVATLAAGWGLNFFVKSPLNMVSTALTT
+                     VGAKWTLFRALWAGGGSRLSTVFQIFGMGAGAAGKFAAVIGRAGSLFMGFGRGALVVGR
+                     ALLPFGQGMLMTFIGPLRLLAQGGMLLARVLGGQLVNGLMLAGRAVLWLGRALMLNPIG
+                     IAITAIAVGAYLIYRYWTPIKQFFGGIWASIRTAFAGVLGWFGVGLPKTFTDFGSHLID
+                     GLVNGIRNRFTAAKNTLIEFGSNVKAWFANTLGIKSPSRVFMGFGDNIAQGAAIGIGRS
+                     SAVAARAAAGMATQAAAAASLQRINAARGGSPAGASVAGSGITVHFSPTITVQGGSPDG
+                     VKDQVKQGLNLSLRDLERMLDDLLAKRERRAYRS"
+     misc_feature    complement(join(9374..9442,9461..9529,9542..9610,
+                     9629..9697,9740..9808,9914..9982))
+                     /gene="BcepMu44"
+                     /locus_tag="BCAS0513"
+                     /inference="protein motif:TMHMM:2.0"
+                     /note="6 probable transmembrane helices predicted for
+                     BCAS0513 by TMHMM2.0 at aa 478-500, 536-558, 573-595,
+                     602-624, 629-651 and 658-680"
+     gene            complement(11386..>11772)
+                     /gene="BcepMu43"
+                     /locus_tag="BCAS0514"
+     CDS             complement(11386..>11772)
+                     /gene="BcepMu43"
+                     /locus_tag="BCAS0514"
+                     /note="alternative BcepMu42 C-termninus produced by
+                     ribosomal slippage. CDS lacks translational start"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57442.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0514"
+                     /db_xref="EnsemblGenomes-Tr:CAR57442"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR0"
+                     /translation="TGYGRLLALGRRRGAGNQAARRRDKAILMSGGPAPEPAAKPHDGL
+                     DRRRDEVGAGHDGRPEEGEAEKRHDAEHDRHGPPGQLDEQPDGEHDAGNRDHGVGNAFG
+                     DGLDVHERPRHFPVRVWQANSILA"
+     gene            complement(11688..11891)
+                     /gene="BcepMu42"
+                     /locus_tag="BCAS0515"
+     CDS             complement(11688..11891)
+                     /gene="BcepMu42"
+                     /locus_tag="BCAS0515"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative Lambda G-pre-tape measure frameshift
+                     protein"
+                     /protein_id="CAR57443.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0515"
+                     /db_xref="EnsemblGenomes-Tr:CAR57443"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR1"
+                     /translation="MRAPSDQPPSKETQALDSALRPLDEVLLLVLKIQPSEIAELDMDD
+                     YWHWVDAAEREIKRRVDATKQS"
+     gene            complement(11818..12147)
+                     /gene="BcepMu41"
+                     /locus_tag="BCAS0516"
+     CDS             complement(11818..12147)
+                     /gene="BcepMu41"
+                     /locus_tag="BCAS0516"
+                     /note="CDS is extended at the C-terminus in comparison to
+                     similar proteins, possible frameshift extends the CDS.
+                     Similar to Chromobacterium violaceum hypothetical protein
+                     UniProt:Q7NY03 (EMBL:AE016825 (88 aa) fasta scores:
+                     E()=5.5e-10, 51.899% id in 79 aa"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57444.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0516"
+                     /db_xref="EnsemblGenomes-Tr:CAR57444"
+                     /db_xref="InterPro:IPR019289"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR2"
+                     /translation="MKIPLKFPVKLATGQTLTELTLRRGKRKEMALAAKYSEDPGEQED
+                     FLLAMLTNLTVEDIGELDLADSKRLMDSFRSMVEGRDTAGNAGAQRSAAEQGNAGAGLG
+                     AATAG"
+     gene            complement(12269..12793)
+                     /gene="BcepMu40"
+                     /locus_tag="BCAS0517"
+     CDS             complement(12269..12793)
+                     /gene="BcepMu40"
+                     /locus_tag="BCAS0517"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage tail tube protein"
+                     /protein_id="CAR57445.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0517"
+                     /db_xref="EnsemblGenomes-Tr:CAR57445"
+                     /db_xref="InterPro:IPR006498"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR3"
+                     /translation="MAGGVQINRITNANVYLSNNSMLGKAEEIKLPDIQAIMAEHKALG
+                     MIGKVELPGGLDKLEGEIKWNSLYADVAKAMANPFKAVPLQCRSNIETYGAQGRVREVS
+                     LVTYLTVMFKKNPLGTYKQHENADFSSAFGATYIKQVIDGEEVLELDYLANIFRVGGED
+                     MLADFRANIGG"
+     misc_feature    complement(12272..12778)
+                     /gene="BcepMu40"
+                     /locus_tag="BCAS0517"
+                     /inference="protein motif:HMMPfam:PF04985"
+                     /note="HMMPfam hit to PF04985, Phage tail tube protein FII,
+                     score 1e-07"
+     gene            complement(12796..14229)
+                     /gene="BcepMu39"
+                     /locus_tag="BCAS0518"
+     CDS             complement(12796..14229)
+                     /gene="BcepMu39"
+                     /locus_tag="BCAS0518"
+                     /note="Similar to Bacteriophage P2 major tail sheath
+                     protein fI SWALL:VPF1_BPP2 (SWALL:P22501) (395 aa) fasta
+                     scores: E(): 1.5e-17, 33.11% id in 302 aa; homology doesn't
+                     extend to N terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage tail sheath protein"
+                     /protein_id="CAR57446.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0518"
+                     /db_xref="EnsemblGenomes-Tr:CAR57446"
+                     /db_xref="InterPro:IPR007067"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR4"
+                     /translation="MAANYLHGVETIEKETGSRPVKVVKSAVIGLIGTAPIGPVNTPVQ
+                     SLSDVDAAQFGPQLAGFTIPQALDAVYDYGSGTVIVINVLDPAVHKSNAANEPVTFDAA
+                     TGRAKLAHPAAANLVLKNDSGGTTYAEGTDYAVDLINGVITRIKTGTIPPGATAAKATY
+                     DYADPTKVTAADIIGAVNAAGMRTGMKALKDTYNLYGYFSKILIAPAYCTQNSVSVELE
+                     AMAVQLGAIAYIDAPIGTTLAQALAGRGPAGTINFNTSSDRVRLCYPHVKVYDTATNAE
+                     RLEPLSSRAAGLRARVDLDKGYWWSSSNQQLVGVTGVERPLSAMIDDPQSDVNMLNEQG
+                     ITTVFSSYGSGLRLWGNRTAAWPTVTHMRNFENVRRTGDVINESLRYFSQQFVDAPIDQ
+                     GLIDSLVESVNGFGRKLIGDGALLGFKAWFDPARNPKEELAAGHLLINYKYTVPPPLER
+                     LTYETEITSEYLLTLKGGN"
+     misc_feature    complement(12814..14223)
+                     /gene="BcepMu39"
+                     /locus_tag="BCAS0518"
+                     /inference="protein motif:HMMPfam:PF04984"
+                     /note="HMMPfam hit to PF04984, Phage tail sheath protein,
+                     score 5.1e-163"
+     gene            complement(14233..14478)
+                     /gene="BcepMu38"
+                     /locus_tag="BCAS0519"
+     CDS             complement(14233..14478)
+                     /gene="BcepMu38"
+                     /locus_tag="BCAS0519"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57447.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0519"
+                     /db_xref="EnsemblGenomes-Tr:CAR57447"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR5"
+                     /translation="MKYQYSGPTSGVTLQDGEDVQEVMLHTGADVELPEDHEYTATLLA
+                     MGYLKPAAAPSTKPARPSVPEDQPKTAANAVAVKGV"
+     gene            complement(14475..14939)
+                     /gene="BcepMu37"
+                     /locus_tag="BCAS0520"
+     CDS             complement(14475..14939)
+                     /gene="BcepMu37"
+                     /locus_tag="BCAS0520"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57448.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0520"
+                     /db_xref="EnsemblGenomes-Tr:CAR57448"
+                     /db_xref="InterPro:IPR009312"
+                     /db_xref="InterPro:IPR018602"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR6"
+                     /translation="MATTLEMVDAIVARLRVKLPALVTEYFPERPDEYRLNHAIGALLV
+                     SYPGSQYDTTVDTDMVVQPRRVKFAVAIVLRQLNGRGGAIDVLDHVRTALVGFRPPDCK
+                     KLAAVSDKFLGESAGLWQYVIEFSAGAVIVEDAEPNDGPLLTQVTYEEES"
+     gene            complement(14939..15391)
+                     /gene="BcepMu36"
+                     /locus_tag="BCAS0521"
+     CDS             complement(14939..15391)
+                     /gene="BcepMu36"
+                     /locus_tag="BCAS0521"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57449.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0521"
+                     /db_xref="EnsemblGenomes-Tr:CAR57449"
+                     /db_xref="InterPro:IPR009752"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR7"
+                     /translation="MRYCTLADLKLAVPERTLIELTNDTTTDYGAPAPTTINTDIVESS
+                     VRQAEEIVDAHLRGRYNLPLSPVPTVIKDVTVNLARHWLYARRPEGAALPDTVSQTFKA
+                     SMHMLEKIRDNKLTIGDPSGPATPEPGEMKVRARRRQFDADLLERF"
+     misc_feature    complement(14960..15385)
+                     /gene="BcepMu36"
+                     /locus_tag="BCAS0521"
+                     /inference="protein motif:HMMPfam:PF07030"
+                     /note="HMMPfam hit to PF07030, Protein of unknown function
+                     (DUF1320), score 3e-23"
+     gene            complement(15393..15725)
+                     /gene="BcepMu35"
+                     /locus_tag="BCAS0522"
+     CDS             complement(15393..15725)
+                     /gene="BcepMu35"
+                     /locus_tag="BCAS0522"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57450.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0522"
+                     /db_xref="EnsemblGenomes-Tr:CAR57450"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR8"
+                     /translation="MKTHQPILTTSVTAAAGLNRFQFVGFDGGVCAAGAKALGVAETTA
+                     DVGEQAPVNLLGVILVMAGAPVDEHAEVESDAAGQAIPKATGASNGYALDAATAAGDVI
+                     RILRGI"
+     gene            complement(15800..16723)
+                     /gene="BcepMu34"
+                     /locus_tag="BCAS0523"
+     CDS             complement(15800..16723)
+                     /gene="BcepMu34"
+                     /locus_tag="BCAS0523"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57451.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0523"
+                     /db_xref="EnsemblGenomes-Tr:CAR57451"
+                     /db_xref="InterPro:IPR005564"
+                     /db_xref="UniProtKB/TrEMBL:B4ENR9"
+                     /translation="MGRLSKLRIVDPVLTNLAIGYTNAEFIGQSLMPVVEVEKEGGKIP
+                     KFGKESFRLYKTERALRARSNRMNPEDLGSIDIVLDEHDLEYPIDYREDQESAFPLEQA
+                     AVQTATEAIQLRREKMVADLAQNPNSYAGGNKKQLSATEKFTAAGSDPVGVIEDGKEAI
+                     RTKIGRRPNTMVIGASAYKTLKAHPQLIEKIKYSMKGIVTVDLLKEIFEVENIAVGEAI
+                     YADDKDRFTDIWGANIVLAYVPLQRGGQQRTPYEPSYGYTLRKKGNPVVDTRIEDGKLE
+                     LVRSTDIFRPYLLGADAGYLISGING"
+     gene            complement(16769..17899)
+                     /gene="BcepMu32"
+                     /locus_tag="BCAS0524"
+     CDS             complement(16769..17899)
+                     /gene="BcepMu32"
+                     /locus_tag="BCAS0524"
+                     /note="Possible alternative translational start site after
+                     codon 220"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57452.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0524"
+                     /db_xref="EnsemblGenomes-Tr:CAR57452"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS0"
+                     /translation="MMGAMNAKPLHIFRAGTQTDMNGRVLDFAETDLAATAAAYDPKVH
+                     EAPIVIGHPRDNAPAWGWVASLSASAGNLQAEPTQVDPAFAELVGAGRYKKISASFYHP
+                     DSPHNPVPGVYYLRHVGFLGAQPPALKGLRDVNFSDGNEGVVEFSDWGQELNAGLWRSL
+                     REWLLTQFGRDTADQVIPDWQIESIREVARQDDAPTSAFAERGAATVPTTTKQEKDAVT
+                     PEQKAALEAENTQLKQQLADAQARERKAADDRRHSEHVSYAEQLVKGGTLAPKHKDAVV
+                     AFLDFTAREPFEFGEGDAKQPLASAFRSFLGELPKVVEFGEHATRERAGVTTTGADTVE
+                     YGENVDPKRAELDGRIRAYMREHKVDYAAAANAVIR"
+     gene            complement(18102..18629)
+                     /gene="BcepMu31"
+                     /locus_tag="BCAS0525"
+     CDS             complement(18102..18629)
+                     /gene="BcepMu31"
+                     /locus_tag="BCAS0525"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage Mu G virion morphogenesis protein"
+                     /protein_id="CAR57453.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0525"
+                     /db_xref="EnsemblGenomes-Tr:CAR57453"
+                     /db_xref="InterPro:IPR006522"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS1"
+                     /translation="MSDFVNFQIDDSALRTRLLQLEQAGHQKAGAMRKIAQALVLVTED
+                     NFAAQGRPRWQALSEATIHMRVGGKKAYKKNGELTAAASRRKAGLMILQDSGQMAASVS
+                     TDHDDNSAVIGSNKEYAAIHQFGGQAGRGLKVTIPARPWLPVTADGELQPEAVEPVLNT
+                     ILRHLMDAANRR"
+     misc_feature    complement(18123..18605)
+                     /gene="BcepMu31"
+                     /locus_tag="BCAS0525"
+                     /inference="protein motif:HMMPfam:PF05069"
+                     /note="HMMPfam hit to PF05069, Phage virion morphogenesis
+                     family, score 3.7e-14"
+     gene            complement(18626..19462)
+                     /gene="BcepMu30"
+                     /locus_tag="BCAS0526"
+     CDS             complement(18626..19462)
+                     /gene="BcepMu30"
+                     /locus_tag="BCAS0526"
+                     /note="Similar to N terminus of Bacteriophage Mu protein F
+                     SWALL:VPF_BPMU (SWALL:Q01259) (439 aa) fasta scores: E():
+                     6.3e-52, 50.56% id in 265 aa. possible minor head protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage Mu F virion morphogenesis protein"
+                     /protein_id="CAR57454.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0526"
+                     /db_xref="EnsemblGenomes-Tr:CAR57454"
+                     /db_xref="InterPro:IPR006528"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS2"
+                     /translation="MPEAVDLGYCMKLPPKKAIEYLRSKGYEITWDWEELWQDAQAKAF
+                     TVAKVTRLDILQDIRNAVETAISEGKTLRWFTKELTPVLQSKGWWGKQEHVDQDTGEVN
+                     QVQLGSPWRLQTIYRTNLQTAYMAGRYAEQMANVDDRPYWMYVAILDSRTRPSHRAMNG
+                     KVFRYDDPFWQSFYPPNGWGCRCRVVALSHDEIIVRGIKVEAAGDRLGTTLKLVNEKTG
+                     ELREVATFRTVDPVTRREIVVSPDVGWSYNPGAAAWQPDLSRYTGDLGTIARGELQ"
+     misc_feature    complement(18896..19294)
+                     /gene="BcepMu30"
+                     /locus_tag="BCAS0526"
+                     /inference="protein motif:HMMPfam:PF04233"
+                     /note="HMMPfam hit to PF04233, Phage Mu protein F like
+                     protein, score 1.8e-63"
+     gene            complement(19455..20930)
+                     /gene="BcepMu29"
+                     /locus_tag="BCAS0527"
+     CDS             complement(19455..20930)
+                     /gene="BcepMu29"
+                     /locus_tag="BCAS0527"
+                     /note="Similar to Bacteriophage Mu protein gp29 29
+                     SWALL:VG29_BPMU (SWALL:Q9T1W5) (512 aa) fasta scores: E():
+                     5.9e-23, 27.77% id in 450 aa; homology does not extend to N
+                     terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57455.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0527"
+                     /db_xref="EnsemblGenomes-Tr:CAR57455"
+                     /db_xref="InterPro:IPR009279"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS3"
+                     /translation="MSKGLWVSPTEFVTFGEPDKSLSSQIATRARSIDFFALGMYLPNP
+                     DPVLKALGKDIRVYRELRADAHVGGCVRRRKAAVKALEWGLDRGKAKSRVAKSIADVFA
+                     DLDLSRIVTEMLDAVLYGYQPMEITWGKVGNYIVPIDVVGKPADWFVYDPENQLRFRSK
+                     DHWMQGEELPARKFLVPRQEATYLNPYGFPDLSMCFWPTTFKKGGLKFWVQFTEKYGSP
+                     MLVGKHPRSASDGEKNLLLDCLEDMVQDAVAVVPDDSSIEIKEAAGKTGSADVYERLLH
+                     FCRGEVSIALLGQNQTTEATSTRASAQAGLEVTDDIRDGDKAVVSEAMNMLIRWICDLN
+                     FDGADRPVFDMWEQEQVDEIQAGRDQKLTQAGARFTPAYFKRAYNLQDGDLDERPLPVS
+                     AVDTVGAASFAEFEAPDQDALDAALNTLSARDLNADAQALVAPLLKRIANGASADELLG
+                     MLAELYPSLDADALQERLARAIFVANLWGRLHA"
+     misc_feature    complement(19458..20930)
+                     /gene="BcepMu29"
+                     /locus_tag="BCAS0527"
+                     /inference="protein motif:HMMPfam:PF06074"
+                     /note="HMMPfam hit to PF06074, Protein of unknown function
+                     (DUF935), score 1.4e-147"
+     gene            complement(20927..22429)
+                     /gene="BcepMu28"
+                     /locus_tag="BCAS0528"
+     CDS             complement(20927..22429)
+                     /gene="BcepMu28"
+                     /locus_tag="BCAS0528"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage portal protein"
+                     /protein_id="CAR57456.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0528"
+                     /db_xref="EnsemblGenomes-Tr:CAR57456"
+                     /db_xref="InterPro:IPR004921"
+                     /db_xref="InterPro:IPR012036"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS4"
+                     /translation="MTTVETRADRAPAVLLPYQQKWCADTSPVKVCEKSRRVGLSWGEA
+                     ADSALLAASQRGMDVWYVGYNKDMAQEFIRDCADWAKFYSLAADEIEETEEVFQDKDGD
+                     KSILAFVIRFASGFRVTALSSRPSNLRGKQGRVIIDEAAFHEQLGELLKAAMALLMWGG
+                     QVHIISTHDGVDNAFNELVTDVRSGKKPYSLHRITFADAVQDGLYQRICLRKGEAWTAE
+                     GEAKWVKDIRASYGADAEEELDCVPKNSGGAWLSRALIESRMSADTPVLRWACKQGFEV
+                     LPDHIRAAECRDWLEATLGPLLTALPVDARSYNGEDFGRTGDLTVHVPLIEQQNLVRRV
+                     PFIVELRNVPFRQQEQIAFYLLDRLPRFTGGAFDARGNGQYLAEVAMQRYGASRIQQVM
+                     LSESWYREHMPPVKAAFEDGTIDGLPKDADVLADLRAVQVIKGVPRIPDVRATGQDDGK
+                     RHGDAAVAVALAYYASRELNKGPVTAKSRRRRSSVRMTEGYA"
+     gene            complement(22426..22971)
+                     /gene="BcepMu27"
+                     /locus_tag="BCAS0529"
+     CDS             complement(22426..22971)
+                     /gene="BcepMu27"
+                     /locus_tag="BCAS0529"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein TerS"
+                     /protein_id="CAR57457.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0529"
+                     /db_xref="EnsemblGenomes-Tr:CAR57457"
+                     /db_xref="InterPro:IPR021874"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS5"
+                     /translation="MGRSSGVQRLPKAVREWLESALVEGNFTGYQELEQTLRDKGYQIS
+                     KSAIHRYGQRIERRFAAIKASTEAARILTEGAADDQDARSEAVIALVQTEMFESIVNLQ
+                     EATDEDADPGERIALLSKAAKNIATLARASVNQKKFRLEVQARAEAAAAAVDKVVKSSG
+                     LSDDAADAIRRQILGIAG"
+     gene            complement(22973..23305)
+                     /gene="BcepMu26"
+                     /locus_tag="BCAS0530"
+     CDS             complement(22973..23305)
+                     /gene="BcepMu26"
+                     /locus_tag="BCAS0530"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57458.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0530"
+                     /db_xref="EnsemblGenomes-Tr:CAR57458"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS6"
+                     /translation="MTPTNPLGIDHAKVRRESLRWYLILALYNARPEEVVEDVIQMTMR
+                     SIFADITALEVRKELDYLADRVLVKLRKEPSGRWWGDLTRYGVDIAEYTIDCEPGIARP
+                     AKYWSQ"
+     gene            complement(23302..23640)
+                     /gene="BcepMu25"
+                     /locus_tag="BCAS0531"
+     CDS             complement(23302..23640)
+                     /gene="BcepMu25"
+                     /locus_tag="BCAS0531"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage membrane protein"
+                     /protein_id="CAR57459.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0531"
+                     /db_xref="EnsemblGenomes-Tr:CAR57459"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS7"
+                     /translation="MTLQVEFWQLVSMLATFIGLLIGAGKVLLVQIERHQSERDQNQEK
+                     QIKAVLEQISRQADNTARLERDFLRFQADLPLQYVRREDYVRNQTVIEAKLDAIALRFE
+                     NLQLRGNQ"
+     misc_feature    complement(23545..23613)
+                     /gene="BcepMu25"
+                     /locus_tag="BCAS0531"
+                     /inference="protein motif:TMHMM:2.0"
+                     /note="1 probable transmembrane helix predicted for
+                     BCAS0531 by TMHMM2.0 at aa 10-32"
+     gene            complement(23637..24236)
+                     /gene="BcepMu23"
+                     /locus_tag="BCAS0532"
+     CDS             complement(23637..24236)
+                     /gene="BcepMu23"
+                     /locus_tag="BCAS0532"
+                     /note="Similar to Erwinia carotovora putative exported
+                     protein SWALL:Q6D3G6 (EMBL:BX950851) (224 aa) fasta scores:
+                     E(): 1.4e-05, 33.51% id in 182 aa. Putative lytic function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage protein Rz"
+                     /protein_id="CAR57460.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0532"
+                     /db_xref="EnsemblGenomes-Tr:CAR57460"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS8"
+                     /translation="MNFPALLSRGQCVAAAAGAAAIGALAAGAVAFFGGYHAGALAGDA
+                     KVAKLERQYADGARDAVEQARIKERAETQRAAALAGDLFAEKARHALESDELKRRIASV
+                     TSQYRPAPDAPLQDLPRCVFTAGFVRVWNAAAGADGVPATSAAAGAVAPARADDALDSG
+                     VRQDDILAHHVDASRRSRDIESQLNKLIDYIEGEKQ"
+     sig_peptide     complement(24159..24236)
+                     /gene="BcepMu23"
+                     /locus_tag="BCAS0532"
+                     /inference="protein motif:SignalP:2.0"
+                     /note="Signal peptide predicted for BCAS0532 by SignalP 2.0
+                     HMM (Signal peptide probability 0.999) with cleavage site
+                     probability 0.390 between residues 26 and 27"
+     gene            complement(23675..23929)
+                     /gene="BcepMu24"
+                     /locus_tag="BCAS0532a"
+     CDS             complement(23675..23929)
+                     /gene="BcepMu24"
+                     /locus_tag="BCAS0532a"
+                     /note="Rz1, out of frame, embedded proline-rich protein.
+                     Putative lytic function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative proline-rich protein Rz1"
+                     /protein_id="CAR57461.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0532a"
+                     /db_xref="EnsemblGenomes-Tr:CAR57461"
+                     /db_xref="UniProtKB/TrEMBL:B4ENS9"
+                     /translation="MSRANTARRRMRLFRICLAACSLPALSACGTPPPAPMVCPRPVLP
+                     PELLRRPAPMTPLIPGYARTTSSPTTSTPAAAAATSNRN"
+     sig_peptide     complement(23840..23929)
+                     /gene="BcepMu24"
+                     /locus_tag="BCAS0532a"
+                     /inference="protein motif:SignalP:2.0"
+                     /note="Signal peptide predicted for BcepMu24 by SignalP 2.0
+                     HMM (Signal peptide probability 1.000) with cleavage site
+                     probability 0.578 between residues 30 and 31"
+     misc_feature    complement(23843..23875)
+                     /gene="BcepMu24"
+                     /locus_tag="BCAS0532a"
+                     /inference="protein motif:Prosite:PS00013"
+                     /note="PS00013 Prokaryotic membrane lipoprotein lipid
+                     attachment site."
+     misc_feature    complement(24132..24200)
+                     /gene="BcepMu23"
+                     /locus_tag="BCAS0532"
+                     /inference="protein motif:TMHMM:2.0"
+                     /note="1 probable transmembrane helix predicted for
+                     BCAS0532 by TMHMM2.0 at aa 13-35"
+     gene            complement(24233..24844)
+                     /gene="BcepMu22"
+                     /locus_tag="BCAS0533"
+     CDS             complement(24233..24844)
+                     /gene="BcepMu22"
+                     /locus_tag="BCAS0533"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative soluble lytic murein transglycosylase"
+                     /protein_id="CAR57462.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0533"
+                     /db_xref="EnsemblGenomes-Tr:CAR57462"
+                     /db_xref="InterPro:IPR008258"
+                     /db_xref="InterPro:IPR023346"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT0"
+                     /translation="MRVLIAFVVALLGAAAPVAAQVPAEALAYRAELTRNARAVWGMDA
+                     PVSSFAAQIHQESRWRADAVSVVGARGMSQFMPSTVDWIAGAYPAELGEAQPFNPSWSI
+                     RALVRYDRHLWERITAAGACERMAMTLSAYNGGLGWVYRDQRVTAAGGADRQRWFGHVE
+                     RFNAGRHAAAFRENRGYPRVILRTFEPRYVKAGFGPGACS"
+     sig_peptide     complement(24785..24844)
+                     /gene="BcepMu22"
+                     /locus_tag="BCAS0533"
+                     /inference="protein motif:SignalP:2.0"
+                     /note="Signal peptide predicted for BCAS0533 by SignalP 2.0
+                     HMM (Signal peptide probability 1.000) with cleavage site
+                     probability 0.936 between residues 20 and 21"
+     misc_feature    complement(24374..24751)
+                     /gene="BcepMu22"
+                     /locus_tag="BCAS0533"
+                     /inference="protein motif:HMMPfam:PF01464"
+                     /note="HMMPfam hit to PF01464, Transglycosylase SLT domain,
+                     score 2.8e-05"
+     gene            complement(24847..25194)
+                     /gene="BcepMu21"
+                     /locus_tag="BCAS0534"
+     CDS             complement(24847..25194)
+                     /gene="BcepMu21"
+                     /locus_tag="BCAS0534"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="holin"
+                     /protein_id="CAR57463.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0534"
+                     /db_xref="EnsemblGenomes-Tr:CAR57463"
+                     /db_xref="InterPro:IPR025140"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT1"
+                     /translation="MPFIKRFPRLTSWLVAAIILVAAIALFSPQQLPVALYKLSLVSLA
+                     AVVAYWLDRGLFPYARPDSYLETDWRHGPDGLTPEADYRVAKGYELVFAAAMLRRAVIV
+                     LGVVVGVALGL"
+     sig_peptide     complement(25060..25194)
+                     /gene="BcepMu21"
+                     /locus_tag="BCAS0534"
+                     /inference="protein motif:SignalP:2.0"
+                     /note="Signal peptide predicted for BCAS0534 by SignalP 2.0
+                     HMM (Signal peptide probability 0.996) with cleavage site
+                     probability 0.672 between residues 45 and 46"
+     misc_feature    complement(join(24856..24924,25039..25095,25114..25167))
+                     /gene="BcepMu21"
+                     /locus_tag="BCAS0534"
+                     /inference="protein motif:TMHMM:2.0"
+                     /note="3 probable transmembrane helices predicted for
+                     BCAS0534 by TMHMM2.0 at aa 10-27, 34-52 and 91-113"
+     gene            complement(25261..25485)
+                     /gene="BcepMu20"
+                     /locus_tag="BCAS0535"
+     CDS             complement(25261..25485)
+                     /gene="BcepMu20"
+                     /locus_tag="BCAS0535"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57464.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0535"
+                     /db_xref="EnsemblGenomes-Tr:CAR57464"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT2"
+                     /translation="MNIHPVIASFEHQAKILDVTGDQENSDDAIALLAGWIDLSLERLN
+                     EFDVSTLVRIGGLLYRDGLNRRNAAQADR"
+     gene            complement(25550..26086)
+                     /gene="BcepMu19"
+                     /locus_tag="BCAS0536"
+     CDS             complement(25550..26086)
+                     /gene="BcepMu19"
+                     /locus_tag="BCAS0536"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage membrane protein"
+                     /protein_id="CAR57465.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0536"
+                     /db_xref="EnsemblGenomes-Tr:CAR57465"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT3"
+                     /translation="MGTTNLDLQWHNQLFDIRRSIRYHNRRRAFFDRLDQMTNMLSVIF
+                     GSTAVYGVLEQQYKAVALVAAGLVTVLSAINLVVGSSQRARAHADFARQFIGLEKRMAL
+                     SVPDESVLLAVRSERLTIEAEEPPVLHVLNVMCHNEQMRAMGYADDQLAKVGFWQRMFS
+                     QLFDFQEHALRSSKP"
+     misc_feature    complement(join(25838..25906,25925..25978))
+                     /gene="BcepMu19"
+                     /locus_tag="BCAS0536"
+                     /inference="protein motif:TMHMM:2.0"
+                     /note="2 probable transmembrane helices predicted for
+                     BCAS0536 by TMHMM2.0 at aa 37-54 and 61-83"
+     gene            complement(26067..26255)
+                     /locus_tag="BCAS0537"
+     CDS             complement(26067..26255)
+                     /locus_tag="BCAS0537"
+                     /note="no significant database hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57466.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0537"
+                     /db_xref="EnsemblGenomes-Tr:CAR57466"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT4"
+                     /translation="MTNPKNNSNSDSTNKGVPTRDSVDYGERRDYNDINKGFEVVNTLP
+                     PPPPLPTRDNSNGNDQS"
+     gene            complement(26328..27110)
+                     /gene="BcepMu18"
+                     /locus_tag="BCAS0538"
+     CDS             complement(26328..27110)
+                     /gene="BcepMu18"
+                     /locus_tag="BCAS0538"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage membrane protein"
+                     /protein_id="CAR57467.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0538"
+                     /db_xref="EnsemblGenomes-Tr:CAR57467"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT5"
+                     /translation="MTNDANGKQEFNKPVGQAIQAGEANIADRSVNIRAGSIGSVAGRD
+                     IVNVNHGVPFSNSNVVNLQFGPKEPEEVEFVTNHQKGVIMELVGQIADATGNDVLKISR
+                     AVLARAGAKRVKWIRSDRYVDIEQYLTSWLNRVAIKSTAPSAAQSTPARDNVCEDSRPD
+                     LTTQLQLTQERLASTRTMLKVTLFAALLGGVILGYYGWSSHQTIDQLQAAFGGCQYAGK
+                     TYAVGSIIDNSEAPDIECVVTSDGKPGVWRDLSARRKH"
+     misc_feature    complement(26442..26465)
+                     /gene="BcepMu18"
+                     /locus_tag="BCAS0538"
+                     /inference="protein motif:Prosite:PS00017"
+                     /note="PS00017 ATP/GTP-binding site motif A (P-loop)."
+     misc_feature    complement(26508..26561)
+                     /gene="BcepMu18"
+                     /locus_tag="BCAS0538"
+                     /inference="protein motif:TMHMM:2.0"
+                     /note="1 probable transmembrane helix predicted for
+                     BCAS0538 by TMHMM2.0 at aa 184-201"
+     gene            complement(27107..27523)
+                     /gene="BcepMu17"
+                     /locus_tag="BCAS0539"
+     CDS             complement(27107..27523)
+                     /gene="BcepMu17"
+                     /locus_tag="BCAS0539"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cro/cI repressor transcription regulator"
+                     /protein_id="CAR57468.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0539"
+                     /db_xref="EnsemblGenomes-Tr:CAR57468"
+                     /db_xref="GOA:B4ENT6"
+                     /db_xref="InterPro:IPR001387"
+                     /db_xref="InterPro:IPR010982"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT6"
+                     /translation="MDSIGERLREERERLGYSQTAFGALAEVTKQSQIKYEKGERSPDA
+                     SYLAAIMRVGADVQYIVGAIRSSMALAPDEQELVSRYRSASLEVKAAAIGALAAASTTR
+                     QEQVFHGSVGQAVKVEGNLDQQGISFFGKGKKRK"
+     gene            27651..27893
+                     /gene="BcepMu16"
+                     /locus_tag="BCAS0540"
+     CDS             27651..27893
+                     /gene="BcepMu16"
+                     /locus_tag="BCAS0540"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57469.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0540"
+                     /db_xref="EnsemblGenomes-Tr:CAR57469"
+                     /db_xref="InterPro:IPR026365"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT7"
+                     /translation="MKLRTAAEARAELQSKGISITQWAIANKFSPNLVFEVLGGRKKCV
+                     RGQAHEIAVKLGLKAGEICADPAKALALPRHRVAA"
+     gene            27779..28111
+                     /gene="BcepMu15"
+                     /locus_tag="BCAS0540a"
+     CDS             27779..28111
+                     /gene="BcepMu15"
+                     /locus_tag="BCAS0540a"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57470.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0540a"
+                     /db_xref="EnsemblGenomes-Tr:CAR57470"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT8"
+                     /translation="MCPRPGARNRRQAGAQGWRNLRRPGKSARIASTPRRSVKDLMRCN
+                     CFGHHVDSPVIGETSLRQASAPSAGQLRRPVPVSDRAVGDEQRRNDAAPAKSVRRRRSP
+                     VPPGGR"
+     gene            complement(27942..28178)
+                     /gene="BcepMu14"
+                     /locus_tag="BCAS0540b"
+     CDS             complement(27942..28178)
+                     /gene="BcepMu14"
+                     /locus_tag="BCAS0540b"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57471.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0540b"
+                     /db_xref="EnsemblGenomes-Tr:CAR57471"
+                     /db_xref="UniProtKB/TrEMBL:B4ENT9"
+                     /translation="MTDSDFSELAARVDAVGQTMLRLIGHLEEQGCVDGVRFSQALRRF
+                     GAARRQLPDPIQARGGEVVLQMVQMLDEARSRR"
+     gene            28026..28154
+                     /locus_tag="BCAS0541"
+     CDS             28026..28154
+                     /locus_tag="BCAS0541"
+                     /note="no significant database hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57472.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0541"
+                     /db_xref="EnsemblGenomes-Tr:CAR57472"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU0"
+                     /translation="MATSSAETTQRLRKAYAVDAALFLQVADKSKHRLPDSVHTCR"
+     gene            28299..28778
+                     /gene="BcepMu13"
+                     /locus_tag="BCAS0542"
+     CDS             28299..28778
+                     /gene="BcepMu13"
+                     /locus_tag="BCAS0542"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57473.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0542"
+                     /db_xref="EnsemblGenomes-Tr:CAR57473"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU1"
+                     /translation="MSRRNWKRIQPHSLRHALELCKEHARERRNLSVERISEHMGLADH
+                     WTLYKWFQSGRMPISLIRPFEDACGADFVTRWVAASAGRLIIDIPTGRDATAEDMQILQ
+                     RTLNAAVGQLLDFYAGSANADETIATIQQAMEGLAWHRGNVERHVQPELDLGAAE"
+     gene            28775..29077
+                     /gene="BcepMu12"
+                     /locus_tag="BCAS0543"
+     CDS             28775..29077
+                     /gene="BcepMu12"
+                     /locus_tag="BCAS0543"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phage transcriptional regulator"
+                     /protein_id="CAR57474.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0543"
+                     /db_xref="EnsemblGenomes-Tr:CAR57474"
+                     /db_xref="GOA:B4ENU2"
+                     /db_xref="InterPro:IPR005471"
+                     /db_xref="InterPro:IPR011991"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU2"
+                     /translation="MTANATTKSAEKVLEVLNVLLGHFAHGLTPGELTKATNLSPSNIT
+                     RYVATLEAMGFAERIPETGRIRPSVKLGRHAVAILRSLDAARERLDSIQTRLTNQ"
+     misc_feature    28856..28921
+                     /gene="BcepMu12"
+                     /locus_tag="BCAS0543"
+                     /inference="protein motif:helixturnhelix:EMBOSS"
+                     /note="Predicted helix-turn-helix motif with score
+                     1416.000, SD 4.01 at aa 28-49, sequence
+                     LTPGELTKATNLSPSNITRYVA"
+     gene            29088..29300
+                     /gene="BcepMu11"
+                     /locus_tag="BCAS0544"
+     CDS             29088..29300
+                     /gene="BcepMu11"
+                     /locus_tag="BCAS0544"
+                     /note="no significant database hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57475.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0544"
+                     /db_xref="EnsemblGenomes-Tr:CAR57475"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU3"
+                     /translation="MSANFTTYTACVYPPGDSFNRVVITGLECAEHEVAATAKEYAEKS
+                     LRALQAVPAESWRVQILDRAEVTDL"
+     gene            29311..30264
+                     /gene="BcepMu10"
+                     /locus_tag="BCAS0545"
+     CDS             29311..30264
+                     /gene="BcepMu10"
+                     /locus_tag="BCAS0545"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57476.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0545"
+                     /db_xref="EnsemblGenomes-Tr:CAR57476"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU4"
+                     /translation="MTKGRKPSSTNNVATTVTDADVPGMPAMVDAANQLAVLDQERDST
+                     VRAVATQLGYQLPADCTDPDLIQRDIAANMRRSVEACLEVGRGLRVLKEACEHGQFGAR
+                     LDVLGIEPRVAQRFMASATKFSKAALTPLLKAAGNQTKLFEMLVLDDEQIEELELTGQT
+                     GELKLDDIATMSVKELRGALREAREQAAAQTRLLSDKNAKIDELAAKKTRVKKVTPDEE
+                     GAEIRKETSAIAFEAESVIRGNLRAAFETLAQHAETHGAPHDDFMAGVLGQIQLSLNQL
+                     RSEFGVKAAADGDDVPQWLRDTSAGSADADFSRAAN"
+     gene            30282..32081
+                     /gene="BcepMu9"
+                     /locus_tag="BCAS0546"
+     CDS             30282..32081
+                     /gene="BcepMu9"
+                     /locus_tag="BCAS0546"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Tn552/IS1604 rve transposase"
+                     /protein_id="CAR57477.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0546"
+                     /db_xref="EnsemblGenomes-Tr:CAR57477"
+                     /db_xref="GOA:B4ENU5"
+                     /db_xref="InterPro:IPR001584"
+                     /db_xref="InterPro:IPR012337"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU5"
+                     /translation="MSAVLNERIVAVAQAARAAGHGKKGAIYDAACRELGLSFTTLMRK
+                     LKEATVTTQRKRRVDAGQSSLTRDEAMLISATLMESTRKNGKRLYTVGDAAEILRANGM
+                     IRAEFLDESTGELRPLSDSAIQRALRMYGVHPDQLLAPAPVTELASLHPNHVWQIDASL
+                     CVLYYLKPVADARANGLRVMDHAEFYKNKPKNLARIAADRVWSYEISDHASDWIYTEYV
+                     MGAESGENLCSTLINAMQERGGADLLHGVPRILMLDAGSANTASMTRNLCRSLGIELIV
+                     HKVGNARATGQVENARNLIERKFEPGLKFQPVNSLDELNALAKRWRMHFNATETHSRHG
+                     ATRSEAWMRITAQQLIKAPSIDVCRELAVASPESRKVTPKLRVSFRGEEYDVSSVPGVM
+                     VGEKLMITRNPWRDDAAQVVLTGEDGRETYFVVPLIVRGDFGYAETAAVIGESYRRHAD
+                     TPAQHALREIEQLVTGTSTPADAEAARKGKALPFGGRLDPYKHLDKADLPTYLPRRGTE
+                     HDLVAPRVELAPLSLIEAAKQIKAAVEAAGVDWSADRFRWLQQRYPDGVPQEQLDAIVA
+                     ELTGPRAGQQQPLQLVRAAAGGQ"
+     misc_feature    30798..31325
+                     /gene="BcepMu9"
+                     /locus_tag="BCAS0546"
+                     /inference="protein motif:HMMPfam:PF00665"
+                     /note="HMMPfam hit to PF00665, Integrase core domain, score
+                     1.2e-07"
+     gene            32078..33292
+                     /gene="BcepMu8"
+                     /locus_tag="BCAS0547"
+     CDS             32078..33292
+                     /gene="BcepMu8"
+                     /locus_tag="BCAS0547"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative DNA-binding phage protein"
+                     /protein_id="CAR57478.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0547"
+                     /db_xref="EnsemblGenomes-Tr:CAR57478"
+                     /db_xref="GOA:B4ENU6"
+                     /db_xref="InterPro:IPR003593"
+                     /db_xref="InterPro:IPR010982"
+                     /db_xref="InterPro:IPR011991"
+                     /db_xref="InterPro:IPR027417"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU6"
+                     /translation="MMLVLKSVLQRASIKQAELAEHLNLSQAAVAQIVNHGVWPRSLDD
+                     LDLRERILDYLENKGVSDAGPGVFDEVQKVGGPTDVLADTTGHPVSQPNSNTDLNQEES
+                     MLLRKQVLAPATRKHFGLFRDPFADDIQSHEDMFVSPDIRYVREAMFQTAKHGGLLAVV
+                     AESGGGKTTLMRDLEDRVMRESHPIIVIKPYVLAMEDNDQKGKTLKATHIAEAIMAAVA
+                     PLEKVKSSPEARFAQLHKALKESHAAGYQHCLVIDEAHALPIATLKHLKRFFELEMGFK
+                     KLLSIILIGQPELKVKLSERNQDVREVVQRCEMVELAPLDGPRLDEYLRFKFGRLDKPV
+                     GDVIDASGVDALRTRLTMTSTRRDRAETVSLLYPLAVGNLLTAAMNLAAGLGVPVVTAD
+                     VIKGV"
+     misc_feature    32117..32182
+                     /gene="BcepMu8"
+                     /locus_tag="BCAS0547"
+                     /inference="protein motif:helixturnhelix:EMBOSS"
+                     /note="Predicted helix-turn-helix motif with score
+                     1933.000, SD 5.77 at aa 14-35, sequence
+                     IKQAELAEHLNLSQAAVAQIVN"
+     misc_feature    32567..32590
+                     /gene="BcepMu8"
+                     /locus_tag="BCAS0547"
+                     /inference="protein motif:Prosite:PS00017"
+                     /note="PS00017 ATP/GTP-binding site motif A (P-loop)."
+     gene            33294..33623
+                     /gene="BcepMu7"
+                     /locus_tag="BCAS0548"
+     CDS             33294..33623
+                     /gene="BcepMu7"
+                     /locus_tag="BCAS0548"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57479.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0548"
+                     /db_xref="EnsemblGenomes-Tr:CAR57479"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU7"
+                     /translation="MGAIVQMNLPAPRSLLPDGTRVFDAECVSRLTLLNACARALRGLG
+                     YRVLAEEISPRDGGRPTIQIGPYLAKSSDVLRERAGGVTVQRQGNRQFAYVVFMSVRVT
+                     WEVAG"
+     gene            33659..34081
+                     /gene="BcepMu6"
+                     /locus_tag="BCAS0549"
+     CDS             33659..34081
+                     /gene="BcepMu6"
+                     /locus_tag="BCAS0549"
+                     /note="Similar to Clostridium acetobutylicum
+                     uncharacterized protein, mazg family SWALL:Q97HS8
+                     (EMBL:AE007699) (123 aa) fasta scores: E(): 0.0095, 39.72%
+                     id in 73 aa; homology does not extend to N terminus"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57480.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0549"
+                     /db_xref="EnsemblGenomes-Tr:CAR57480"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU8"
+                     /translation="MPYPPIFKEHNMQASNEHLLHAAQALTDCCFGASFQSGWWTDLKT
+                     GTDLRAANNVPEKLMLIVSEVAEAMEGHRKGLMDDKLPHRPMIEVELADAVIRIFDLAG
+                     AKQYDVAGAIVEKLAFNAQRPDHKPENRLAEGGKAY"
+     gene            34204..34821
+                     /gene="BcepMu5"
+                     /locus_tag="BCAS0550"
+     CDS             34204..34821
+                     /gene="BcepMu5"
+                     /locus_tag="BCAS0550"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical phage protein"
+                     /protein_id="CAR57481.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0550"
+                     /db_xref="EnsemblGenomes-Tr:CAR57481"
+                     /db_xref="InterPro:IPR021505"
+                     /db_xref="UniProtKB/TrEMBL:B4ENU9"
+                     /translation="MEQKQIPNGYWQDAKGCLIPETMIKPIDRERDRLVRELADEAKTR
+                     SKGLVELKARIFGDISAFIDLSAEEYGSKVGGKKGNVTLYSFDGRYRIQRAIQDRIAFD
+                     ERLQAAKSMIDECLRDWTTDARPEIQAIVTQAFATDKEGQINTGRVLALRRLDITDPRW
+                     LEAMRAIGEALQVIGSKSYVRVYERVGDTDQYVQIPLDIANA"
+     gene            34885..35157
+                     /gene="BcepMu4"
+                     /locus_tag="BCAS0551"
+     CDS             34885..35157
+                     /gene="BcepMu4"
+                     /locus_tag="BCAS0551"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HU DNA-binding protein"
+                     /protein_id="CAR57482.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0551"
+                     /db_xref="EnsemblGenomes-Tr:CAR57482"
+                     /db_xref="GOA:B4ENV0"
+                     /db_xref="InterPro:IPR000119"
+                     /db_xref="InterPro:IPR010992"
+                     /db_xref="InterPro:IPR020816"
+                     /db_xref="UniProtKB/TrEMBL:B4ENV0"
+                     /translation="MNKSDLINHVAAETGMTKTDSGFALEAVLEGITKSLRKGDTVTLT
+                     GFGVFSVGARAARTGRNPATGEEIKIPASKAPKFKAGKGLKDAVK"
+     misc_feature    34885..35154
+                     /gene="BcepMu4"
+                     /locus_tag="BCAS0551"
+                     /inference="protein motif:HMMPfam:PF00216"
+                     /note="HMMPfam hit to PF00216, Bacterial DNA-binding
+                     protein, score 4.5e-46"
+     misc_feature    35020..35079
+                     /gene="BcepMu4"
+                     /locus_tag="BCAS0551"
+                     /inference="protein motif:Prosite:PS00045"
+                     /note="PS00045 Bacterial histone-like DNA-binding proteins
+                     signature."
+     gene            35251..35592
+                     /gene="BcepMu3"
+                     /locus_tag="BCAS0552"
+     CDS             35251..35592
+                     /gene="BcepMu3"
+                     /locus_tag="BCAS0552"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="single-stranded DNA binding protein"
+                     /protein_id="CAR57483.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0552"
+                     /db_xref="EnsemblGenomes-Tr:CAR57483"
+                     /db_xref="InterPro:IPR024252"
+                     /db_xref="UniProtKB/TrEMBL:B4ENV1"
+                     /translation="MTNIKKYVLTHDFSYEIVVDVDHNILTEEKLCELVRFWSEGDADI
+                     ERHGPLQAFLKLFAARFLAATVEEISPQDAFNAGRIEGFPPVDGSSGLRVVEYDEFSFE
+                     ADDIDVLEI"
+     gene            35576..36016
+                     /gene="BcepMu2"
+                     /locus_tag="BCAS0553"
+     CDS             35576..36016
+                     /gene="BcepMu2"
+                     /locus_tag="BCAS0553"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Mu gp16 gemA"
+                     /protein_id="CAR57484.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0553"
+                     /db_xref="EnsemblGenomes-Tr:CAR57484"
+                     /db_xref="InterPro:IPR009363"
+                     /db_xref="UniProtKB/TrEMBL:B4ENV2"
+                     /translation="MYSKSDRGPQARQKLIRLIHVAKRDLAMPDDSYRAVLMQIGKKES
+                     AADLTVPELERVLEHLKRCGFKVRSKKGARSQADDEQSKMIRGIWLELADRGVVQNRSE
+                     EALGAFVKRMTHVDALEWLSSAQASRVIEHLKKWRDRTTEAV"
+     misc_feature    35606..36010
+                     /gene="BcepMu2"
+                     /locus_tag="BCAS0553"
+                     /inference="protein motif:HMMPfam:PF06252"
+                     /note="HMMPfam hit to PF06252, Protein of unknown function
+                     (DUF1018), score 2.4e-47"
+     gene            36013..36384
+                     /gene="BcepMu1"
+                     /locus_tag="BCAS0554"
+     CDS             36013..36384
+                     /gene="BcepMu1"
+                     /locus_tag="BCAS0554"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Mu protein C/ Mor gp17 transcription regulator"
+                     /protein_id="CAR57485.1"
+                     /db_xref="EnsemblGenomes-Gn:BCAS0554"
+                     /db_xref="EnsemblGenomes-Tr:CAR57485"
+                     /db_xref="GOA:B4ENV3"
+                     /db_xref="InterPro:IPR009057"
+                     /db_xref="InterPro:IPR014875"
+                     /db_xref="UniProtKB/TrEMBL:B4ENV3"
+                     /translation="MKDETFKSKGPELLVDLSLQVAQALIELADIGADQANQLGREIAD
+                     RMAGHWGGQNIYFPMGVSYRLSQRDRQIFDEFRGDNHAELARKFGVSLQWIYKIIKAVR
+                     REEIAARQRDLFASPTSTD"
+     misc_feature    36250..36315
+                     /gene="BcepMu1"
+                     /locus_tag="BCAS0554"
+                     /inference="protein motif:helixturnhelix:EMBOSS"
+                     /note="Predicted helix-turn-helix motif with score
+                     1822.000, SD 5.39 at aa 80-101, sequence
+                     DNHAELARKFGVSLQWIYKIIK"
+     repeat_region   complement(36702..36746)
+                     /note="imperfect direct repeat; transposable end of BcepMu"
+ORIGIN
+        1 tgaagcgcgg cgcgatattt cagcacgtcg acgcgcgata aattcgggag cggatgtctt
+       61 gcgatacgta gaaagaaatt gcagctgttg ccggcagtag gcggtcggtc aaaacttgcg
+      121 ggtgctaaac tgcgcccttc aatttactgt gagctgacga tgacgaagga cgtcccgtac
+      181 ctgaacggtc tgcgcgcttt cgccgcgatc tgggtagtgg tcgcccattg catgatctgg
+      241 ggtggatgga ctctcacccc tatacctgat ccgaagcttg cagtagatct gttcatgatg
+      301 atctcaggct atctcatggc ttacaacgcc agactgcgag attcggtcga gccgatgaca
+      361 cgaccgtctt catggctacg cttctatatc cgacgatact tccgtattgc gccagcgtac
+      421 tacgtttctc tcgtattcgc ggttgtcact tcgacaacgt tcctcaaggg ctacaaggta
+      481 ctgcagctat tgaacccgga tttttggggg agtggtggga tctatgatcc ttcgactatc
+      541 acttacacgg caggcaacct agcagcccac gtcacgttcg cttttggcct gctgccgcgt
+      601 tatacgttct ccaccatgct tcctgactgg agcttgagtc tcgaaatgca gttttatctt
+      661 gcctttcctt tcctctatat tctgatgcgg aaagctggcg ccgtcaccac tgctatccta
+      721 ttaggcgtat cggcattcgc gatcgctcgc acactcaccg gcgtgttccc cgagcccggt
+      781 ttcttgccac tcaaactttc ccttttcttg gtcggcatgc tgatcgctga gattccattc
+      841 ggcgtgactt tccggcagaa ggcagcgatc gcgacgctga ccgcaacact cccttttgca
+      901 caggaatcga cttaccacgg gcaatggtgg ttgttgccga tactttccat tatgttgtac
+      961 gtgctcacag tcacaggaac ggaagactcg tctagggcaa cgttcgcgac caaagtgctg
+     1021 ggaagccgta tggcatatgc gctttccgat gcatcgtacg gcatatattt gtttcacggc
+     1081 ttcttcattg cactttccgg ctcaacacta tttggcgacg cgggcctgct gcagctgaac
+     1141 ggcaactatc gaagtgccgt actgtgcgcc attgcactac ctggatcagc cctgctcgca
+     1201 atgctcatcc atcgatatgt cgagcgcccc ggtgtgaatc ttgggcgctc cgcggcgaac
+     1261 atattcacca gcaacacccc gaagttacgc tgattgccct tcgatcggct ccggtaggcc
+     1321 tgccagaagc gcctccggga cgcttgagaa atacgcgtgg tatcgaggat cgtcgagtga
+     1381 tacctgtcct tgatggggcc acgccaacgg gtcctgtgga cagttgaaga ccgaaatgat
+     1441 cgatgtttca gtatcgtcac tgaattgaac gtttagcaac tccatgctgt tcctcagaat
+     1501 ttgtaactcg atataaaaca cgagaaggtc atcgttccag cgcttgccgt tgcaacatag
+     1561 aacatcgtct gcggggtaac catcggcaca tcgctaaacg gtgcgccaag ggttaggatc
+     1621 gactgcccat tcgtgccggc cgatccgatg cctgttgacg atccactgac agcgctccct
+     1681 atgatcgatg cggcggtcga tccacagttc gtgtaccccg atacaagctt cgcgttcggc
+     1741 ggaatgtagc ttgccaccga gaacggcgcg taactagact gctggacact tgtgctcaga
+     1801 accgaaaagc tagtcaagtt cacggtccga tcgacctgaa agcctacgcc aaactggcga
+     1861 ctagagttgg ttgaccatac cgatacaagc gcactggccg catagccggc gggcatgttg
+     1921 gcgccgctgt acacgttcgg agcaacgctt gaagtcgcat tggtggcaag aagagccgtc
+     1981 gtcccattcg tcgggttgta aattgcatag atagcaacaa aaccggatgc cggtgcagta
+     2041 ccagtatcca tcccgcccgc gcctgtagtc ccgagattga tcgttgcatt gaagtttgcg
+     2101 attcggaacg cggcaccgcc gagcgccgtc tcgacaacga tctcatctgc cgtaaacgtc
+     2161 gcggatgcgc tcaccgtcgg aaccgacata ctggcgttgc gcatcgatcc gacgaccgag
+     2221 ccgacggccc gctgcacaaa cgccgtcgtt gcgagcttcg tgctgttgtc gaattgcggc
+     2281 tgcgtcttcc atccaggacc gctcatcacg cccgatgcag gaagcgacat cgatccgcca
+     2341 aacatgaccc acacacctga cgaaaccaat gtgacggtgt ctcccggatt gagtacgagc
+     2401 gtgttcgacg tagtgccgtt gaagatcgca tcggacccag ccccaaccaa cgtgtatgcg
+     2461 gtcgagccga tgttcgagaa acggatcgcc gcaccattaa cgccagatga aagcaacggc
+     2521 aaggtcacgt tatacggcga acctccgaag agcgtatacg cgttgcccca agcattggca
+     2581 ttcagcgtcg ttcccgcact aagcccgatc tgattccgga aattcccaag cgcaccttga
+     2641 atgaacgccg tcgtcgcaag tttcgagctg ttatcgaact gcgcggcagt cgttccgtac
+     2701 tggctaaaca actcaccggc cacgtcccac ttgataccgc tttcgttaat cagctcgaag
+     2761 aacccgaaaa caccaacagc gaatgtgtaa gtgtcagctc cgctggcagg cacgttcaat
+     2821 tgcccaggtt tgttagccgc tagaacggaa gcaatcgggc cagcatactt gaacacgcgg
+     2881 attgcagagc cgcctggaac ggttgtggca tccggcagcg tcaacgtgcc gtttccgtcc
+     2941 caagtgataa ggcagccaac gtcggatgtg ctgagagtgg cgcttcctac gtatccgttg
+     3001 gcggatcggt aattaccgac tgctcgctgc acgaatccgg tcgtcgcgag tttcgtcgtg
+     3061 ttgtcgaatt gcggcggcgt caccccaaga atcgtcgtgt agctcgacaa gtaccacgcg
+     3121 ccaccgttgc tgatgaactg cgcttgctcg cccgcattca gagcgaacgt gttcgacgtt
+     3181 actccgaact ggctgttgat gttctccgat gcattgccct tgatagtcac ggtgaccggc
+     3241 gctccgattg tgatcgtcgc accattagga acgccagcca ccggtggcag cgtaagggtg
+     3301 atccctacgc cgtacgccca aataaacgcc cccacatgac cgctgttcaa cgttgccgtc
+     3361 gtggcaatac cctggatgct ggaatacgac tctccagact gcttcacgaa tgcagtcgtc
+     3421 gccagcgccg tcgagttatc cccctgtgct tgcgtcggcg ccttcggagt accagtaagg
+     3481 acgggcgagt tgatgggcgc cttcagcccg agttgatttg taatcgtcgt cgcgaaattc
+     3541 ggatcatttc cgagcgcatc cgccaattcc ttcaatgtat cgagcatgcc gggcgcttgg
+     3601 ccgaccagtt cggcaagcct tgccgcgagg tccgacttcg tcgcgtactg cgaatgcggg
+     3661 tcgggcgcgg cgatatgctg cgcaagcccg gtctgcgact gctcgacctg cgccttcagg
+     3721 tagcgcgtgc ggccgccgag ctgcttcgcc tgcttgttcg aaaccccgtc cgggccacct
+     3781 tcgaccggat cggcggtttc gatttggtaa agatcttcct cccattggga agattcgacg
+     3841 agtttgccca ttaactgctc ccgtggttgt actgtccgtc atagtgggcg gcgccgttgt
+     3901 agcgcatcgg cacacgacgg tattcgagac tcgcgagtac gcatcgagcc ggcgcgaacg
+     3961 cagccaacgt cgtgcgcagc aacgccgctt gatcgttggt gatcgcgcga tcgagcagga
+     4021 tgacccgata ggccgcccac aatccattgc cgccatacac cattacgctg tcatggcggc
+     4081 ttttcccatc gtagtaggcg ccaccgatgc cctcgacaag ctcaacttcg ccaaagccta
+     4141 ggcgccgaat cacttctctg accgcccagg gcgtgccctt gtagcggtgc agctcgattg
+     4201 cccctttgat caaggcacgc ttggcctcat ccgactcggc gagactccag ccgtcctcgc
+     4261 ccatcaccga aaactggtct gcgaggaacg gcagtgcgga tgcgtcgacg ccatcgatca
+     4321 ggtagaccag gagcggcgac atgtcgatgt tgtcgaggcg ctcggccaac tgggcgaaag
+     4381 ccttgaaacg agggtctttc gccagcgctg gcggcaagag cagatcagcc attcgccacc
+     4441 ccgatcggga tgacactgac acccgtacac cgcgcccatt cgctggcggt cagcacgcgc
+     4501 agtgcgagtc ccggcaggtc aacgtcgtac acgccctgaa cctgcacggc gcgactgagc
+     4561 tggcgcggga cgatatcgcg ccccaggccg gcggcacgat cggttcggta ggcttctgcg
+     4621 gccgtacgtg cctgcgcgat cgttgtgtcg gcgtcggcat ccttgtacag cgtcaaacgc
+     4681 acgtcgatcg cgtagtcgac cggcgtcggc gatcggacgt cgacgtaatc ggtcagcggc
+     4741 cgccgacgct cgtcggtcag gttgtcgcgt acgagctgga gaatcgcttc gctaggcagc
+     4801 cccgtgtcga cgagcgggta gacctggacg ctgcctggct gaacgccgtt gacggaaacc
+     4861 agccggccgt cgcgcatttc catttccgga ccgattacgc cgacgtcgac gatcgactgg
+     4921 tgcgcgctct tggcgtggaa cacgtacgcg agccgggagc ccgccgtgct gaatgcttgt
+     4981 ggtgcgagcc ggatacgctc acgcagacga tcgtccgttt cctcctcgta gccgtccgcg
+     5041 ctgaccttgg tgttagcgac cgtcacgtcg acgtcgccca ggtcgtcgac gagcgagccg
+     5101 agttgccccg gctgccagcc gttcccgatc gagcctgcgg tttcgcacgt cgcggccacg
+     5161 tcgatcgaca actggccggc gacgagcgtc acgtcggtgt cggtcgcgaa cgagacagcg
+     5221 ccgtcgctcg tctcgacacg cgtgccggct gcaatcagca ggttcgacgg caacgcttct
+     5281 tcgatcgaga agcgcagcgt cgtcttcgcg ggctgcgccg gcagccgcgt cacgccgacc
+     5341 agctcgccaa ggtagtcgat catgggagcg cgggcgaacg cgacaaggtt ctgtttcgcg
+     5401 gcctcctgga tgccgacgcg tacgagggtt tcacggtagg caatgatgtc gaccaggacg
+     5461 cgttcgacct gcgccggata cagcgtcttg ccagtgcgcg cctcgtagtc ggccacgatc
+     5521 tcggccgtaa tggcctctgg atcacgggcg atgaaatccg gttcaccgag cgtcatcgcg
+     5581 gcacctccgt ctcacgaatg acgccgtcag caaggcgcca ctgcacgcgg atcgtttcac
+     5641 gcgactcagc gatcgacgga atgacacgca cgacctcgca gcgcggctcc caccggcgga
+     5701 tcgcgtcgac cgactcgcgc acaacatgcg gcgtggcgcg gtcgatcggc atgtcgagat
+     5761 acagatagag cttggagccg aactcggggc gatgcggatc gctgccctgg ggcgtcccga
+     5821 gaatcaggcg aatcgcctga tcgatgtcat ccacgccctc aacaacgcct tcgcggttaa
+     5881 gggccggctg ccagtgaacg gaggtgatgt cggagagctg ggtcatgcgg ccatgttgcc
+     5941 gcgcgaccag tcggggggat attaaagccg gctaaaagct cagtgggagt ggtgattcga
+     6001 gttgccgccg gcatccatga tggtgccagt cgcgttcacg ttgccgtcga cgttcacgtt
+     6061 gcccgtcagc gcagcgccat cgccgcccga tccggccatg ccgccctggt aggtcagctt
+     6121 gcccttgact gtcacgttac gcgtgaactc ggtctccggc acgtcgaccg tcaccttgtc
+     6181 ggccgcgcgc agcatgattt ccgacttcga atcgacgatc acggtctgca tgcccgagca
+     6241 cgtcagcgtg tgggtcgcgc gatcgtactc gagcaccgcg ccatccttga agcggacgat
+     6301 gaacttgttc gggtccgtga cgggcgggcg atcggcatcg gagtagatgg cgccgagaat
+     6361 cacaccgtcc tcgcaccggc tgtccaggag caccgcgacc tgttcgccgt tatcgtaggt
+     6421 ccagcaagcc tgatcggcca gggtcttcgg gtacgcgatc ggcagccaca tggtcctcat
+     6481 gttgccgagg tcggtcagcc gtacgcgcgc gaagccgggc ttcgacgcac tgaccgtgcc
+     6541 gaacttgatc gtcgcgccga actcgtcgag ggtctcgctc attttttctt gcctttcgcc
+     6601 gctacgggcg tggttccaac aacgccgacg tcgcctttcg cggtgacgcc gtagacctgc
+     6661 agccctttcg ttgacttttt cgcggtgccg ccgcctttgc cggcctggac ggcgagcgcc
+     6721 gagcgcttca gctcgacttc ggtttggtag ccgccgccgc gatcgagacg atgtcgcgcc
+     6781 gactcgatga ggtatttgcc ggacagtttg ccgagttcga gcagctcgat cgacgcaccg
+     6841 gcggccagct tcgtgtcgcc ccgcatctcg accgagccgc cagtctgctt gaggttcgtc
+     6901 cggtcaagcg ccgcgcgtgc cttcgtctgc agcgttgcct tggagccggc ccgtgcggaa
+     6961 agccgcagcg tgtcgccgct cgtcgactga ccggactgtt tccgcttgcc cgctgccact
+     7021 tcagactggc cgacgacgcc cacggagtca cccgtcacgc cgtagacgac gagcttcttc
+     7081 gttttcgggt tgtggtagcc gaccttggcc tgcgcgtaga cgtctttgat cttgtcgcgc
+     7141 aggcgaatcg acttcaagtc ggcgcgcttg aactgctgga ccgcgtccga tcctcgcagg
+     7201 tcggcgagtt cgctgaagat cagcttgctg cccgaaatct tgaacgcata gccgtactcg
+     7261 cgcgcgagcc gcgtcaggaa cgctacgtcc tgctcctgat actgcgtgac tcggtcgatg
+     7321 cgaatatccc gaatgcggcc ggtgagcgtc aggtggttcc gcttcgccac gcgagccgcg
+     7381 atcgtcgcca gcgtggtgtg ctcgtacgct ttggccttgc ggcttcggac cgatgccttc
+     7441 acgccagtac cgagtccgcg gattgtcacg gtcgacggcg gttcgtcgaa gccaatctcg
+     7501 tcgatctcga agcggccgca cgcgagcaac ggcgcgccgg cgtagccgat cttcagcgtc
+     7561 agcgcgtcgc ctttgcccgg ataccacgca tcgagccatc ggccatccgt gtcttcgagc
+     7621 acgacctcga tctcgtcgga ctggcctgac aagaagtcgg tatacgccac cgacagcacg
+     7681 tagggcgcga tgtcgttggt gatgttcttc tgctcgtaca cgagcgtgaa aacgggctca
+     7741 gggacgtcgg caaccgacgt cggggtgtcg atcaccgcat ccacggcgga agctcctcat
+     7801 cggctacgtc gtcggccgca acgaccggaa tcgacagcgc aatgccgctc gcgagaaccg
+     7861 ccgtaatcgg cacgctgggg ttcgcggcaa tgatccgctc ataggcaaac gggtcgccgt
+     7921 aataccggta ggcgatttga tcccaccgtt cgccctcggt tgtgatgtgg gtcagaaaca
+     7981 tcaaatcctc cgcgtcgcga ctttcgcggc cagtttgctc agactcggcg ccgcggaact
+     8041 tagcgcgctg ctcgccgtcg agagctggcc cgcggcccgg tcgattgcgc cggtaatcgt
+     8101 cccgatcgtc gcgttcgcca agccgccttg cgccgatcgg accgcatcca gcgcagtatt
+     8161 gctggcgcgc aggatgccgg ccgcctcggg aatctggtcg gtcagggacg ccagcgctgg
+     8221 cgacagcttc gccagtggat cagcggcttg cttgatgttg gtcagcacgc tcgacgagcg
+     8281 actcaatgct gcgaacggat cgtctttcag cttctggacg accttgaccg cgtcgacggc
+     8341 cacgcgcatc gcggactgcg cctggttggc ccaggtcact gcctgctgaa tcgtgcctcg
+     8401 cgcggtggcc accgccgatg tgacgctgga gaccgcctgc gcggccgccg gcggcacctt
+     8461 gggctgtacg gccggcggct tgaacgggtt tttcttgtcg ccgacgaact cgcgcagggt
+     8521 gatctgtgca tcgagggaca gcacggttcc cgacgtgtcg gtttgtttgc tggtcgactg
+     8581 aacctcggtc agtacaaacc agcccttgta gtcgccgttg ccaaaaacga gcgccatcgc
+     8641 ctgttttgcg ctcaccgccg cgcgcagctt cgccagctcg gcttccggat cgcaatacca
+     8701 gtagtgaaac gacagcgcga tccgaatctc gtcgagcttg tcgcccatgc gttgcagccg
+     8761 cggcttgccc tgcagcagcg cgtgttcggc gtagtcggca ccgaaggtcg catcgaaccc
+     8821 gtcgaagtat ccgatcaggt cgaattcgat atctccaaga attgcgaaca cgtcagctcc
+     8881 tgtacgcgcg gcgctcgcgc ttcgcgagca ggtcgtcgag catgcgctcc aggtcgcgca
+     8941 acgacaggtt gagcccttgc ttgacctgat ccttgacgcc gtccggtgag ccgccctgga
+     9001 ccgtaatcgt cggcgagaag tgaaccgtga tcccagagcc ggctaccgat gcgccagccg
+     9061 gcgatccgcc ccgagctgcg ttgatgcgct gcagggacgc cgcggccgcg gcctgcgtcg
+     9121 ccatgccggc ggccgcgcgc gcggcgaccg ccgacgagcg cccgatgccg attgcggcgc
+     9181 cctgggcgat gttgtcgccg aagcccatga atacacggga cggcgacttg atccccagcg
+     9241 tgttcgcgaa ccacgctttc acgttgctgc cgaactcgat cagcgtgttt ttcgcagccg
+     9301 tgaagcgatt gcgaataccg ttgaccagac cgtcgatcag gtgggagccg aaatcggtga
+     9361 aggttttcgg gagcccaacg ccgaaccacc cgagcacacc cgcgaacgcg gtacgaatcg
+     9421 aagcccagat gcccccgaag aactgcttga tcggcgtcca gtagcggtag atgaggtacg
+     9481 cgccgaccgc gatcgcggtg atggcaatcc cgatcggatt gagcatcagc gcgcgcccga
+     9541 gccagagcac cgcgcgcccg gccagcatca ggccgttcac gagctggccg cccaggacgc
+     9601 gggccagcag catcccgccc tgggcgagca gccgcagcgg gccgataaac gtcatcagca
+     9661 tgccctgccc gaaagggagc agcgcgcggc caacgacgag cgcgccgcgc ccgaatccca
+     9721 taaacaggct cccggcacgc ccgatcacgg ccgcgaactt gccggccgcg cccgcgccca
+     9781 tgccgaaaat ctgaaacacg gtggacaggc gggagccgcc accggcccag agcgcgcgaa
+     9841 acagcgtcca cttcgccccg accgtcgtca atgccgtgct gaccatgttc agcggcgact
+     9901 tgacgaagaa attcaggccc cagccggccg cgagcgtcgc gaccttcatg ccgatcacgg
+     9961 ccgttgcgaa gccgaccacg ccgcggatca ggccgggatg ggcggccgcg aactgcgcgg
+    10021 tgcgctggat cagcggcgtg accgtgttca tcaggtccgt gagcgacggc agcagcgcgc
+    10081 ggccaaccgt gatcccgagg tccgcaatct gcgtctgaaa gcggccccac gcgacggtcg
+    10141 ccagctccgc gcggcgcacg tagtcctggt cgatggtatt cagcgcctgc gcgctaccca
+    10201 tgtctttctt gttctgctga tacttgtccc agccctgacg catcgcgagc aggtggttga
+    10261 tggtctggat gtcctggaac acctcattca ggccgaagct ctccatcagc ttgcgctgtg
+    10321 cttcctcatc gcccttggcg cccgccgctt tccactgctt catgaacgcg tcgccgcgcg
+    10381 aagcgatgaa cttctgtgcg atctgcagcg agccttcgta gctcgaatag ccgccggcga
+    10441 caaggttgga catcgatttc tggtagtcga cgccggcctt cttgtaggcg tcgatggtcg
+    10501 ccttcgcgtt catgtgcgac agccagttgc gcagattcgt cacggcttcg tcgccactgc
+    10561 cggcgccttc gcggccgact tcgaggctgg cgatgatctg cgtcagcgcg tcctggccct
+    10621 tgatgccctt ggccgcaaac gccgcggtca tttccggcag agccttggcc atatccttca
+    10681 gctcgaaccg gccgagcttg ccgccgtagg ccgcgcggtt gaacgcctcc ttcagcgccg
+    10741 cgtcgccctt gatcccgagc gtctcggaga acgagtacac catgccggcg aggtctttca
+    10801 tgtcggcgtt cgtggccgtc gccacgcgcc cgagcaggtt cgatttctgg ccggcttcct
+    10861 tcgcgtccat gccggcagcg accagtgtgc cgacgccttc gagaatggag ttgtgaccct
+    10921 ggctcgtggc aagggccgca cggcgcatcg tctcgccgat ccggaactct tcatcacggg
+    10981 tcaggttgcc ggtaatcgcg atgtcgcgca ggccggcttc gaaggtggcg gcctgccgaa
+    11041 cagcgccgat tacgggcgcg gccgtggcag ccgccgtcgc gtatgtgccg agcatgtcgg
+    11101 cgccgagccc ctggcgttgc tcacgcagcg cggcgccgcg cgccagccgg gtcgcaaggg
+    11161 ccgcttgctt cgcctggacc tgatcgattg tccggccgag gcggtcgtac tggccgcgca
+    11221 gctcggcgat gttgcgcatc ggatgcgcaa cggcccgcgc catcgcgtcc cccaggcggg
+    11281 tatgcctcgc gcgcagctcg tcggcgacgc ggccgaggcc attcagcgtc gtgcgcgtgc
+    11341 cggaaagcgc ggcgccgaag ctaccgagta gcgtcgcgcc gatctttacg ccaatataga
+    11401 attcgcttgc cataccctta ccggaaagtg acgaggccgc tcatgaacat ccagtccatc
+    11461 gccgaaggca ttacctacac cgtgatcgcg attgccggcg tcgtgctcgc cgtctggctg
+    11521 ttcatcgagt tgccctggtg gtccgtgccg atcgtgttcg gcatcgtggc gtttttcggc
+    11581 ttcgccttcc tcgggccggc cgtcgtggcc ggctcctacc tcatcgcggc ggcgatcaag
+    11641 gccatcgtgt ggctttgcgg ccggctcggg cgccgggccg cctgacatca ggattgcttt
+    11701 gtcgcgtcga cgcgccgctt gatttcccgc tccgcggcgt cgacccagtg ccagtagtcg
+    11761 tccatatcca gttcagcgat ctcggacggc tgaatcttca gcaccagtag caacacctca
+    11821 tccagcggtc gcagcgccga gtccagcgcc tgcgtttcct tgctcggcgg ctgatcgctg
+    11881 ggcgcccgca tttccggcgg tatcccgtcc ctcaaccatg ctgcgaaagg agtccatgag
+    11941 ccgcttcgag tcggcgaggt cgagttcgcc gatgtcttcg acggtcaggt tggtcagcat
+    12001 ggcgagcagg aaatcttcct gttcgcccgg gtcttcgctg tatttggccg caagggccat
+    12061 ttccttgcgc ttgccgcgac gcaacgtcag ttccgtgagc gtctggccgg tagcgagttt
+    12121 gacgggaaat ttgaggggga ttttcacgac gtgctccgtg gtggtagagc acacattgtc
+    12181 gattcgcgcg cgcgttcgca ctttcagcgc agattaaaaa aggcccgccg aagcgggcca
+    12241 agacgacaac gactgcgcag gtgtggggtt agccgccgat gttggcgcgg aagtcagcca
+    12301 gcatgtcttc gccgccgacg cggaagatgt tcgccagata gtccagctcc agcacttcct
+    12361 cgccgtcgat gacctgcttg atgtaggtcg cgccgaacgc ggagctgaaa tcggcgttct
+    12421 catgttgctt gtacgtaccg agcgggttct tcttgaacat cacggtcagg tacgtcacga
+    12481 gactgacttc ccgcacgcgg ccttgtgcgc catacgtctc gatgttcgat cggcattgca
+    12541 gcggaacggc cttgaacggg ttcgccatcg ccttcgccac gtcggcgtag agcgagttcc
+    12601 acttgatctc gccttcgagc ttgtccaggc cgcccggcag ctcgaccttg ccgatcatgc
+    12661 cgagcgcctt gtgctcggcc atgatcgcct ggatgtccgg cagcttgatt tcctcagcct
+    12721 tgccgagcat ggaattgttg ctcagataca cgttggcgtt cgtgatccgg ttgatttgga
+    12781 cgccacccgc cataatcagt tacctccctt cagggtgagc aagtactccg aggtgatctc
+    12841 ggtctcgtac gtcaggcgtt cgagcggtgg cggcaccgtg tacttgtagt tgatgagcag
+    12901 gtggccggcc gccagctcct ctttcgggtt gcgggccgga tcgaaccatg ccttgaagcc
+    12961 gagcagcgcg ccgtcgccga tcagcttgcg cccgaacccg ttcaccgact cgacgagcga
+    13021 gtcgatcagc ccttggtcga tcggcgcgtc gacgaactgc tggctgaagt agcgcagcga
+    13081 ttcgttgatg acgtcgcccg tacggcgcac gttctcgaag ttgcgcatgt gcgtcacggt
+    13141 cggccatgcc gccgtgcggt tgccccacag gcgcaggccc gagccgtacg agctgaacac
+    13201 ggtcgtgatg ccctgttcgt tgagcatgtt cacgtccgat tgcggatcgt cgatcatcgc
+    13261 cgacagcggc cgctcgacgc ccgtgacgcc gacgagctgc tgattcgagc tggaccacca
+    13321 gtagcccttg tccaggtcga cacgtgcgcg aaggcccgcc gcacgcgatg agagcggctc
+    13381 caggcgttcc gcgttggtcg cggtgtcgta gaccttcacg tgcgggtagc agaggcgtac
+    13441 gcggtcgctg gacgtgttga agttgatcgt gcccgccggc ccgcgcccgg ccagcgcctg
+    13501 cgcgagcgtc gtgccgatcg gcgcatcgat gtacgcgatc gccccgagct ggacggccat
+    13561 cgcctccagc tcgaccgaga ccgagttctg cgtgcagtac gccggcgcga tcagaatctt
+    13621 cgagaagtag ccgtacaggt tgtacgtgtc cttcagcgcc ttcatccccg tgcgcattcc
+    13681 ggctgcgttc acggcgccga tgatgtccgc ggccgtgacc ttcgtcgggt ccgcgtagtc
+    13741 gtaggtcgcc ttggccgccg tcgcacccgg cggaatcgtg ccggttttga tccgggtgat
+    13801 gacgccgttg atcaggtcga cagcgtaatc ggtgccttcg gcgtacgtcg tgccgcccga
+    13861 gtcgttcttc agcacgagat tcgccgcggc cggatgcgcg agttttgcac ggcccgttgc
+    13921 cgcgtcaaac gtgacgggct cgttggccgc gttgctcttg tgtacggccg ggtcgagcac
+    13981 gttgatcacg atcaccgtcc cgctgccgta gtcgtagacc gcgtcgagcg cttgcgggat
+    14041 cgtgaagccg gcgagctgcg ggccgaactg cgccgcgtcg acgtcggaca gcgactgcac
+    14101 cggcgtattg accggcccga tcggtgcggt gccgatcaag ccgatcaccg ccgacttcac
+    14161 gaccttgacg ggccgcgagc cggtttcctt ttcaatggtc tcgacgccat gcaaatagtt
+    14221 tgccgccatc gctcagactc ccttcacggc gaccgcgttc gcggcggtct tcggttggtc
+    14281 ttccggcacg ctggggcgcg cgggcttggt cgacggcgct gcggccggct tcaggtagcc
+    14341 catcgcgagc agcgtcgctg tgtactcgtg gtcttcgggc agctcgacgt ctgcgcccgt
+    14401 atgaagcatc acttcctgga cgtcttcgcc gtcctgcagc gtgacgccgc tggtcggtcc
+    14461 gctgtactgg tatttcacga ttcctcctcg taggtaactt gcgtcaacag cggtccgtcg
+    14521 ttcggctccg cgtcttcgac aatcacggcg cccgccgaaa actcgatcac gtactgccac
+    14581 aggccggccg actcgccgag aaacttgtcg ctgaccgccg cgagcttttt gcagtccggc
+    14641 gggcggaagc ccaccagggc ggtgcgaacg tgatcgagca cgtcgatggc accgccgcgg
+    14701 ccgttgagct ggcgcagcac gatcgcgacg gcaaacttca ctcgccgcgg ctgaacaacc
+    14761 atgtcggtgt cgacggtcgt gtcgtactgg ctgcccggat agctgaccag caacgcgccg
+    14821 atcgcatggt tgagccggta ttcgtccggg cgctccggga agtactcggt caccagcgct
+    14881 ggcagcttga cgcgcagccg ggcgacgatg gcatcgacca tttcaagcgt cgtcgccatc
+    14941 agaagcgctc caacaggtcc gcgtcgaact ggcgacggcg cgcgcggacc ttcatttcgc
+    15001 ccggctcggg cgtcgccggg ccgctcgggt cgccgatcgt cagcttgttg tcgcggatct
+    15061 tttcgagcat gtgcatcgac gccttgaagg tctgcgacac ggtgtccggg agcgcggcgc
+    15121 cttccggtcg acgggcatac agccagtgcc gggccagatt gaccgtgaca tccttgatga
+    15181 ccgtcggaac cggcgacagc ggcaggttgt agcggccgcg caagtgcgcg tcgacgattt
+    15241 cctccgcctg gcgcaccgag ctttcgacga tgtcggtatt gatcgtcgtc ggcgccggtg
+    15301 cgccgtagtc ggtggtcgtg tcgttcgtca gctcaatgag cgtccgttcc ggcacggcca
+    15361 gcttcaggtc ggcgagcgtg caataacgca cgtcaaatac cccgcaggat gcggatgacg
+    15421 tcgccggccg ccgtcgccgc atcgagcgcg tagccgttcg atgcgccggt tgccttcgga
+    15481 atggcttggc cggccgcgtc cgactcgacc tcggcatgct cgtcgaccgg tgcgccggcc
+    15541 atgaccagga tgacgccgag caggttgacc ggcgcttgct cgccgacatc ggcggtcgtt
+    15601 tcggcaacgc cgagcgcctt cgcgccggct gcgcacacgc caccatcgaa gccgacgaac
+    15661 tggaagcggt tcaggccggc ggcagcggta acggacgtgg taaggatcgg ttgatgcgtt
+    15721 ttcatgagtc atgttccgtt cgggtgggtc tcgcccgaag gcgagacgtg gtcagtacgg
+    15781 gattcggtgc cgcgagcgat cagccgttga tgcccgagat caggtagccg gcgtccgcgc
+    15841 cgagcaggta cggccggaaa atgtccgtgc tgcgcaccag ttcgagcttg ccgtcttcga
+    15901 tgcgcgtgtc gacgaccgga ttgcctttct tgcgcagcgt gtagccgtag gacggctcat
+    15961 acggcgtacg ctgttggccg ccgcgctgca gcggaacgta ggcgagcacg atgttggcgc
+    16021 cccagatgtc cgtgaagcgg tccttgtcgt cggcatagat ggcttcgccg accgcgatgt
+    16081 tctcgacctc gaagatttcc ttcagcaggt cgacggtcac gatgcccttc atcgagtact
+    16141 tgatcttctc gatgagctgc gggtgggcct tcagcgtctt gtaggccgac gcaccgatca
+    16201 ccatcgtgtt cggccggcgg ccgatcttcg tgcggatcgc ttccttgccg tcttcgatga
+    16261 cgccgaccgg atcgctgccg gccgcggtga acttctcggt cgcgctgagt tgcttcttgt
+    16321 tgcccccggc gtagctgttc gggttctgcg cgaggtccgc gaccattttt tcgcggcgca
+    16381 actggatcgc ttcggtcgct gtctggacgg cggcttgttc cagggggaac gccgattcct
+    16441 ggtcttcgcg gtagtcgatc ggatactcga gatcgtgttc gtcgaggacg atgtcgatgc
+    16501 tgccgaggtc ttcagggttc attcgattcg accgggcgcg cagcgcgcgt tccgtcttgt
+    16561 agaggcggaa cgattccttg ccgaacttcg gaatcttgcc gccttccttt tccacttcga
+    16621 cgaccggcat caggctctgg ccgatgaatt cggcgttcgt gtaaccgatc gcgagattcg
+    16681 tcagcaccgg atcgacgatt cgcagtttcg agagacgtcc catcatttct cctggctcaa
+    16741 tggccttatc tgtggcttgc gccggttatt aacggatcac cgcgttcgcg gccgccgcgt
+    16801 aatcgacctt gtgttcgcgc atgtatgcac gaatgcggcc gtccagctcg gcgcgcttcg
+    16861 gatcgacgtt ctcgccgtac tcgacggtgt cggcgcccgt cgtcgtcacg ccggcgcgct
+    16921 cgcgcgtggc gtgctcgcca aattcgacga ccttcggcag ctcgccgagg aacgaacgga
+    16981 atgcgctcgc cagcggctgc ttggcatcgc cttcgccgaa ctcgaacggc tcacgtgccg
+    17041 tgaagtcgag aaatgcgacg actgcatcct tgtgcttcgg ggcgagcgtg ccgcccttga
+    17101 cgagctgctc ggcatacgac acatgctcgc tgtggcggcg gtcgtccgcc gccttgcgct
+    17161 cacgcgcctg cgcgtcggcg agctgctgct tgagctgggt gttttcggcc tccagtgcgg
+    17221 ccttttgctc aggggtcact gcgtctttct cctgcttcgt ggtggtgggt acggttgccg
+    17281 ccccgcgttc ggcgaatgcg ctggtcggcg catcgtcttg tcgcgcgact tcgcggatcg
+    17341 actcgatttg ccaatcgggg atgacctgat cagccgtgtc ccggccgaat tgcgtcagca
+    17401 gccattcgcg caggctgcgc cagaggcccg cattgagttc ttggccccag tcgctgaact
+    17461 cgacgacgcc ttcgttgccg tcgctgaaat tgacgtcgcg caggcccttg agggccggcg
+    17521 gctgcgcacc gaggaacccg acgtgacgga ggtagtacac gcccggcacc gggttgtgcg
+    17581 gcgaatcggg gtggtagaag ctggcgctga tcttcttgta gcgcccggcg ccgacgagtt
+    17641 cggcgaatgc gggatcgacc tgggtgggtt cggcctgcag gttgccggcc gacgccgaga
+    17701 gagaagcgac ccagccccac gccggcgcgt tgtcgcgcgg atggccgatg acgatcggcg
+    17761 cttcgtggac tttcggatcg tatgcagcag ccgtcgcggc gaggtccgtt tcggcgaaat
+    17821 caagcacgcg accgttcatg tcggtctgcg tgcctgcccg gaaaatgtgg agtggtttcg
+    17881 cgttcatggc gcccatcatc gggcgacgaa cggaacgggt cttttaatcg gctttacgat
+    17941 tgcgccggcg tgatacgcgc gatgcaggga gcgcagcagg ttcgaaccaa acccgtaaag
+    18001 cctttataaa actttacggg gcagcgtcag ggcgctgtgg ctatcgttgc gcgcctcggg
+    18061 tggtccggag gcgcgcagag cgcgatcggc tcgtcgacag gttagcggcg gttcgctgcg
+    18121 tccatcaagt ggcgcaggat cgtgttgagc accggctcga ccgcttcagg ttgcagctcg
+    18181 ccatcagccg taacgggcaa ccacggacgg gcgggaatcg tgaccttcaa tccgcgaccg
+    18241 gcttgcccgc cgaactggtg aatcgcggcg tattccttgt tgctgccgat gacggccgaa
+    18301 ttgtcgtcgt gatccgtcga gacgctcgcg gccatttgcc cgctgtcctg caggatcatc
+    18361 agaccggcct tgcgacgcga cgcggccgcg gtcagctcgc cgtttttctt gtacgccttc
+    18421 ttgccgccga cgcgcatgtg aatcgtcgct tccgacaatg cctgccaccg cggccggcct
+    18481 tgcgcggcga agttgtcctc ggtgaccagc accagcgcct gcgcgatctt gcgcatcgcg
+    18541 ccagccttct gatggccggc ttgttcgagc tgcagcaagc gcgtgcgcag cgccgagtcg
+    18601 tcgatctgga aattcacgaa atcgctcact gcaattcccc cctggcgatc gtgccgagat
+    18661 cacccgtgta tcgagacagg tcaggctgcc acgccgcggc accggggttg tagctccagc
+    18721 cgacgtccgg cgacacgacg atttcgcggc gcgtgactgg gtcgacggtg cggaacgtcg
+    18781 cgacctcgcg cagctcgccg gtcttctcgt tgaccagctt gagcgtcgtg ccgaggcggt
+    18841 cgccggccgc ctcgaccttg atgcctcgca cgatgatctc gtcgtgcgac agcgccacca
+    18901 cgcggcaccg gcagccccag ccgttcggcg ggtagaacga ctgccagaac ggatcgtcgt
+    18961 aacggaacac cttgccgttc attgcccgat ggctcgggcg cgtgcggctg tcgaggatcg
+    19021 ccacgtacat ccagtacggc cgatcgtcga cgttcgccat ttgctcggcg tagcggcccg
+    19081 ccatgtaggc cgtctgcagg ttcgttcggt agatggtctg caggcgccac gggctgccga
+    19141 gctgaacctg gttgacttcg ccggtatcct ggtcgacgtg ctcctgcttt ccccaccagc
+    19201 ccttggattg cagtacgggc gtcagctctt tcgtgaacca tcgcaacgtc ttgccttcgc
+    19261 tgattgcggt ttcgaccgcg ttgcgaatgt cctgcaggat gtccaggcgc gtgaccttgg
+    19321 caaccgtaaa tgccttcgcc tgggcgtcct gccaaagctc ctcccaatcc caggtgatct
+    19381 cgtagccctt gctgcgcaag tactcgatcg ccttcttcgg cggcagcttc atgcagtagc
+    19441 cgaggtcgac cgcttcaggc atggagacgc ccccagaggt tcgcgacgaa gatcgcgcgg
+    19501 gcaagccgtt cctgcagcgc gtccgcgtcg aggctcggat acagctcggc cagcatgccg
+    19561 agcagctcgt cggcactcgc gccgttcgca atccgcttta aaagcggcgc gaccagcgcc
+    19621 tgcgcgtcgg cattcaggtc gcgcgcggac aaggtgttca gtgcggcgtc gagcgcgtcc
+    19681 tggtcgggcg cttcgaactc tgcgaaggat gcggcaccca cggtatcaac ggcggacacc
+    19741 ggcagcggcc gctcgtccag gtcgccatcc tgcaggttgt acgcacgctt gaaatatgcc
+    19801 ggcgtgaaac gcgcgccggc ttgcgtcagc ttttggtcgc ggccggcctg gatctcgtcg
+    19861 acctgttcct gttcccacat gtcgaagacg ggtcgatcgg cgccgtcgaa gttcaggtcg
+    19921 caaatccagc ggatcagcat gttcatcgct tcggagacga ccgccttgtc gccgtcgcga
+    19981 atgtcgtccg tcacctcaag cccggcctgc gcggacgcgc gcgtcgacgt cgcctcggtg
+    20041 gtttggttct gcccgagcaa ggcaatcgat acctcgccgc gacagaagtg cagcaggcgc
+    20101 tcgtagacgt cggcgctacc ggtcttgccg gctgcttcct taatctcgat gctggaatcg
+    20161 tccgggacca cggcgacagc atcctgcacc atgtcctcaa ggcagtcgag cagcaggttc
+    20221 ttttcgccat cggatgcgct gcgcggatgc ttgccgacca gcatcggcga accgtacttc
+    20281 tcggtgaact gcacccagaa tttgaggccg cctttcttga acgtcgtcgg ccagaagcac
+    20341 atcgacaggt ccggaaagcc gtacgggttc agatacgtcg cctcctggcg cggcaccagg
+    20401 aacttgcgtg ccggcagctc ttcaccttgc atccagtgat ccttgctgcg aaagcggagc
+    20461 tggttctccg ggtcgtacac gaaccagtcg gccggcttgc cgacgacgtc gatcggcacg
+    20521 atgtagttgc cgaccttgcc ccaggtaatc tccatcggct gatagccgta caggacggcg
+    20581 tccagcatct cggtcacgat ccgagacagg tcgaggtccg cgaagacgtc ggcgatcgac
+    20641 ttcgcgacac gactcttcgc cttgccacgg tcgaggcccc attcgagcgc tttcacggcc
+    20701 gccttgcggc ggcgcacgca cccgccgacg tgcgcgtccg cgcgcagctc gcggtagacg
+    20761 cggatgtcct taccgagtgc cttgagcacc gggtccggat tcggcaggta catgccgagc
+    20821 gcgaagaaat caatgcttcg cgcccgcgtc gcgatctgcg acgaaagcga cttgtccggc
+    20881 tcgccgaacg taacaaactc ggtggggctg acccacaaac ccttgctcat gcgtaaccct
+    20941 ctgtcattcg gacgctggag cggcgccgcc gcgacttggc ggtcaccggt cccttgttca
+    21001 gttcacggct cgcgtaatac gccagagcaa ccgctacggc ggcgtcgccg tggcgcttgc
+    21061 cgtcgtcctg gccggtcgcg cggacgtccg ggatgcgcgg cacgcccttg atgacctgta
+    21121 cggcgcgcag gtccgcgagc acgtcggcat ccttcgggag gccgtcgatc gtgccgtctt
+    21181 cgaacgccgc cttcacgggc ggcatgtgct cgcgatacca cgactcggac agcatcactt
+    21241 gctggatgcg cgatgcgccg tagcgctgca tcgcgacttc tgcgaggtat tggccgttgc
+    21301 cccgcgcgtc gaaggcgccg cccgtgaagc gcgggagccg atcaagcagg tagaaggcga
+    21361 tctgctcctg ctgccggaac ggcacgttgc gcagctcgac gatgaacggc acgcggcgaa
+    21421 ccaggttctg ttgttcgatc agcggcacgt ggaccgtcag gtcgccagtc cgtccgaagt
+    21481 cctcgccgtt gtacgagcgg gcgtcgaccg ggagcgccgt gagcagcggg ccgagcgtcg
+    21541 cttcgagcca atcgcggcat tcggctgcgc ggatgtggtc gggaagcacc tcgaaaccct
+    21601 gtttgcaggc ccagcgcagc accggcgtgt cagccgacat gcgcgactcg atcagcgcgc
+    21661 gcgacagcca tgcgccgccg ctgttcttcg gcacgcagtc cagctcttcc tcagcatccg
+    21721 cgccgtacga cgcgcgaata tccttgaccc acttggcttc accttcggcc gtccaggctt
+    21781 cgcccttgcg caggcaaatg cgctggtaga gcccgtcctg gactgcgtcg gcgaacgtga
+    21841 tgcgatgcag gctgtagggc ttcttgccgg aacggacgtc cgtgaccagc tcattgaacg
+    21901 cgttgtcgac gccgtcgtgc gtcgaaatga tgtgaacctg accgccccac atcagcagcg
+    21961 ccatcgcggc cttgagcagc tcgccgagct gctcgtggaa cgctgcctcg tcgatgatca
+    22021 cgcggccttg cttgccgcgc aggttggacg ggcgcgacga cagtgccgtg acgcgaaagc
+    22081 ccgacgcgaa gcggatcacg aacgcgagga tcgacttgtc gccatccttg tcctgaaaga
+    22141 cctcttcggt ttcttcgatc tcgtcggccg cgaggctgta gaacttggcc cagtcggcgc
+    22201 agtcccggat gaactcctgc gccatgtctt tgttgtaacc gacgtaccaa acgtccatgc
+    22261 cgcgctggct ggctgcgagc aacgctgaat cggctgcttc gccccaggac aagccaacgc
+    22321 ggcgcgactt ctcgcagacc ttgacgggcg acgtgtcggc gcaccatttc tgctgatacg
+    22381 gcagcaggac ggcgggcgca cgatccgcac gggtttcgac ggtcgtcatc ctgcaatccc
+    22441 gagaatctga cgacggatcg cgtcggccgc gtcatcggac aggccgctgc tcttgacgac
+    22501 cttgtcgacg gccgcggcgg ccgcttccgc gcgtgcctgc acctccaggc ggaatttctt
+    22561 ctggttcacg ctcgcgcggg ccagcgtcgc gatgttcttc gcggccttgg acagcagcgc
+    22621 gatacgttcg cctggatcgg cgtcttcgtc ggtcgcttcc tgcaggttga cgatggactc
+    22681 gaacatctcg gtctgcacga gcgcgatcac agcctcggag cgggcgtcct gatcgtccgc
+    22741 tgcgccttcg gtcaggatgc gtgcggcttc cgtgctcgcc ttgatcgcgg cgaagcggcg
+    22801 ctcgatacgc tgcccgtacc gatggatcgc cgacttgctg atctggtagc ccttgtcgcg
+    22861 aagcgtttgc tccagctcct gatagcccgt gaagttgccc tcgacgagcg cgctttcgag
+    22921 ccattcgcgc acggccttcg gcaggcgttg cacgccgctg ctgcgcccca tgtcactggc
+    22981 tccagtactt ggccggccgc gcgatgcccg gctcgcaatc gatcgtgtac tcggcgatgt
+    23041 cgacgccgta gcgcgtgaga tcgccccacc agcggccgga cggttccttg cgcagcttca
+    23101 ccagcacgcg atcggcgagg tagtccagtt ccttgcgcac ctcaagcgcc gtgatgtcgg
+    23161 cgaagatcga gcgcatcgtc atctggatca cgtcctcgac gacttcctcg ggccgcgcgt
+    23221 tgtacagcgc cagaatcaga taccagcgca gcgattcgcg gcgcaccttg gcgtggtcga
+    23281 ttcccagcgg attggtgggc gtcattgatt tccccggagt tgtaagtttt cgaatctgag
+    23341 cgcgatcgcg tcgagcttgg cttcgatgac ggtctggttg cgcacgtagt cttcgcggcg
+    23401 cacgtactgc agcggtaggt ccgcctgaaa tcgcagaaaa tcgcgctcca ggcgcgccgt
+    23461 gttgtccgcc tgccggctga tctgctcgag caccgccttg atctgttttt cctggttctg
+    23521 atcgcgctcg gactggtggc gctcgatctg cacgagcaac accttgccgg ccccgatcag
+    23581 aaggccgatg aacgtcgcga gcatcgacac caattgccag aattccacct gtaacgtcac
+    23641 tgcttttctc cctcgatgta gtcgatcagc ttgttcagtt gcgattcgat gtcgcggctg
+    23701 cggcggctgg cgtcgacgtg gtgggcgagg atgtcgtcct ggcgtacccc ggaatcaagg
+    23761 gcgtcatcgg cgcgggccgg cgcaacagct ccggcggcag cactggtcgc gggcacacca
+    23821 tcggcgccgg cggcggcgtt ccacacgcgg acaaagccgg cagtgaacac gcagcgaggc
+    23881 aaatcctgaa gaggcgcatc cggcgccggg cggtattggc tcgtgacact ggcaattctc
+    23941 cgtttcagtt cgtcggattc gagcgcgtgc cgggctttct cggcgaacag gtcgccggcg
+    24001 agcgccgccg cgcgctgcgt ctccgcgcgt tccttgatgc gcgcttgttc gacggcatcg
+    24061 cgcgcgccgt ctgcgtattg gcgttcgagc ttggcgacct tcgcgtcgcc ggcaagcgca
+    24121 ccggcgtgat agccgccgaa gaaagcgacc gcgccagccg ccagtgcgcc gatcgccgca
+    24181 gcgccggccg ccgccgcgac acactggccg cgcgaaagca gggcaggaaa gttcatgagc
+    24241 acgctcccgg cccgaacccg gccttgacgt aacgcggctc gaacgtgcgc agaatcacgc
+    24301 gcgggtagcc gcggttctcg cggaaagcgg ccgcgtgccg gccggcgttg aaccgctcga
+    24361 catggccgaa ccagcgttgc cgatcggcgc cgccggcagc cgtcacgcgc tgatcgcgat
+    24421 agacccagcc caggccgccg ttataggccg acagcgtcat cgccatgcgc tcgcatgcac
+    24481 cggccgccgt gatgcgctcc cagaggtgcc ggtcgtaccg cacgagcgca cgaatcgacc
+    24541 aggacgggtt gaacggctgc gcctcgccca gctcggccgg ataggcgccc gcgatccagt
+    24601 cgacggtcga gggcatgaat tgagacatcc cgcgcgcacc aacgacgctg acggcgtccg
+    24661 cgcgccagcg gctctcctgg tggatttgcg ccgcgaacga cgagactggc gcatccatgc
+    24721 cccagacggc acgtgcgttg cgcgtcagct cggcgcggta cgccagcgcc tcggcgggca
+    24781 cttgcgcggc cacgggcgcg gcggcgccga gcaacgcgac gacaaaggcg atcaggacgc
+    24841 gcatggtcag agacccagcg cgacgccgac tacgacgccg aggacgatca ccgcgcggcg
+    24901 aagcatggcc gcggcgaaca ccagctcgta gcccttggcg actcgatagt cggcttcggg
+    24961 cgtcagtccg tccggtccat gccgccagtc ggtttcgaga tagctgtccg gccgcgcgta
+    25021 cgggaaaagc ccgcgatcga gccagtacgc gacgacggcc gcgaggctga cgagactcag
+    25081 tttgtagagg gcgacgggca gttgctgcgg cgagaaaagc gcgatggctg caacgaggat
+    25141 gatcgcggcg acgagccagc tcgtcagccg cgggaagcgc ttgatgaagg gcatatgacc
+    25201 tcccgtagtg gatatgccgt catcttggac ggcatgtacg ggtaggtctt ttaatcggct
+    25261 ttagcggtcg gcttgcgcgg cgttcctgcg attcagacca tcgcgataca acagcccacc
+    25321 gatccttacg agcgtactga catcgaattc gttaaggcgt tcgagcgaca ggtcgatcca
+    25381 accagcgagc aacgcgattg catcgtcgga gttctcctgg tcgccagtca cgtcgaggat
+    25441 cttggcctga tgttcgaatg acgcaatgac ggggtgaatg ttcatgggat gactccaagt
+    25501 cgggagtcat ccagcatagg cacaggcacc gccgacagca agccgaattc tacggcttcg
+    25561 atgagcgcag cgcgtgctcc tgaaaatcga agagctggga gaacatccgc tgccagaagc
+    25621 cgacctttgc gagctgatcg tccgcgtatc ccatcgcccg catttgctcg ttgtggcaca
+    25681 tcacgttgag cacgtgtagg accggcggtt cctcggcctc gatcgtcagc cgttcgctgc
+    25741 gcaccgccag caacacgctt tcgtccggca ccgaaagtgc catgcgcttt tccaagccga
+    25801 tgaactggcg tgcgaaatcc gcatgcgccc gcgcgcgctg cgacgaaccc acgaccaggt
+    25861 tgatcgcgga cagcaccgtc acgagccccg cagcgacgag cgcgaccgcc ttgtattgct
+    25921 gctcaagcac cccgtagacc gccgtcgacc cgaagatcac ggacagcatg ttagtcatct
+    25981 ggtcgaggcg atcgaagaac gcgcgccggc ggttgtgata ccggatcgag cggcgaatgt
+    26041 cgaagagctg gttgtgccac tgcaggtcaa gattggtcgt tcccattgct gttatcccgt
+    26101 gtcggcagcg gcggaggcgg cggcagcgtg ttgaccactt cgaaaccctt gttgatatcg
+    26161 ttgtagtcgc gccgctcacc gtagtcgacg ctgtcacgcg tcggcacgcc cttgttggtg
+    26221 gagtcggaat tcgaattgtt cttcggattg gtcattttgc tgcctgccgt tacgggaaga
+    26281 aattaatgct cgttcaagcc tgcgcgactg aatcgccggc cggctcgtca gtgcttgcgt
+    26341 cgtgcgctga gatcgcgcca tacaccgggc ttgccgtccg acgtcacaac acactcaata
+    26401 tcgggcgctt cggagttgtc gatgatgctg ccgaccgcgt acgttttccc cgcatactgg
+    26461 cagccgccga atgctgcctg gagttggtcg attgtttgat gactggacca gccgtagtag
+    26521 ccgaggatga cgccgcccaa gagtgccgcg aacaacgtga ctttcagcat cgttcgggtg
+    26581 gatgcgagcc gctcctgggt gagctggagt tgcgtcgtca ggtcagggcg tgagtcttcg
+    26641 caaacgttgt cccgagcggg cgtagattgg gcggcgcttg gtgcggtgga cttgatcgct
+    26701 acgcggttca gccaggacgt caggtattgc tcgatatcga cgtatctatc gctgcgaatc
+    26761 catttgaccc gcttggcacc ggcgcgagcc aatacggccc gggaaatctt gagaacatca
+    26821 tttcccgtcg cgtcggcgat ctgcccgacc agctccatga tcacaccctt ctgatggttg
+    26881 gtcacgaact cgacttcttc gggctccttc gggccgaact ggaggttcac gacattgctg
+    26941 ttcgagaacg gtacgccgtg gttgacgttg acgatgtcgc gaccagcaac gctcccgatt
+    27001 gagccggccc ggatattcac cgagcgatca gcgatgtttg cttcaccggc ctgtatggct
+    27061 tgcccgaccg gcttgttgaa ctcctgtttc ccgttagcgt cattggtcat tttcttttct
+    27121 tgcctttacc gaaaaaacta atcccctgct gatcgaggtt tccctcgacc tttacggcct
+    27181 gtcctacgga tccgtgaaag acctgctcct ggcgcgtcgt gcttgcggcc gccagcgcgc
+    27241 caatcgcagc ggctttcacc tcaagcgacg cggaccggta ccgcgaaacg agttcttgtt
+    27301 catcgggtgc caacgccatc gacgatcgta tcgccccgac gatgtactgg acgtccgccc
+    27361 cgacacgcat gattgccgcg aggtagctgg cgtccggcga acgctcgcct ttctcgtact
+    27421 tgatctgcga ttgcttggtc acctccgcca gcgccccgaa tgccgtctgg ctatacccca
+    27481 accgctcacg ctcctcgcgc aggcgctcgc ctattgaatc catacgatta cccaaatggc
+    27541 gcttgacagg taatcaaacg cataccatac ttcattcaca ccgtcccacc acgaacggca
+    27601 acctagtcgg cactttccac ggtgccgaca gccccttaac aggagcttca atgaaactgc
+    27661 gtaccgccgc tgaagcccgc gcggagcttc aatcgaaagg tatctcgatc acccagtggg
+    27721 cgatcgcgaa caaattctct cccaatctcg tattcgaggt tctgggcggc cggaaaaaat
+    27781 gtgtccgcgg ccaggcgcac gaaatcgccg tcaagctggg gctcaaggct ggcgaaatct
+    27841 gcgccgaccc ggcaaaagcg ctcgcattgc ctcgacaccg cgtcgcagcg tgaaagacct
+    27901 catgcgctgc aactgtttcg gccaccacgt cgacagcccg gtcatcggcg agacctcgct
+    27961 tcgtcaagca tctgcaccat ctgcaggaca acttcgccgc cccgtgcctg tatcggatcg
+    28021 ggcagttggc gacgagcagc gccgaaacga cgcagcgcct gcgaaaagcg tacgccgtcg
+    28081 acgcagccct gttcctccag gtggccgata agtcgaagca tcgtctgccc gacagcgtcc
+    28141 acacgtgccg ctaactcact gaaatccgaa tccgtcatgg aacattttcc ccgtaagagt
+    28201 aaccgctttt cattctacga gtcgcaacgt tgttgcatag gcgcaaaacg ggaatttgtt
+    28261 tggaatcggc cggaaaccgt tttgaatggg gcttcccaat gagccgccgc aattggaaac
+    28321 gtattcagcc gcatagcctt cggcacgcgc ttgaactctg taaagagcat gcgcgcgagc
+    28381 ggcgcaatct cagcgtcgaa cgcatctctg aacacatggg gctcgccgat cactggactc
+    28441 tctacaaatg gttccagtca ggccgtatgc cgatctctct gatccggccg ttcgaggacg
+    28501 cgtgcggtgc cgatttcgtc actcgctggg tggcggcaag cgccggtcgg ctgatcatcg
+    28561 acatcccgac cggccgcgac gcgacggccg aagacatgca gatcttgcaa cgcacgctca
+    28621 acgccgcagt cgggcaattg ctcgacttct acgctggctc ggccaatgca gacgaaacga
+    28681 tcgcgacgat ccagcaagca atggaagggc ttgcatggca tcgcggcaac gtcgagcgcc
+    28741 atgtacagcc cgaactcgac cttggagcag ccgaatgacc gcgaacgcaa ccacgaagtc
+    28801 cgctgagaag gtcctggagg ttctcaacgt tctgctcggt catttcgcgc atggcctgac
+    28861 gcccggcgaa ctcaccaagg cgacgaacct ctcgccgtcg aacatcacgc ggtatgtcgc
+    28921 gacgcttgag gcgatggggt tcgcggagcg tattcccgaa acgggccgca tccgtccatc
+    28981 cgtgaagctg gggcgccacg ccgtcgccat cctccgtagc ctcgacgccg cccgcgagcg
+    29041 cctcgacagc attcaaaccc gcctgacgaa tcagtaaagg agcaaccgtg tcagccaatt
+    29101 tcaccacgta caccgcttgc gtgtacccgc ctggggattc cttcaaccgc gtggtaatca
+    29161 ccggcctgga gtgcgccgag cacgaagtcg cagcaaccgc caaagagtac gcagagaaat
+    29221 cgttgcgcgc tctccaggcg gtgcccgccg agtcctggcg cgttcagatt ctggaccgcg
+    29281 ccgaagtaac cgatttgtga gagcgaaatc atgacgaaag gtcgaaagcc gagcagcacc
+    29341 aacaacgtcg cgacgaccgt gaccgacgcc gatgttccgg gcatgcccgc aatggtcgac
+    29401 gcagcgaatc agctcgccgt gcttgatcaa gaacgagact cgacagtccg agccgtcgct
+    29461 acacagctcg ggtaccagtt gccggccgat tgcaccgacc cggacctgat tcaacgcgac
+    29521 attgcggcga acatgcgtcg tagtgtggaa gcgtgcctgg aggttggtcg tggccttcga
+    29581 gtactgaagg aggcatgtga gcacggccaa tttggtgcgc gtcttgatgt tctggggatt
+    29641 gagccgcgtg tagctcaacg gttcatggcg tcggcgacca agttttcaaa agcggcgtta
+    29701 acgccgcttt tgaaggcggc cggaaatcag accaagcttt ttgaaatgct ggtcctcgac
+    29761 gacgaacaga tcgaagagct ggagctgacc ggccaaaccg gcgagctgaa gctcgacgat
+    29821 atcgccacca tgagcgtgaa ggaactgcgt ggtgcgcttc gggaagcacg tgaacaagcc
+    29881 gccgcgcaaa cgcgtctgct gtccgacaag aacgcgaaga tcgacgagct ggccgcgaag
+    29941 aagacgcgcg tcaagaaggt cacgccggac gaagaaggag cggaaatccg caaggaaacc
+    30001 agcgcgatcg ccttcgaggc ggagtcggtt attcgcggca acctgcgtgc cgccttcgaa
+    30061 accttggcgc agcacgccga gacgcacggc gcgccgcacg acgacttcat ggctggcgtc
+    30121 ctcgggcaaa tccagttgtc gctcaaccag cttcgaagcg agttcggcgt caaggccgct
+    30181 gcggacggag acgacgtccc gcaatggctg cgtgatacgt cggccgggtc agcggatgcc
+    30241 gacttctcac gcgccgctaa ctgattcggg ggctcgcgac gatgagtgcc gtcttgaacg
+    30301 aacgcattgt ggctgtcgcc caggcagcgc gcgcggccgg ccacggcaaa aaaggtgcga
+    30361 tctacgacgc ggcctgccgc gagctgggcc tgtctttcac caccctgatg cgcaaactga
+    30421 aggaagccac cgtgaccacg caacgcaaac gccgtgtcga cgccggtcaa agctcgttga
+    30481 cgcgcgacga agcgatgctg atttcagcaa cgctcatgga gtcgacgcgt aagaacggca
+    30541 agcgcctgta tacggtcggt gacgcggcgg agattttgcg cgcgaatggc atgatccggg
+    30601 ctgaatttct cgacgagtcc accggcgagc tgcggccgtt gtccgatagc gcgattcaac
+    30661 gcgcgctacg catgtatggc gtccatcccg accaactgct cgcaccggcc ccagtgactg
+    30721 aactggcaag cctgcatccg aatcacgtgt ggcagatcga cgcgagcctg tgcgtgctgt
+    30781 actacctgaa gccggtagcc gatgcccgtg cgaacggcct gcgcgtgatg gatcacgctg
+    30841 agttctacaa gaacaagcca aagaacctcg cccggatcgc ggccgatcgt gtgtggagct
+    30901 acgaaatctc cgaccacgcg agcgactgga tttacaccga gtacgtcatg ggtgcggaat
+    30961 cgggcgagaa cctctgctcg acgctcatca acgctatgca ggagcgcggc ggggccgacc
+    31021 tgctgcacgg tgtgccacgc attctgatgc tcgacgccgg atcggcgaac acggcgtcca
+    31081 tgacgcgcaa cctgtgccgc tcgctcggaa tcgagctgat tgtccacaag gttggcaacg
+    31141 cccgtgccac cggacaggtt gagaacgcgc ggaacctcat cgagcgcaag ttcgaaccgg
+    31201 gcctcaagtt tcagccggtg aacagcctcg acgagctgaa cgcgcttgcg aaacgctggc
+    31261 gtatgcactt caacgccact gaaacgcaca gccggcatgg tgcgacgcgt agtgaggcat
+    31321 ggatgcgcat taccgcccag caactcatca aggcgccgtc gatcgatgtg tgccgcgaat
+    31381 tggcggttgc ctcgccggaa agtcggaagg tcacgccgaa gctgcgcgtg tcgttccgtg
+    31441 gcgaggaata cgacgtgtcg tcggtgccgg gcgtcatggt cggcgagaag ctgatgatca
+    31501 cgcgcaatcc gtggcgtgac gatgccgccc aggtggtcct gactggcgag gacgggcgcg
+    31561 agacgtactt cgtcgttccg ctcatcgtac gtggcgattt cggctatgcc gagactgccg
+    31621 cagtgatcgg cgaaagctac cggcggcacg ccgatacgcc agcgcagcat gcgcttcgag
+    31681 agatcgagca gctcgtgaca ggtacgtcga ctcctgccga cgctgaagcc gctcgcaagg
+    31741 gcaaggcact gccgttcggc ggccgtctcg acccgtacaa gcacctcgac aaagccgatc
+    31801 ttccgacgta cctgccgcgc cgcggcacgg aacacgacct cgttgcgccg cgcgtcgaac
+    31861 tcgcgccgct ctcgctgatc gaggcggcaa agcagatcaa ggccgctgtc gaagctgccg
+    31921 gcgtcgactg gagcgcggac cggttccgct ggctgcaaca gcgctatccg gacggcgtac
+    31981 cgcaagagca gctcgacgcg atcgtcgccg agcttaccgg cccgcgagcg ggtcaacagc
+    32041 aaccgctgca gctcgttcgc gcagcggcag gaggtcaatg atgttggtcc tgaaaagcgt
+    32101 tctgcaacgc gcctctatca agcaggccga acttgcggaa cacctgaatc tgtcgcaggc
+    32161 ggcggtcgct cagatcgtga atcacggcgt atggccgcgc agcctcgacg acctcgacct
+    32221 gcgggagcga attctcgact acctggaaaa caaaggggtg tcggacgcag gcccaggtgt
+    32281 ttttgatgaa gtgcaaaagg tgggtggccc gaccgatgtc ttggcggata cgacgggcca
+    32341 cccggtctcc cagccgaaca gcaataccga tctcaaccag gaggaatcca tgttactgcg
+    32401 caaacaggtt ctcgcaccag ccacccgtaa gcacttcggc ctgttccgtg acccgttcgc
+    32461 ggatgacatc cagtcgcacg aagacatgtt cgtcagcccc gatattcgct acgtgcgcga
+    32521 ggcaatgttc cagactgcga agcatggcgg gctcctggcc gtcgtcgcgg aatcgggcgg
+    32581 cggcaagacg acgctgatgc gcgacctcga agaccgcgtg atgcgcgaga gtcatccgat
+    32641 catcgtcatc aagccgtacg tgctggcgat ggaggacaac gaccagaaag gcaagacgct
+    32701 gaaggcgacg cacatcgcgg aagcaatcat ggccgccgtg gccccgctgg agaaggtcaa
+    32761 gagcagcccg gaagcccgct tcgcgcagct ccacaaggcc ctgaaggaaa gccacgcggc
+    32821 gggctaccag cattgcctcg tgatcgacga agcgcacgcg ctgccgatcg cgacgctcaa
+    32881 gcacctgaag cgcttcttcg agttggagat gggatttaag aagctgctgt ccatcatcct
+    32941 gatcggccag ccggagctga aggtcaagct gtccgagcgc aaccaggacg tccgggaagt
+    33001 cgtgcagcga tgcgaaatgg tcgagctggc cccgctcgac ggcccgcgcc tggacgaata
+    33061 cctccggttc aagttcggcc gtctcgacaa gccggtcggc gacgtgatcg acgcaagcgg
+    33121 cgtcgacgcg ctgcgcactc ggctcacgat gaccagcacg cgacgcgatc gtgccgaaac
+    33181 ggtgtcgctg ctgtacccgc tcgcggtcgg aaacctcctg acggccgcga tgaatctcgc
+    33241 cgcgggcctg ggcgtgccgg tcgtcaccgc cgacgtgatc aagggagtct gacatgggcg
+    33301 ccatcgtgca aatgaacctg cccgcaccgc gaagtctgct gcctgacggc acgcgggttt
+    33361 tcgacgcgga gtgcgtctcg cgtctcacgt tgctgaacgc ttgcgcgcgg gcgctgcgcg
+    33421 gcctgggcta ccgcgtgctg gccgaagaga tctcgccgcg cgacggcggc cggccgacga
+    33481 tccagatcgg cccgtacctc gcgaagtcgt ccgacgtgct gcgcgagcgt gcgggcggcg
+    33541 tcactgtcca gcggcaaggc aatcgtcagt ttgcctacgt cgttttcatg agcgtccgag
+    33601 tgacatggga ggtagctgga taagtcggtt tctcggatgg ttcctgattc aacgactcat
+    33661 gccttaccca ccgattttca aggagcacaa catgcaagcg agtaacgaac accttctgca
+    33721 cgcagctcag gcacttacgg attgctgctt cggcgcatcg tttcagtctg ggtggtggac
+    33781 ggacctgaag accggcaccg acctgcgagc cgcgaacaac gtaccagaga agctgatgtt
+    33841 gatcgtttcc gaagtcgccg aggcaatgga aggtcatcga aagggtttga tggacgacaa
+    33901 gcttccccat cgcccgatga tcgaagtcga actcgcggac gcggtgattc ggatattcga
+    33961 cctggccggc gcgaagcaat acgacgtagc tggcgcgatc gttgagaaac tggccttcaa
+    34021 tgcgcagcgt ccggaccaca agcccgaaaa ccgactcgct gaaggcggca aagcctactg
+    34081 atatgagcga cgccgtcgtt atcgccatcg gaatcgtctt tctcgtctgc ctctgccgca
+    34141 aggaaatacg ccgctggtgg acccgctaac gagctttcaa tacctcatcg agaggagcac
+    34201 cacatggaac agaaacagat tccgaacggt tactggcagg acgcgaaagg ctgcctgatt
+    34261 ccggaaacca tgatcaagcc gatcgaccgt gagcgcgatc gcctcgttcg cgagctggcg
+    34321 gacgaagcca aaacgagatc gaaggggctg gtcgagctga aagcccgaat tttcggtgat
+    34381 atctcggcct tcatcgacct ttcggccgag gagtatggct cgaaggttgg cggcaagaag
+    34441 ggcaacgtca ccctgtactc gttcgacggc cgctaccgca tccagcgtgc catccaagac
+    34501 cgcatcgcgt tcgatgaacg cttgcaggcc gcgaagtcga tgatcgacga gtgccttcgc
+    34561 gattggacga cggacgcacg ccccgaaatc caggcgatcg tcacgcaggc gtttgcgacc
+    34621 gacaaggaag gccagatcaa caccggccgc gtgctcgcgc tgcgccgatt ggacatcacc
+    34681 gatccgcgct ggctggaggc aatgcgagcc atcggcgaag cactgcaggt gatcggtagc
+    34741 aagtcgtacg tccgcgtcta cgagcgcgtc ggcgacacgg accaatacgt acagattccg
+    34801 ctcgacatcg ccaacgcgta accgcgacat cgagcacttt cgctggccgc gagcgtctcg
+    34861 cggtatccac catacggagc atttatgaac aaatcggacc tgatcaatca cgtggcggca
+    34921 gaaacgggca tgacgaaaac cgactccggc tttgcgctgg aagccgttct cgaaggcatc
+    34981 acgaagtcgc tgcgcaaggg cgacacggtg acgctgacgg gattcggcgt attcagcgtg
+    35041 ggcgcgcggg ccgcccgtac cggacggaat cccgccaccg gcgaagaaat caagattcca
+    35101 gcgtcgaaag ccccgaagtt caaggccggc aaggggctga aggacgccgt caagtaatcg
+    35161 tcgagctgcg cggcgacgcc cgatgcgatg ggcgtcgacc cgtgcggcga tcgaccagga
+    35221 cacgaaagca atcgcactgc gagggacgac atgacgaaca taaaaaaata cgtgctgacg
+    35281 cacgacttca gctacgaaat cgtggtggat gtcgatcaca acatcctgac cgaagagaag
+    35341 ctctgcgagc tggttcgatt ctggtctgag ggtgatgcag acatcgagcg gcacggcccg
+    35401 ctccaggcgt ttctgaagct gtttgctgcg cgcttcctcg cggccaccgt tgaggagatt
+    35461 tctccgcagg atgcgtttaa cgccggccgc atcgaggggt tcccgccggt agatggatcg
+    35521 agcggcctgc gcgtcgttga atacgacgaa ttttccttcg aagcggacga catcgatgta
+    35581 ctcgaaatct gatcgcgggc ctcaggctcg gcaaaagctc atccgcctga ttcacgtcgc
+    35641 aaagcgtgat cttgcgatgc ccgatgacag ctaccgcgct gttctgatgc agattggaaa
+    35701 gaaggaatcc gcggccgacc tgaccgttcc agaactggaa agggttctgg aacacctgaa
+    35761 gcgttgcggc tttaaagtgc gttccaaaaa gggcgcgcgc agtcaggcgg acgacgagca
+    35821 atcgaagatg attcgcggca tctggcttga gctggcggat cggggcgtcg tgcaaaaccg
+    35881 gtctgaggaa gcgcttggcg ctttcgtaaa gcgcatgacg cacgtcgacg cgctcgaatg
+    35941 gctcagttcc gcccaggcat cccgtgtgat tgagcacctc aaaaaatggc gtgacaggac
+    36001 gacggaggcc gtatgaagga cgaaacgttc aaaagcaaag ggccggagct tctggtcgac
+    36061 ttgtctctgc aggtcgccca ggcactgatc gagctggccg acatcggcgc cgaccaggcg
+    36121 aaccagctcg ggcgcgagat tgccgaccgc atggccggcc actggggcgg acagaacatc
+    36181 tactttccga tgggtgtgtc gtaccggctg tcccagcgag atcggcagat tttcgacgaa
+    36241 ttccgcggcg acaaccatgc cgagctggca cggaagttcg gcgtgtcact ccagtggatt
+    36301 tacaagatca tcaaggcggt ccggcgcgag gagatcgccg ctcgccaacg cgacctgttc
+    36361 gcgagcccca cttctaccga ttgagcccga ggaggctgcc ttgacaggta ggtaaccgcc
+    36421 cctcagactt ctccgcagcc gtcgatgtaa tgccgcagaa tcggtccgca ggggtcgtcg
+    36481 tagatcccgc gtccgccagt ggacaacggt gttgccccca ccacaagggc ggggacaacc
+    36541 gctacgcggt tccaccgttg accactgtct cctcgcgagc cttgccttcg gcctgacgcg
+    36601 gccctcgcgg gccttgcccc agagagatat atttctgttt caacctacgc aagtggtttg
+    36661 caagcgccgt tccgtgtgat cccgttccgt cccgcctcat accggaaata tcgcgcgttc
+    36721 tcccttggaa atatctcacc tctcttca
+//

@@ -25,7 +25,10 @@ entity "Sequence" as seq {
     --
     gi : int !null <<FK>>
     gbuid : text unique
+    start : int
+    end : int
     gc : float
+		length : int
     path : text !null unique
 }
 
@@ -36,7 +39,6 @@ entity "Source" as src {
     strain : int !null <<FK>>
     start : int
     end : int
-    size : int
     seq : int unique <<FK>>
 }
 
