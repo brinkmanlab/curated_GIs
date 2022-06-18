@@ -2,11 +2,12 @@
 <scriptfile>
     <settings program="actiona" version="3.10.1" scriptVersion="1.1.0" os="GNU/Linux"/>
     <actions>
-        <action name="ActionWindow" version="1.0.0"/>
+        <action name="ActionConsole" version="1.0.0"/>
         <action name="ActionCommand" version="1.0.0"/>
         <action name="ActionCode" version="1.0.0"/>
         <action name="ActionWriteText" version="1.0.0"/>
         <action name="ActionKey" version="1.0.0"/>
+        <action name="ActionWindow" version="1.0.0"/>
         <action name="ActionPause" version="1.0.0"/>
     </actions>
     <parameters>
@@ -63,6 +64,17 @@ var line = 0;</subParameter>
                 <subParameter name="value" code="1">var xfma_path = mount_path + lines[line];
 var image_path = mount_path + lines[line] + '.png';
 line++;</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">$xfma_path</subParameter>
             </parameter>
         </action>
         <action name="ActionWindow">

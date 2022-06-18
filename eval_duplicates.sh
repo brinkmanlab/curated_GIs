@@ -2,8 +2,12 @@
 # Align all vs all sequences generating blastn_alignments.html
 set -ev
 
+for f in sequences/*.gb; do
+  docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/biopython.convert:1.3.1--pyh5e36f6f_0 biopython.convert /mnt/${f} genbank /mnt/sequences/$(basename $f .gb).fna fasta
+done
+
 # sequences.fna :
-awk 1 sequences/*.fasta sequences/*.fna > sequences.fna
+cat sequences/*.fna > sequences.fna
 
 sed -i 's/φ/phi/' sequences.fna
 
@@ -42,7 +46,7 @@ sleep 2
 actiona -stex ./gen_images.ascr
 docker kill $cid
 
-# blastn_coverage_filtered_paths_dedup_pic.tabular : 
+# blastn_coverage_filtered_paths_dedup_pic.tabular :
 sqlite3 GIs.sqlite <<EOF > blastn_coverage_filtered_paths_dedup_pic.tabular
 CREATE TEMP TABLE blastn_coverage_filtered ( seq1 text, seq2 text, C3 text, C4 text, path1 text, path2 text );
 .mode tabs
