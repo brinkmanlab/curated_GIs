@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<iframe id="clinker" style="width:100vw; height:100vh;"></iframe>
+<script>
+    const clinker_conf = {
+        "plot": {
+          "transitionDuration": 250,
+          "scaleFactor": 45,
+          "scaleGenes": true,
+          "fontFamily": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Ubuntu, \"Helvetica Neue\", Oxygen, Cantarell, sans-serif"
+        },
+        "legend": {
+          "entryHeight": 0,
+          "fontSize": 0,
+          "onClickCircle": null,
+          "show": false,
+          "marginLeft": 0
+        },
+        "colourBar": {
+          "fontSize": 10,
+          "height": 12,
+          "show": true,
+          "width": 150,
+          "marginTop": 20
+        },
+        "scaleBar": {
+          "colour": "black",
+          "fontSize": 10,
+          "height": 12,
+          "basePair": 2500,
+          "show": true,
+          "stroke": 1,
+          "marginTop": 20
+        },
+        "link": {
+          "show": true,
+          "asLine": true,
+          "straight": false,
+          "threshold": 0,
+          "strokeWidth": 2,
+          "groupColour": false,
+          "bestOnly": true,
+          "label": {
+            "show": false,
+            "fontSize": 10,
+            "background": true,
+            "position": 0.5
+          }
+        },
+        "cluster": {
+          "nameFontSize": 12,
+          "lociFontSize": 10,
+          "hideLocusCoordinates": false,
+          "spacing": 200,
+          "alignLabels": true
+        },
+        "locus": {
+          "trackBar": {
+            "colour": "#111",
+            "stroke": 1
+          },
+          "spacing": 50
+        },
+        "gene": {
+          "shape": {
+            "bodyHeight": 12,
+            "tipHeight": 5,
+            "tipLength": 12,
+            "stroke": "black",
+            "strokeWidth": 1
+          },
+          "label": {
+            "anchor": "start",
+            "fontSize": 10,
+            "rotation": 25,
+            "position": "top",
+            "spacing": 2,
+            "show": true,
+            "start": 0.5,
+            "name": "uid"
+          }
+        }
+      }
+    const frame = document.getElementById("clinker")
+
+    let i = 0;
+    frame.src = `/curated_GIs/clinker/clusters${i}.html`;
+    frame.addEventListener("load", ()=>{
+        frame.contentWindow.d3.select("#plot").call(frame.contentWindow.ClusterMap.ClusterMap().config(clinker_conf));
+        frame.contentWindow.d3.select(".legend").remove()
+        setTimeout(()=>{
+            frame.contentDocument.getElementById("btn-save-svg").click();
+            ++i;
+            if (i < 38) frame.src = `/curated_GIs/clinker/clusters${i}.html`;
+        }, 1000)
+    })
+</script>
+</body>
+</html>

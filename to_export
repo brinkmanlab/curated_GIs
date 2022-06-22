@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# Used by gen_images.ascr
 shopt -s failglob
 cat <(ls *.xfma) <(find . -maxdepth 1 -name '*.png' -exec basename {} .png \;) | sort | uniq -u

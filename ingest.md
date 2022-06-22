@@ -1,5 +1,8 @@
 # Files 
 - prokka/* - docker run --rm --user $(id -u):$(id -g) -v$PWD:/mnt staphb/prokka:latest prokka --outdir /mnt/prokka /mnt/sequences.fna
+- clinker/* - ./cluster.py | xargs -li docker run --rm --user $(id -u):$(id -g) -v $PWD:/mnt quay.io/biocontainers/clinker-py:0.0.23--pyh5e36f6f_0 bash -c 'clinker -j 10 -p /mnt/clinker/clusters{}'
+- ~/Downloads/clinker*.svg - Open dump_clinker.html in browser
+- clinker_all.html - cat <(echo '<html><body><style>svg {clear: both;}</style>') ~/Downloads/clinker*.svg <(echo '</body></html>') > clinker_all.html
 
 # GI Curation Troubleshooting
 
