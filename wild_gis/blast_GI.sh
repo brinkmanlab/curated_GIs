@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-. ../deps.sh
+. ../../deps.sh
 
 biopython.convert genomes.gb genbank genomes.fna fasta
 biopython.convert query.gb genbank query.fna fasta

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-. ../deps.sh
+. ../../deps.sh
 
 biopython.convert -s genomes.gb genbank genome.gb genbank
 
