@@ -1,0 +1,307 @@
+LOCUS       SPI-11(cGI3)|506|447    8313 bp    DNA              UNK 24-JUL-2018
+DEFINITION  Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,
+            complete genome.
+ACCESSION   AE006468.2_1326073_1334385
+VERSION     AE006468.2_1326073_1334385
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..1125
+                     /locus_tag="STM1239"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative cytoplasmic protein"
+                     /protein_id="AAL20168.1"
+                     /translation="MLKPICHSGSIKVPEYLETDKEKNAGRTPLSSDIQQVRNVVEDVP
+                     LFPESRTARGSVSAAYRLSFDEVFCGLSNEERKKVYGRLFGKQVLAHIHSRCQRDADII
+                     REKALRRISRECGAEIDCALLLNKMVDILQNARLTINFNAAKIDFVSLLKNKEYLNSYA
+                     LGCRPGDLPAYNVGRDSVETKAFELEKLADSPYAPYGQTGGFSVAYTPNSRTFSTTSRP
+                     IYAALDFLNGENGGASAYGKSFFELNDNVKTNCTFSPFDIYGHRFGLDTSKLSTFWHME
+                     NLIASCQNDFFGYNCFKSLVKMAKDEKFLAHSNYGKGYEGNYIEAHIHGDVCLFRDIKH
+                     VYLSLQENSYSKSQLYDYAKQINQALNRDCIILY"
+     gene            complement(2107..2900)
+                     /gene="envF"
+                     /locus_tag="STM1240"
+     CDS             complement(2107..2895)
+                     /gene="envF"
+                     /locus_tag="STM1240"
+                     /note="probable lipoprotein ENVF precursor (SW:ENVF_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative envelope lipoprotein"
+                     /protein_id="AAL20169.1"
+                     /translation="MNKIHVTYKNLLLPITFIAATLISACDNDKDAMAEAEKNQEKYMQ
+                     KIQQKEHQQSMFFYDKAEMQKAIANINAKGGANLAIIEVRFFKGGYSFIRQSVNTPAKV
+                     EVFKFNNGYWGGPSPVNLTIFGTITEEQKQEALKEALFKFDSINFSIIPERIQETIKRA
+                     NASGIISVTEDSDIVVRAEIAHNGEFVYDITITAKNTARAVMTLNKDGSIAGYEIKEPF
+                     DPKKEAEKAQQLVEQSRKDIESQRKKAAGKMNEIQQTFKK"
+     regulatory      complement(2895..2900)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="envF"
+                     /locus_tag="STM1240"
+                     /note="putative RBS for envF; RegulonDB:STMS1H001495"
+     gene            complement(3384..3630)
+                     /gene="msgA"
+                     /locus_tag="STM1241"
+     CDS             complement(3384..3623)
+                     /gene="msgA"
+                     /locus_tag="STM1241"
+                     /note="virulence protein MSGA (SW:MSGA_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="macrophage survival gene; reduced mouse
+                     virulence"
+                     /protein_id="AAL20170.1"
+                     /translation="MFVELVYDKRNVEGLPGAREIILNELTKRVHQLFPDAQVKVKPMQ
+                     ANALNSDCTKTEKERLHRMLEEMFEEADMWLVAE"
+     regulatory      complement(3625..3630)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="msgA"
+                     /locus_tag="STM1241"
+                     /note="putative RBS for msgA; RegulonDB:STMS1H001496"
+     gene            complement(3814..4339)
+                     /gene="envE"
+                     /locus_tag="STM1242"
+     CDS             complement(3814..4335)
+                     /gene="envE"
+                     /locus_tag="STM1242"
+                     /note="probable lipoprotein ENVE precursor.
+                     (SW:ENVE_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative envelope protein"
+                     /protein_id="AAL20171.1"
+                     /translation="MTLLSGKTTLVLCLSSILCGCTTNGLPTPYSINLSFPVITQNQIN
+                     SGGYYINDAEQIRTTDGLCLDAGPDQQNRLTLRECKHVQSQLFSFHRDRITQGEKCLDA
+                     AGQGTKEGTPIILYSCTGNDNQRWLTDDNKIKGKQSRKCLGTNSIIVRKGDPVVLADCD
+                     FSRALEFTIR"
+     regulatory      complement(4334..4339)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="envE"
+                     /locus_tag="STM1242"
+                     /note="putative RBS for envE; RegulonDB:STMS1H001497"
+     gene            complement(4750..4973)
+                     /locus_tag="STM1243"
+     CDS             complement(4750..4962)
+                     /locus_tag="STM1243"
+                     /note="cold shock-like protein CSPH. (SW:CSPH_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="homology with cold shock proteins"
+                     /protein_id="AAL20172.1"
+                     /translation="MSRKMTGIVKTFDCKSGKGLITPSDGRKDVQVHISACRQHETEAL
+                     IPGIRVEFCRINGLRGPTAANVYLS"
+     regulatory      complement(4968..4973)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="STM1243"
+                     /note="putative RBS for STM1243; RegulonDB:STMS1H001498"
+     gene            complement(5094..5365)
+                     /gene="pagD"
+                     /locus_tag="STM1244"
+     CDS             complement(5094..5357)
+                     /gene="pagD"
+                     /locus_tag="STM1244"
+                     /note="virulence protein PAGD precursor. (SW:PAGD_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="PhoP regulated"
+                     /protein_id="AAL20173.1"
+                     /translation="MKHHAFMLWSLLIFSFHVLASSGHCSGLQQASWDIFIYDFGSKTP
+                     QPPTNTDKKQARQISSPSCPTTKPMMSAPVNDARKGNTFSRT"
+     regulatory      complement(5360..5365)
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="pagD"
+                     /locus_tag="STM1244"
+                     /note="putative RBS for pagD; RegulonDB:STMS1H001499"
+     gene            5406..5583
+                     /locus_tag="STM1245"
+                     /note="pseudogene; in-frame stop following codon 4"
+                     /pseudo=""
+     gene            6162..6726
+                     /gene="pagC"
+                     /locus_tag="STM1246"
+     regulatory      6162..6167
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="pagC"
+                     /locus_tag="STM1246"
+                     /note="putative RBS for pagC; RegulonDB:STMS1H001500"
+     CDS             6169..6726
+                     /gene="pagC"
+                     /locus_tag="STM1246"
+                     /note="PhoP regulated; virulence membrane protein PAGC
+                     precursor. (SW:PAGC_SALTY)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="reduced macrophage survival protein"
+                     /protein_id="AAL20174.1"
+                     /translation="MKNIILSTLVITTSVLVVNVAQADTNAFSVGYAQSKVQDFKNIRG
+                     VNVKYRYEDDSPVSFISSLSYLYGDRQASGSVEPEGIHYHDKFEVKYGSLMVGPAYRLS
+                     DNFSLYALAGVGTVKATFKEHSTQDGDSFSNKISSRKTGFAWGAGVQMNPLENIVVDVG
+                     YEGSNISSTKINGFNVGVGYRF"
+     gene            7127..7200
+                     /locus_tag="STM1247"
+     tRNA            7127..7200
+                     /locus_tag="STM1247"
+                     /product="tRNA-OTHER"
+     gene            7460..7635
+                     /locus_tag="STM1248"
+                     /note="pseudogene; frameshift"
+                     /pseudo=""
+     gene            complement(7963..8313)
+                     /locus_tag="STM1249"
+     CDS             complement(7963..8307)
+                     /locus_tag="STM1249"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative periplasmic protein"
+                     /protein_id="AAL20175.1"
+                     /translation="MMKRKLIPFTLFLAALSASTTSIAASQEISKSIYTCNDNQVMEVI
+                     YVNTEAGNAYAIISQVNEMIPMRLMKMASGANYEAIDKNYTYKLYTKGKTAELVEGDDK
+                     PVLSNCSLAN"
+     regulatory      complement(8308..8313)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="STM1249"
+                     /note="putative RBS for STM1249; RegulonDB:STMS1H001502"
+ORIGIN
+        1 atgctcaaac ctatctgcca tagtggaagt ataaaggttc cggaatatct ggaaacagat
+       61 aaggaaaaaa atgccggacg tactccactg tcttcagaca ttcagcaagt tagaaatgtt
+      121 gttgaagatg ttccgctatt tccagaaagc agaacggcga gaggttctgt aagcgcagcg
+      181 tacaggcttt cttttgacga agtgttttgc ggtctcagca atgaagagcg taaaaaggtg
+      241 tatggtcgcc tttttggaaa acaagtactt gcgcatattc attccaggtg tcagcgcgac
+      301 gctgacataa taagagaaaa agcgctcagg cggataagcc gtgagtgtgg tgccgaaata
+      361 gattgcgctc tcttactaaa taagatggtg gatattttac aaaatgcccg gctgacaata
+      421 aattttaatg cagcaaaaat tgactttgtc tctctcttaa aaaataaaga atatctgaac
+      481 tcttatgcat taggttgcag accgggagat ttacctgctt ataatgtcgg gcgtgattca
+      541 gttgaaacta aagcatttga actggagaag cttgcagatt caccttatgc cccatatggt
+      601 cagacaggcg gtttttccgt agcatatact cccaacagta gaacttttag cactacaagc
+      661 agaccaattt atgctgcact ggactttctg aacggtgaaa atggaggtgc cagcgcctat
+      721 gggaaatcat tttttgaatt aaatgataat gtaaaaacaa actgtacatt ctcacctttt
+      781 gatatctacg gccacagatt tggcctggat acgagtaaat tatctacatt ttggcatatg
+      841 gagaacctga ttgcatcctg tcaaaatgat ttttttggtt ataattgctt taagagtttg
+      901 gttaaaatgg ctaaggacga aaaattttta gctcattcta attatggtaa aggctatgaa
+      961 gggaattata tagaggctca tattcatggt gatgtatgtt tattcagaga tataaaacac
+     1021 gtttatttgt ctttgcaaga aaactcttac tcgaaaagtc aactatatga ttatgcaaaa
+     1081 caaataaacc aggcgcttaa tagagactgc ataatattat attgacaagc ttattatcag
+     1141 tctctttaaa agagctttaa atgatcatga gcgcatactt cttgaggtag gcagtaactg
+     1201 cttttatatt tattatctca ggaccgttct ggcagatacc tgtgtggcac tttagtgtgg
+     1261 tctggcaaaa tagaggaata tggaccagca gaagcgcctg ctggctgctt ttcacttaaa
+     1321 atgctggact tcaccggtgc ttcagatgaa gcgaccttca cagtcatcaa gtggcctgta
+     1381 ttaccacagg agtgatttac tggctatcga tattcctgct catatcaatg acagtatttc
+     1441 gctctttccc gtacattgct ctcccgacca gctcacggtc cagtacatga cagtcctttt
+     1501 ccacttcgct acgcctaatt ttttttagtt gctctgtttt attgcgctga atttgtacct
+     1561 caaaacaata attttaaata cttatttgaa tatttttttt atgatttttt caagaaatga
+     1621 gtaaaaaaaa tgaagaatga tataaataat taatgcaata aaaaatgata tcacaccaat
+     1681 tgatggtcct gttttgtata cgaataacat gcataaaaat atagcaaata gatcaaggga
+     1741 aatatccgcg atgaaatcag taattatttt gaaaaaattc ttcatattac ctctttaaaa
+     1801 tatctatttt attcatcatt tttaggtcgg gcagtgctcg aaattcttac gtacaacgta
+     1861 tacgctccgg tttctgcgcg ctgcccggct tcacactggc tccaacaagt acgcccgctg
+     1921 gaatagattc ctggcgtcac ataacttcac ctggttatcc acaaaagact caataaataa
+     1981 acatcttgag tacgaaaaat tacagtgtca gagaatgaaa tagcgattcg ctgtcttcaa
+     2041 gcagtgcctt agtacctggc acgcgctctt tcgcgctata atttttatca atgtttgtat
+     2101 cgcctgctat tttttaaatg tctgctgtat ttcgttcatc tttccagctg cttttttacg
+     2161 ctgactttca atgtcttttc tcgattgttc aacaagttgc tgtgcttttt cggcttcttt
+     2221 ttttgggtcg aaaggttctt tgatctcata tccggcaata gaaccatcct tatttaaggt
+     2281 cattaccgca cgtgctgtat ttttagcagt gatggtaatg tcatagacga attcgccatt
+     2341 atgagctatc tctgctcgta caacgatatc gctatcttcc gtaacggaaa tgatgccact
+     2401 ggcgttagcg cgtttaattg tttcctgaat acgctctggt ataatgctga aattgatcga
+     2461 gtcgaatttg aataaagcct cttttagtgc ttcttgtttt tgctcctctg ttatagtgcc
+     2521 aaagatggtt aaattgacag gcgaaggtcc cccccagtag ccgttgttaa atttaaacac
+     2581 ctctacttta gcaggggtgt taacgctttg tcgaatgaat gaatacccgc ccttgaagaa
+     2641 acggacttca ataatcgcaa gattggctcc accttttgcg ttgatattgg caatagcttt
+     2701 ttgcatttcg gctttgtcgt aaaagaacat tgattgctgg tgctcttttt gctggatttt
+     2761 ttgcatgtat ttctcttgat ttttttcagc ttccgccatg gcatctttat cgttatcaca
+     2821 ggcgctaatt agagttgccg cgatgaaggt aatcggaagt aagagatttt tatatgtaac
+     2881 atgtatttta ttcatgtgaa gtatttccct ttttatataa aatagatagt cttgactggt
+     2941 cgagactatc ctggaaacat agtaataatg cgtgtgcata tctgcagtaa gttttagtta
+     3001 tgctggtttt atttcggatt tttacctgtt actttttgtt cgtaaatagg tattttacgt
+     3061 attgatgata agtttagaac ctatcccagt aggcgtaatc gttaaagcca gtttggcgaa
+     3121 taaaagagtc taatgggata ggctcttaat aaacaacaaa accaaacgta ctttcagatt
+     3181 tcaggctgga atgcgcacag ctgattgttg ataagggcta ctcataccga caggccagtg
+     3241 aagcgatgaa tgtcggttcc acataccggt ctgaggtatc aacaacaaca tgttctgagt
+     3301 ggtagcgttt gcgttatatc gtcacagaca gcgcctcagg gcgctgtttt cgatcggaca
+     3361 tgtcgctttc gcaggagggg acgttattcg gcgaccagcc acatatcagc ctcttcaaac
+     3421 atctcttcca gcatacggtg cagccgttct ttctcggttt ttgtacagtc actgtttaat
+     3481 gcgttcgcct gcattggctt aactttcact tgcgcatcgg gaaaaagttg atgtacgcgt
+     3541 tttgtgagtt cattgaggat gatttcgcgt gcgcctggca aaccttcaac atttcgcttg
+     3601 tcataaacga gttcgacgaa catcgccatt tcctttttac tggttggatg accagtattt
+     3661 aagctgggta tataactggt gtcaaggttt agccgccgtt ttgtcatcct gacgttgcgg
+     3721 acgtaaagta aattgatcgc acgtggaagt aaaggtcgct aacctgttgt cgtgtcaaga
+     3781 ggttagcggc actctcttca cagcggtgtc ctgctacctg atggtaaatt ccagggcgcg
+     3841 actaaaatcg caatcggcca acacaacagg gtcgcctttt ctgacaataa tgctatttgt
+     3901 gcccaggcat tttcggctct gtttcccctt aattttgtta tcatcagtga gccagcgctg
+     3961 gttatcatta cccgtgcatg aataaagaat gattggtgtg ccttcttttg taccttgtcc
+     4021 tgcggcatcc agacatttct caccctgcgt gattctgtct cggtgaaatg agaaaagctg
+     4081 agattgcaca tgcttacact cccgcagcgt caaacgattc tgttgatctg ggcctgcatc
+     4141 aaggcacaga ccatcagttg tccgaatttg ttccgcgtca tttatgtaat aaccaccgga
+     4201 attaatctgg ttttgtgtaa tgaccgggaa cgacaaatta atactataag gtgtgggtaa
+     4261 gccgttcgtc gtacatccac ataaaataga ggagaggcag agaaccagtg tggtttttcc
+     4321 tgaaagcaaa gtcattcaat tattacccta aaaataaata gcgttacaac tatattggcg
+     4381 atttataccc actgaatatg acgtagcatt gagcggcaat agagataatt ccgatagaat
+     4441 cacataaata cttcggttaa atgcgcgcag ccagccactc ctgtgacaat gggtatatag
+     4501 cgttaaatac ttttgcaata ttagatgcta tcacagtgaa aaacggctgt acatttcttc
+     4561 acgttaaaca aagtgagaag ggggggcacc cgatatatga taaaagaggt cacaggagtc
+     4621 attagcaaaa taaatctttt agattttcgc cactgaaaac attctgcagc ctttcaggca
+     4681 aagcctcata gcaggctgcg gaggtagacg tactcgctaa atttttctga aaaaatgccg
+     4741 ggtgacgaat tatgaaagat aaacgttggc ggcggtaggt ccgcggaggc cattaatacg
+     4801 acaaaactca acgcgtatac cggggataag cgcttctgtt tcgtgttggc gacatgctga
+     4861 aatgtggacc tgaacatctt tgcgtccatc ggagggggtg atgagacctt taccgctctt
+     4921 acaatcaaag gttttgacaa ttcctgtcat tttacgagac aaacaaattc cttaatgggg
+     4981 ataacgaggc gcactataca cgtcaggaaa aataatgcca gctatatttg atggcaatca
+     5041 agatttccgg gtggctaaaa gtagtcgttc ggcaccattg tagataaata acattatgtt
+     5101 ctggagaaag tattcccttt cctggcgtca ttgactggtg cggacatcat gggttttgtc
+     5161 gtcgggcagg acggtgaact aatctgcctg gcttgctttt tatcagtatt tgtaggtggt
+     5221 tgcggggttt tactaccaaa atcgtagata aaaatatccc atgatgcctg ttgtaaacca
+     5281 gaacaatggc ctgaactggc caaaacatgg aatgaaaaaa taagtaatga ccaaagcata
+     5341 aaagcatgat gtttcatagc acctcctgtt atatataatg acttgtgaag ttcatctcct
+     5401 gaattatgga acgtcattga cattttttat tcaacgaaga gttaaccact cttaataata
+     5461 atgggtttta tagcgaaata gactttttta tcgcgtgttc aatatttgcg ttagttatta
+     5521 tttttttgga atgtaaattc tctctaaaca caggtgatat ttatgttgga attgtggtgt
+     5581 tgattctatt cttataatat aacaagaaat gttgtaactg atagatatat taaaagatta
+     5641 aatcggagcg ggaataaagc gtgctaagca tcatcgtgaa tatgattaca gcgcctgcga
+     5701 tggcatataa ccgtattgcg gatggagcgt cacgtgagga ctgtgaagca caatgcgata
+     5761 tgttctgatt atatggcgag tttgcttaat gacatgtttt tagccgaacg gtgtcaagtt
+     5821 tcttaatgtg gttgtgagat tttctcttta aatatcaaaa tgttgcatgg gtgatttgtt
+     5881 gttctatagt ggctaaacac tttatggttt ctgttaaata tatatgcgtg agaaaaatta
+     5941 gcattcaaat ctataaaagt tagatgacat tgtagaaccg gttacctaaa tgagcgatag
+     6001 agtgcttcgg tagtaaaaat atctttcagg aagtaaacac atcaggagcg atagcggtga
+     6061 attattcgtg gttttgtcga ttcggcatag tggcgataac tgaatgccgg atcggtactg
+     6121 caggtgttta aacacaccgt aaataataag tagtattaag gagttgttat gaaaaatatt
+     6181 attttatcca ctttagttat tactacaagc gttttggttg taaatgttgc acaggccgat
+     6241 actaacgcct tttccgtggg gtatgcacaa agtaaagttc aggatttcaa aaatatccga
+     6301 ggggtaaatg tgaaataccg ttatgaggat gactctccgg taagttttat ttcctcgcta
+     6361 agttacttat atggagacag acaggcttcc gggtctgttg agcctgaagg tattcattac
+     6421 catgacaagt ttgaggtgaa gtacggttct ttaatggttg ggccagccta tcgattgtct
+     6481 gacaattttt cgttatacgc gctggcgggt gtcggcacgg taaaggcgac atttaaagaa
+     6541 cattccactc aggatggcga ttctttttct aacaaaattt cctcaaggaa aacgggattt
+     6601 gcctggggcg cgggtgtaca gatgaatccg ctggagaata tcgtcgtcga tgttgggtat
+     6661 gaaggaagca acatctcctc tacaaaaata aacggcttca acgtcggggt tggataccgt
+     6721 ttctgaaaag cataagctat gcggaaggtt cgccttccgc accgccagtc aataaaacag
+     6781 ggcttcttta ccagtgacac gtacctgcct gtcttttctc tcttcgtcat actctcttcg
+     6841 tcatagtgac gctgtacata acatctcact agcataagca cagataaagg attgtggtaa
+     6901 gcaatcaagg ttgctcaggt aggtgataag caggaaggaa aatctggtgt aaataacgcc
+     6961 agatctcaca agattcactc tgaaaaattt tcctggaatt aatcacaatg tcatcaagat
+     7021 tttgtgaccg ccttcgcata ttgtacctgc cgctgaacga ctactgaaaa gtagcaaggt
+     7081 atgtatttta tccaggagag cacctttttt gcgcctggca gaagtcccca gccgccacta
+     7141 gctcagctgg atagagcatc aacctcctaa gttgatggtg cgaggttcga ggcctcggtg
+     7201 gcggtccaat gtggttatcg tataatgtta ttacctcagt gtcaggctga tgatgtgggt
+     7261 tcgactccca ctgaccactt cagttttgaa taagtattgt ctcgcaaccc tgttacagaa
+     7321 taatttcatt tattacgtga caagatagtc atttataaaa aatgcacaaa aatgttattg
+     7381 tcttttatta cttgtgagtt gtagattttt cttatgcggt gaatccccct ttgcggcggg
+     7441 gcgtccagtc aaatagttaa tgttcctcgc gaaccatatt gactgtggta tggttcaccg
+     7501 ggaggcaccc ggcaccgcaa ttttttataa aatgaaattc acaccctatg gttcagagcg
+     7561 gtgtcttttt acatcaggtg ggcaagcata atgcaggtta acttgaaaga tacgatcaat
+     7621 agcagaaacc agtgatttcg tttatggcct ggggatttaa ccgcgccaga gcgtatgcaa
+     7681 gaccctggcg cggttggccg gtgatcgttc aatagtgcga atatgaatgg ttaccagccg
+     7741 ctgcgaattc tacctgggtc acttaataaa gcaaaacatt taaacgctca acaacgacaa
+     7801 ttcagacagt tcgaactttt ctttaaaaat aggattaacc atgcttaaaa gtggttacta
+     7861 attagccatt atactacggt agtgattcac atattcttta acgttacgtt acaggaaggt
+     7921 tgaagtggaa atgcctgatg agtcttcagg catttcttaa ggttagttag ctaaggaaca
+     7981 gttactgaga acaggtttat catcaccttc caccagttca gccgttttgc ctttggtata
+     8041 aagtttataa gtataatttt tgtctatggc ttcgtaattt gctccggagg ccattttcat
+     8101 taaccgcatc gggatcatct cgtttacctg actgataatc gcataggcgt ttccagcctc
+     8161 ggtgttgacg taaatcacct ccataacctg gttatcatta caggtgtata tagatttaga
+     8221 aatctcctgc gaagctgcta tagaggtggt actggcgcta agcgcagcga gaaagagggt
+     8281 aaatgggatc aatttacgtt tcatcattag tat
+//
