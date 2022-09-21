@@ -1,0 +1,5 @@
+[*].let({genome_id: id}, &(features[?type=='CDS' && qualifiers.translation].{
+  id: join('_', split('.', (qualifiers.protein_id[0] || qualifiers.locus_tag[0]))),
+  seq: qualifiers.translation[0],
+  description: join(' ', [genome_id, to_string(sum([location.start, `1`])), to_string(location.end)])
+})) | []
