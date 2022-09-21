@@ -29,15 +29,19 @@ with open(cog20_index_path) as f:
     cog20_index = {pid.replace('.', '_'): (cogid, gene) for gene, _, pid, _, _, _, cogid, *_ in csv.reader(f)}
 
 # Find anything that aligns to a cog20 protein and assign it the same COG id
-cog_hits = {k: (sys.maxsize, v) for k, v in cog20_index.items()}
+cog_hits = {}
 non_terminal_hits = {}
+no_cog_hit = set()
+cog_hit = set()
 with open(blast_output_path) as f:
     for dbid, qid, bitscore in csv.reader(f, 'excel-tab'):
         qid = qid.replace('.', '_')
         dbid = dbid.replace('.', '_')
         bitscore = float(bitscore)
         if dbid == qid:
+            no_cog_hit.add(qid)
             continue
+        cog_hit.add(qid)
         hit = cog_hits.get(qid)
         if not hit or hit[0] < bitscore:
             cog = cog20_index.get(dbid)
@@ -103,11 +107,12 @@ for i, c in enumerate(clusters):
 
 cog_hits = {k: v[1] for k, v in cog_hits.items()}
 genes = {k: v for (k, v) in cog20_index.values()}
-
+no_cog_hit = no_cog_hit - cog_hit
 with open(protein_database_cogs) as f, open(output_path, 'w') as o:
     for r in SeqIO.parse(f, 'fasta'):
         r.description = r.description.lstrip(r.id + " ")
         r.id = r.id.replace('.', '_')
+        if r.id not in cog_hits and r.id not in no_cog_hit: continue
         gene = ''
         desc = ''
         if '~~~' not in r.description:
