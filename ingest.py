@@ -10,8 +10,8 @@ from urllib.error import HTTPError
 from Bio import Entrez, SeqIO
 from Bio.SeqUtils import GC
 
-Entrez.email = 'nolan_w@sfu.ca'
-Entrez.api_key = '3aa8b3eeefd28c87a8894c592cf54f305f09'
+Entrez.email = 'brinkman-ws@sfu.ca'
+Entrez.api_key = ''
 
 stdout = sys.stdout
 sys.stdout = open('ingest.log', 'w')
